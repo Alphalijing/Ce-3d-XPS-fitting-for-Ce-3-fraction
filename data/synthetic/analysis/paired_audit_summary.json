@@ -1,0 +1,61 @@
+{
+  "completed_pairs": 48,
+  "requested": 48,
+  "all_48_complete": true,
+  "all_chain_quantiles_verified": true,
+  "all_paired_inputs_identical": true,
+  "lower_RMSE_and_larger_absolute_error": 47,
+  "free_lower_RMSE": 48,
+  "free_larger_absolute_error": 47,
+  "max_q6000_q8000_drift_pp": 0.12888712212777698,
+  "max_last_two_block_quantile_difference_pp": 0.25555951230632346,
+  "all_total_steps_8000": true,
+  "full_engineering_convergence_claim": false,
+  "note": "95% intervals are equal-tail conditional posterior intervals. Exact zero is a prior boundary; a one-sided 95% upper bound is supplied separately.",
+  "error_summary": [
+    {
+      "panel": "a",
+      "method": "MCMC",
+      "n": 24,
+      "MAE_pp": 0.5072982195814295,
+      "RMSE_Ce3_error_pp": 0.7574519354057825,
+      "mean_signed_error_pp": 0.28663410440904163,
+      "min_error_pp": -1.6863745820399316,
+      "max_error_pp": 2.21772574709604,
+      "max_absolute_error_pp": 2.21772574709604
+    },
+    {
+      "panel": "a",
+      "method": "free",
+      "n": 24,
+      "MAE_pp": 7.617356311180827,
+      "RMSE_Ce3_error_pp": 10.690490559902958,
+      "mean_signed_error_pp": 3.251039421495618,
+      "min_error_pp": -15.231326808288358,
+      "max_error_pp": 34.10510904694892,
+      "max_absolute_error_pp": 34.10510904694892
+    },
+    {
+      "panel": "b",
+      "method": "MCMC",
+      "n": 24,
+      "MAE_pp": 1.498298197542128,
+      "RMSE_Ce3_error_pp": 1.8664476831580927,
+      "mean_signed_error_pp": 1.1956403164664187,
+      "min_error_pp": -1.2828736988391256,
+      "max_error_pp": 4.530532448152002,
+      "max_absolute_error_pp": 4.530532448152002
+    },
+    {
+      "panel": "b",
+      "method": "free",
+      "n": 24,
+      "MAE_pp": 11.412871188710158,
+      "RMSE_Ce3_error_pp": 14.52038268994358,
+      "mean_signed_error_pp": 9.070219035270007,
+      "min_error_pp": -9.773954325263965,
+      "max_error_pp": 30.980746144174553,
+      "max_absolute_error_pp": 30.980746144174553
+    }
+  ]
+}

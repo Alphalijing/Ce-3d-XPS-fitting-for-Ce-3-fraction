@@ -1,0 +1,62 @@
+{
+  "maximum_absolute_Ce3_median_shift_pp": 0.12778978001743369,
+  "maximum_absolute_CI_endpoint_shift_pp": 0.13675337063670945,
+  "CI_width_ratio_range": [
+    0.9949869024326321,
+    1.0284238643710928
+  ],
+  "maximum_absolute_sigma_median_shift_eV": 0.010711398062337674,
+  "width_prior_maximum_Ce3_median_shift_pp": 0.1197071034215007,
+  "noise_prior_maximum_Ce3_median_shift_pp": 0.06075773347457769,
+  "direct_runs": [
+    {
+      "sample": "0.2",
+      "variant": "noise_sd2",
+      "steps": 14000,
+      "local_criteria_pass": true,
+      "Ce3_quantiles_percent": [
+        14.106362737875624,
+        15.568385443197352,
+        17.094304593694677
+      ]
+    },
+    {
+      "sample": "0.2",
+      "variant": "joint_wide",
+      "steps": 16000,
+      "local_criteria_pass": true,
+      "Ce3_quantiles_percent": [
+        14.115258994383767,
+        15.583059239968245,
+        17.098753844382305
+      ]
+    },
+    {
+      "sample": "0.5",
+      "variant": "joint_wide",
+      "steps": 26000,
+      "local_criteria_pass": true,
+      "Ce3_quantiles_percent": [
+        14.658106457499265,
+        16.44286531437124,
+        18.253809988553503
+      ]
+    },
+    {
+      "sample": "0",
+      "variant": "width_center_high",
+      "steps": 16000,
+      "local_criteria_pass": true,
+      "Ce3_quantiles_percent": [
+        11.7989153314151,
+        13.302415101665016,
+        14.883987891665559
+      ]
+    }
+  ],
+  "practical_reference_pp": 0.1,
+  "practical_reference_source": "Author-specified interpretation reference during this sensitivity study; not a universal accuracy criterion",
+  "unmodified_supports": true,
+  "main_alternatives": 11,
+  "width_uniform_stress_cases": 4
+}

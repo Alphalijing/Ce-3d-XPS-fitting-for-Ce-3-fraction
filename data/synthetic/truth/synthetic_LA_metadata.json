@@ -1,0 +1,46 @@
+{
+  "description": "Matched LA-theory synthetic benchmark; not independent validation of a microscopic lineshape.",
+  "spectra": 48,
+  "batches": {
+    "background_free": 24,
+    "cumulative_scattering": 24
+  },
+  "theory_source": "Ce3d_XPS_Fitter_v2.0.1",
+  "theory_version": "2.0.1",
+  "source_sha256": {
+    "ce3d_xps_model.py": "3de3c6299494e703f0f9491f02f508debf2d63d603cc3f5e883b6881dd7550b5",
+    "ce3d_io.py": "820998784bf9b566658b9107a54cb0bbe822d5f7bca7741cb077dc368b2b4dcb",
+    "shirley_v7.py": "f3a96330f1570797af45614b7b4577338c77c78b30ff5a7ac7a247cfbed32a6e"
+  },
+  "asymmetric_peaks": [
+    "Ce4+ v",
+    "Ce4+ u"
+  ],
+  "other_eight_peaks": "Voigt",
+  "LA_alpha": 0.9,
+  "LA_beta": 2.0,
+  "g4_1_definition": "Powered-Lorentz LA kernel scale; not Lorentzian HWHM",
+  "Ce3_fraction_definition": "CeIII component areas / all component areas within 870.58–924.98 eV",
+  "full_energy_grid_eV": [
+    870.58,
+    930.58,
+    0.1
+  ],
+  "fit_energy_grid_eV": [
+    870.58,
+    924.98,
+    0.1
+  ],
+  "cumulative_integral": "cumulative_trapezoid on ascending binding energy with initial=0",
+  "decay_kernel": null,
+  "beta_tail": 0.84,
+  "B0_to_photo_peak": 0.86,
+  "random_seeds": [
+    20261116,
+    20261163
+  ],
+  "noise": "Poisson; nominal noise parameter scales photo peak to 1/noise^2 counts",
+  "note": "Noise in the raw spectrum with background is not a uniform fixed relative percentage. Do not clip raw values to the true background.",
+  "fitting_performed": false,
+  "legacy_Voigt_truth_results_reused": false
+}

@@ -1,0 +1,9 @@
+Quantity,Constraint,Definition
+c₁,897–898 eV,Uniform within the stated interval; absolute input-energy coordinate
+c₂,914.5–915 eV,Uniform within the stated interval; absolute input-energy coordinate
+"f₁, f₂","f₁ ≥ 0, f₂ ≥ 0, f₁ + f₂ < 1",Jointly uniform on this simplex; fractions of total Ce(IV) area
+Gaussian σ,Shared with main components,No additional satellite Gaussian-width parameter
+Lorentzian-kernel γ,"0.8 eV HWHM, fixed",Width before Gaussian convolution
+Relative area f₁/f₂,Free,No independently calibrated fixed ratio
+Main-component parameters,Retained and refitted,Original main-component constraints and priors unchanged
+Additional free parameters,4,"c₁, c₂, f₁, f₂; total parameter count 11 → 15"

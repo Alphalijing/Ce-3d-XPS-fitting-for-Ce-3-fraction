@@ -1,0 +1,27 @@
+{
+  "walkers": 80,
+  "total_steps_quick": 8000,
+  "pilot_steps": 2000,
+  "burn_in": 4000,
+  "checkpoint_interval": 2000,
+  "pilot_moves": {
+    "DE": 0.8,
+    "snooker": 0.2
+  },
+  "production_moves": {
+    "DE": 0.5,
+    "snooker": 0.2,
+    "frozen_independence_MH": 0.3
+  },
+  "earliest_convergence_check_pass_steps": 10000,
+  "convergence_default_max_steps": null,
+  "criteria": {
+    "retained_over_max_tau": 100,
+    "three_check_max_tau_change": 0.05,
+    "three_nonoverlap_windows_Ce3_quantile_range_pp": 0.1
+  },
+  "model": "Gaussian-convolved LA-type",
+  "alpha": 0.9,
+  "beta": 2,
+  "background": "fixed Shirley"
+}

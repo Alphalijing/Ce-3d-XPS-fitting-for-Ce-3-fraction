@@ -1,0 +1,324 @@
+[
+  {
+    "sample": "0",
+    "shape": "Voigt",
+    "file": "data/experimental/la_series/posterior/Voigt_La_0at.npz",
+    "full_Ce3_draws": 320000,
+    "parameter_draws_subset": 3200,
+    "original_chunk_hashes": [
+      {
+        "start": 4000,
+        "end": 5000,
+        "sha256": "a61eb8a0c29079b00c5ab1bb23df8fceced1696d9ccd1d9aa0cf6755ade92f3d"
+      },
+      {
+        "start": 5000,
+        "end": 6000,
+        "sha256": "96f6f49a5858edea9002132ae23527d3ed7fcb89c4b26fd5ba0f7c6188a70b76"
+      },
+      {
+        "start": 6000,
+        "end": 7000,
+        "sha256": "a73c049bf6c5f7899fe626db50c671249bfc77795c194dc555f2ad2467ec1087"
+      },
+      {
+        "start": 7000,
+        "end": 8000,
+        "sha256": "41955f2529f53adf965b712aca248731cbe916cca7e27b8050a73ebace95c742"
+      }
+    ],
+    "original_steps": 8000,
+    "burn": 4000
+  },
+  {
+    "sample": "0",
+    "shape": "LA",
+    "file": "data/experimental/la_series/posterior/LA_La_0at.npz",
+    "full_Ce3_draws": 320000,
+    "parameter_draws_subset": 3200,
+    "original_chunk_hashes": [
+      {
+        "start": 4000,
+        "end": 5000,
+        "sha256": "c12b20e92ea84da4bf1c6dea5b0510e9c312a4c96aefe796f7213f0e298534b4"
+      },
+      {
+        "start": 5000,
+        "end": 6000,
+        "sha256": "b7d38cca3b050211f2a967e5129c8e75c36babc549fa705d3d473a564d2bb7a2"
+      },
+      {
+        "start": 6000,
+        "end": 7000,
+        "sha256": "4cba715267501c38281ba96f768cb262ebe17e1bfb27495e4c771756805a009b"
+      },
+      {
+        "start": 7000,
+        "end": 8000,
+        "sha256": "642c8866b28af9bdf34265bd99713fead5bbff6abe3fc0abaf93970ba7552858"
+      }
+    ],
+    "original_steps": 8000,
+    "burn": 4000
+  },
+  {
+    "sample": "0.05",
+    "shape": "Voigt",
+    "file": "data/experimental/la_series/posterior/Voigt_La_1at.npz",
+    "full_Ce3_draws": 320000,
+    "parameter_draws_subset": 3200,
+    "original_chunk_hashes": [
+      {
+        "start": 4000,
+        "end": 6000,
+        "sha256": "89f2e7c4cd8b9c0ac00956f03a6174e3dec2141ed6ea943a0d3f45a8ad83a88f"
+      },
+      {
+        "start": 6000,
+        "end": 8000,
+        "sha256": "c59c9a7380f94e8948e9e02a2440ae3d79afe1ea9c28c609057a2f1c8425b306"
+      }
+    ],
+    "original_steps": 8000,
+    "burn": 4000
+  },
+  {
+    "sample": "0.05",
+    "shape": "LA",
+    "file": "data/experimental/la_series/posterior/LA_La_1at.npz",
+    "full_Ce3_draws": 320000,
+    "parameter_draws_subset": 3200,
+    "original_chunk_hashes": [
+      {
+        "start": 4000,
+        "end": 6000,
+        "sha256": "f0830449b27298248c3e2a86b37244174d8067a8f27271140391da6cca250252"
+      },
+      {
+        "start": 6000,
+        "end": 8000,
+        "sha256": "5f35b13f58104bc39c516db1d15f4fc079eafcabf41304a199cca96b0592519b"
+      }
+    ],
+    "original_steps": 8000,
+    "burn": 4000
+  },
+  {
+    "sample": "0.1",
+    "shape": "Voigt",
+    "file": "data/experimental/la_series/posterior/Voigt_La_2at.npz",
+    "full_Ce3_draws": 320000,
+    "parameter_draws_subset": 3200,
+    "original_chunk_hashes": [
+      {
+        "start": 4000,
+        "end": 6000,
+        "sha256": "e457c45f42e46466f0a42bc25bb25121d96cd5eaf7115945ad524f028021e145"
+      },
+      {
+        "start": 6000,
+        "end": 8000,
+        "sha256": "d015b18d95267cfcffc4626826e299173e777f871c4f9adb5435e7da605d5c7a"
+      }
+    ],
+    "original_steps": 8000,
+    "burn": 4000
+  },
+  {
+    "sample": "0.1",
+    "shape": "LA",
+    "file": "data/experimental/la_series/posterior/LA_La_2at.npz",
+    "full_Ce3_draws": 320000,
+    "parameter_draws_subset": 3200,
+    "original_chunk_hashes": [
+      {
+        "start": 4000,
+        "end": 6000,
+        "sha256": "3be72e3c68798630e5b716f6722add8d5794aa148cfb1dd97df7e226446fca79"
+      },
+      {
+        "start": 6000,
+        "end": 8000,
+        "sha256": "9efd45136afc0984776bf5ba7a8554dce931aded82295624d4134e5125f631de"
+      }
+    ],
+    "original_steps": 8000,
+    "burn": 4000
+  },
+  {
+    "sample": "0.2",
+    "shape": "Voigt",
+    "file": "data/experimental/la_series/posterior/Voigt_La_4at.npz",
+    "full_Ce3_draws": 320000,
+    "parameter_draws_subset": 3200,
+    "original_chunk_hashes": [
+      {
+        "start": 4000,
+        "end": 5000,
+        "sha256": "8afaed1e9896bfd2b95ca7726e01566dbba9ca54bd5c3df5d3f75294eca84bf2"
+      },
+      {
+        "start": 5000,
+        "end": 6000,
+        "sha256": "55825f23785dc3b3b923915b906c7f73eb896dbeacc58d4a7cffa535e48cec0a"
+      },
+      {
+        "start": 6000,
+        "end": 7000,
+        "sha256": "5252e44604fd4b5c6b8e7a4a6c9dedb8185dd12bf3d908aaf17df7e046b5b737"
+      },
+      {
+        "start": 7000,
+        "end": 8000,
+        "sha256": "9c930feb49121550d69f4f3e0d2c3abd614e4acfe729ae8a9f571d7dce524cd6"
+      }
+    ],
+    "original_steps": 8000,
+    "burn": 4000
+  },
+  {
+    "sample": "0.2",
+    "shape": "LA",
+    "file": "data/experimental/la_series/posterior/LA_La_4at.npz",
+    "full_Ce3_draws": 320000,
+    "parameter_draws_subset": 3200,
+    "original_chunk_hashes": [
+      {
+        "start": 4000,
+        "end": 5000,
+        "sha256": "bb98393cde1b2bd89b25db0a1dc299dd536d92271f85e5b954732b9449611a46"
+      },
+      {
+        "start": 5000,
+        "end": 6000,
+        "sha256": "d605b43e2a37f2f05b8943d05be94203e162fd126da367bf18fb0e3041175d78"
+      },
+      {
+        "start": 6000,
+        "end": 7000,
+        "sha256": "51ad2d7ddab36cd72535f5d07c23a41b2cb79f4dab95201cd7e8e6311a8ae106"
+      },
+      {
+        "start": 7000,
+        "end": 8000,
+        "sha256": "19ccdd2de39c69b331aba70b99bceb0461b291f3d6950dfb712a969e858b1ac9"
+      }
+    ],
+    "original_steps": 8000,
+    "burn": 4000
+  },
+  {
+    "sample": "0.5",
+    "shape": "Voigt",
+    "file": "data/experimental/la_series/posterior/Voigt_La_10at.npz",
+    "full_Ce3_draws": 320000,
+    "parameter_draws_subset": 3200,
+    "original_chunk_hashes": [
+      {
+        "start": 4000,
+        "end": 5000,
+        "sha256": "3cd63d4e22623d02fca9cc221bdaa1a114294bbf877f88ad6e74bc643828cf83"
+      },
+      {
+        "start": 5000,
+        "end": 6000,
+        "sha256": "3ffad25bc15fd9b5ea80e8cf3a58077cf96e0fb9668545ca30169f63c2733f1a"
+      },
+      {
+        "start": 6000,
+        "end": 7000,
+        "sha256": "cb2bee2316cfdfe60a3483d1743cede1bfcc6198470bd95ecc56fea5d68bbd44"
+      },
+      {
+        "start": 7000,
+        "end": 8000,
+        "sha256": "7f431d6d3e8377c8bd3e74c4e3d69004e7f7edf83882b55d89646ceaddb25803"
+      }
+    ],
+    "original_steps": 8000,
+    "burn": 4000
+  },
+  {
+    "sample": "0.5",
+    "shape": "LA",
+    "file": "data/experimental/la_series/posterior/LA_La_10at.npz",
+    "full_Ce3_draws": 320000,
+    "parameter_draws_subset": 3200,
+    "original_chunk_hashes": [
+      {
+        "start": 4000,
+        "end": 6000,
+        "sha256": "d9fe35a7b9d393a681a605fcd8c31be2dd88168bf3873cf5ff85a74c67ba8819"
+      },
+      {
+        "start": 6000,
+        "end": 8000,
+        "sha256": "ea357366092acf5736214410f69ae441d10596a5b5088a54ff21b93e27afff14"
+      }
+    ],
+    "original_steps": 8000,
+    "burn": 4000
+  },
+  {
+    "sample": "1",
+    "shape": "Voigt",
+    "file": "data/experimental/la_series/posterior/Voigt_La_20at.npz",
+    "full_Ce3_draws": 320000,
+    "parameter_draws_subset": 3200,
+    "original_chunk_hashes": [
+      {
+        "start": 4000,
+        "end": 5000,
+        "sha256": "f079b45644a810cd61b41e9a3c7ea9e39960cb534b5e1a0bcc462bec2f7df5e8"
+      },
+      {
+        "start": 5000,
+        "end": 6000,
+        "sha256": "d0ece93aa5267967f431101d58ca45eab7c69e9096474e884f620129cd5870de"
+      },
+      {
+        "start": 6000,
+        "end": 7000,
+        "sha256": "c10fbb95d4f25b13ed62e07499af88748618838fe875a418d3a14a42c613d894"
+      },
+      {
+        "start": 7000,
+        "end": 8000,
+        "sha256": "1888a098e90ab02e05c8cf9bc3151251a18859e0b030deff2794acf39f686eff"
+      }
+    ],
+    "original_steps": 8000,
+    "burn": 4000
+  },
+  {
+    "sample": "1",
+    "shape": "LA",
+    "file": "data/experimental/la_series/posterior/LA_La_20at.npz",
+    "full_Ce3_draws": 320000,
+    "parameter_draws_subset": 3200,
+    "original_chunk_hashes": [
+      {
+        "start": 4000,
+        "end": 5000,
+        "sha256": "8fa7b14f75073df8c95204b7d8193a85855a02e748f63501f2bde2ac5cbb821f"
+      },
+      {
+        "start": 5000,
+        "end": 6000,
+        "sha256": "ca49d9191676386ffc617b9de3993d055d285e240f99cb5a3210f9a58af1d715"
+      },
+      {
+        "start": 6000,
+        "end": 7000,
+        "sha256": "45edf93e7b33b3561a26249f7a279e80601b8c15b9205602750fe378cfc95c3b"
+      },
+      {
+        "start": 7000,
+        "end": 8000,
+        "sha256": "df15ce80c86ac8c9e6375e046275fa759999995169f8e0f0211d8168b93ce479"
+      }
+    ],
+    "original_steps": 8000,
+    "burn": 4000
+  }
+]

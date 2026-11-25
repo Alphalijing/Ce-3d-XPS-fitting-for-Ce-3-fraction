@@ -1,0 +1,61 @@
+{
+  "intensity_normalization": "raw / raw.max()",
+  "window": "observed 870.08–924.98 eV for the archived La spectra",
+  "random_seed": 42,
+  "fixed_number_starts": 4,
+  "first_start": "prior fixed LA solution for the same sample; x replaced by observed-window fraction",
+  "random_starts": {
+    "dE": [
+      -0.2,
+      0.2
+    ],
+    "sigma": [
+      0.3,
+      0.8
+    ],
+    "x": [
+      0.05,
+      0.4
+    ],
+    "A": "max(trapz(raw_normalized-bg_fixed,energy),0.1)",
+    "gammas": [
+      0.2,
+      1.2
+    ],
+    "DS_alpha": [
+      0.005,
+      0.04
+    ]
+  },
+  "fixed_and_soft_least_squares": {
+    "max_nfev": 1200,
+    "x_scale": "jac"
+  },
+  "joint_sequence": [
+    "fixed selected result",
+    "soft least_squares",
+    "single SLSQP initialized from soft result"
+  ],
+  "SLSQP": {
+    "maxiter": 350,
+    "ftol": 1e-07,
+    "eps": 1e-07
+  },
+  "crossing_tolerance_normalized_intensity": 1e-08,
+  "scaled_feasibility_tolerance": 1e-09,
+  "final_anchor_values": "not retained in original per-run metadata; only boundary-hit flags and saved background curves available",
+  "LA_convolution": {
+    "alpha": 0.9,
+    "beta": 2,
+    "grid_points": 8192,
+    "grid_spacing_eV": 0.025
+  },
+  "DS_convolution": {
+    "alpha_bounds": [
+      0,
+      0.05
+    ],
+    "grid_points": 16384,
+    "grid_spacing_eV": 0.025
+  }
+}

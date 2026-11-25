@@ -1,0 +1,13 @@
+setting,description,change
+width_sd2,Width SD ×2,"σ: N(0.5, 0.4²); γ: N(0.5, 0.6²); SD(ΔE)=0.2; log-noise SD=2; log-center shifts=(0, 0)"
+width_sd4,Width SD ×4,"σ: N(0.5, 0.8²); γ: N(0.5, 1.2²); SD(ΔE)=0.2; log-noise SD=2; log-center shifts=(0, 0)"
+width_center_low,Width center 0.3 eV,"σ: N(0.3, 0.2²); γ: N(0.3, 0.3²); SD(ΔE)=0.2; log-noise SD=2; log-center shifts=(0, 0)"
+width_center_high,Width center 0.8 eV,"σ: N(0.8, 0.2²); γ: N(0.8, 0.3²); SD(ΔE)=0.2; log-noise SD=2; log-center shifts=(0, 0)"
+energy_sd2,Energy-shift SD ×2,"σ: N(0.5, 0.2²); γ: N(0.5, 0.3²); SD(ΔE)=0.4; log-noise SD=2; log-center shifts=(0, 0)"
+noise_a_low_b_low,"Log-noise centers (−,−)","σ: N(0.5, 0.2²); γ: N(0.5, 0.3²); SD(ΔE)=0.2; log-noise SD=2; log-center shifts=(-2.3, -2.3)"
+noise_a_low_b_high,"Log-noise centers (−,+)","σ: N(0.5, 0.2²); γ: N(0.5, 0.3²); SD(ΔE)=0.2; log-noise SD=2; log-center shifts=(-2.3, 2.3)"
+noise_a_high_b_low,"Log-noise centers (+,−)","σ: N(0.5, 0.2²); γ: N(0.5, 0.3²); SD(ΔE)=0.2; log-noise SD=2; log-center shifts=(2.3, -2.3)"
+noise_a_high_b_high,"Log-noise centers (+,+)","σ: N(0.5, 0.2²); γ: N(0.5, 0.3²); SD(ΔE)=0.2; log-noise SD=2; log-center shifts=(2.3, 2.3)"
+noise_sd2,Log-noise SD ×2,"σ: N(0.5, 0.2²); γ: N(0.5, 0.3²); SD(ΔE)=0.2; log-noise SD=4; log-center shifts=(0, 0)"
+joint_wide,All tested SD ×2,"σ: N(0.5, 0.4²); γ: N(0.5, 0.6²); SD(ΔE)=0.4; log-noise SD=4; log-center shifts=(0, 0)"
+width_uniform,Uniform width priors,Uniform σ and γ within their original bounds

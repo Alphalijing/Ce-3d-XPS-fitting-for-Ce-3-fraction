@@ -1,0 +1,12 @@
+index_zero_based,parameter,meaning,lower_bound,upper_bound,bound_type,prior,prior_center,prior_standard_deviation,example_lower_bound,example_upper_bound,example_prior_center
+0,dE,Common energy shift,-1.0,1.0,strict/open,Gaussian kernel truncated to bounds,0,0.2,-1.0,1.0,0.0
+1,sigma_ce,Shared Gaussian standard deviation,0.05,1.5,strict/open,Gaussian kernel truncated to bounds,0.5,0.2,0.05,1.5,0.5
+2,x,Ce(III) measured-window area fraction,0.0,1.0,strict/open,uniform within bounds,not applicable,,0.0,1.0,
+3,A_ce_total,Total Ce measured-window area,1.0,"max(200 * max(net), 1000)",strict/open,uniform within bounds,not applicable,,1.0,9333884.575606916,
+4,g3_1,Ce(III) v0/u0 kernel width,0.1,2.0,strict/open,Gaussian kernel truncated to bounds,0.5,0.3,0.1,2.0,0.5
+5,g3_2,Ce(III) vprime/uprime kernel width,0.1,2.0,strict/open,Gaussian kernel truncated to bounds,0.5,0.3,0.1,2.0,0.5
+6,g4_1,Ce(IV) v/u kernel width,0.1,2.0,strict/open,Gaussian kernel truncated to bounds,0.5,0.3,0.1,2.0,0.5
+7,g4_2,Ce(IV) vdouble/udouble kernel width,0.1,2.0,strict/open,Gaussian kernel truncated to bounds,0.5,0.3,0.1,2.0,0.5
+8,g4_3,Ce(IV) vtriple/utriple kernel width,0.1,2.0,strict/open,Gaussian kernel truncated to bounds,0.5,0.3,0.1,2.0,0.5
+9,log_a_ce,Natural logarithm of additive noise variance a,-20.0,20.0,strict/open,Gaussian kernel truncated to bounds,"log(max(0.05 * var(net), 1e-6))",2.0,-20.0,20.0,15.595429314574147
+10,log_b_ce,Natural logarithm of intensity-dependent noise coefficient b,-20.0,20.0,strict/open,Gaussian kernel truncated to bounds,log(1e-2),2.0,-20.0,20.0,-4.605170185988091

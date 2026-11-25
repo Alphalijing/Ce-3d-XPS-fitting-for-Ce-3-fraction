@@ -1,126 +1,79 @@
-# Automated Ce 3d XPS Fitter
+# Ce 3d XPS Fitter 2.0.1
 
-This tool performs automated, physically constrained fitting of Ce 3d XPS spectra and reports the Ce3+ fraction with MCMC-derived uncertainty. It is designed for Ce 3d analysis only. O 1s fitting is not included in this release.
+Automated, physics-constrained Bayesian quantification of the Ce³⁺ fraction from Ce 3d XPS spectra. The default workflow uses **Gaussian-convolved LA-type peaks with fixed α = 0.9 and β = 2**, a **fixed Shirley background**, and **MCMC posterior sampling**.
 
-## Main Features
+## Start fitting
 
-- Windows GUI for routine use.
-- Command-line interface for scripted workflows.
-- Raw XPS Excel input mode.
-- Processed CSV/table input mode.
-- Physics-constrained ten-component Ce 3d model.
-- Shirley-background-derived confidence weighting for the Gaussian likelihood.
-- MCMC posterior sampling using `emcee`.
-- Outputs fit curves, peak tables, posterior samples, parameter summaries, and a JSON summary.
+**Windows:** download `Ce3d_XPS_Fitter_v2.0.1_Windows_EN.zip` from this repository's [Releases](https://github.com/Alphalijing/Ce-3d-XPS-fitting-for-Ce-3-fraction/releases), extract it completely, and open `Ce3d_XPS_Fitter_v2.0.1_EN.exe`. Keep its adjacent `_internal` folder.
 
-## Input Mode 1: Raw XPS Workbook
+**Python source:** Python 3.11 is recommended.
 
-Use this mode for the original XPS workbook exported by the instrument/software.
-
-Required sheet names:
-
-- `XPS Survey`
-- `Ce3d Scan`
-
-The program uses the sheet names to avoid fitting the wrong spectral region.
-
-For `Ce3d Scan`, the program reads:
-
-- Column A: Binding energy
-- Column C: Raw intensity
-- Column E: Background
-
-The first numeric background value in raw XPS exports is often `0`. The program treats this value as a software placeholder and drops that first data row before background subtraction.
-
-The fitted intensity is:
-
-```text
-background-subtracted intensity = raw intensity - background
-```
-
-## Input Mode 2: Processed CSV / Table
-
-Use this mode when the Ce 3d spectrum has already been exported to a simple three-column file.
-
-Required column order:
-
-1. Binding energy in eV
-2. Raw intensity before background subtraction
-3. Background intensity
-
-The program subtracts the third column from the second column before fitting:
-
-```text
-background-subtracted intensity = raw intensity - background
-```
-
-The processed file should contain one Ce 3d spectrum only. Header rows are tolerated only when the numeric data can still be recognized, but a clean header-free CSV file is recommended. The Ce 3d binding-energy region is typically around 870-930 eV.
-
-## Likelihood Weighting
-
-The Ce 3d likelihood uses a Shirley-background-derived confidence factor:
-
-```text
-C(E) = 1 / [1 + lambda * T(E)]
-```
-
-where `T(E)` is the three-segment scattering-tail accumulation index derived from the Ce 3d background.
-
-Available GUI options:
-
-- `lambda = 0`: unweighted Gaussian likelihood.
-- `lambda = 2`: recommended default.
-- Custom non-negative lambda value.
-
-## Default MCMC Settings
-
-- walkers: 80
-- steps: 5000
-- burn: 1500
-- thin: 10
-- seed: 42
-
-## Output Files
-
-Each run creates a timestamped folder under the selected output directory. Typical outputs include:
-
-- `fit_result.json`
-- `fit_ce3d.png`
-- `fit_curve_ce3d.csv`
-- `peak_table.csv`
-- `peak_table_ce3d.csv`
-- `posterior_samples_ce3d.csv`
-- `posterior_param_summary_ce3d.csv`
-- `prepared_input/processed_ce3d_bg_sub.csv`
-- `prepared_input/ce3d_background.csv`
-- `prepared_input/ce3d_raw_with_background.csv`
-
-## Running from Python
-
-Install the dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the GUI:
-
-```bash
+```console
+python -m pip install -r requirements.txt
 python ce3d_xps_fitter_gui.py
 ```
 
-Run from the command line:
+The interface provides three independent choices:
 
-```bash
-python ce3d_xps_fitter_core.py --input path/to/raw_xps.xls --raw-xps --lambda-ce 2 --outdir output_folder
+| Choice | Default | Alternative |
+|---|---|---|
+| Peak model | LA-type | Voigt |
+| Satellite contributions | Exclude | Include |
+| Sampling mode | Quick fit: 8000 steps | Convergence validation |
+
+The default is 80 walkers, 8000 total steps including a 2000-step pilot, with the first 4000 steps discarded. Quick fit performs MCMC. Progress is reported at the start and every 2000 steps. Convergence validation continues until the implemented diagnostic criteria pass or the user stops it.
+
+Supported inputs include instrument `.xls/.xlsx`, two-column text/CSV, and regular XPS scans in `.vms/.vamas`. Three-column text/CSV can supply an explicitly fixed background. Multiple VAMAS blocks/channels require selection; kinetic-energy axes require an explicit energy offset. See the [interface guide](GUI_GUIDE.md) and [application reference](docs/APPLICATION_REFERENCE.md).
+
+## Results
+
+`Results.html` presents **Ce³⁺ % ± one posterior standard deviation** first, followed by component fits, concise experimental conditions, peak parameters and posterior distributions. The median and 95% equal-tail credible interval are reported separately. Full records include `details/experiment_metadata.json`, which preserves available acquisition conditions, including acquisition time where supplied, selected scan/channel and source hash. Missing conditions remain unspecified.
+
+## Publication data and reproduction
+
+The repository contains raw inputs, frozen backgrounds, fitted curves, parameter summaries and reproduction instructions for the revised manuscript.
+
+| Dataset | Contents |
+|---|---|
+| [Six La-doped specimens](data/experimental/la_series) | Original Excel exports; composition/catalysis data; LA and Voigt MCMC summaries; DS point estimates; all Ce³⁺ posterior draws used for the reported intervals |
+| [19 additional spectra](data/experimental/additional_19) | Raw Excel exports, saved background constructions, LA/Voigt fits and high-confidence-region residuals |
+| [48 synthetic cases](data/synthetic) | 24 background-free and 24 cumulative-tail cases; exact truth and noise seeds; matched constrained-MCMC and independent-parameter-LA fits |
+| [Further validation](data/validation) | Background comparisons, empirical Tougaard-form construction, satellites, joint backgrounds, sampling budgets and prior sensitivity |
+| [Input examples](examples) | Excel, CSV and an attributed public multi-block VAMAS example |
+
+Main-text Figure 4 uses LA and Voigt posterior medians and 95% credible intervals; DS retains the deterministic comparison. The 19-spectrum extension retains its archived deterministic fits. These estimators are labelled in the data and [reproduction guide](docs/REPRODUCIBILITY.md).
+
+From the repository root:
+
+```console
+python analysis/verify_release.py
+python analysis/summarize_results.py
+python analysis/plot_figure3.py
+python analysis/plot_figure4.py
+python analysis/plot_figure5.py
+python analysis/plot_posterior_s2.py
 ```
 
-For processed CSV input:
+These commands use saved data and **do not start MCMC**. Figures and recalculated statistics are written under `results/`, leaving the published data intact. The 19-spectrum extension is supplied as tables and data without a separate figure.
 
-```bash
-python ce3d_xps_fitter_core.py --input path/to/ce3d.csv --lambda-ce 2 --outdir output_folder
+For the exact benchmark protocol, data mapping, synthetic generator and optional refitting commands, see [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md). For scientific scope and mathematical definitions, see [MODEL_AND_SCOPE.md](docs/MODEL_AND_SCOPE.md).
+
+## Tests and build
+
+```console
+python -m pip install -r requirements-dev.txt
+python -m pytest tests -q
+python build_windows_exe.py
 ```
 
-## Model Notes
+The production scientific source is unchanged from the validated English v2.0.1 release. This publication bundle adds datasets and portable analysis scripts. See [VALIDATION.md](VALIDATION.md) for inherited checks and [publication validation](docs/PUBLICATION_VALIDATION.md) for the checks performed on this bundle.
 
-The Ce 3d envelope is modeled using ten physically constrained Voigt-type components corresponding to Ce3+ and Ce4+ final-state features. The model applies fixed spin-orbit splitting, degeneracy-derived 3d5/2:3d3/2 intensity ratios, constrained Ce3+/Ce4+ multiplet patterns, grouped Lorentzian broadening, and a shared Ce 3d Gaussian broadening parameter.
+## Interpretation and citation
+
+Posterior intervals are conditional on the selected background, profiles, constraints, priors and noise model. They do not represent all experimental or model uncertainty. The LA implementation does not claim identity with CasaXPS `LA(0.9,2,50)`. Satellites are an optional model extension rather than an independently calibrated correction.
+
+Please cite the associated manuscript, *Automated Ce³⁺ Fraction Quantification from Ce 3d XPS Spectra Using Physics-Constrained Bayesian Fitting*, when using this workflow. A final publication DOI can be added when available.
+
+The existing repository [Apache-2.0 license](LICENSE) is retained. Third-party data retain their original terms and attribution; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+The [initial implementation](legacy/v1/README.md) is preserved separately for historical reference. Use the source files at the repository root for the current application.

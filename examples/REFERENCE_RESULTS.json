@@ -1,0 +1,62 @@
+{
+  "version": "2.0.0",
+  "cases": [
+    {
+      "case": "quick_LA",
+      "status": "quick_complete",
+      "steps": 8000,
+      "burn": 4000,
+      "model": "LA",
+      "satellites": false,
+      "Ce3_percent": {
+        "q025": 14.553323530131532,
+        "median": 16.317337084404098,
+        "q975": 18.132507108934558
+      },
+      "convergence_passed": false
+    },
+    {
+      "case": "convergence_LA",
+      "status": "converged",
+      "steps": 20000,
+      "burn": 4000,
+      "model": "LA",
+      "satellites": false,
+      "Ce3_percent": {
+        "q025": 14.551927719299831,
+        "median": 16.315356468914665,
+        "q975": 18.15073155750435
+      },
+      "convergence_passed": true
+    },
+    {
+      "case": "quick_LA_satellites",
+      "status": "quick_complete",
+      "steps": 8000,
+      "burn": 4000,
+      "model": "LA",
+      "satellites": true,
+      "Ce3_percent": {
+        "q025": 16.519266497913094,
+        "median": 18.49988866402477,
+        "q975": 20.63547660683647
+      },
+      "convergence_passed": false
+    },
+    {
+      "case": "VAMAS_Voigt_smoke",
+      "status": "quick_complete",
+      "steps": 4000,
+      "burn": 2000,
+      "model": "Voigt",
+      "satellites": false,
+      "Ce3_percent": {
+        "q025": 0.4246832270359331,
+        "median": 1.0777295853646065,
+        "q975": 1.7772539945244827
+      },
+      "convergence_passed": false
+    }
+  ],
+  "note": "Stochastic conditional posterior summaries, not certified chemical compositions; VAMAS case is a custom short import smoke test."
+}

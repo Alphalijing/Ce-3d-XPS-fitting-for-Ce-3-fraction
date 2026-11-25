@@ -1,0 +1,2294 @@
+{
+  "created": "2026-11-16T16:21:40.244898",
+  "software_version": "2.0.1",
+  "source": "Ce3d_XPS_Fitter_v2.0.1",
+  "source_sha256": {
+    "ce3d_xps_model.py": "3de3c6299494e703f0f9491f02f508debf2d63d603cc3f5e883b6881dd7550b5",
+    "ce3d_xps_fitter_core.py": "3c8d06b3ec75c241aca2e67dd93bf1d047ba32cf971bbdbd9aa75343b504354f",
+    "ce3d_io.py": "820998784bf9b566658b9107a54cb0bbe822d5f7bca7741cb077dc368b2b4dcb",
+    "shirley_v7.py": "f3a96330f1570797af45614b7b4577338c77c78b30ff5a7ac7a247cfbed32a6e",
+    "smart_like_shirley_background.py": "88a8c560afec067031edb6d3241aaa4e3feaebe96a26728b15e40b3c4cbe4624"
+  },
+  "truth_source": "synthetic_LA_ground_truth.csv",
+  "truth_sha256": "087745b277f58d3564da0bc740822137204d8a3567423317931ec7b5c84288b4",
+  "settings": {
+    "model": "LA",
+    "alpha": 0.9,
+    "beta": 2.0,
+    "asymmetric_components": [
+      "Ce4+ v",
+      "Ce4+ u"
+    ],
+    "satellites": false,
+    "fixed_background": "Same known generating background for both workflows: zero for panel a; B0 + 0.84*S(E) for panel b. No Shirley reconstruction.",
+    "walkers": 80,
+    "steps": 8000,
+    "burn": 4000,
+    "pilot": 2000,
+    "checkpoint": 2000,
+    "mode": "quick",
+    "statistical_intervals": "posterior median and 95% equal-tail interval: 2.5th and 97.5th percentiles",
+    "confidence_lambda": null,
+    "convergence_scope": "8000-step quick-fit budget; full engineering convergence not presumed"
+  },
+  "comparison": "Physics-constrained Bayesian LA MCMC versus independent-parameter LA least squares. Shape, data, fixed known background, window and area definition shared. Priors and statistical objectives still differ.",
+  "legacy_results_reused": false,
+  "cases": [
+    {
+      "case_id": "a_LA_Ce3_000pct_sigma_0p5eV_poisson_03pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_0p5eV_poisson_03pct.csv",
+      "original_sha256": "ec8a4f8ac701a2173d9a8aaa37d4271aafeb7b92c8e21d32d3265b78ac6da5d7",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_0p5eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "64cc2f0fb08d40117ccf64f51b06f659e82e47859f3cf6396fb1bef17f443a7a",
+      "input": "data/synthetic/prepared/a_LA_Ce3_000pct_sigma_0p5eV_poisson_03pct.csv",
+      "prepared_sha256": "a97808979f7f38f4d143dfd96bb4e1f398d8d9d51f9db5a9385c39b855d5c5e5",
+      "Ce3_percent_true_nominal": 0.0,
+      "Ce3_percent_true_window": 0.0,
+      "sigma_true_eV": 0.5,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111600
+    },
+    {
+      "case_id": "a_LA_Ce3_000pct_sigma_0p5eV_poisson_10pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_0p5eV_poisson_10pct.csv",
+      "original_sha256": "eb299b4bb226f5ca23966379fff68c4ec7d8544b51548ad543354062342742f4",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_0p5eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "cf12f4915be416e851807e9aff26ca75a14ebcea86b2911fb165e012f166c134",
+      "input": "data/synthetic/prepared/a_LA_Ce3_000pct_sigma_0p5eV_poisson_10pct.csv",
+      "prepared_sha256": "e17111d4c5372be0de6aaff82125e8409f13957b4b42cc812ac60f055af93db5",
+      "Ce3_percent_true_nominal": 0.0,
+      "Ce3_percent_true_window": 0.0,
+      "sigma_true_eV": 0.5,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111601
+    },
+    {
+      "case_id": "a_LA_Ce3_000pct_sigma_1eV_poisson_03pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_1eV_poisson_03pct.csv",
+      "original_sha256": "205485e54d658d7b4b5cc8ed25fe34d12e8a49873178d9269866e1ef5ec066a8",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_1eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "4c445effafb46da27bd2ca5e15295842eb8d8080fcf271b1ffbf1b92c9347987",
+      "input": "data/synthetic/prepared/a_LA_Ce3_000pct_sigma_1eV_poisson_03pct.csv",
+      "prepared_sha256": "5b307fa55f1f646368518f10763e70f26174194556102e5b71c7842bfb13545c",
+      "Ce3_percent_true_nominal": 0.0,
+      "Ce3_percent_true_window": 0.0,
+      "sigma_true_eV": 1.0,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111602
+    },
+    {
+      "case_id": "a_LA_Ce3_000pct_sigma_1eV_poisson_10pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_1eV_poisson_10pct.csv",
+      "original_sha256": "cb2601cce23ab8857639432dcc3f4a79d2bc654efa1507553fdaea3a304b4af1",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_1eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "13234a72cba5a0926200a6e99547c585ac455c3d1dee6f405e3a6a4189f3453d",
+      "input": "data/synthetic/prepared/a_LA_Ce3_000pct_sigma_1eV_poisson_10pct.csv",
+      "prepared_sha256": "ae24601fbb197a5e63b3478bf5f115887e23cb76191f28e0d76ada231727f185",
+      "Ce3_percent_true_nominal": 0.0,
+      "Ce3_percent_true_window": 0.0,
+      "sigma_true_eV": 1.0,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111603
+    },
+    {
+      "case_id": "a_LA_Ce3_000pct_sigma_1p5eV_poisson_03pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_1p5eV_poisson_03pct.csv",
+      "original_sha256": "807a19e9caab5d9a16543f19c0bdd13fe3dcb3fd63b3f763dca72e1e1039ab92",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_1p5eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "13e896c7d384e9a164dc0faaaf467a50febc763b4ace73a21bc2b91bd54fd6a9",
+      "input": "data/synthetic/prepared/a_LA_Ce3_000pct_sigma_1p5eV_poisson_03pct.csv",
+      "prepared_sha256": "85c5873996d1f80924b488c2795b33bbf9d041c6e0ddda0d2feff89ab936d32c",
+      "Ce3_percent_true_nominal": 0.0,
+      "Ce3_percent_true_window": 0.0,
+      "sigma_true_eV": 1.5,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111604
+    },
+    {
+      "case_id": "a_LA_Ce3_000pct_sigma_1p5eV_poisson_10pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_1p5eV_poisson_10pct.csv",
+      "original_sha256": "4f51eeb2f33d1dd399814bbc0599e41556800e9567a5b03f52a4e6537abc3a52",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_1p5eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "326f67754c2c04f2e1d47f3fbf3d9d22a58ecaa54778e0fd3aefaedc2012dcfe",
+      "input": "data/synthetic/prepared/a_LA_Ce3_000pct_sigma_1p5eV_poisson_10pct.csv",
+      "prepared_sha256": "fcb67f20210e609b93ae2d4fc8a7bbac6fe53979de74018d0c2fb314522d17f9",
+      "Ce3_percent_true_nominal": 0.0,
+      "Ce3_percent_true_window": 0.0,
+      "sigma_true_eV": 1.5,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111605
+    },
+    {
+      "case_id": "a_LA_Ce3_015pct_sigma_0p5eV_poisson_03pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_0p5eV_poisson_03pct.csv",
+      "original_sha256": "13f323d2fe80afcf997766a566c7ad9f70c21747dcd8420e7fb274c9a6aadef2",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_0p5eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "c7c1a20c892e89f06d86f437c165bf5a2e28b8ceb6eeab2a85a235063d538f76",
+      "input": "data/synthetic/prepared/a_LA_Ce3_015pct_sigma_0p5eV_poisson_03pct.csv",
+      "prepared_sha256": "e6575c8c9a448914de5a70d780c860328b77d4f512dbd79716d65aaf4efef0c7",
+      "Ce3_percent_true_nominal": 15.0,
+      "Ce3_percent_true_window": 14.99999999999999,
+      "sigma_true_eV": 0.5,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111606
+    },
+    {
+      "case_id": "a_LA_Ce3_015pct_sigma_0p5eV_poisson_10pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_0p5eV_poisson_10pct.csv",
+      "original_sha256": "729e1b32a91adc6092dcb63d45507c1f6093848935a3ed535ac8de5848765b3f",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_0p5eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "75b67381516412f0d8780d5b2f3753e385870b41d4fa474192db07588d815e71",
+      "input": "data/synthetic/prepared/a_LA_Ce3_015pct_sigma_0p5eV_poisson_10pct.csv",
+      "prepared_sha256": "4ea1f1b7cd0236e5aabe19bec07c19604d51689a1af1f8a5df786234a5fa7d41",
+      "Ce3_percent_true_nominal": 15.0,
+      "Ce3_percent_true_window": 14.999999999999998,
+      "sigma_true_eV": 0.5,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111607
+    },
+    {
+      "case_id": "a_LA_Ce3_015pct_sigma_1eV_poisson_03pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_1eV_poisson_03pct.csv",
+      "original_sha256": "d97de89865d8f738084b7eaf22fcb48a01c798b293c5fd976d14c1e8fd5f39b5",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_1eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "d45c6f382783d120350f90fbd2367816ad906a24cba359e962eaaae619e8a70d",
+      "input": "data/synthetic/prepared/a_LA_Ce3_015pct_sigma_1eV_poisson_03pct.csv",
+      "prepared_sha256": "759f432ae36bcd38f10d08d72d5acbdec791dfe9bf8113b03264cdd01073625d",
+      "Ce3_percent_true_nominal": 15.0,
+      "Ce3_percent_true_window": 14.999999999999998,
+      "sigma_true_eV": 1.0,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111608
+    },
+    {
+      "case_id": "a_LA_Ce3_015pct_sigma_1eV_poisson_10pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_1eV_poisson_10pct.csv",
+      "original_sha256": "e0fa530f77508f343cda10ea6016979bd49b9a08a8ebc2058289a1906df2f670",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_1eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "108a5accaa8e6057c2a2b71c4c1c0f08c9f32ed3427a12cb6ce206cb1f6df340",
+      "input": "data/synthetic/prepared/a_LA_Ce3_015pct_sigma_1eV_poisson_10pct.csv",
+      "prepared_sha256": "77cf874f8ae5b064b54c7ceba8a4926badb57e40fbd44b858a06bd3de526b600",
+      "Ce3_percent_true_nominal": 15.0,
+      "Ce3_percent_true_window": 15.000000000000002,
+      "sigma_true_eV": 1.0,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111609
+    },
+    {
+      "case_id": "a_LA_Ce3_015pct_sigma_1p5eV_poisson_03pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_1p5eV_poisson_03pct.csv",
+      "original_sha256": "e0ea9c7f85edb0b89107dea04d5e52346e36126e661fa0a1c78ac819ffc6783b",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_1p5eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "8d31a017df3e53665639426d2db70132e0ae82f0c215f9e31919fcdcb4224527",
+      "input": "data/synthetic/prepared/a_LA_Ce3_015pct_sigma_1p5eV_poisson_03pct.csv",
+      "prepared_sha256": "2c480f768bb638b2d9824a13570b1f0d6f21b0ad7159b8c38f8fd960ea2f953c",
+      "Ce3_percent_true_nominal": 15.0,
+      "Ce3_percent_true_window": 15.000000000000007,
+      "sigma_true_eV": 1.5,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111610
+    },
+    {
+      "case_id": "a_LA_Ce3_015pct_sigma_1p5eV_poisson_10pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_1p5eV_poisson_10pct.csv",
+      "original_sha256": "53537bd04d77a0faa5d219264a345fda441aec75aa8c274968abc6996f13e25c",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_1p5eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "cd3fd71d8268b38e861d36fe1fbae373ad04ff79efc16a767142988aa3f6c821",
+      "input": "data/synthetic/prepared/a_LA_Ce3_015pct_sigma_1p5eV_poisson_10pct.csv",
+      "prepared_sha256": "c55741f966c4f17dd75467e983a37aa19e7b71e8999978f6195ad5a8bcb68ab2",
+      "Ce3_percent_true_nominal": 15.0,
+      "Ce3_percent_true_window": 14.999999999999993,
+      "sigma_true_eV": 1.5,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111611
+    },
+    {
+      "case_id": "a_LA_Ce3_030pct_sigma_0p5eV_poisson_03pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_0p5eV_poisson_03pct.csv",
+      "original_sha256": "872f6adb7f2ca0371adfcf60747781ff6312bbf4198bfc02626ac5ccaa80b6c9",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_0p5eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "56652afc588e3257346a15a3e59438a4d20cf66aa6e9ca7e7502430dfd7e7b9a",
+      "input": "data/synthetic/prepared/a_LA_Ce3_030pct_sigma_0p5eV_poisson_03pct.csv",
+      "prepared_sha256": "eb5098e6d28de8e93dfafbae97830280642fa38a4734fd8170a09dfaf9f348c6",
+      "Ce3_percent_true_nominal": 30.0,
+      "Ce3_percent_true_window": 30.0,
+      "sigma_true_eV": 0.5,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111612
+    },
+    {
+      "case_id": "a_LA_Ce3_030pct_sigma_0p5eV_poisson_10pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_0p5eV_poisson_10pct.csv",
+      "original_sha256": "81c7b4b05b470407f969f61d21ec0725e0d705d9dae75ba5267d8631e277b4c3",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_0p5eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "5f9da2f090126010fcb7fa67ce7c57b1920d976420e3f40cb6d09478b63513ea",
+      "input": "data/synthetic/prepared/a_LA_Ce3_030pct_sigma_0p5eV_poisson_10pct.csv",
+      "prepared_sha256": "d767aa5c2cc54ef6c8700e7171926e1f5359d9409aa14a4239d35195fa8e31f0",
+      "Ce3_percent_true_nominal": 30.0,
+      "Ce3_percent_true_window": 29.999999999999996,
+      "sigma_true_eV": 0.5,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111613
+    },
+    {
+      "case_id": "a_LA_Ce3_030pct_sigma_1eV_poisson_03pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_1eV_poisson_03pct.csv",
+      "original_sha256": "e9a2d8eb5ae1c38e3c57d50661b5b7ffc7c8a63533ae7aaf596c80115b4af440",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_1eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "276b8f12a0f52a05967c096af7ed1202c9ffe3c34345b6705c647b8f60bf4ed3",
+      "input": "data/synthetic/prepared/a_LA_Ce3_030pct_sigma_1eV_poisson_03pct.csv",
+      "prepared_sha256": "7544ba97f693178fc98450d3e6542dc19fcdccffe26659556416ca55b2b75e8c",
+      "Ce3_percent_true_nominal": 30.0,
+      "Ce3_percent_true_window": 29.999999999999986,
+      "sigma_true_eV": 1.0,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111614
+    },
+    {
+      "case_id": "a_LA_Ce3_030pct_sigma_1eV_poisson_10pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_1eV_poisson_10pct.csv",
+      "original_sha256": "c5c63dbd4c9f0903eb59986d6d0d0242e12cb94b8380d46302d77594a10b9d99",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_1eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "d658f28832667bf341214409fd3811b4ce4713350c31b6f9123ec2c069654a01",
+      "input": "data/synthetic/prepared/a_LA_Ce3_030pct_sigma_1eV_poisson_10pct.csv",
+      "prepared_sha256": "db82af9375f2bd5fa5c6887591a5a7f20f3b9320f307bcbd84aa1d7f7e202fd3",
+      "Ce3_percent_true_nominal": 30.0,
+      "Ce3_percent_true_window": 29.99999999999998,
+      "sigma_true_eV": 1.0,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111615
+    },
+    {
+      "case_id": "a_LA_Ce3_030pct_sigma_1p5eV_poisson_03pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_1p5eV_poisson_03pct.csv",
+      "original_sha256": "02952c5758f0d6a2dc4d2fc609d99f99ac137388dde4178d0b047d1d36f36cb5",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_1p5eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "444ac13084474466fc070df56ebbcc7e765dc7df6e59c617227a7cb4b1c3c46d",
+      "input": "data/synthetic/prepared/a_LA_Ce3_030pct_sigma_1p5eV_poisson_03pct.csv",
+      "prepared_sha256": "a72120863a1a8add8e3a942ee632aa9f937a35201465a687cdd508eb9f427d02",
+      "Ce3_percent_true_nominal": 30.0,
+      "Ce3_percent_true_window": 29.999999999999996,
+      "sigma_true_eV": 1.5,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111616
+    },
+    {
+      "case_id": "a_LA_Ce3_030pct_sigma_1p5eV_poisson_10pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_1p5eV_poisson_10pct.csv",
+      "original_sha256": "f661951c3ec381bcd39f72c71b50303d39f2535bdbdb034c831ae8f1315d1ad7",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_1p5eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "bc19eca6965ce5ba180742ece5b82189ad8c71c8d992e955d3798fccbf779b85",
+      "input": "data/synthetic/prepared/a_LA_Ce3_030pct_sigma_1p5eV_poisson_10pct.csv",
+      "prepared_sha256": "d72ec26a5809054797c4e51c24048d2ebfa0f5445c9b5880bf6757ffd8ecf964",
+      "Ce3_percent_true_nominal": 30.0,
+      "Ce3_percent_true_window": 30.00000000000001,
+      "sigma_true_eV": 1.5,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111617
+    },
+    {
+      "case_id": "a_LA_Ce3_060pct_sigma_0p5eV_poisson_03pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_0p5eV_poisson_03pct.csv",
+      "original_sha256": "08dd267593f9dcf948a6097bfc4abf0950acf0e077605c905afbf4e665630d82",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_0p5eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "d326b46dc0b935098ad64b3a7ef0d2b5acec6290755e1c116da017e7ad565142",
+      "input": "data/synthetic/prepared/a_LA_Ce3_060pct_sigma_0p5eV_poisson_03pct.csv",
+      "prepared_sha256": "d47079ec1ae006a9b3211c9b3f0eafe49566f8eea9c44ef79c332467d573268d",
+      "Ce3_percent_true_nominal": 60.0,
+      "Ce3_percent_true_window": 59.99999999999998,
+      "sigma_true_eV": 0.5,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111618
+    },
+    {
+      "case_id": "a_LA_Ce3_060pct_sigma_0p5eV_poisson_10pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_0p5eV_poisson_10pct.csv",
+      "original_sha256": "5b8e06eab940e1c81046b8cc14e671b2d8595ce827a8d73b13b21e50ff3f86cd",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_0p5eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "3edb1cc79c363bad773a82b1c593f6579d95a40f8f52bdcc5942d1733d8321d4",
+      "input": "data/synthetic/prepared/a_LA_Ce3_060pct_sigma_0p5eV_poisson_10pct.csv",
+      "prepared_sha256": "5004434153a512eefd398c0d6a09cc0fca7c1e30d281086a7739673477b99d1b",
+      "Ce3_percent_true_nominal": 60.0,
+      "Ce3_percent_true_window": 60.0,
+      "sigma_true_eV": 0.5,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111619
+    },
+    {
+      "case_id": "a_LA_Ce3_060pct_sigma_1eV_poisson_03pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_1eV_poisson_03pct.csv",
+      "original_sha256": "0c6f60867a70c131eb9f554ede7c4aed0e40b70d47cbccb818a0593ec7b32462",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_1eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "b95f7b1e29041ff466073ac1e95b86a38e696c0cdf5ebd1086e6bcb4c4a2d26c",
+      "input": "data/synthetic/prepared/a_LA_Ce3_060pct_sigma_1eV_poisson_03pct.csv",
+      "prepared_sha256": "01acd17e18b5e433c539d649dd6f1609bc41b03ec502904be891d3c2ce4cee54",
+      "Ce3_percent_true_nominal": 60.0,
+      "Ce3_percent_true_window": 59.99999999999995,
+      "sigma_true_eV": 1.0,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111620
+    },
+    {
+      "case_id": "a_LA_Ce3_060pct_sigma_1eV_poisson_10pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_1eV_poisson_10pct.csv",
+      "original_sha256": "37652d8f1847aca690f147b33c8a2bc27ebc590f43c2d86b22fe86db4749330f",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_1eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "7d99ffbb732b63212123b3ebeb93c47340a9133ef9010aa305ed48fd5e642a38",
+      "input": "data/synthetic/prepared/a_LA_Ce3_060pct_sigma_1eV_poisson_10pct.csv",
+      "prepared_sha256": "44ad645727444c9fb6495b321beacaa9832238589b7b1e2fec05594d8f9cf779",
+      "Ce3_percent_true_nominal": 60.0,
+      "Ce3_percent_true_window": 59.99999999999998,
+      "sigma_true_eV": 1.0,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111621
+    },
+    {
+      "case_id": "a_LA_Ce3_060pct_sigma_1p5eV_poisson_03pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_1p5eV_poisson_03pct.csv",
+      "original_sha256": "4316840bd769d840892bdab94f63f53250b66ebff9817167072626d506e855f7",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_1p5eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "fdfef8d2155a8b9966e0a2e7fb039bda8c5916c2f6572b43f5c598412eb74459",
+      "input": "data/synthetic/prepared/a_LA_Ce3_060pct_sigma_1p5eV_poisson_03pct.csv",
+      "prepared_sha256": "0f60245d5f60e8fb2c4c8516c2f47abd604b5f0e696d6577c7a75feeddc091e7",
+      "Ce3_percent_true_nominal": 60.0,
+      "Ce3_percent_true_window": 60.00000000000002,
+      "sigma_true_eV": 1.5,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111622
+    },
+    {
+      "case_id": "a_LA_Ce3_060pct_sigma_1p5eV_poisson_10pct",
+      "panel": "a",
+      "generation_batch": "background_free",
+      "original": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_1p5eV_poisson_10pct.csv",
+      "original_sha256": "1121f21cdbf350144ef12e7061a9f4ff7d238be8b0d58e13fc90af4caa5f4a96",
+      "clean_reference": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_1p5eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "fc3cfc3c1842a755d837b8523b6981eda31b6fbbb65e33622f50e2f0f3576e81",
+      "input": "data/synthetic/prepared/a_LA_Ce3_060pct_sigma_1p5eV_poisson_10pct.csv",
+      "prepared_sha256": "c6db833f7f73b76d1b5acf9230264bbd53ed54b1684ed488de7b9aade0e3491e",
+      "Ce3_percent_true_nominal": 60.0,
+      "Ce3_percent_true_window": 60.00000000000002,
+      "sigma_true_eV": 1.5,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 0.0,
+      "seed": 2026111623
+    },
+    {
+      "case_id": "b_LA_Ce3_000pct_sigma_0p5eV_poisson_03pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_0p5eV_poisson_03pct.csv",
+      "original_sha256": "30d7145692dc48e7e86a414ae9102bbffff944c0d8e46c6659b796c725f200b8",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_0p5eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "742bd751dcade5928e9d1703b9e39b75ece5007cadc1480e05c1ced60cdbeeba",
+      "input": "data/synthetic/prepared/b_LA_Ce3_000pct_sigma_0p5eV_poisson_03pct.csv",
+      "prepared_sha256": "015d073edee386fd3f17a4e0b0cb98548cab3e39a5aa954af167f2d2950a7c94",
+      "Ce3_percent_true_nominal": 0.0,
+      "Ce3_percent_true_window": 0.0,
+      "sigma_true_eV": 0.5,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 1.1575404045255263e-13,
+      "seed": 2026111624
+    },
+    {
+      "case_id": "b_LA_Ce3_000pct_sigma_0p5eV_poisson_10pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_0p5eV_poisson_10pct.csv",
+      "original_sha256": "2edbb52da9b8b24ef11a401d5790723f6d4965d37c5f72179c83a50ae27b78fb",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_0p5eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "f864c1d649804b63074e8619206e81931aea9749306fcc84f43ef08189e7549c",
+      "input": "data/synthetic/prepared/b_LA_Ce3_000pct_sigma_0p5eV_poisson_10pct.csv",
+      "prepared_sha256": "a201b191a7f546c514ef172ebcd788563a31e9088b13ab33d2a588352e3056c8",
+      "Ce3_percent_true_nominal": 0.0,
+      "Ce3_percent_true_window": 0.0,
+      "sigma_true_eV": 0.5,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 7.072758553027795e-15,
+      "seed": 2026111625
+    },
+    {
+      "case_id": "b_LA_Ce3_000pct_sigma_1eV_poisson_03pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_1eV_poisson_03pct.csv",
+      "original_sha256": "0963cceab7ad1f8b0770e61c95d9cbd3e0a53e7bf02bba97a3c01038ee804615",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_1eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "6b72eaef8d8a58389774ed0e8d29772edc210baa41176ed34fa290a155f89f79",
+      "input": "data/synthetic/prepared/b_LA_Ce3_000pct_sigma_1eV_poisson_03pct.csv",
+      "prepared_sha256": "a79068bb8ad09af7633a551b169e75f50006bfeb19f397a7c93e505a58cdf8a5",
+      "Ce3_percent_true_nominal": 0.0,
+      "Ce3_percent_true_window": 0.0,
+      "sigma_true_eV": 1.0,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 1.162650983037417e-13,
+      "seed": 2026111626
+    },
+    {
+      "case_id": "b_LA_Ce3_000pct_sigma_1eV_poisson_10pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_1eV_poisson_10pct.csv",
+      "original_sha256": "0c3841dfe1a86fb464ba3b61f750c4f8f761ac944bbc8c32338e3de85bac69c6",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_1eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "73682bbc0c4b530a7f5783d87f89ea9c23925a309486ecec9bc2ddd859b65c98",
+      "input": "data/synthetic/prepared/b_LA_Ce3_000pct_sigma_1eV_poisson_10pct.csv",
+      "prepared_sha256": "c7ece1e787037e1b8cab2468d0ccd8cfec5f37ff506e4725cfcfd7339909bb9f",
+      "Ce3_percent_true_nominal": 0.0,
+      "Ce3_percent_true_window": 0.0,
+      "sigma_true_eV": 1.0,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 7.35526587792289e-15,
+      "seed": 2026111627
+    },
+    {
+      "case_id": "b_LA_Ce3_000pct_sigma_1p5eV_poisson_03pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_1p5eV_poisson_03pct.csv",
+      "original_sha256": "83735a68c7a950b9d7ef81466e6f464b6c2c3f9534cb7c8eec05dae3a4a517a4",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_1p5eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "5d47733272440a7d0f42e188a77243c22123e62a30ceaeb1090f3c8611adf067",
+      "input": "data/synthetic/prepared/b_LA_Ce3_000pct_sigma_1p5eV_poisson_03pct.csv",
+      "prepared_sha256": "befb3fd24d95eb94d1b28e4c6313dec58453a776c20a987993699d33f9359a64",
+      "Ce3_percent_true_nominal": 0.0,
+      "Ce3_percent_true_window": 0.0,
+      "sigma_true_eV": 1.5,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 1.1189969339852298e-13,
+      "seed": 2026111628
+    },
+    {
+      "case_id": "b_LA_Ce3_000pct_sigma_1p5eV_poisson_10pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_1p5eV_poisson_10pct.csv",
+      "original_sha256": "d2f9e272cd5519628c4cea3c1027a33d5df31ed43cc3628a3985bc9e968bd102",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_1p5eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "d735019a1332ff06069821b2a55eb76312ed504842ea97e3f57b9e9112ceef7f",
+      "input": "data/synthetic/prepared/b_LA_Ce3_000pct_sigma_1p5eV_poisson_10pct.csv",
+      "prepared_sha256": "ee6b07d8aa0f8813e1f7a0eb353f713aa5ea59bf44b241cebd4a8c007a2edc6c",
+      "Ce3_percent_true_nominal": 0.0,
+      "Ce3_percent_true_window": 0.0,
+      "sigma_true_eV": 1.5,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 7.176775291209973e-15,
+      "seed": 2026111629
+    },
+    {
+      "case_id": "b_LA_Ce3_015pct_sigma_0p5eV_poisson_03pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_0p5eV_poisson_03pct.csv",
+      "original_sha256": "4e680e2642ab1f673bf8ce82b56c6121bf1327d8a656214df3742357b68406dc",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_0p5eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "8748e8bd7c103ddb3ee43c2889f14d9600b97f3d7f3e7f54ccd78a78ef015090",
+      "input": "data/synthetic/prepared/b_LA_Ce3_015pct_sigma_0p5eV_poisson_03pct.csv",
+      "prepared_sha256": "4d9b7be7f3472f618624dc83509d8fb634ea1744728f6e6bb89e333055db6b07",
+      "Ce3_percent_true_nominal": 15.0,
+      "Ce3_percent_true_window": 14.99999999999999,
+      "sigma_true_eV": 0.5,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 1.1928547396269136e-13,
+      "seed": 2026111630
+    },
+    {
+      "case_id": "b_LA_Ce3_015pct_sigma_0p5eV_poisson_10pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_0p5eV_poisson_10pct.csv",
+      "original_sha256": "cddbe1155854e70470acd2ff880332b59618a8da034febc9a5a7b20b8720817a",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_0p5eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "1876d32956566b4547c7c8cff5b565344f9d404524fb83b9852043a6782f5680",
+      "input": "data/synthetic/prepared/b_LA_Ce3_015pct_sigma_0p5eV_poisson_10pct.csv",
+      "prepared_sha256": "dbc852f4e913f3189457dcf98468becc8b7d0460b0a610d081bd6cdf6326e74e",
+      "Ce3_percent_true_nominal": 15.0,
+      "Ce3_percent_true_window": 14.999999999999998,
+      "sigma_true_eV": 0.5,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 6.751099425733957e-15,
+      "seed": 2026111631
+    },
+    {
+      "case_id": "b_LA_Ce3_015pct_sigma_1eV_poisson_03pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_1eV_poisson_03pct.csv",
+      "original_sha256": "c18e68b5f07879773fc3b824f659c7cc85130aac13ce689db8e7ff5d7d7df95e",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_1eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "bb7771c05e2cfa41539fbccb809c861010a63b90fdcd4cee12fc023b01538d4d",
+      "input": "data/synthetic/prepared/b_LA_Ce3_015pct_sigma_1eV_poisson_03pct.csv",
+      "prepared_sha256": "a2bbb42074ae4a00975bd742199ae5f61d71b424b81335ea33609776e0d9ef23",
+      "Ce3_percent_true_nominal": 15.0,
+      "Ce3_percent_true_window": 14.999999999999998,
+      "sigma_true_eV": 1.0,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 1.1848756886072002e-13,
+      "seed": 2026111632
+    },
+    {
+      "case_id": "b_LA_Ce3_015pct_sigma_1eV_poisson_10pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_1eV_poisson_10pct.csv",
+      "original_sha256": "bac45197c419196dd762749d77829afc3491439f309dbc93699f02775f72e86b",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_1eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "9c4bf780d235a6a9f1118b804d2dd88c8833b2baf9b69bb9690af245e3958efe",
+      "input": "data/synthetic/prepared/b_LA_Ce3_015pct_sigma_1eV_poisson_10pct.csv",
+      "prepared_sha256": "c800688011af40f73e8bd9f5e24eeccb190e61dd8b5111da3c5c521bd9c18594",
+      "Ce3_percent_true_nominal": 15.0,
+      "Ce3_percent_true_window": 15.000000000000002,
+      "sigma_true_eV": 1.0,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 7.913439758646563e-15,
+      "seed": 2026111633
+    },
+    {
+      "case_id": "b_LA_Ce3_015pct_sigma_1p5eV_poisson_03pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_1p5eV_poisson_03pct.csv",
+      "original_sha256": "4c50d5868bfd3f1f4f7c3d42036829f00382e447de4ab9b8f50f38a35f2d85d8",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_1p5eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "73c3524037a91042fa5c435118bbd9871553fe5e8e23f5c755a43372c327ccf5",
+      "input": "data/synthetic/prepared/b_LA_Ce3_015pct_sigma_1p5eV_poisson_03pct.csv",
+      "prepared_sha256": "6f23eef179f093a82f51414a9e7b964ee689d7682f4b86d1ca5251bd1cf11c3d",
+      "Ce3_percent_true_nominal": 15.0,
+      "Ce3_percent_true_window": 15.000000000000007,
+      "sigma_true_eV": 1.5,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 1.2037395791439479e-13,
+      "seed": 2026111634
+    },
+    {
+      "case_id": "b_LA_Ce3_015pct_sigma_1p5eV_poisson_10pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_1p5eV_poisson_10pct.csv",
+      "original_sha256": "9d29db0e5b84d290ae0429281a3fcd6635f4736b3a7a6af6a4d95f2bd89c2a59",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_1p5eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "065fb75a23fb013246896ca2083be525e69069dc67f529759a322678d392fd75",
+      "input": "data/synthetic/prepared/b_LA_Ce3_015pct_sigma_1p5eV_poisson_10pct.csv",
+      "prepared_sha256": "54655fb664af1d923b2bbc29c12096ad47e3978d3afa37d6f57a43f7f937441c",
+      "Ce3_percent_true_nominal": 15.0,
+      "Ce3_percent_true_window": 14.999999999999993,
+      "sigma_true_eV": 1.5,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 7.072758553027795e-15,
+      "seed": 2026111635
+    },
+    {
+      "case_id": "b_LA_Ce3_030pct_sigma_0p5eV_poisson_03pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_0p5eV_poisson_03pct.csv",
+      "original_sha256": "e806e8d7a3e516e8017b35b28386810b444c863b07492819bd1eb732a45613c7",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_0p5eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "a3087174bb7e5ad256e55289f977dcab83565889f7d89f01f155f4ec1dbb08fc",
+      "input": "data/synthetic/prepared/b_LA_Ce3_030pct_sigma_0p5eV_poisson_03pct.csv",
+      "prepared_sha256": "a93de8834d1731adf4c534eb84223e3db37d3cd024905af6a93609ab288be2a2",
+      "Ce3_percent_true_nominal": 30.0,
+      "Ce3_percent_true_window": 30.0,
+      "sigma_true_eV": 0.5,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 1.0889224145343535e-13,
+      "seed": 2026111636
+    },
+    {
+      "case_id": "b_LA_Ce3_030pct_sigma_0p5eV_poisson_10pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_0p5eV_poisson_10pct.csv",
+      "original_sha256": "9c92a366b792cc15cb743c5e47cc715f688d8b78ae1e4867c4ae1fbbdec525d1",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_0p5eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "103c6f7a74293c82ea22ca7de022d6092fae0532b1add64b0a0359a30cc62fb6",
+      "input": "data/synthetic/prepared/b_LA_Ce3_030pct_sigma_0p5eV_poisson_10pct.csv",
+      "prepared_sha256": "7c671de393ddb4f7ee472bccf92a743cc1f762a51b310b8059bd5b10379dbe20",
+      "Ce3_percent_true_nominal": 30.0,
+      "Ce3_percent_true_window": 29.999999999999996,
+      "sigma_true_eV": 0.5,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 7.504879824592663e-15,
+      "seed": 2026111637
+    },
+    {
+      "case_id": "b_LA_Ce3_030pct_sigma_1eV_poisson_03pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_1eV_poisson_03pct.csv",
+      "original_sha256": "cc20ba4c11136bef98daf33de94014d61b34daccc4c45c6fb70452d8e191b8d3",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_1eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "b8c54a3b03a04a649b8503865f23464734cc01810ab0891e509ca70431566b3b",
+      "input": "data/synthetic/prepared/b_LA_Ce3_030pct_sigma_1eV_poisson_03pct.csv",
+      "prepared_sha256": "0a29aabcc589bf9ed31754d0f5fc076d52a52dc51a75992c3bfa1bbfdf6c1f3b",
+      "Ce3_percent_true_nominal": 30.0,
+      "Ce3_percent_true_window": 29.999999999999986,
+      "sigma_true_eV": 1.0,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 1.1748256708783987e-13,
+      "seed": 2026111638
+    },
+    {
+      "case_id": "b_LA_Ce3_030pct_sigma_1eV_poisson_10pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_1eV_poisson_10pct.csv",
+      "original_sha256": "adadfaedd4491fb196f82534c975121bf4d041c9d467a32d3584ffadf5a21a5e",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_1eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "4b8c63e38ee57cdb71348e47a2b99fd31f1bc942014c80b38ac7e7dcdb97feb5",
+      "input": "data/synthetic/prepared/b_LA_Ce3_030pct_sigma_1eV_poisson_10pct.csv",
+      "prepared_sha256": "c1190e67b68f74d0b04a0bb67f776a212e7ae885d70b642ba32be392f3369963",
+      "Ce3_percent_true_nominal": 30.0,
+      "Ce3_percent_true_window": 29.99999999999998,
+      "sigma_true_eV": 1.0,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 6.94054580062405e-15,
+      "seed": 2026111639
+    },
+    {
+      "case_id": "b_LA_Ce3_030pct_sigma_1p5eV_poisson_03pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_1p5eV_poisson_03pct.csv",
+      "original_sha256": "f69bd50ba297af5cdc6e8385943862e9086cc3e4b294f5b418a8801a6779480e",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_1p5eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "5dac817788fd3332f2662d190bbbc317db82d5e7aa84a45a977eef9f6b0cf105",
+      "input": "data/synthetic/prepared/b_LA_Ce3_030pct_sigma_1p5eV_poisson_03pct.csv",
+      "prepared_sha256": "438f234348ea121ebcfb4ee1aa03910ae8a2a2190588de051830713be974e8d7",
+      "Ce3_percent_true_nominal": 30.0,
+      "Ce3_percent_true_window": 29.999999999999996,
+      "sigma_true_eV": 1.5,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 1.1798613805035034e-13,
+      "seed": 2026111640
+    },
+    {
+      "case_id": "b_LA_Ce3_030pct_sigma_1p5eV_poisson_10pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_1p5eV_poisson_10pct.csv",
+      "original_sha256": "b5519b9026412e9903b23b8a241d61f46523bfafa3952b111ffbddf45684fb6f",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_1p5eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "5b19624a950f5a0de55582678d0cd901458102d735a732936ab39ba30bab869b",
+      "input": "data/synthetic/prepared/b_LA_Ce3_030pct_sigma_1p5eV_poisson_10pct.csv",
+      "prepared_sha256": "3c2b678d8766388c71c1e6ceb96c5d3dce1082488404d612e20182103689ba0e",
+      "Ce3_percent_true_nominal": 30.0,
+      "Ce3_percent_true_window": 30.00000000000001,
+      "sigma_true_eV": 1.5,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 7.771695038219587e-15,
+      "seed": 2026111641
+    },
+    {
+      "case_id": "b_LA_Ce3_060pct_sigma_0p5eV_poisson_03pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_0p5eV_poisson_03pct.csv",
+      "original_sha256": "32a2e5bb16a6e092dddff9e721cfd98be31b8086b140de559b5edb0ddb6c25c7",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_0p5eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "063770fb715848112c20dccb0f7c5e28b8a6f3cd84ffb3cc62d736589535bbc6",
+      "input": "data/synthetic/prepared/b_LA_Ce3_060pct_sigma_0p5eV_poisson_03pct.csv",
+      "prepared_sha256": "88303c257d3446dd4b9a5a1bd5c963e6c63edd1eb4c60e26d5d2a0851275a924",
+      "Ce3_percent_true_nominal": 60.0,
+      "Ce3_percent_true_window": 59.99999999999998,
+      "sigma_true_eV": 0.5,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 1.3318727526357345e-13,
+      "seed": 2026111642
+    },
+    {
+      "case_id": "b_LA_Ce3_060pct_sigma_0p5eV_poisson_10pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_0p5eV_poisson_10pct.csv",
+      "original_sha256": "8bed0ae6b4bbb82587d1989800b4b87ebfe64bf55e27d6179310a010db83cf59",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_0p5eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "df0b01b520f9fa61e9e528944f5694580f3c0a56238e4003d4babc2377f998d2",
+      "input": "data/synthetic/prepared/b_LA_Ce3_060pct_sigma_0p5eV_poisson_10pct.csv",
+      "prepared_sha256": "8a87326668f2430d230ef63b281d8ac0081d182fe73cd33d564c9451e722191b",
+      "Ce3_percent_true_nominal": 60.0,
+      "Ce3_percent_true_window": 60.0,
+      "sigma_true_eV": 0.5,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 6.584379880406668e-15,
+      "seed": 2026111643
+    },
+    {
+      "case_id": "b_LA_Ce3_060pct_sigma_1eV_poisson_03pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_1eV_poisson_03pct.csv",
+      "original_sha256": "3c3b2ccd6f0a21960cde1aadd4bf8e2b790504ea5a861c2615c5d58359248cbc",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_1eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "26b9c44d0e98ee515720f04b736ebd3c1e6599bda36e8974a599f9a50f1f3f66",
+      "input": "data/synthetic/prepared/b_LA_Ce3_060pct_sigma_1eV_poisson_03pct.csv",
+      "prepared_sha256": "cbadb5493e215d1edef0b249c43223db0f4cbe748d41ec4b5ac35297ddd5396c",
+      "Ce3_percent_true_nominal": 60.0,
+      "Ce3_percent_true_window": 59.99999999999995,
+      "sigma_true_eV": 1.0,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 1.3407460869646402e-13,
+      "seed": 2026111644
+    },
+    {
+      "case_id": "b_LA_Ce3_060pct_sigma_1eV_poisson_10pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_1eV_poisson_10pct.csv",
+      "original_sha256": "c9307d26a1f6495cceb4f2f0d0be108b7f1662bc33cec01751eb74f9bf6dd4d3",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_1eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "9a63ae3dc528cb20a2004cb2eaa2141f612e1d7132f3bd7a811cb55687ec1173",
+      "input": "data/synthetic/prepared/b_LA_Ce3_060pct_sigma_1eV_poisson_10pct.csv",
+      "prepared_sha256": "c7c8460cfe2ab62b591635bf588cbf70e80580ea1b8eb80f6dad4d89c1902be0",
+      "Ce3_percent_true_nominal": 60.0,
+      "Ce3_percent_true_window": 59.99999999999998,
+      "sigma_true_eV": 1.0,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 6.832933921783964e-15,
+      "seed": 2026111645
+    },
+    {
+      "case_id": "b_LA_Ce3_060pct_sigma_1p5eV_poisson_03pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_1p5eV_poisson_03pct.csv",
+      "original_sha256": "530d9759a3b6678345c1889bd62e86869e8830e41d8349bc789bcfeb976ea9bf",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_1p5eV_poisson_03pct_truth_curves.csv",
+      "clean_reference_sha256": "6afc07c8d66f391c2a4cc8cf4021a72b307de9f3d535eb7145712f6c1a38a7f3",
+      "input": "data/synthetic/prepared/b_LA_Ce3_060pct_sigma_1p5eV_poisson_03pct.csv",
+      "prepared_sha256": "b9ab6e250943d93f38fac8fd2072a90632ca87997c8b027a1ebc7b770261b557",
+      "Ce3_percent_true_nominal": 60.0,
+      "Ce3_percent_true_window": 60.00000000000002,
+      "sigma_true_eV": 1.5,
+      "noise_percent": 3.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 1.4552501903203218e-13,
+      "seed": 2026111646
+    },
+    {
+      "case_id": "b_LA_Ce3_060pct_sigma_1p5eV_poisson_10pct",
+      "panel": "b",
+      "generation_batch": "cumulative_scattering",
+      "original": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_1p5eV_poisson_10pct.csv",
+      "original_sha256": "8f24c75a3b1bce452aadff1ddf775bed90e08a41264b3a435c97708338fd953f",
+      "clean_reference": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_1p5eV_poisson_10pct_truth_curves.csv",
+      "clean_reference_sha256": "eb7fe473afb649ff718d4a3a546ac2c260e57410a94d2f08188609121f581ab7",
+      "input": "data/synthetic/prepared/b_LA_Ce3_060pct_sigma_1p5eV_poisson_10pct.csv",
+      "prepared_sha256": "cf977077b5c963709bf9aeae616638953b80e5b3510343030129a5816ba0e132",
+      "Ce3_percent_true_nominal": 60.0,
+      "Ce3_percent_true_window": 60.00000000000002,
+      "sigma_true_eV": 1.5,
+      "noise_percent": 10.0,
+      "points": 545,
+      "energy_range_eV": [
+        870.58,
+        924.98
+      ],
+      "background_mode": "provided",
+      "background_origin": "known generating background, fixed identically for both workflows; not rebuilt by Shirley",
+      "preprocessing": {
+        "background_mode": "provided",
+        "background": {
+          "name": "provided background",
+          "method": "input values unchanged",
+          "jointly_fitted": false
+        },
+        "input_range_eV": [
+          870.58,
+          930.58
+        ],
+        "fit_range_eV": [
+          870.58,
+          924.98
+        ],
+        "lower_energy_cut_eV": null,
+        "upper_energy_cut_eV": 925.0,
+        "original_point_count": 601,
+        "fitted_point_count": 545,
+        "points_removed_above_925_eV": 56,
+        "energy_sorted_ascending": true,
+        "intensity_transform": "none"
+      },
+      "background_vs_generation_truth_RMSE": 7.124956741270428e-15,
+      "seed": 2026111647
+    }
+  ]
+}

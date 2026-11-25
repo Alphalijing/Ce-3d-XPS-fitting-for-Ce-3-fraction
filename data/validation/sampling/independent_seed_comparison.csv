@@ -1,0 +1,2 @@
+family,sample,seed1,seed2,steps1,steps2,q025_difference_pp,median_difference_pp,q975_difference_pp,all_quantile_differences_within_point1_pp,both_final_engineering_gates_pass
+LA,0.5,20261112,271828,16000,14000,0.0233181815139413,0.0017954807011584,-0.012538599331382,True,True

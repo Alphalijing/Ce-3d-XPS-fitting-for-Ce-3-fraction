@@ -1,0 +1,429 @@
+{
+  "summary": {
+    "sample": "batch2_11",
+    "group": "batch2",
+    "source": "data/experimental/additional_19/raw/batch2_11.xls",
+    "points": 550,
+    "noise_CPS": 318.28151384927713,
+    "high_points": 98,
+    "high_min": 870.08,
+    "high_max": 879.78,
+    "V2_status": "valley_excess_tolerance_met",
+    "V2_iterations": 13,
+    "sha256": "a2aecbf6011feffb1b742ff283ad4b8599e9b9868e0c4b172ebc5ffd92ee8624",
+    "spectrum_sha256": "4674b8925c025e787724ab4d45d386ab0a63f738548d571528cb63dbfc5da676",
+    "Voigt_Ce3": 13.81512868846897,
+    "Voigt_RMSE": 3100.5217547402904,
+    "Voigt_high_RMSE": 864.9608983452291,
+    "Voigt_fixed880_RMSE": 884.8730321308598,
+    "Voigt_success": true,
+    "Voigt_near_bounds": "dE,g3_1",
+    "LA_Ce3": 12.011620808589793,
+    "LA_RMSE": 3415.2693088902424,
+    "LA_high_RMSE": 643.5235626052526,
+    "LA_fixed880_RMSE": 735.6453610382359,
+    "LA_success": true,
+    "LA_near_bounds": "dE,g3_2,g4_1,g4_3",
+    "high_improvement_percent": 25.60084925961531,
+    "fixed880_improvement_percent": 16.864303202151977
+  },
+  "parameters": {
+    "Voigt": {
+      "dE": -0.9999999999999999,
+      "sigma": 0.7827300500596407,
+      "x": 0.1381512868846897,
+      "A": 4.535961977183316,
+      "g3_1": 1.9999999999999998,
+      "g3_2": 0.37914850137722994,
+      "g4_1": 0.22872688142343256,
+      "g4_2": 0.947466025884565,
+      "g4_3": 0.19334390697665385
+    },
+    "LA": {
+      "dE": -0.9999999999999999,
+      "sigma": 0.8740456486681718,
+      "x": 0.12011620808589793,
+      "A": 4.421494242511161,
+      "g3_1": 0.47964405733621024,
+      "g3_2": 0.10000000000036023,
+      "g4_1": 0.10000000000000002,
+      "g4_2": 0.8322857393252113,
+      "g4_3": 0.10000000000000002
+    }
+  },
+  "optimizations": {
+    "Voigt": [
+      {
+        "success": true,
+        "SSE": 0.20517027153541806
+      },
+      {
+        "success": true,
+        "SSE": 0.20517027152447337
+      },
+      {
+        "success": true,
+        "SSE": 0.205170271517591
+      },
+      {
+        "success": true,
+        "SSE": 0.20517027152777195
+      },
+      {
+        "success": true,
+        "SSE": 0.20517027151713557
+      },
+      {
+        "success": true,
+        "SSE": 0.20517027153768064
+      },
+      {
+        "success": true,
+        "SSE": 0.20517027151744854
+      },
+      {
+        "success": true,
+        "SSE": 0.20517027157317408
+      }
+    ],
+    "LA": [
+      {
+        "success": true,
+        "SSE": 0.24894005326177346
+      },
+      {
+        "success": true,
+        "SSE": 0.24894005326171323
+      },
+      {
+        "success": true,
+        "SSE": 0.24894005326170354
+      },
+      {
+        "success": true,
+        "SSE": 0.24894005326177746
+      },
+      {
+        "success": true,
+        "SSE": 0.24894005326173838
+      },
+      {
+        "success": true,
+        "SSE": 0.24894005326189983
+      },
+      {
+        "success": true,
+        "SSE": 0.24894005326184315
+      },
+      {
+        "success": true,
+        "SSE": 0.2489400532627332
+      }
+    ]
+  },
+  "V2_history": [
+    {
+      "iteration": 0,
+      "errors": [
+        0.011867196655222437,
+        0.00382820465641572
+      ],
+      "heights": [
+        0.5422753237692408,
+        0.7118936529393076
+      ],
+      "success": true
+    },
+    {
+      "iteration": 1,
+      "errors": [
+        0.009138297554484772,
+        0.0035568591045041322
+      ],
+      "heights": [
+        0.5363417254416296,
+        0.7099795506110997
+      ],
+      "success": true
+    },
+    {
+      "iteration": 2,
+      "errors": [
+        0.007198048840330669,
+        0.0031497432094964952
+      ],
+      "heights": [
+        0.5317725766643873,
+        0.7082011210588477
+      ],
+      "success": true
+    },
+    {
+      "iteration": 3,
+      "errors": [
+        0.005764184740159754,
+        0.002718047817369581
+      ],
+      "heights": [
+        0.5281735522442219,
+        0.7066262494540995
+      ],
+      "success": true
+    },
+    {
+      "iteration": 4,
+      "errors": [
+        0.0046704119981165375,
+        0.0023114831503511977
+      ],
+      "heights": [
+        0.525291459874142,
+        0.7052672255454147
+      ],
+      "success": true
+    },
+    {
+      "iteration": 5,
+      "errors": [
+        0.003815955132510466,
+        0.0019495142281476345
+      ],
+      "heights": [
+        0.5229562538750838,
+        0.704111483970239
+      ],
+      "success": true
+    },
+    {
+      "iteration": 6,
+      "errors": [
+        0.003136018405138441,
+        0.0016363035434335815
+      ],
+      "heights": [
+        0.5210482763088286,
+        0.7031367268561652
+      ],
+      "success": true
+    },
+    {
+      "iteration": 7,
+      "errors": [
+        0.0025878929846755807,
+        0.0013696451009112727
+      ],
+      "heights": [
+        0.5194802671062593,
+        0.7023185750844485
+      ],
+      "success": true
+    },
+    {
+      "iteration": 8,
+      "errors": [
+        0.0021418537912663385,
+        0.0011446872359493303
+      ],
+      "heights": [
+        0.5181863206139214,
+        0.7016337525339928
+      ],
+      "success": true
+    },
+    {
+      "iteration": 9,
+      "errors": [
+        0.001776468153529683,
+        0.0009559010347672444
+      ],
+      "heights": [
+        0.5171153937182883,
+        0.7010614089160182
+      ],
+      "success": true
+    },
+    {
+      "iteration": 10,
+      "errors": [
+        0.0012508609110116013,
+        0.0011483199037010117
+      ],
+      "heights": [
+        0.5162271596415234,
+        0.7010614089160182
+      ],
+      "success": true
+    },
+    {
+      "iteration": 11,
+      "errors": [
+        0.001151395828354403,
+        0.0008634078278801546
+      ],
+      "heights": [
+        0.5156017291860177,
+        0.7004872489641677
+      ],
+      "success": true
+    },
+    {
+      "iteration": 12,
+      "errors": [
+        0.0008112408743455127,
+        0.0009887360678965489
+      ],
+      "heights": [
+        0.5150260312718404,
+        0.7004872489641677
+      ],
+      "success": true
+    }
+  ],
+  "V7_info": {
+    "version": "v7_adaptive_piecewise_shirley",
+    "converged_no_crossing": true,
+    "crossing_tolerance": 0.0,
+    "numerical_epsilon": 7.105427357601002e-15,
+    "remaining_crossing_count": 0,
+    "smoothing_window_points": 1,
+    "endpoint_mode": "ends",
+    "crossing_detection_target": "raw spectrum",
+    "raw_crossing_count": 0,
+    "raw_maximum_crossing": 0.0,
+    "maximum_crossing": 0.0,
+    "anchors": [
+      {
+        "energy_eV": 870.08,
+        "intensity": 0.41912340918576474,
+        "original_row_index": 0
+      },
+      {
+        "energy_eV": 870.18,
+        "intensity": 0.41687524527972786,
+        "original_row_index": 1
+      },
+      {
+        "energy_eV": 870.48,
+        "intensity": 0.4151783767621207,
+        "original_row_index": 4
+      },
+      {
+        "energy_eV": 870.68,
+        "intensity": 0.41208364739520714,
+        "original_row_index": 6
+      },
+      {
+        "energy_eV": 871.38,
+        "intensity": 0.4118899153434539,
+        "original_row_index": 13
+      },
+      {
+        "energy_eV": 873.88,
+        "intensity": 0.41267854806859733,
+        "original_row_index": 38
+      },
+      {
+        "energy_eV": 893.58,
+        "intensity": 0.5422753237692408,
+        "original_row_index": 235
+      },
+      {
+        "energy_eV": 911.48,
+        "intensity": 0.7118936529393076,
+        "original_row_index": 414
+      },
+      {
+        "energy_eV": 923.98,
+        "intensity": 0.7521226429786148,
+        "original_row_index": 539
+      },
+      {
+        "energy_eV": 924.88,
+        "intensity": 0.7574175704381085,
+        "original_row_index": 548
+      },
+      {
+        "energy_eV": 924.98,
+        "intensity": 0.7694713170664856,
+        "original_row_index": 549
+      }
+    ],
+    "refinements": [
+      {
+        "iteration": 1,
+        "energy_eV": 871.38,
+        "intensity": 0.4118899153434539,
+        "original_row_index": 13,
+        "crossing_count_before": 190,
+        "maximum_crossing_before": 0.033347579098552904
+      },
+      {
+        "iteration": 2,
+        "energy_eV": 870.68,
+        "intensity": 0.41208364739520714,
+        "original_row_index": 6,
+        "crossing_count_before": 148,
+        "maximum_crossing_before": 0.03273853426096762
+      },
+      {
+        "iteration": 3,
+        "energy_eV": 873.88,
+        "intensity": 0.41267854806859733,
+        "original_row_index": 38,
+        "crossing_count_before": 143,
+        "maximum_crossing_before": 0.03273853426096762
+      },
+      {
+        "iteration": 4,
+        "energy_eV": 870.18,
+        "intensity": 0.41687524527972786,
+        "original_row_index": 1,
+        "crossing_count_before": 139,
+        "maximum_crossing_before": 0.0327006070314414
+      },
+      {
+        "iteration": 5,
+        "energy_eV": 870.48,
+        "intensity": 0.4151783767621207,
+        "original_row_index": 4,
+        "crossing_count_before": 141,
+        "maximum_crossing_before": 0.0327006070314414
+      },
+      {
+        "iteration": 6,
+        "energy_eV": 893.58,
+        "intensity": 0.5422753237692408,
+        "original_row_index": 235,
+        "crossing_count_before": 138,
+        "maximum_crossing_before": 0.0327006070314414
+      },
+      {
+        "iteration": 7,
+        "energy_eV": 911.48,
+        "intensity": 0.7118936529393076,
+        "original_row_index": 414,
+        "crossing_count_before": 90,
+        "maximum_crossing_before": 0.024589241021336417
+      },
+      {
+        "iteration": 8,
+        "energy_eV": 923.98,
+        "intensity": 0.7521226429786148,
+        "original_row_index": 539,
+        "crossing_count_before": 70,
+        "maximum_crossing_before": 0.026467112042278917
+      },
+      {
+        "iteration": 9,
+        "energy_eV": 924.88,
+        "intensity": 0.7574175704381085,
+        "original_row_index": 548,
+        "crossing_count_before": 7,
+        "maximum_crossing_before": 0.01614427128935436
+      }
+    ],
+    "method": "piecewise re-computation, no pointwise clipping",
+    "external_behavior": "constant outside outermost anchors, refined if crossing",
+    "warning": "Non-crossing does not establish physical correctness; noise or broad peak valleys can introduce excessive anchors."
+  }
+}

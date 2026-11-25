@@ -1,0 +1,54 @@
+{
+  "version": "2.0.1",
+  "date": "2026-11-13",
+  "edition": "EN",
+  "tests_passed": 82,
+  "subtests_passed": 73,
+  "source_self_check": "passed",
+  "frozen_self_check": "passed",
+  "export_cases": [
+    "LA without satellites",
+    "LA with satellites",
+    "Voigt without satellites",
+    "Voigt with satellites"
+  ],
+  "actual_exports": [
+    "HTML",
+    "PNG",
+    "SVG",
+    "CSV",
+    "JSON",
+    "NPZ"
+  ],
+  "output_layout": [
+    "Results.html",
+    "figures/",
+    "tables/",
+    "details/"
+  ],
+  "primary_summary": "100 * posterior mean \u00b1 100 * posterior SD; percentage points",
+  "secondary_summary": "Unchanged posterior median and 2.5%/97.5% equal-tail interval",
+  "MCMC_repeated": false,
+  "code_identity": {
+    "scientific_modules_unchanged": {
+      "ce3d_xps_model.py": true,
+      "ce3d_io.py": true,
+      "ce3d_vamas.py": true,
+      "shirley_v7.py": true,
+      "smart_like_shirley_background.py": true
+    },
+    "sampler_and_diagnostics_unchanged": {
+      "initialize": true,
+      "initialize_walkers": true,
+      "freeze_proposal": true,
+      "convergence_diagnostics": true
+    }
+  },
+  "executable_sha256": "fc6dd683fa18f17c2149c144d2f7ccf8455e5e30e8a9e1aa8843c463fae8a34c",
+  "real_example": {
+    "source_run": "0.1_20261112_170133_545669",
+    "mean_percent": 15.372363676385369,
+    "SD_percentage_points": 0.8693381216297109,
+    "saved_samples_reused": true
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "summary": {
+    "sample": "batch2_6",
+    "group": "batch2",
+    "source": "data/experimental/additional_19/raw/batch2_6.xls",
+    "points": 550,
+    "noise_CPS": 502.1635215211224,
+    "high_points": 121,
+    "high_min": 870.08,
+    "high_max": 894.98,
+    "V2_status": "valley_excess_tolerance_met",
+    "V2_iterations": 7,
+    "sha256": "009c4f73481b40f6dd9103d3dfd5be034a5d368e8506b568200c5db0fa7f787d",
+    "spectrum_sha256": "d1500da836b7892259fd6a75714aa242253a8e1f1350098d5335ab005297de4f",
+    "Voigt_Ce3": 13.982415110677312,
+    "Voigt_RMSE": 4155.100065572199,
+    "Voigt_high_RMSE": 1361.7249429939377,
+    "Voigt_fixed880_RMSE": 1132.2878823726178,
+    "Voigt_success": true,
+    "Voigt_near_bounds": "dE",
+    "LA_Ce3": 16.573742350228713,
+    "LA_RMSE": 4670.863238342912,
+    "LA_high_RMSE": 1089.6094166777405,
+    "LA_fixed880_RMSE": 848.57282090865,
+    "LA_success": true,
+    "LA_near_bounds": "dE,g4_1,g4_3",
+    "high_improvement_percent": 19.983149145958524,
+    "fixed880_improvement_percent": 25.05679570370971
+  },
+  "parameters": {
+    "Voigt": {
+      "dE": -0.9999999999999999,
+      "sigma": 0.7448273880339675,
+      "x": 0.13982415110677313,
+      "A": 4.734937928623072,
+      "g3_1": 1.7620969248803255,
+      "g3_2": 0.4913930125994751,
+      "g4_1": 0.3621473381134335,
+      "g4_2": 1.0094919169650651,
+      "g4_3": 0.33744412257361345
+    },
+    "LA": {
+      "dE": -0.9999999999999999,
+      "sigma": 0.9237780572121793,
+      "x": 0.16573742350228712,
+      "A": 4.566905800288479,
+      "g3_1": 0.6286718067961516,
+      "g3_2": 0.5814093686019899,
+      "g4_1": 0.10000000000000002,
+      "g4_2": 0.7681333802099386,
+      "g4_3": 0.10000000000000002
+    }
+  },
+  "optimizations": {
+    "Voigt": [
+      {
+        "success": true,
+        "SSE": 0.2675672929983201
+      },
+      {
+        "success": true,
+        "SSE": 0.26756729303507015
+      },
+      {
+        "success": true,
+        "SSE": 0.2675672930245228
+      },
+      {
+        "success": true,
+        "SSE": 0.2675672929981696
+      },
+      {
+        "success": true,
+        "SSE": 0.267567293005647
+      },
+      {
+        "success": true,
+        "SSE": 0.2675672929976406
+      },
+      {
+        "success": true,
+        "SSE": 0.2675672930065902
+      },
+      {
+        "success": true,
+        "SSE": 0.26756729299947446
+      }
+    ],
+    "LA": [
+      {
+        "success": true,
+        "SSE": 0.33811493408421917
+      },
+      {
+        "success": true,
+        "SSE": 0.3381149351439551
+      },
+      {
+        "success": true,
+        "SSE": 0.33811493535740694
+      },
+      {
+        "success": true,
+        "SSE": 0.3381149340867204
+      },
+      {
+        "success": true,
+        "SSE": 0.3381149353302941
+      },
+      {
+        "success": true,
+        "SSE": 0.3381149350543873
+      },
+      {
+        "success": true,
+        "SSE": 0.33811493527062214
+      },
+      {
+        "success": true,
+        "SSE": 0.3381149355679047
+      }
+    ]
+  },
+  "V2_history": [
+    {
+      "iteration": 0,
+      "errors": [
+        0.015675549042591903,
+        -0.005203165324922303
+      ],
+      "heights": [
+        0.5608355229981156,
+        0.7048232683457671
+      ],
+      "success": true
+    },
+    {
+      "iteration": 1,
+      "errors": [
+        0.009662412040326215,
+        -0.004629922442220343
+      ],
+      "heights": [
+        0.5529977484768196,
+        0.7048232683457671
+      ],
+      "success": true
+    },
+    {
+      "iteration": 2,
+      "errors": [
+        0.00588577742129041,
+        -0.004344162875050794
+      ],
+      "heights": [
+        0.5481665424566565,
+        0.7048232683457671
+      ],
+      "success": true
+    },
+    {
+      "iteration": 3,
+      "errors": [
+        0.0036108511344290495,
+        -0.004166546058422371
+      ],
+      "heights": [
+        0.5452236537460113,
+        0.7048232683457671
+      ],
+      "success": true
+    },
+    {
+      "iteration": 4,
+      "errors": [
+        0.0022230221233853578,
+        -0.004056314947124144
+      ],
+      "heights": [
+        0.5434182281787968,
+        0.7048232683457671
+      ],
+      "success": true
+    },
+    {
+      "iteration": 5,
+      "errors": [
+        0.0013712761709432735,
+        -0.003987945122181961
+      ],
+      "heights": [
+        0.5423067171171041,
+        0.7048232683457671
+      ],
+      "success": true
+    },
+    {
+      "iteration": 6,
+      "errors": [
+        0.0008465691521707397,
+        -0.003945753808906012
+      ],
+      "heights": [
+        0.5416210790316325,
+        0.7048232683457671
+      ],
+      "success": true
+    }
+  ],
+  "V7_info": {
+    "version": "v7_adaptive_piecewise_shirley",
+    "converged_no_crossing": true,
+    "crossing_tolerance": 0.0,
+    "numerical_epsilon": 7.105427357601002e-15,
+    "remaining_crossing_count": 0,
+    "smoothing_window_points": 1,
+    "endpoint_mode": "ends",
+    "crossing_detection_target": "raw spectrum",
+    "raw_crossing_count": 0,
+    "raw_maximum_crossing": 0.0,
+    "maximum_crossing": 0.0,
+    "anchors": [
+      {
+        "energy_eV": 870.08,
+        "intensity": 0.4461581336093638,
+        "original_row_index": 0
+      },
+      {
+        "energy_eV": 870.18,
+        "intensity": 0.44235315975263423,
+        "original_row_index": 1
+      },
+      {
+        "energy_eV": 870.58,
+        "intensity": 0.44111845422937074,
+        "original_row_index": 5
+      },
+      {
+        "energy_eV": 874.98,
+        "intensity": 0.4379993099238262,
+        "original_row_index": 49
+      },
+      {
+        "energy_eV": 892.68,
+        "intensity": 0.5608355229981156,
+        "original_row_index": 226
+      },
+      {
+        "energy_eV": 893.48,
+        "intensity": 0.5610053879024338,
+        "original_row_index": 234
+      },
+      {
+        "energy_eV": 920.58,
+        "intensity": 0.7549804920773947,
+        "original_row_index": 505
+      },
+      {
+        "energy_eV": 921.98,
+        "intensity": 0.7552565225469119,
+        "original_row_index": 519
+      },
+      {
+        "energy_eV": 922.68,
+        "intensity": 0.7552565225469119,
+        "original_row_index": 526
+      },
+      {
+        "energy_eV": 923.98,
+        "intensity": 0.7573957586856703,
+        "original_row_index": 539
+      },
+      {
+        "energy_eV": 924.38,
+        "intensity": 0.7581973087029222,
+        "original_row_index": 543
+      },
+      {
+        "energy_eV": 924.98,
+        "intensity": 0.762475780980439,
+        "original_row_index": 549
+      }
+    ],
+    "refinements": [
+      {
+        "iteration": 1,
+        "energy_eV": 874.98,
+        "intensity": 0.4379993099238262,
+        "original_row_index": 49,
+        "crossing_count_before": 122,
+        "maximum_crossing_before": 0.01884777625123757
+      },
+      {
+        "iteration": 2,
+        "energy_eV": 870.58,
+        "intensity": 0.44111845422937074,
+        "original_row_index": 5,
+        "crossing_count_before": 92,
+        "maximum_crossing_before": 0.017121028716112208
+      },
+      {
+        "iteration": 3,
+        "energy_eV": 870.18,
+        "intensity": 0.44235315975263423,
+        "original_row_index": 1,
+        "crossing_count_before": 77,
+        "maximum_crossing_before": 0.017121028716112208
+      },
+      {
+        "iteration": 4,
+        "energy_eV": 892.68,
+        "intensity": 0.5608355229981156,
+        "original_row_index": 226,
+        "crossing_count_before": 76,
+        "maximum_crossing_before": 0.017121028716112208
+      },
+      {
+        "iteration": 5,
+        "energy_eV": 893.48,
+        "intensity": 0.5610053879024338,
+        "original_row_index": 234,
+        "crossing_count_before": 48,
+        "maximum_crossing_before": 0.008161936295231209
+      },
+      {
+        "iteration": 6,
+        "energy_eV": 920.58,
+        "intensity": 0.7549804920773947,
+        "original_row_index": 505,
+        "crossing_count_before": 47,
+        "maximum_crossing_before": 0.008162012634644555
+      },
+      {
+        "iteration": 7,
+        "energy_eV": 921.98,
+        "intensity": 0.7552565225469119,
+        "original_row_index": 519,
+        "crossing_count_before": 34,
+        "maximum_crossing_before": 0.050711467604609206
+      },
+      {
+        "iteration": 8,
+        "energy_eV": 922.68,
+        "intensity": 0.7552565225469119,
+        "original_row_index": 526,
+        "crossing_count_before": 7,
+        "maximum_crossing_before": 0.003557734580777683
+      },
+      {
+        "iteration": 9,
+        "energy_eV": 923.98,
+        "intensity": 0.7573957586856703,
+        "original_row_index": 539,
+        "crossing_count_before": 4,
+        "maximum_crossing_before": 0.0033424143566350706
+      },
+      {
+        "iteration": 10,
+        "energy_eV": 924.38,
+        "intensity": 0.7581973087029222,
+        "original_row_index": 543,
+        "crossing_count_before": 1,
+        "maximum_crossing_before": 0.002312119886892172
+      }
+    ],
+    "method": "piecewise re-computation, no pointwise clipping",
+    "external_behavior": "constant outside outermost anchors, refined if crossing",
+    "warning": "Non-crossing does not establish physical correctness; noise or broad peak valleys can introduce excessive anchors."
+  }
+}

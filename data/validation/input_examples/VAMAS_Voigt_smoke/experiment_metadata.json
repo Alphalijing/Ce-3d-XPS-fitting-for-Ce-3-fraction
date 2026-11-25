@@ -1,0 +1,1794 @@
+{
+  "schema_version": "2.0",
+  "input_format": "VAMAS",
+  "source": {
+    "path": "GDC10_published.vms",
+    "sha256": "57377a8f817613bbea1705e13b50abb20bb5597b873ac3e74f5dd940a32d2111",
+    "size_bytes": 1470670
+  },
+  "parser": {
+    "package": "vamas",
+    "version": "0.2.0",
+    "text_encoding": "utf-8-sig"
+  },
+  "header": {
+    "format_identifier": "VAMAS Surface Chemical Analysis Standard Data Transfer Format 1988 May 4",
+    "institution_identifier": "Not Specified",
+    "instrument_model_identifier": "VersaProbe III",
+    "operator_identifier": "soniya",
+    "experiment_identifier": "Not Specified",
+    "num_lines_comment": 270,
+    "comment": "Casa Info Follows CasaXPS Version 2.3.23PR1.0\n6\nCe 3d survey\nCe 3d survey\nCe 4d survey\nCe 4d survey\nCe 4p3/2 survey\nCe 4p3/2 survey\nGd 3d survey\nGd 3d survey\nGd 4d survey\nGd 4d survey\nO 1s survey\nO 1s survey\nSOFH\nPlatform: PC\nTechnique: XPS\nTechniqueEx: XPS\nFileType:  SPECTRUM\nFileDesc: GDC10_b.(sample: unk).(1, GDC10_550C).(acq: unk)\nSoftwareVersion: SS 3.3.2.2\nInstrumentModel: VersaProbe III\nAcqFilename: D:\\Experiments\\2023\\2023_07_28_GDC10_Nenning\\GDC10_b_102_1_GDC10_550C_20230728_121103.spe\nFileDate: 2023 7 28\nAcqFileDate: 2023 7 28\nInstitution: cest\nOperator: soniya\nExperimentID: 2023_07_28_GDC10_Nenning\nEnergyReference: none 0.0\nAnalyserWorkFcn: 4.550 eV\nAnalyserRetardGain: 1.001310\nPlatenID: GDC10_b\nPhotoFilename: GDC10_b_101_NAN_Blank_20230728_105334.pho\nSXIFilename:\nSourceAnalyserAngle: 45.0 d\nAnalyserSolidAngle: 0.38 sr\nIntensityRecal: no\nIntensityCalCoeff: 40.604 0.185\nEnergyRecal: no\nScanDeflectionSpan: 80 60\nScanDeflectionOffset: 0 0\nSCAMultiplierVoltage: 1940.0 V\nNarrowAcceptanceAngle: no\nRefreshPersistence: 1\nPeakToNoiseRatioState: no\nDelayBeforeAcquire: 5 seconds\nC60IonGun: None\nBiasBoxMode: 0\nTFCParameters: 1, 1,18,84.32,42.16,20.3,9.965,4.894,2.447,140.6,70.32,33.86,16.62,8.162,4.081,216.2,108.1,52.04,25.55,12.55,6.273,0.9572,1,0.9874,0.9944,0.9775,0.9653,0.8211,0.9103,0.9456,0.9488,0.9677,1,0.7451,0.9486,0.9307,0.9575,0.9864,1\nSemFieldOfView: 0.0000000\nImageSizeXY: 0.0000 0.0000\nIonGunMode: Standby\nSputterIon: Ar+\nSputterCurrent: 0.000 uA\nSputterRate: 0.000 A/min\nSputterEnergy: 0.100 kV\nFloatVolt: 0.0 V\nFloatEnable: no\nGridVolt: 120.0\nCondensorVolt: 71.00\nObjectiveVolt: 68.00\nBendVolt: 1.20\nSputterRaster: 0.00 0.00 mm\nSputterRasterOffset: 0.120 0.090 mm\nTargetSputterTime: 0.0 min\nSputterEmission: 0.00 mA\nDeflectionBias: 70.0 V\nIonGunGasPressure: 0.000 mPa\nNeutIon: Ar+\nNeutCurrent: 0.000 uA\nNeutRate: 0.000 A/min\nNeutEnergy: 0.110 kV\nNeutFloatVolt: -100.0 V\nNeutFloatEnable: yes\nNeutGridVolt: 120.0\nNeutCondensorVolt: 73.59\nNeutObjectiveVolt: 98.78\nNeutBendVolt: 1.14\nNeutRaster: 0.00 0.00 mm\nNeutRasterOffset: 1.000 0.100 mm\nNeutTargetTimedOnTime: 0.0 min\nNeutEmission: 7.00 mA\nNeutDeflectionBias: 70.0 V\nNeutIonGunGasPressure: 0.000 mPa\nXpsScanMode: scanned\nAnalyserMode: FAT\nSurvNumCycles: 1\nSurvTimePerStep: 50.000000\nNoSpectralRegFull: 8\nSpectralRegDefFull: 1 1 Su1s 111 5401 -0.2500 1350.0000 0.0000 1349.0000 1.0000 0.000000 140.00 AREA\nSpectralRegDef2Full: 1 1350.0 1 0 2 1\nSpectralRegBackgroundFull: 1 0.0 675.0 0.0\nSpectralRegHeroFull: 1 675.0 0.0 0.0 0.00\nSpectralRegIRFull: 1 0 0.000 0.000 0.0\nSpectralRegDefFull: 2 0 Sr3d 38 261 -0.0500 141.0000 128.0000 140.0000 129.0000 0.000000 27.00 AREA\nSpectralRegDef2Full: 2 13.0 2 0 6 1\nSpectralRegBackgroundFull: 2 0.0 134.5 0.0\nSpectralRegHeroFull: 2 134.5 0.0 0.0 0.00\nSpectralRegIRFull: 2 0 0.000 0.000 0.0\nSpectralRegDefFull: 3 0 La4d 57 321 -0.0500 113.0000 97.0000 112.0000 98.0000 0.000000 55.00 AREA\nSpectralRegDef2Full: 3 16.0 1 0 4 1\nSpectralRegBackgroundFull: 3 0.0 105.0 0.0\nSpectralRegHeroFull: 3 105.0 0.0 0.0 0.00\nSpectralRegIRFull: 3 0 0.000 0.000 0.0\nSpectralRegDefFull: 4 0 O1s 8 321 -0.0500 541.0000 525.0000 540.0000 526.0000 0.000000 27.00 AREA\nSpectralRegDef2Full: 4 16.0 3 0 6 1\nSpectralRegBackgroundFull: 4 0.0 533.0 0.0\nSpectralRegHeroFull: 4 533.0 0.0 0.0 0.00\nSpectralRegIRFull: 4 0 0.000 0.000 0.0\nSpectralRegDefFull: 5 0 Co3p 27 301 -0.0500 70.0000 55.0000 69.0000 56.0000 0.000000 55.00 AREA\nSpectralRegDef2Full: 5 15.0 2 0 4 1\nSpectralRegBackgroundFull: 5 0.0 62.5 0.0\nSpectralRegHeroFull: 5 62.5 0.0 0.0 0.00\nSpectralRegIRFull: 5 0 0.000 0.000 0.0\nSpectralRegDefFull: 6 0 Co2p 27 601 -0.0500 804.0000 774.0000 803.0000 775.0000 0.000000 55.00 AREA\nSpectralRegDef2Full: 6 30.0 1 0 4 1\nSpectralRegBackgroundFull: 6 0.0 789.0 0.0\nSpectralRegHeroFull: 6 789.0 0.0 0.0 0.00\nSpectralRegIRFull: 6 0 0.000 0.000 0.0\nSpectralRegDefFull: 7 0 S2p 16 201 -0.0500 173.0000 163.0000 172.0000 164.0000 0.000000 55.00 AREA\nSpectralRegDef2Full: 7 10.0 3 0 4 1\nSpectralRegBackgroundFull: 7 0.0 168.0 0.0\nSpectralRegHeroFull: 7 168.0 0.0 0.0 0.00\nSpectralRegIRFull: 7 0 0.000 0.000 0.0\nSpectralRegDefFull: 8 0 WF5V 27 201 -0.0250 1479.0000 1474.0000 1478.0000 1475.0000 0.000000 13.00 AREA\nSpectralRegDef2Full: 8 5.0 2 0 6 1\nSpectralRegBackgroundFull: 8 0.0 1476.5 0.0\nSpectralRegHeroFull: 8 1476.5 0.0 0.0 0.00\nSpectralRegIRFull: 8 0 0.000 0.000 0.0\nNoSpectralReg: 1\nSpectralRegDef: 1 1 Su1s 111 5401 -0.2500 1350.0000 0.0000 1349.0000 1.0000 0.100000 140.00 AREA\nSpectralRegDef2: 1 1350.0 1 0 2 1\nSpectralRegBackground: 1 0.0 675.0 0.0\nSpectralRegHero: 1 675.0 0.0 0.0 0.00\nSpectralRegIR: 1 1 0.000 0.000 0.0\nNoSpatialArea: 1\nSpatialAreaDef: 1 1 1 (1184.7 692.0 16242.5 45.0 -0.1)\nSpatialAreaDesc: 1\nSpatialHRPhotoCor: 1 (0.0 0.0)\nXraySource: Al 1486.6 mono\nXrayAnodePosition: 1\nXrayPower: 49.61 W\nXrayBeamDiameter: 200.0 um\nXRayBeamVoltage: 15000.0 V\nXRayCondenserLensVoltage: 7500.0 V\nXRayObjectiveCoilCurrent: 0.684 A\nXRayBlankingVoltage: 280.0 V\nXRayFilamentCurrent: 1.500 A\nXRayStigmator: -0.1 -0.2\nXRayOffsetInUm: 0 0\nXRayMagFactor: 0.360 0.360\nXRayDelayFactor: 2000 1000\nXRayRotationInDeg: -22.00 V\nXRayHighPower: no\nXRayEmissionControl: yes\nXRayEmissionCurrent: 4.200 mA\nXRayStepDelayReadBeam: 5\nXRayStepsPerDiameter: 1.0\nXRayInterlaceInterval: 1\nXRayMaxFilamentCurrent: 1.600 A\nXRaySetting: 200u50W15KV\nEgunNeutMode: Off\nNeutralizerCurrent: 1.0 uA\nNeutralizerEnergy: 1.00 V\nEgunNeutExtractor: 30.0 V\nEgunNeutXSteering: 0.0\nEgunNeutYSteering: 0.0\nEgunNeutFilament: 0.00 A\nEgunNeutPulseLength: 10.0 msec\nEgunNeutPulseFrequency: 2\nEgunNeutGain: 100\nEgunNeutTimePerStep: 100 msec\nEgunNeutRampRate: 0.45 A/s\nSxiPersistence: 1\nSxiSecPerDisplay: 1.0\nSxiAutoContrast: yes\nSxiAutoContrastLow: 0.30\nSxiAutoContrastHigh: 0.30\nSxiBindingEnergy: 410.0 eV\nSxiPassEnergy: 280 eV\nSxiLens2: -943 V\nSxiLens3: -330 V\nSxiLens4: -357 V\nSxiLens5: -357 V\nSxiRotator: 0.00 A\nSxiLensBias: 0 V\nSxiShutterBias: yes\nSxiShutterBiasVoltage: 140.0 V\nSxiDisplayMode: 1\nDetector Acq Time: 20.0 (min)\nNumber Of Channels: 32\nChannel Info: 1 1 1.362\nChannel Info: 2 1 1.329\nChannel Info: 3 1 1.304\nChannel Info: 4 1 1.286\nChannel Info: 5 1 1.264\nChannel Info: 6 1 1.268\nChannel Info: 7 1 1.239\nChannel Info: 8 1 1.219\nChannel Info: 9 1 1.290\nChannel Info: 10 1 1.219\nChannel Info: 11 1 1.194\nChannel Info: 12 1 1.209\nChannel Info: 13 1 1.150\nChannel Info: 14 1 1.152\nChannel Info: 15 1 1.091\nChannel Info: 16 1 1.097\nChannel Info: 17 1 1.080\nChannel Info: 18 1 1.076\nChannel Info: 19 1 0.977\nChannel Info: 20 1 0.933\nChannel Info: 21 1 0.886\nChannel Info: 22 1 0.865\nChannel Info: 23 1 0.803\nChannel Info: 24 1 0.832\nChannel Info: 25 1 0.775\nChannel Info: 26 1 0.778\nChannel Info: 27 1 0.715\nChannel Info: 28 1 0.789\nChannel Info: 29 1 0.746\nChannel Info: 30 1 0.796\nChannel Info: 31 1 0.804\nChannel Info: 32 1 0.855\nStagePosition: 1.7784 -1.1303 16.2425 45.0062 -0.0500\nStageCurrentRotationSpeed: 1.0000\nDefectPosID: 1\nDefectPosComment:\nDefectPosU: 1.1840\nDefectPosV: -0.6929\nDefectPosX: 1.7784\nDefectPosY: -1.1303\nDefectPosZ: 16.2425\nDefectPosTilt: 45.0063\nDefectPosRotation: -0.0500\nDefectPosAligment: None\nDefectPosReferenceImage: GDC10_b_101_NAN_Blank_20230728_105334.pho\nGCIBSputterRate: 0.0 A/min\nGCIBBeam: 0.000 kV\nGCIBIonization: 100.0 V\nGCIBExtractor: 0.00 kV\nGCIBRasterSize: 10.0 10.0 mm\nGCIBRasterOffset: 0.0 0.0 mm\nGCIBWien: 0.00 V\nGCIBBend: 0.00 V\nGCIBEmission: 0.00 mA\nGCIBMagnet: 0.0 A\nGCIBObjective: 0.00 Percent\nGCIBFocus: 0.00 Percent\nGCIBGasPressure: 101.33 kPa\nGCIBClusterSize: 2000 atom\nGCIBEnergyPerAtom: 0.00 eV/atom\nDeconvolution: no\nDeconvolutionPassEnergy: 6.50 eV\nAutoEGunNeut: no\nAutoIonNeut: no\nPresputter: no\nEOFH\nCasaRowLabel:GDC10 CE conditioning 550C\nCasaRowLabel:0 mV 1\nCasaRowLabel:+800 mV\nCasaRowLabel:+200 mV\nCasaRowLabel:+100 mV\nCasaRowLabel:0 mV\nCasaRowLabel:-100 mV\nCasaRowLabel:-200 mV\nCasaRowLabel:-300 mV\nCasaRowLabel:-400 mV\nCasaRowLabel:-500 mV\nCasaRowLabel:0 mV 2\nCasaRowLabel:-700 mV",
+    "experiment_mode": "NORM",
+    "scan_mode": "REGULAR",
+    "num_experiment_variables": 2,
+    "num_entries_inclusion_exclusion": 0,
+    "block_params_includes": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "num_manually_entered_items_in_block": 0,
+    "num_future_upgrade_experiment_entries": 0,
+    "num_future_upgrade_block_entries": 0,
+    "num_blocks": 61,
+    "num_spectral_regions": 7,
+    "num_analysis_positions": null,
+    "num_discrete_x_coords_in_full_map": null,
+    "num_discrete_y_coords_in_full_map": null,
+    "experiment_variables": [
+      {
+        "label": "Data Set",
+        "unit": "d"
+      },
+      {
+        "label": "Original Index",
+        "unit": "d"
+      }
+    ],
+    "future_upgrade_experiment_entries": []
+  },
+  "block_inventory": [
+    {
+      "index": 0,
+      "label": "Su1s 1 Su1s",
+      "sample_identifier": "GDC10 CE conditioning 550C",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 136.6,
+      "step": 0.25,
+      "end": 1486.6,
+      "point_count": 5401,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "label": "O 1s 1 O 1s",
+      "sample_identifier": "GDC10 CE conditioning 550C",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 945.6,
+      "step": 0.05,
+      "end": 961.6,
+      "point_count": 321,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "label": "Ce 3d 2 Ce 3d",
+      "sample_identifier": "GDC10 CE conditioning 550C",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 562.6,
+      "step": 0.05,
+      "end": 612.6,
+      "point_count": 1001,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "label": "Gd 3d 3 Gd 3d",
+      "sample_identifier": "GDC10 CE conditioning 550C",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 256.6,
+      "step": 0.05,
+      "end": 316.6,
+      "point_count": 1201,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "label": "Ce 4d 4 Ce 4d",
+      "sample_identifier": "GDC10 CE conditioning 550C",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1355.6,
+      "step": 0.05,
+      "end": 1385.6,
+      "point_count": 601,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "label": "Gd 4d 5 Gd 4d",
+      "sample_identifier": "GDC10 CE conditioning 550C",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1319.6,
+      "step": 0.05,
+      "end": 1354.6,
+      "point_count": 701,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "label": "VB_edge 6 VB edge",
+      "sample_identifier": "GDC10 CE conditioning 550C",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1478.6,
+      "step": 0.05,
+      "end": 1488.6,
+      "point_count": 201,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "label": "O 1s 1 O 1s",
+      "sample_identifier": "0 mV 1",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 945.6,
+      "step": 0.05,
+      "end": 961.6,
+      "point_count": 321,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "label": "VB_edge 2 VB edge",
+      "sample_identifier": "0 mV 1",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1478.6,
+      "step": 0.05,
+      "end": 1488.6,
+      "point_count": 201,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "label": "O 1s 2 O 1s",
+      "sample_identifier": "+800 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 945.6,
+      "step": 0.05,
+      "end": 961.6,
+      "point_count": 321,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "label": "VB_edge 5 VB edge",
+      "sample_identifier": "+800 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1478.6,
+      "step": 0.05,
+      "end": 1488.6,
+      "point_count": 201,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "label": "Su1s 1 Su1s",
+      "sample_identifier": "+800 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 136.6,
+      "step": 0.25,
+      "end": 1486.6,
+      "point_count": 5401,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "label": "Ce 3d 3 Ce 3d",
+      "sample_identifier": "+800 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 562.6,
+      "step": 0.05,
+      "end": 612.6,
+      "point_count": 1001,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "label": "Ce 4d 4 Ce 4d",
+      "sample_identifier": "+800 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1355.6,
+      "step": 0.05,
+      "end": 1385.6,
+      "point_count": 601,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "label": "O 1s 2 O 1s",
+      "sample_identifier": "+200 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 945.6,
+      "step": 0.05,
+      "end": 961.6,
+      "point_count": 321,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "label": "VB_edge 5 VB edge",
+      "sample_identifier": "+200 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1478.6,
+      "step": 0.05,
+      "end": 1488.6,
+      "point_count": 201,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "label": "Su1s 1 Su1s",
+      "sample_identifier": "+200 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 136.6,
+      "step": 0.25,
+      "end": 1486.6,
+      "point_count": 5401,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "label": "Ce 3d 3 Ce 3d",
+      "sample_identifier": "+200 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 562.6,
+      "step": 0.05,
+      "end": 612.6,
+      "point_count": 1001,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "label": "Ce 4d 4 Ce 4d",
+      "sample_identifier": "+200 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1355.6,
+      "step": 0.05,
+      "end": 1385.6,
+      "point_count": 601,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "label": "O 1s 2 O 1s",
+      "sample_identifier": "+100 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 945.6,
+      "step": 0.05,
+      "end": 961.6,
+      "point_count": 321,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "label": "VB_edge 5 VB edge",
+      "sample_identifier": "+100 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1478.6,
+      "step": 0.05,
+      "end": 1488.6,
+      "point_count": 201,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "label": "Su1s 1 Su1s",
+      "sample_identifier": "+100 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 136.6,
+      "step": 0.25,
+      "end": 1486.6,
+      "point_count": 5401,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "label": "Ce 3d 3 Ce 3d",
+      "sample_identifier": "+100 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 562.6,
+      "step": 0.05,
+      "end": 612.6,
+      "point_count": 1001,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "label": "Ce 4d 4 Ce 4d",
+      "sample_identifier": "+100 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1355.6,
+      "step": 0.05,
+      "end": 1385.6,
+      "point_count": 601,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "label": "O 1s 2 O 1s",
+      "sample_identifier": "0 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 945.6,
+      "step": 0.05,
+      "end": 961.6,
+      "point_count": 321,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "label": "VB_edge 5 VB edge",
+      "sample_identifier": "0 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1478.6,
+      "step": 0.05,
+      "end": 1488.6,
+      "point_count": 201,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "label": "Su1s 1 Su1s",
+      "sample_identifier": "0 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 136.6,
+      "step": 0.25,
+      "end": 1486.6,
+      "point_count": 5401,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "label": "Ce 3d 3 Ce 3d",
+      "sample_identifier": "0 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 562.6,
+      "step": 0.05,
+      "end": 612.6,
+      "point_count": 1001,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "label": "Ce 4d 4 Ce 4d",
+      "sample_identifier": "0 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1355.6,
+      "step": 0.05,
+      "end": 1385.6,
+      "point_count": 601,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "label": "O 1s 2 O 1s",
+      "sample_identifier": "-100 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 945.6,
+      "step": 0.05,
+      "end": 961.6,
+      "point_count": 321,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "label": "VB_edge 5 VB edge",
+      "sample_identifier": "-100 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1478.6,
+      "step": 0.05,
+      "end": 1488.6,
+      "point_count": 201,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "label": "Su1s 1 Su1s",
+      "sample_identifier": "-100 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 136.6,
+      "step": 0.25,
+      "end": 1486.6,
+      "point_count": 5401,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "label": "Ce 3d 3 Ce 3d",
+      "sample_identifier": "-100 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 562.6,
+      "step": 0.05,
+      "end": 612.6,
+      "point_count": 1001,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "label": "Ce 4d 4 Ce 4d",
+      "sample_identifier": "-100 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1355.6,
+      "step": 0.05,
+      "end": 1385.6,
+      "point_count": 601,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "label": "O 1s O 1s",
+      "sample_identifier": "-200 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 945.6,
+      "step": 0.05,
+      "end": 961.6,
+      "point_count": 321,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "label": "VB_edge 5 VB edge",
+      "sample_identifier": "-200 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1478.6,
+      "step": 0.05,
+      "end": 1488.6,
+      "point_count": 201,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "label": "Su1s 1 Su1s",
+      "sample_identifier": "-200 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 136.6,
+      "step": 0.25,
+      "end": 1486.6,
+      "point_count": 5401,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "label": "Ce 3d 3 Ce 3d",
+      "sample_identifier": "-200 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 562.6,
+      "step": 0.05,
+      "end": 612.6,
+      "point_count": 1001,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "label": "Ce 4d 4 Ce 4d",
+      "sample_identifier": "-200 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1355.6,
+      "step": 0.05,
+      "end": 1385.6,
+      "point_count": 601,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "label": "VB_edge 5 VB edge",
+      "sample_identifier": "-300 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1478.6,
+      "step": 0.05,
+      "end": 1488.6,
+      "point_count": 201,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "label": "Su1s 1 Su1s",
+      "sample_identifier": "-300 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 136.6,
+      "step": 0.25,
+      "end": 1486.6,
+      "point_count": 5401,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "label": "Ce 3d 3 Ce 3d",
+      "sample_identifier": "-300 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 562.6,
+      "step": 0.05,
+      "end": 612.6,
+      "point_count": 1001,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "label": "Ce 4d 4 Ce 4d",
+      "sample_identifier": "-300 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1355.6,
+      "step": 0.05,
+      "end": 1385.6,
+      "point_count": 601,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "label": "O 1s 2 O 1s",
+      "sample_identifier": "-300 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 945.6,
+      "step": 0.05,
+      "end": 961.6,
+      "point_count": 321,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "label": "VB_edge 5 VB edge",
+      "sample_identifier": "-400 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1478.6,
+      "step": 0.05,
+      "end": 1488.6,
+      "point_count": 201,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "label": "Su1s 1 Su1s",
+      "sample_identifier": "-400 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 136.6,
+      "step": 0.25,
+      "end": 1486.6,
+      "point_count": 5401,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "label": "Ce 3d 3 Ce 3d",
+      "sample_identifier": "-400 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 562.6,
+      "step": 0.05,
+      "end": 612.6,
+      "point_count": 1001,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "label": "Ce 4d 4 Ce 4d",
+      "sample_identifier": "-400 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1355.6,
+      "step": 0.05,
+      "end": 1385.6,
+      "point_count": 601,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "label": "O 1s 2 O 1s",
+      "sample_identifier": "-400 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 945.6,
+      "step": 0.05,
+      "end": 961.6,
+      "point_count": 321,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "label": "VB_edge 5 VB edge",
+      "sample_identifier": "-500 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1478.6,
+      "step": 0.05,
+      "end": 1488.6,
+      "point_count": 201,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "label": "Su1s 1 Su1s",
+      "sample_identifier": "-500 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 136.6,
+      "step": 0.25,
+      "end": 1486.6,
+      "point_count": 5401,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "label": "Ce 3d Ce 3d",
+      "sample_identifier": "-500 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 562.6,
+      "step": 0.05,
+      "end": 612.6,
+      "point_count": 1001,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "label": "Ce 4d 4 Ce 4d",
+      "sample_identifier": "-500 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1355.6,
+      "step": 0.05,
+      "end": 1385.6,
+      "point_count": 601,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "label": "O 1s 2 O 1s",
+      "sample_identifier": "-500 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 945.6,
+      "step": 0.05,
+      "end": 961.6,
+      "point_count": 321,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "label": "VB_edge 5 VB edge",
+      "sample_identifier": "0 mV 2",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1478.6,
+      "step": 0.05,
+      "end": 1488.6,
+      "point_count": 201,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "label": "Su1s 1 Su1s",
+      "sample_identifier": "0 mV 2",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 136.6,
+      "step": 0.25,
+      "end": 1486.6,
+      "point_count": 5401,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "label": "Ce 4d 4 Ce 4d",
+      "sample_identifier": "0 mV 2",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1355.6,
+      "step": 0.05,
+      "end": 1385.6,
+      "point_count": 601,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "label": "O 1s 1 O 1s",
+      "sample_identifier": "-700 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 945.6,
+      "step": 0.05,
+      "end": 961.6,
+      "point_count": 321,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "label": "VB_edge 4 VB edge",
+      "sample_identifier": "-700 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1478.6,
+      "step": 0.05,
+      "end": 1488.6,
+      "point_count": 201,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "label": "Ce 4d 3 Ce 4d",
+      "sample_identifier": "-700 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 1355.6,
+      "step": 0.05,
+      "end": 1385.6,
+      "point_count": 601,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "label": "Ce 3d 2 Ce 3d",
+      "sample_identifier": "-700 mV",
+      "technique": "XPS",
+      "axis": "Kinetic Energy",
+      "units": "eV",
+      "start": 562.6,
+      "step": 0.05,
+      "end": 612.6,
+      "point_count": 1001,
+      "ordinates": [
+        {
+          "index": 0,
+          "label": "Intensity",
+          "unit": "d"
+        },
+        {
+          "index": 1,
+          "label": "Transmission",
+          "unit": "d"
+        }
+      ]
+    }
+  ],
+  "ce3d_candidate_indices": [
+    2,
+    12,
+    17,
+    22,
+    27,
+    32,
+    37,
+    41,
+    46,
+    51,
+    60
+  ],
+  "selected_block_index": 12,
+  "selected_ordinate_index": 0,
+  "acquisition": {
+    "block_identifier": "Ce 3d 3",
+    "sample_identifier": "+800 mV",
+    "year": 2023,
+    "month": 7,
+    "day": 28,
+    "hour": 0,
+    "minute": 0,
+    "second": 0,
+    "num_hours_advance_gmt": 0.0,
+    "num_lines_block_comment": 28,
+    "block_comment": "Casa Info Follows\n0\n0\n2\nCASA region (*Ce 3d*) (*Tougaard*) 574.75515 610.37383 53.9 6 0 0 1135.0842 -450 0 0 (*Ce 3d*) 140.115 0 51.62\nCASA region (*Ce 3d*) (*Linear*) 565.60985 574.6394 53.9 6 0 1 1135.0842 -450 0 0 (*Ce 3d*) 140.115 0 51.62\n14\nCASA comp (*Ce3d 4+*) (*LA(1.53,243)*) Area 72105.71 10 1000000 -1 1 MFWHM 2.0303184 1 4 -1 1.1262278 Position 589.06725 586.6 596.6 -1 -16.069394 RSF 53.9 MASS 140.115 INDEX -1 (*Ce 3d*) CONST (**) UNCORRECTEDRSF 51.62\nCASA comp (*Ce3d 4+*) (*GL(40)*) Area 50129.476 10 100000 0 0.695222 MFWHM 2.144402 1 3 0 1.05619 Position 570.65995 0 0 0 -18.4073 RSF 53.9 MASS 140.115 INDEX -1 (*Ce 3d*) CONST (**) UNCORRECTEDRSF 51.62\nCASA comp (*Ce3d 4+*) (*LA(4,8,10)*) Area 69837.336 0 749627.5 0 0.968541 MFWHM 1.6374072 1.5 1.85 0 0.806478 Position 605.19175 0 0 0 16.1245 RSF 53.9 MASS 140.115 INDEX -1 (*Ce 3d*) CONST (**) UNCORRECTEDRSF 51.62\nCASA comp (*Ce3d 4+*) (*LA(5,10,10)*) Area 49019.264 10 100000 0 0.679825 MFWHM 1.5273883 1 2 0 0.75229 Position 586.67226 0 0 0 -2.39499 RSF 53.9 MASS 140.115 INDEX -1 (*Ce 3d*) CONST (**) UNCORRECTEDRSF 51.62\nCASA comp (*Ce3d 4+*) (*LA(6,10,10)*) Area 53175.437 10 100000 0 0.737465 MFWHM 4.3770417 1 6 0 2.15584 Position 580.24846 0 0 0 -8.81879 RSF 53.9 MASS 140.115 INDEX -1 (*Ce 3d*) CONST (**) UNCORRECTEDRSF 51.62\nCASA comp (*Ce3d 4+*) (*GL(0)*) Area 78743.761 10 1000000 0 1.09206 MFWHM 14.780799 8 15 0 7.28004 Position 593.21246 0 0 0 4.14521 RSF 53.9 MASS 140.115 INDEX -1 (*Ce 3d*) CONST (**) UNCORRECTEDRSF 51.62\nCASA comp (*Ce3d 4+*) (*LA(1.53,243)*) Area 68467.976 1e-020 749627.5 0 0.94955 MFWHM 4.1606504 0.93627136 23.406784 0 2.04926 Position 598.60326 0 0 0 9.53601 RSF 53.9 MASS 140.115 INDEX -1 (*Ce 3d*) CONST (**) UNCORRECTEDRSF 51.62\nCASA comp (*Ce3d 4+*) (*LA(4,10,10)*) Area 22764.854 1e-020 749627.5 0 0.315715 MFWHM 2.0752291 0.84894354 21.223588 0 1.02212 Position 603.04405 0 0 0 13.9768 RSF 53.9 MASS 140.115 INDEX -1 (*Ce 3d*) CONST (**) UNCORRECTEDRSF 51.62\nCASA comp (*Ce3d 4+*) (*LA(1.53,243)*) Area 15176.666 1e-020 749627.5 0 0.210478 MFWHM 2.0749855 0.84894354 21.223588 0 1.022 Position 584.41766 0 0 0 -4.64959 RSF 53.9 MASS 140.115 INDEX -1 (*Ce 3d*) CONST (**) UNCORRECTEDRSF 51.62\nCASA comp (*Ce3d 3+*) (*LA(8,10,10)*) Area 1466.0746 1e-020 893550 -1 1 MFWHM 2.6851948 2.6 2.8 -1 1 Position 607.45625 604.6 607.6 -1 1 RSF 53.9 MASS 140.115 INDEX -1 (*Ce 3d*) CONST (**) UNCORRECTEDRSF 51.62\nCASA comp (*Ce3d 3+*) (*LA(8,10,10)*) Area 977.38307 1e-020 893550 9 0.66666667 MFWHM 2.6851948 0.2 5 9 1 Position 588.91215 0 0 9 -18.5441 RSF 53.9 MASS 140.115 INDEX -1 (*Ce 3d*) CONST (**) UNCORRECTEDRSF 51.62\nCASA comp (*Ce3d 3+*) (*GL(0)*) Area 2493.2651 1e-020 893550 9 1.70064 MFWHM 4.00333 0.2 5 9 1.49089 Position 602.73589 0 0 9 -4.72036 RSF 53.9 MASS 140.115 INDEX -1 (*Ce 3d*) CONST (**) UNCORRECTEDRSF 51.62\nCASA comp (*Ce3d 3+*) (*LA(8,10,10)*) Area 1567.2689 100 1000000 9 1.069024 MFWHM 4.00333 0.2 5 9 1.49089 Position 584.28509 0 0 9 -23.17116 RSF 53.9 MASS 140.115 INDEX -1 (*Ce 3d*) CONST (**) UNCORRECTEDRSF 51.62\nCASA comp (*Ce3d 3+*) (*LA(1.53,243)*) Area 334.81039 1e-020 893550 9 0.228372 MFWHM 5.8426347 0.70523427 17.630857 9 2.17587 Position 594.13785 0 0 9 -13.3184 RSF 53.9 MASS 140.115 INDEX -1 (*Ce 3d*) CONST (**) UNCORRECTEDRSF 51.62\nGDC10_b_106_4_GDC10_voltage_sweep_20230728_150909.vms Dir:F:\\Experiments Gretel\\2023\\2023_07_28_GDC10_Nenning\\\nGDC10_b.(sample: unk).(4, GDC10_voltage_sweep).(acq: unk)\n( 0.017784 m , -0.011303 m , 0.162404 m ) Angle: 45.0062 degrees , -0.05 degrees\nGDC10_b\n1\n4\nCasaXP3",
+    "technique": "XPS",
+    "values_exp_var": [
+      "1\n",
+      "0\n"
+    ],
+    "analysis_source_label": "Al",
+    "analysis_source_characteristic_energy": 1486.6,
+    "analysis_source_strength": 49.61,
+    "analysis_source_beam_width_x": 200.0,
+    "analysis_source_beam_width_y": 200.0,
+    "analysis_source_polar_incidence_angle": null,
+    "analysis_source_azimuth": null,
+    "analyzer_mode": "FAT",
+    "analyzer_pass_energy_or_retard_ratio_or_mass_res": 27.0,
+    "magnification_analyzer_transfer_lens": null,
+    "analyzer_work_function_or_acceptance_energy": 4.55,
+    "target_bias": null,
+    "analysis_width_x": null,
+    "analysis_width_y": null,
+    "analyzer_axis_take_off_polar_angle": null,
+    "analyzer_axis_take_off_azimuth": null,
+    "species_label": "Ce",
+    "transition_or_charge_state_label": "3d",
+    "charge_detected_particle": -1,
+    "x_label": "Kinetic Energy",
+    "x_units": "eV",
+    "x_start": 562.6,
+    "x_step": 0.05,
+    "num_corresponding_variables": 2,
+    "signal_mode": "pulse counting",
+    "signal_collection_time": 0.3,
+    "num_scans_to_compile_block": 1,
+    "signal_time_correction": null,
+    "sample_normal_polar_angle_tilt": null,
+    "sample_normal_tilt_azimuth": null,
+    "sample_rotation_angle": null,
+    "num_additional_numerical_params": 4,
+    "additional_numerical_params": [
+      {
+        "label": "PHI_AtomicNumber",
+        "unit": "d",
+        "value": 58.0
+      },
+      {
+        "label": "ESCAPE DEPTH TYPE",
+        "unit": "d",
+        "value": 1.0
+      },
+      {
+        "label": "MFP Exponent",
+        "unit": "d",
+        "value": -0.7
+      },
+      {
+        "label": "PROPAGATION_CONVERGED",
+        "unit": "d",
+        "value": 1.0
+      }
+    ],
+    "num_y_values": 2002,
+    "x_coord": null,
+    "y_coord": null,
+    "sputtering_z": null,
+    "sputtering_num_particles": null,
+    "sputtering_charge": null,
+    "field_view_x": null,
+    "field_view_y": null,
+    "linescan_coordinates": null,
+    "differential_width": null,
+    "sputtering_source": null
+  },
+  "experiment_conditions": {
+    "photon_energy_eV": 1486.6,
+    "analyzer_mode": "FAT",
+    "pass_energy_or_retard_ratio_or_mass_resolution": 27.0,
+    "pass_energy_eV": 27.0,
+    "energy_step_eV": 0.05,
+    "dwell_time_s": 0.3,
+    "scan_count": 1,
+    "total_acquisition_time_s": null,
+    "intensity_label": "Intensity",
+    "intensity_unit": "d",
+    "energy_unit": "eV",
+    "transmission_correction_applied": null,
+    "charge_reference": null
+  },
+  "energy_transform": {
+    "formula": "BE = explicit offset - stored kinetic energy",
+    "kinetic_offset_eV": 1486.6
+  },
+  "intensity_transform": "none",
+  "warnings": [
+    "Transmission correction and charge referencing are not inferred from VAMAS presence.",
+    "Missing fields and VAMAS 1e37 sentinel values are represented as null."
+  ],
+  "preprocessing": {
+    "background_mode": "fixed_shirley",
+    "background": {
+      "name": "fixed Shirley background",
+      "jointly_fitted": false,
+      "version": "v7_adaptive_piecewise_shirley",
+      "converged_no_crossing": true,
+      "crossing_tolerance": 0.0,
+      "numerical_epsilon": 1.4553336313838372e-10,
+      "remaining_crossing_count": 0,
+      "smoothing_window_points": 1,
+      "endpoint_mode": "ends",
+      "crossing_detection_target": "raw spectrum",
+      "raw_crossing_count": 0,
+      "raw_maximum_crossing": 0.0,
+      "maximum_crossing": 0.0,
+      "anchors": [
+        {
+          "energy_eV": 873.9999999999999,
+          "intensity": 7126.0,
+          "original_row_index": 0
+        },
+        {
+          "energy_eV": 874.0499999999998,
+          "intensity": 7101.0,
+          "original_row_index": 1
+        },
+        {
+          "energy_eV": 875.0999999999999,
+          "intensity": 7071.0,
+          "original_row_index": 22
+        },
+        {
+          "energy_eV": 922.2499999999999,
+          "intensity": 12845.0,
+          "original_row_index": 965
+        },
+        {
+          "energy_eV": 923.0499999999998,
+          "intensity": 12852.0,
+          "original_row_index": 981
+        },
+        {
+          "energy_eV": 923.7999999999998,
+          "intensity": 12884.0,
+          "original_row_index": 996
+        },
+        {
+          "energy_eV": 923.9999999999999,
+          "intensity": 13141.0,
+          "original_row_index": 1000
+        }
+      ],
+      "refinements": [
+        {
+          "iteration": 1,
+          "energy_eV": 875.0999999999999,
+          "intensity": 7071.0,
+          "original_row_index": 22,
+          "crossing_count_before": 55,
+          "maximum_crossing_before": 299.17011620068297
+        },
+        {
+          "iteration": 2,
+          "energy_eV": 874.0499999999998,
+          "intensity": 7101.0,
+          "original_row_index": 1,
+          "crossing_count_before": 43,
+          "maximum_crossing_before": 299.1797041134196
+        },
+        {
+          "iteration": 3,
+          "energy_eV": 922.2499999999999,
+          "intensity": 12845.0,
+          "original_row_index": 965,
+          "crossing_count_before": 40,
+          "maximum_crossing_before": 299.1797041134196
+        },
+        {
+          "iteration": 4,
+          "energy_eV": 923.0499999999998,
+          "intensity": 12852.0,
+          "original_row_index": 981,
+          "crossing_count_before": 24,
+          "maximum_crossing_before": 1006.0504953140153
+        },
+        {
+          "iteration": 5,
+          "energy_eV": 923.7999999999998,
+          "intensity": 12884.0,
+          "original_row_index": 996,
+          "crossing_count_before": 5,
+          "maximum_crossing_before": 240.42813572050727
+        }
+      ],
+      "method": "piecewise re-computation, no pointwise clipping",
+      "external_behavior": "constant outside outermost anchors, refined if crossing",
+      "warning": "Non-crossing does not establish physical correctness; noise or broad peak valleys can introduce excessive anchors."
+    },
+    "input_range_eV": [
+      873.9999999999999,
+      923.9999999999999
+    ],
+    "fit_range_eV": [
+      873.9999999999999,
+      923.9999999999999
+    ],
+    "lower_energy_cut_eV": null,
+    "upper_energy_cut_eV": 925.0,
+    "original_point_count": 1001,
+    "fitted_point_count": 1001,
+    "points_removed_above_925_eV": 0,
+    "energy_sorted_ascending": true,
+    "intensity_transform": "none"
+  },
+  "notes": [
+    "Computed fixed Shirley background (V7; endpoint_mode=ends; smoothing_window=1)."
+  ]
+}

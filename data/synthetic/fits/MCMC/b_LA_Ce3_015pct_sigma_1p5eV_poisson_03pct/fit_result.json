@@ -1,0 +1,206 @@
+{
+  "software": "Ce 3d XPS Fitter",
+  "version": "2.0.1",
+  "status": "quick_complete",
+  "configuration": {
+    "version": "2.0.1",
+    "source": "data/synthetic/prepared/b_LA_Ce3_015pct_sigma_1p5eV_poisson_03pct.csv",
+    "model": "LA",
+    "satellites": false,
+    "mode": "quick",
+    "walkers": 80,
+    "steps": 8000,
+    "burn": 4000,
+    "pilot_steps": 2000,
+    "checkpoint_every": 2000,
+    "seed": 2026111634,
+    "background": "provided",
+    "satellite_gamma_HWHM_eV": 0.8,
+    "max_steps": null,
+    "proposal_moves": {
+      "DEMove": 0.5,
+      "DESnookerMove": 0.2,
+      "frozen_independence_MH": 0.3
+    },
+    "LA_alpha": 0.9,
+    "LA_beta": 2.0
+  },
+  "total_steps": 8000,
+  "burn": 4000,
+  "elapsed_seconds": 1019.4246594905853,
+  "experiment_metadata_file": "experiment_metadata.json",
+  "convergence": {
+    "evaluated": true,
+    "passed": false,
+    "steps": 8000,
+    "retained_steps": 4000,
+    "tau_parameters": [
+      30.3631356923957,
+      31.915301540991003,
+      30.76186403166927,
+      28.400094607867942,
+      32.830841469744904,
+      34.00072477437973,
+      31.550211409253514,
+      31.598141145039904,
+      32.090972897859054,
+      33.67567807297522,
+      40.19294565770446
+    ],
+    "tau_log_posterior": 44.41776369253137,
+    "all_tau": [
+      30.3631356923957,
+      31.915301540991003,
+      30.76186403166927,
+      28.400094607867942,
+      32.830841469744904,
+      34.00072477437973,
+      31.550211409253514,
+      31.598141145039904,
+      32.090972897859054,
+      33.67567807297522,
+      40.19294565770446,
+      44.41776369253137
+    ],
+    "max_tau": 44.41776369253137,
+    "retained_over_max_tau": 90.05406097634267,
+    "tau_changes_max_relative": [
+      0.15652315330168798
+    ],
+    "Ce3_windows": [
+      {
+        "start": 4000,
+        "end": 6000,
+        "Ce3_quantiles_percent": [
+          13.195497129754683,
+          14.41510155093259,
+          15.778070561058863
+        ]
+      },
+      {
+        "start": 6000,
+        "end": 8000,
+        "Ce3_quantiles_percent": [
+          13.205764170151818,
+          14.396790312493327,
+          15.756072551772233
+        ]
+      }
+    ],
+    "window_quantile_ranges_pp": null,
+    "checks": {
+      "positive_finite_tau": true,
+      "retained_length_at_least_100_max_tau": false,
+      "three_checks_all_tau_change_below_5_percent": false,
+      "three_window_quantile_range_below_0p1_pp": false,
+      "minimum_total_steps_10000": false
+    },
+    "low_b_sample_fraction": 0.33325625,
+    "low_b_walkers_last_2000": 0,
+    "dE_fraction_below_minus_0p99": 0.0
+  },
+  "model": {
+    "lineshape": "LA",
+    "parameter_count": 11,
+    "parameter_names": [
+      "dE",
+      "sigma_ce",
+      "x",
+      "A_ce_total",
+      "g3_1",
+      "g3_2",
+      "g4_1",
+      "g4_2",
+      "g4_3",
+      "log_a_ce",
+      "log_b_ce"
+    ],
+    "component_normalization": "each component integrates to one over the observed energy window before area scaling",
+    "energy_window_eV": [
+      870.58,
+      924.98
+    ],
+    "doublet_split_eV": 18.6,
+    "doublet_branch_ratio": "3:2",
+    "main_centers_eV": [
+      880.6,
+      899.2,
+      885.2,
+      903.8,
+      882.6,
+      901.2,
+      888.8,
+      907.4,
+      898.4,
+      917.0
+    ],
+    "main_branch_weights": [
+      0.20963855421686745,
+      0.1397590361445783,
+      0.39036144578313253,
+      0.26024096385542167,
+      0.22941176470588237,
+      0.15294117647058825,
+      0.14705882352941177,
+      0.09803921568627452,
+      0.2235294117647059,
+      0.14901960784313725
+    ],
+    "shared_sigma": true,
+    "gamma_definition": {
+      "Voigt": "Lorentzian kernel HWHM before Gaussian convolution; not the total Voigt peak HWHM",
+      "LA": "Powered-Lorentz LA kernel scale g in (1+(z/g)^2)^(-power); side-specific kernel HWHM is g*sqrt(2**(1/power)-1), with power=0.9 at z>=0 and 2 at z<0; g is not the kernel or convolved-peak HWHM",
+      "g4_1": "Powered-Lorentz LA kernel scale g in (1+(z/g)^2)^(-power); side-specific kernel HWHM is g*sqrt(2**(1/power)-1), with power=0.9 at z>=0 and 2 at z<0; g is not the kernel or convolved-peak HWHM",
+      "satellite_gamma": null
+    },
+    "LA_alpha": 0.9,
+    "LA_beta": 2.0,
+    "LA_components": [
+      4,
+      5
+    ],
+    "LA_grid_points": 8192,
+    "LA_grid_spacing_eV": 0.025,
+    "variance": "exp(log_a_ce)+exp(log_b_ce)*peak_model",
+    "prior": "original eleven-parameter core prior; unchanged hard limits and Gaussian terms",
+    "Ce3_fraction_definition": "Ce(III) observed-window area / total Ce observed-window area including satellites",
+    "satellites_enabled": false,
+    "satellite_interpretation": null,
+    "satellite_fraction_prior": null,
+    "satellite_center_ranges_eV": [],
+    "satellite_centers_absolute": false,
+    "satellite_gamma_HWHM_eV": null
+  },
+  "uncertainty_scope": "Conditional on the selected fixed background, peaks, priors and noise likelihood; does not include all model or experimental uncertainty.",
+  "posterior_available": true,
+  "Ce3_fraction_median": 0.1440681750339048,
+  "Ce3_fraction_mean": 0.14423532167791245,
+  "Ce3_fraction_std": 0.006474692802067101,
+  "Ce3_percent": {
+    "q025": 13.201723109896069,
+    "median": 14.406817503390478,
+    "q975": 15.765336550168435
+  },
+  "posterior_median": {
+    "dE": -0.025289982406050335,
+    "sigma_ce": 1.42870969225338,
+    "x": 0.1440681750339048,
+    "A_ce_total": 19469.17614626908,
+    "g3_1": 0.3360966694529937,
+    "g3_2": 0.18499573246354434,
+    "g4_1": 0.26734978565880435,
+    "g4_2": 0.9983860080964878,
+    "g4_3": 0.34968038106578136,
+    "log_a_ce": 7.27973746528329,
+    "log_b_ce": 0.17373789028552306
+  },
+  "Ce3_area_definition": "Ce(III) component areas / all Ce component areas within fitted window; Ce(IV) satellites included when enabled",
+  "metrics": {
+    "RMSE": 43.18633865879349,
+    "SSE": 1016457.6164798405
+  },
+  "production_acceptance_median": 0.14491122780695176,
+  "bounds_diagnostics": {
+    "dE_fraction_below_minus_0p99": 0.0
+  }
+}

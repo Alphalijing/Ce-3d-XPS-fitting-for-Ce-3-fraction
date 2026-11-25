@@ -1,0 +1,345 @@
+{
+  "description": "Privacy-only equal-length redaction of an identifying operator account in embedded Windows source paths, workbook author/last-author properties and BIFF write-access metadata. The original source files remain unchanged. Every worksheet cell was compared; numerical spectra and acquisition conditions are unchanged.",
+  "workbook_files": 26,
+  "all_spectra_and_acquisition_parameters_unchanged": true,
+  "files": [
+    {
+      "file": "data/experimental/additional_19/raw/batch2_1.xls",
+      "original_source_sha256": "cbc77de5e253e4cef2f80cb5d1dd845aa88738a3d977451e008a96e546e5a4fb",
+      "distributed_sha256": "317ac3e2b15bc4e5aada524e22165c178ca051685d173e7d68daff80029c63ec",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 31578,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 0,
+        "GBK": 2
+      }
+    },
+    {
+      "file": "data/experimental/additional_19/raw/batch2_10.xls",
+      "original_source_sha256": "78d79b2444efbe3e6b726a71c87099cd8a853150d2999117a1b16d6d3c607e61",
+      "distributed_sha256": "1311fed812608fea56e381934d597d14d88930744440194a859257ae8a9ace5f",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 42223,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 0,
+        "GBK": 2
+      }
+    },
+    {
+      "file": "data/experimental/additional_19/raw/batch2_11.xls",
+      "original_source_sha256": "a2aecbf6011feffb1b742ff283ad4b8599e9b9868e0c4b172ebc5ffd92ee8624",
+      "distributed_sha256": "a2f4a86d49831ad7ede9e56c37f4431239f7be56dfc850449f3d7a3570830aa7",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 42223,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 1,
+        "GBK": 2
+      }
+    },
+    {
+      "file": "data/experimental/additional_19/raw/batch2_12.xls",
+      "original_source_sha256": "80eabbe43ec141a053ceff8aa0ebd3793ee235df4954c68689e6d98b028a8478",
+      "distributed_sha256": "9b3e40aa4fed96719aa578776d8e7bffc6194d198dd3a5a389c217290aa07a2b",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 42223,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 0,
+        "GBK": 2
+      }
+    },
+    {
+      "file": "data/experimental/additional_19/raw/batch2_13.xls",
+      "original_source_sha256": "8f22065bf2d2ed324e4de1e3e3eb471876934761068812f605621bb9ee900788",
+      "distributed_sha256": "afff5243cc82243c5283eaacf4bcaeae205e4ca2f5454b441aa1ef483e33e0f1",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 37023,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 1,
+        "GBK": 2
+      }
+    },
+    {
+      "file": "data/experimental/additional_19/raw/batch2_14.xls",
+      "original_source_sha256": "23b346b7b98bcc759d161fd4716f3f67aefc67828b6f0de70d29f7268d0662fe",
+      "distributed_sha256": "afc300de7eaa250250cabac561e78c9af7b767edcade1a32138061f74e2b22a4",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 37153,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 1,
+        "GBK": 2
+      }
+    },
+    {
+      "file": "data/experimental/additional_19/raw/batch2_15.xls",
+      "original_source_sha256": "c2c89914c0115496b26477666b2d5fb5ce68a808f7e156e3eb76adcf0e6b746f",
+      "distributed_sha256": "c12b2c9426462f9dc2944eeaad884c02ea28d0eb29601a4827c1aab9608dc8c7",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 37543,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 1,
+        "GBK": 2
+      }
+    },
+    {
+      "file": "data/experimental/additional_19/raw/batch2_16.xls",
+      "original_source_sha256": "b14c0b7b0bc7de7f53802650f66af05e5920de71c7b19ae0d88d0ae149806a53",
+      "distributed_sha256": "7055b167b7249e2b867876ed6c4b69ee400b7c19f8d56086097096ccd3f76a68",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 37543,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 0,
+        "GBK": 2
+      }
+    },
+    {
+      "file": "data/experimental/additional_19/raw/batch2_17.xls",
+      "original_source_sha256": "edb4847496f75864f3a7925938b99f88b82cdc3eceddf9c862f8cd0c353b1d86",
+      "distributed_sha256": "db011b563eeb5f249ade58238f5cb5da7706eba0ee93c17e73289793bc8bac6c",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 36633,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 1,
+        "GBK": 2
+      }
+    },
+    {
+      "file": "data/experimental/additional_19/raw/batch2_18.xls",
+      "original_source_sha256": "139e7ba12adcdb6a634375ec76ec2ffd0b3d6cfe5693b17eda81a23e77aa28cd",
+      "distributed_sha256": "499a7dc4a19acc52d4f7de71f1fedb4753b887c77fcd9f1633d4816a53568a5c",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 36633,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 1,
+        "GBK": 2
+      }
+    },
+    {
+      "file": "data/experimental/additional_19/raw/batch2_19.xls",
+      "original_source_sha256": "0c63f9293f76aeb2d76769e24bf8ac9c0fe8a668290c5c480bda10c93889b9b2",
+      "distributed_sha256": "84414aad16fac0536616f817e4d80ffec982252903c17dcec2c8147ebf1698c9",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 36633,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 1,
+        "GBK": 2
+      }
+    },
+    {
+      "file": "data/experimental/additional_19/raw/batch2_20.xls",
+      "original_source_sha256": "77dee9d6a25787b19a971670d0e3737def121ee3f7618c3647d296b5c77e67af",
+      "distributed_sha256": "bb73520bf9128edad2818d50b6611e2dfaf23353a02443edd0b391d9369a6683",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 36633,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 1,
+        "GBK": 2
+      }
+    },
+    {
+      "file": "data/experimental/additional_19/raw/batch2_21.xls",
+      "original_source_sha256": "950fa8e685701353070034bb3fb6babe2c611cb8f012f5930a7bf527f0c779d9",
+      "distributed_sha256": "63522aa94b0438e4de066030e031757ebafd8cecfb5bd4adf75848a089724e6a",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 36633,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 1,
+        "GBK": 2
+      }
+    },
+    {
+      "file": "data/experimental/additional_19/raw/batch2_3.xls",
+      "original_source_sha256": "41903cc373a01ba698badbc9ff23098ae607cbffa431279392339c501e0c7bb9",
+      "distributed_sha256": "eddf6e16cfe26c72e580763c05334a36f449d4fa3e7ba15ede49a3e59c259b4b",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 37023,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 0,
+        "GBK": 2
+      }
+    },
+    {
+      "file": "data/experimental/additional_19/raw/batch2_4.xls",
+      "original_source_sha256": "1d60380a5427cca3fbb034b02f2fbf2944f9736d310f0611f3cae800d921096e",
+      "distributed_sha256": "2241afecc0b95392de0914263ac9db62306512ee29a9e9585260dd8abcfb67b5",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 37023,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 1,
+        "GBK": 2
+      }
+    },
+    {
+      "file": "data/experimental/additional_19/raw/batch2_5.xls",
+      "original_source_sha256": "35c30a69217f707e7967302a11780ddcf44a0e3e4c07b93f8391805fdfc2738f",
+      "distributed_sha256": "dfe4ff365ca0304957c67dc3541b87e3922b5a82324f78c92fe18948b4fc610f",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 37023,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 0,
+        "GBK": 2
+      }
+    },
+    {
+      "file": "data/experimental/additional_19/raw/batch2_6.xls",
+      "original_source_sha256": "009c4f73481b40f6dd9103d3dfd5be034a5d368e8506b568200c5db0fa7f787d",
+      "distributed_sha256": "d71e12f31de9548bf7d62c5425380878f2fda3954b716531e0b567c54c9a6988",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 37023,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 1,
+        "GBK": 2
+      }
+    },
+    {
+      "file": "data/experimental/additional_19/raw/batch2_7.xls",
+      "original_source_sha256": "f83e9a97c8b0db3379daaab9958c9cc53dc465576274fb974316eb2df102ec95",
+      "distributed_sha256": "0ebc4ed0151fdfbf0aadeef9e75b9b8b1685214410e431d138d6e2ae98978d39",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 37023,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 1,
+        "GBK": 2
+      }
+    },
+    {
+      "file": "data/experimental/additional_19/raw/batch2_9.xls",
+      "original_source_sha256": "7969ae938541e36ae56657be94290e59a3ce0957bc579457b0c4f03fa9358130",
+      "distributed_sha256": "2fdf97c6082c00098c0e8c84c371bd7c92e32bc63669d0bac05df07be75f7bf1",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 42223,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 0,
+        "GBK": 2
+      }
+    },
+    {
+      "file": "data/experimental/la_series/raw/La_0at.xls",
+      "original_source_sha256": "2023e8949b0a17ce84a4c16602b877c9ed469982f3598d1170f311a01d0f312b",
+      "distributed_sha256": "dc0557d935803e2d957f71a6054dd1638d017af1c84c39fe76e92f2021239a9f",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 31578,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 0,
+        "GBK": 1
+      }
+    },
+    {
+      "file": "data/experimental/la_series/raw/La_10at.xls",
+      "original_source_sha256": "10b5a67b602faa006532e763da98cc9041d98e43679b2da4c547971f58acc6c8",
+      "distributed_sha256": "c4563b8ea599d4e65c0b9ab49e5f3177a4df44cb7388892efbae4108661ef9f7",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 37023,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 0,
+        "GBK": 1
+      }
+    },
+    {
+      "file": "data/experimental/la_series/raw/La_1at.xls",
+      "original_source_sha256": "d4bd455bb19876cb61947fe9ee425832f3368d6e0fd272728a384dd7190082bb",
+      "distributed_sha256": "be347e5dc1cc16da374c75efef782ca7360c14aaf2e8564ee194e32e17050ec4",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 37023,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 0,
+        "GBK": 1
+      }
+    },
+    {
+      "file": "data/experimental/la_series/raw/La_20at.xls",
+      "original_source_sha256": "44116d0dd5bf86032dc32fe709e8ad9457e6a5508f023befa55d63b7154c71bd",
+      "distributed_sha256": "76136c819dbd07fb89d9dbea1651a38d7ea209de405a3ef31f38e04ed2e18b50",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 37023,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 0,
+        "GBK": 1
+      }
+    },
+    {
+      "file": "data/experimental/la_series/raw/La_2at.xls",
+      "original_source_sha256": "274495edf19ff3313735d3bacc9685549de72448f66a59e0a54684c9842004db",
+      "distributed_sha256": "eb76e96ff0e521e7ee3ab6e633d6b863a5e7d76df3554ada58b011b6ff33ae1e",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 37023,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 0,
+        "GBK": 1
+      }
+    },
+    {
+      "file": "data/experimental/la_series/raw/La_4at.xls",
+      "original_source_sha256": "2abbdb2fb1ce96ea66d5cff4ec64eed172f45404c8d41a85e2aa6cfe663db6df",
+      "distributed_sha256": "8bae06d0e4e68c041dfd0f3118c86f7ca0cb22783df53c885b1bd0dc9d18f4a1",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 37023,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 0,
+        "GBK": 1
+      }
+    },
+    {
+      "file": "examples/La10at_validation.xls",
+      "original_source_sha256": "10b5a67b602faa006532e763da98cc9041d98e43679b2da4c547971f58acc6c8",
+      "distributed_sha256": "c4563b8ea599d4e65c0b9ab49e5f3177a4df44cb7388892efbae4108661ef9f7",
+      "embedded_identifying_paths_redacted": 1,
+      "same_file_size": true,
+      "all_workbook_cells_checked": 37023,
+      "scientific_numbers_and_acquisition_conditions_unchanged": true,
+      "additional_author_field_substitutions": {
+        "UTF16": 0,
+        "GBK": 1
+      }
+    }
+  ]
+}

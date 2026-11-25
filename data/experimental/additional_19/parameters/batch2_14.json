@@ -1,0 +1,329 @@
+{
+  "summary": {
+    "sample": "batch2_14",
+    "group": "batch2",
+    "source": "data/experimental/additional_19/raw/batch2_14.xls",
+    "points": 550,
+    "noise_CPS": 431.60902256834726,
+    "high_points": 99,
+    "high_min": 870.08,
+    "high_max": 879.88,
+    "V2_status": "valley_excess_tolerance_met",
+    "V2_iterations": 9,
+    "sha256": "23b346b7b98bcc759d161fd4716f3f67aefc67828b6f0de70d29f7268d0662fe",
+    "spectrum_sha256": "b12ee9a397ea25f302431f652b50de06a472fa3ab6c28673e7ad521690435ce4",
+    "Voigt_Ce3": 17.876551146874974,
+    "Voigt_RMSE": 2859.3065226553204,
+    "Voigt_high_RMSE": 1441.4239082977551,
+    "Voigt_fixed880_RMSE": 1437.7246673515479,
+    "Voigt_success": true,
+    "Voigt_near_bounds": "dE,g3_1",
+    "LA_Ce3": 17.90756901615999,
+    "LA_RMSE": 3296.203164386127,
+    "LA_high_RMSE": 727.3049024428046,
+    "LA_fixed880_RMSE": 730.3579419457626,
+    "LA_success": true,
+    "LA_near_bounds": "dE,g4_1",
+    "high_improvement_percent": 49.54260864857494,
+    "fixed880_improvement_percent": 49.200430476638836
+  },
+  "parameters": {
+    "Voigt": {
+      "dE": -0.9999999999999999,
+      "sigma": 0.6457891895785369,
+      "x": 0.17876551146874972,
+      "A": 5.050335843376899,
+      "g3_1": 1.9999996037010022,
+      "g3_2": 0.6562036612226819,
+      "g4_1": 0.365770013895612,
+      "g4_2": 1.1412632120327406,
+      "g4_3": 0.33742496687549567
+    },
+    "LA": {
+      "dE": -0.9999999999999999,
+      "sigma": 0.8089487214326886,
+      "x": 0.1790756901615999,
+      "A": 4.820802234649515,
+      "g3_1": 0.42277540471792374,
+      "g3_2": 0.3334287704530933,
+      "g4_1": 0.10000000000000002,
+      "g4_2": 0.8923457820610388,
+      "g4_3": 0.14391253057286385
+    }
+  },
+  "optimizations": {
+    "Voigt": [
+      {
+        "success": true,
+        "SSE": 0.1456186550422519
+      },
+      {
+        "success": true,
+        "SSE": 0.14561865502875113
+      },
+      {
+        "success": true,
+        "SSE": 0.14561865515783395
+      },
+      {
+        "success": true,
+        "SSE": 0.1456186550349055
+      },
+      {
+        "success": true,
+        "SSE": 0.1456186551246673
+      },
+      {
+        "success": true,
+        "SSE": 0.14561865513709982
+      },
+      {
+        "success": true,
+        "SSE": 0.14561865509618546
+      },
+      {
+        "success": true,
+        "SSE": 0.14561865503036525
+      }
+    ],
+    "LA": [
+      {
+        "success": true,
+        "SSE": 0.19351896366385926
+      },
+      {
+        "success": true,
+        "SSE": 0.19351896368725297
+      },
+      {
+        "success": true,
+        "SSE": 0.19351896359453605
+      },
+      {
+        "success": true,
+        "SSE": 0.1935189636299014
+      },
+      {
+        "success": true,
+        "SSE": 0.19351896359883614
+      },
+      {
+        "success": true,
+        "SSE": 0.1935189636107412
+      },
+      {
+        "success": true,
+        "SSE": 0.19351896364962404
+      },
+      {
+        "success": true,
+        "SSE": 0.19351896359455092
+      }
+    ]
+  },
+  "V2_history": [
+    {
+      "iteration": 0,
+      "errors": [
+        0.018880473557466877,
+        -0.005928532344319892
+      ],
+      "heights": [
+        0.5276676625409019,
+        0.6861834075447815
+      ],
+      "success": true
+    },
+    {
+      "iteration": 1,
+      "errors": [
+        0.012562099275723382,
+        -0.004239017088280154
+      ],
+      "heights": [
+        0.5182274257621685,
+        0.6861834075447815
+      ],
+      "success": true
+    },
+    {
+      "iteration": 2,
+      "errors": [
+        0.008361739889431489,
+        -0.0030991679762759996
+      ],
+      "heights": [
+        0.5119463761243068,
+        0.6861834075447815
+      ],
+      "success": true
+    },
+    {
+      "iteration": 3,
+      "errors": [
+        0.005565619826449579,
+        -0.0023352146975180363
+      ],
+      "heights": [
+        0.507765506179591,
+        0.6861834075447815
+      ],
+      "success": true
+    },
+    {
+      "iteration": 4,
+      "errors": [
+        0.0037042801235829628,
+        -0.0018246487340180344
+      ],
+      "heights": [
+        0.5049826962663663,
+        0.6861834075447815
+      ],
+      "success": true
+    },
+    {
+      "iteration": 5,
+      "errors": [
+        0.0024650046932743384,
+        -0.0014841565710264442
+      ],
+      "heights": [
+        0.5031305562045748,
+        0.6861834075447815
+      ],
+      "success": true
+    },
+    {
+      "iteration": 6,
+      "errors": [
+        0.0016401526469543108,
+        -0.0012572796903003909
+      ],
+      "heights": [
+        0.5018980538579376,
+        0.6861834075447815
+      ],
+      "success": true
+    },
+    {
+      "iteration": 7,
+      "errors": [
+        0.0010910131504393943,
+        -0.0011063314519859462
+      ],
+      "heights": [
+        0.5010779775344605,
+        0.6861834075447815
+      ],
+      "success": true
+    },
+    {
+      "iteration": 8,
+      "errors": [
+        0.000725884272221274,
+        -0.0010057510018454858
+      ],
+      "heights": [
+        0.5005324709592408,
+        0.6861834075447815
+      ],
+      "success": true
+    }
+  ],
+  "V7_info": {
+    "version": "v7_adaptive_piecewise_shirley",
+    "converged_no_crossing": true,
+    "crossing_tolerance": 0.0,
+    "numerical_epsilon": 7.105427357601002e-15,
+    "remaining_crossing_count": 0,
+    "smoothing_window_points": 1,
+    "endpoint_mode": "ends",
+    "crossing_detection_target": "raw spectrum",
+    "raw_crossing_count": 0,
+    "raw_maximum_crossing": 0.0,
+    "maximum_crossing": 0.0,
+    "anchors": [
+      {
+        "energy_eV": 870.08,
+        "intensity": 0.3997945653720301,
+        "original_row_index": 0
+      },
+      {
+        "energy_eV": 870.18,
+        "intensity": 0.39684336320956043,
+        "original_row_index": 1
+      },
+      {
+        "energy_eV": 870.88,
+        "intensity": 0.3935786029307156,
+        "original_row_index": 8
+      },
+      {
+        "energy_eV": 874.38,
+        "intensity": 0.3942939251671646,
+        "original_row_index": 43
+      },
+      {
+        "energy_eV": 893.18,
+        "intensity": 0.5276676625409019,
+        "original_row_index": 231
+      },
+      {
+        "energy_eV": 922.58,
+        "intensity": 0.7404011950490824,
+        "original_row_index": 525
+      },
+      {
+        "energy_eV": 924.98,
+        "intensity": 0.7440717029449424,
+        "original_row_index": 549
+      }
+    ],
+    "refinements": [
+      {
+        "iteration": 1,
+        "energy_eV": 870.88,
+        "intensity": 0.3935786029307156,
+        "original_row_index": 8,
+        "crossing_count_before": 63,
+        "maximum_crossing_before": 0.015520284678728902
+      },
+      {
+        "iteration": 2,
+        "energy_eV": 874.38,
+        "intensity": 0.3942939251671646,
+        "original_row_index": 43,
+        "crossing_count_before": 31,
+        "maximum_crossing_before": 0.014529110082712848
+      },
+      {
+        "iteration": 3,
+        "energy_eV": 870.18,
+        "intensity": 0.39684336320956043,
+        "original_row_index": 1,
+        "crossing_count_before": 30,
+        "maximum_crossing_before": 0.014385013317182005
+      },
+      {
+        "iteration": 4,
+        "energy_eV": 893.18,
+        "intensity": 0.5276676625409019,
+        "original_row_index": 231,
+        "crossing_count_before": 29,
+        "maximum_crossing_before": 0.014385013317182005
+      },
+      {
+        "iteration": 5,
+        "energy_eV": 922.58,
+        "intensity": 0.7404011950490824,
+        "original_row_index": 525,
+        "crossing_count_before": 5,
+        "maximum_crossing_before": 0.0028090350474389014
+      }
+    ],
+    "method": "piecewise re-computation, no pointwise clipping",
+    "external_behavior": "constant outside outermost anchors, refined if crossing",
+    "warning": "Non-crossing does not establish physical correctness; noise or broad peak valleys can introduce excessive anchors."
+  }
+}

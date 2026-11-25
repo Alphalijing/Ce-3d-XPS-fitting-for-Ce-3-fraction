@@ -1,0 +1,66 @@
+{
+  "source_file": "La-doped CeO2 nanoflowers catalysts for direct synthesis of dimethyl carbonate from CO2 and methanol.pdf",
+  "source_sha256": "db42c29a9f4f8b1ffe1e79c15e03afe53f696bce13f6aa7334d87244b5c62450",
+  "source_DOI": "10.1016/j.jre.2025.03.026",
+  "source_page_zero_based": 5,
+  "source_page_1based": 6,
+  "source_printed_page": 2182,
+  "source_figure": "Fig. 6",
+  "value_method": "Transcribed from explicitly printed numerical labels above the six bars; no coordinate digitization or interpolation.",
+  "source_labels": [
+    "CeO2",
+    "La0.01CeO2",
+    "La0.02CeO2",
+    "La0.04CeO2",
+    "La0.1CeO2",
+    "La0.2CeO2"
+  ],
+  "nominal_La_at_percent": [
+    0,
+    1,
+    2,
+    4,
+    10,
+    20
+  ],
+  "DMC_productivity_mmol_g": [
+    7.25,
+    8.7,
+    8.81,
+    8.16,
+    9.42,
+    2.05
+  ],
+  "printed_bar_labels": [
+    "7.25",
+    "8.7",
+    "8.81",
+    "8.16",
+    "9.42",
+    "2.05"
+  ],
+  "reaction_conditions": {
+    "temperature_C": 140,
+    "time_h": 3,
+    "CO2_pressure_MPa": 4,
+    "catalyst_mass_g": 0.1
+  },
+  "crop_bbox_pdf_points": [
+    34.0,
+    59.0,
+    295.0,
+    305.0
+  ],
+  "crop_scale": 3,
+  "reported_error_bars": false,
+  "notes": [
+    "The 4 at% sample shows a local productivity decrease (8.16) relative to 2 at% (8.81).",
+    "The 20 at% sample is 2.05, not an interpolated value near the 10 at% optimum.",
+    "No error bars or new measurement uncertainties were inferred.",
+    "File labels map to nominal La at% by multiplication by 20, as confirmed by author."
+  ],
+  "csv_sha256": "61c17cbbe8a8e1f27e9a9b05eb9cad654cb7581f4f49a7bc026b4e89af174f14",
+  "crop_sha256": "64c6545f6c70cef28165a5170e604558a7c48214ee3f84449da0c94a021a6485",
+  "reference": "L. Hu, S. Zhang, P. Zhao, J. Yang, G. Wu, W. Xu, La-doped CeO2 nanoflowers catalysts for direct synthesis of dimethyl carbonate from CO2 and methanol, Journal of Rare Earths 43 (2025) 2177–2185.",
+  "doi": "10.1016/j.jre.2025.03.026"
+}

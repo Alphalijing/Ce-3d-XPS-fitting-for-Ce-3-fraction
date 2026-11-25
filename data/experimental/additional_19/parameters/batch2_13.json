@@ -1,0 +1,366 @@
+{
+  "summary": {
+    "sample": "batch2_13",
+    "group": "batch2",
+    "source": "data/experimental/additional_19/raw/batch2_13.xls",
+    "points": 550,
+    "noise_CPS": 375.8363725789649,
+    "high_points": 96,
+    "high_min": 870.08,
+    "high_max": 879.58,
+    "V2_status": "valley_excess_tolerance_met",
+    "V2_iterations": 11,
+    "sha256": "8f22065bf2d2ed324e4de1e3e3eb471876934761068812f605621bb9ee900788",
+    "spectrum_sha256": "1efdc07b9db2d340158986e3f22ac9511d2ac8044c832406fc340d3798fbb77a",
+    "Voigt_Ce3": 19.291092502163536,
+    "Voigt_RMSE": 3256.892859325639,
+    "Voigt_high_RMSE": 1349.21625330824,
+    "Voigt_fixed880_RMSE": 1458.568959435719,
+    "Voigt_success": true,
+    "Voigt_near_bounds": "dE",
+    "LA_Ce3": 18.333942836918897,
+    "LA_RMSE": 3579.3669663551955,
+    "LA_high_RMSE": 713.2686324580761,
+    "LA_fixed880_RMSE": 842.7913489813861,
+    "LA_success": true,
+    "LA_near_bounds": "dE,g4_1",
+    "high_improvement_percent": 47.13459530974655,
+    "fixed880_improvement_percent": 42.21792918811056
+  },
+  "parameters": {
+    "Voigt": {
+      "dE": -0.9999999999999999,
+      "sigma": 0.7107705937730139,
+      "x": 0.19291092502163537,
+      "A": 4.892295418479363,
+      "g3_1": 1.9933695024907843,
+      "g3_2": 0.6344218854833014,
+      "g4_1": 0.25455851513029204,
+      "g4_2": 1.0260236410914831,
+      "g4_3": 0.2231361731098446
+    },
+    "LA": {
+      "dE": -0.9999999999999999,
+      "sigma": 0.8033491754152481,
+      "x": 0.18333942836918898,
+      "A": 4.739457691407227,
+      "g3_1": 0.4963885789316184,
+      "g3_2": 0.40067069865369864,
+      "g4_1": 0.10000000000000002,
+      "g4_2": 0.8838501364003954,
+      "g4_3": 0.12377389896528505
+    }
+  },
+  "optimizations": {
+    "Voigt": [
+      {
+        "success": true,
+        "SSE": 0.1785521026375425
+      },
+      {
+        "success": true,
+        "SSE": 0.17855210246210168
+      },
+      {
+        "success": true,
+        "SSE": 0.1785521024556369
+      },
+      {
+        "success": true,
+        "SSE": 0.1785521026987095
+      },
+      {
+        "success": true,
+        "SSE": 0.1785521025110728
+      },
+      {
+        "success": true,
+        "SSE": 0.17855210241962355
+      },
+      {
+        "success": true,
+        "SSE": 0.17855210236169794
+      },
+      {
+        "success": true,
+        "SSE": 0.17855210254855286
+      }
+    ],
+    "LA": [
+      {
+        "success": true,
+        "SSE": 0.21566043437032476
+      },
+      {
+        "success": true,
+        "SSE": 0.21566043449402839
+      },
+      {
+        "success": true,
+        "SSE": 0.215660434397918
+      },
+      {
+        "success": true,
+        "SSE": 0.21566043445513283
+      },
+      {
+        "success": true,
+        "SSE": 0.21566043446846328
+      },
+      {
+        "success": true,
+        "SSE": 0.2156604343709076
+      },
+      {
+        "success": true,
+        "SSE": 0.21566043438828622
+      },
+      {
+        "success": true,
+        "SSE": 0.2156604343875486
+      }
+    ]
+  },
+  "V2_history": [
+    {
+      "iteration": 0,
+      "errors": [
+        0.013899208907525051,
+        0.0039027907821393613
+      ],
+      "heights": [
+        0.5270895109537508,
+        0.7009238769639301
+      ],
+      "success": true
+    },
+    {
+      "iteration": 1,
+      "errors": [
+        0.010104755333924373,
+        0.003624382249139635
+      ],
+      "heights": [
+        0.5201399064999883,
+        0.6989724815728604
+      ],
+      "success": true
+    },
+    {
+      "iteration": 2,
+      "errors": [
+        0.0075164465563755485,
+        0.0031436241565143686
+      ],
+      "heights": [
+        0.5150875288330261,
+        0.6971602904482905
+      ],
+      "success": true
+    },
+    {
+      "iteration": 3,
+      "errors": [
+        0.005694054404065489,
+        0.0026300211055647984
+      ],
+      "heights": [
+        0.5113293055548384,
+        0.6955884783700333
+      ],
+      "success": true
+    },
+    {
+      "iteration": 4,
+      "errors": [
+        0.004370963925001618,
+        0.002154766154345992
+      ],
+      "heights": [
+        0.5084822783528056,
+        0.694273467817251
+      ],
+      "success": true
+    },
+    {
+      "iteration": 5,
+      "errors": [
+        0.003386652361190512,
+        0.0017430242751965326
+      ],
+      "heights": [
+        0.5062967963903048,
+        0.693196084740078
+      ],
+      "success": true
+    },
+    {
+      "iteration": 6,
+      "errors": [
+        0.0026416389836463328,
+        0.0013992219291401042
+      ],
+      "heights": [
+        0.5046034702097095,
+        0.6923245726024797
+      ],
+      "success": true
+    },
+    {
+      "iteration": 7,
+      "errors": [
+        0.0020698983385507943,
+        0.0011177215380965648
+      ],
+      "heights": [
+        0.5032826507178864,
+        0.6916249616379097
+      ],
+      "success": true
+    },
+    {
+      "iteration": 8,
+      "errors": [
+        0.001627072147279233,
+        0.0008901064928029297
+      ],
+      "heights": [
+        0.502247701548611,
+        0.6910661008688613
+      ],
+      "success": true
+    },
+    {
+      "iteration": 9,
+      "errors": [
+        0.001102866318886342,
+        0.0010471838697609925
+      ],
+      "heights": [
+        0.5014341654749713,
+        0.6910661008688613
+      ],
+      "success": true
+    },
+    {
+      "iteration": 10,
+      "errors": [
+        0.000958409765907183,
+        0.0007543208430749182
+      ],
+      "heights": [
+        0.5008827323155282,
+        0.6905425089339808
+      ],
+      "success": true
+    }
+  ],
+  "V7_info": {
+    "version": "v7_adaptive_piecewise_shirley",
+    "converged_no_crossing": true,
+    "crossing_tolerance": 0.0,
+    "numerical_epsilon": 7.105427357601002e-15,
+    "remaining_crossing_count": 0,
+    "smoothing_window_points": 1,
+    "endpoint_mode": "ends",
+    "crossing_detection_target": "raw spectrum",
+    "raw_crossing_count": 0,
+    "raw_maximum_crossing": 0.0,
+    "maximum_crossing": 0.0,
+    "anchors": [
+      {
+        "energy_eV": 870.08,
+        "intensity": 0.3946271298959947,
+        "original_row_index": 0
+      },
+      {
+        "energy_eV": 893.38,
+        "intensity": 0.5270895109537508,
+        "original_row_index": 233
+      },
+      {
+        "energy_eV": 911.28,
+        "intensity": 0.7009238769639301,
+        "original_row_index": 412
+      },
+      {
+        "energy_eV": 922.68,
+        "intensity": 0.742592387696393,
+        "original_row_index": 526
+      },
+      {
+        "energy_eV": 923.68,
+        "intensity": 0.7427860146050012,
+        "original_row_index": 536
+      },
+      {
+        "energy_eV": 924.58,
+        "intensity": 0.7486501438371321,
+        "original_row_index": 545
+      },
+      {
+        "energy_eV": 924.88,
+        "intensity": 0.7547742863465369,
+        "original_row_index": 548
+      },
+      {
+        "energy_eV": 924.98,
+        "intensity": 0.7563343660101792,
+        "original_row_index": 549
+      }
+    ],
+    "refinements": [
+      {
+        "iteration": 1,
+        "energy_eV": 893.38,
+        "intensity": 0.5270895109537508,
+        "original_row_index": 233,
+        "crossing_count_before": 119,
+        "maximum_crossing_before": 0.030600499591730612
+      },
+      {
+        "iteration": 2,
+        "energy_eV": 911.28,
+        "intensity": 0.7009238769639301,
+        "original_row_index": 412,
+        "crossing_count_before": 74,
+        "maximum_crossing_before": 0.016444598929585164
+      },
+      {
+        "iteration": 3,
+        "energy_eV": 922.68,
+        "intensity": 0.742592387696393,
+        "original_row_index": 526,
+        "crossing_count_before": 67,
+        "maximum_crossing_before": 0.01675904360378888
+      },
+      {
+        "iteration": 4,
+        "energy_eV": 923.68,
+        "intensity": 0.7427860146050012,
+        "original_row_index": 536,
+        "crossing_count_before": 19,
+        "maximum_crossing_before": 0.025163581972152738
+      },
+      {
+        "iteration": 5,
+        "energy_eV": 924.58,
+        "intensity": 0.7486501438371321,
+        "original_row_index": 545,
+        "crossing_count_before": 4,
+        "maximum_crossing_before": 0.004244014134376806
+      },
+      {
+        "iteration": 6,
+        "energy_eV": 924.88,
+        "intensity": 0.7547742863465369,
+        "original_row_index": 548,
+        "crossing_count_before": 2,
+        "maximum_crossing_before": 0.00407362932088684
+      }
+    ],
+    "method": "piecewise re-computation, no pointwise clipping",
+    "external_behavior": "constant outside outermost anchors, refined if crossing",
+    "warning": "Non-crossing does not establish physical correctness; noise or broad peak valleys can introduce excessive anchors."
+  }
+}

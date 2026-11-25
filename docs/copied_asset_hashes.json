@@ -1,0 +1,3026 @@
+[
+  {
+    "file": "build_windows_exe.py",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "47460ac29ff83303e7118acc3d42de11160cb5a91e3b6789f8f37e0200e7371a",
+    "distributed_sha256": "47460ac29ff83303e7118acc3d42de11160cb5a91e3b6789f8f37e0200e7371a"
+  },
+  {
+    "file": "ce3d_export_check.py",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "f4978a333a2a7b8d454dccfbded094de17443674372e85c6066064827f8bb3e3",
+    "distributed_sha256": "f4978a333a2a7b8d454dccfbded094de17443674372e85c6066064827f8bb3e3"
+  },
+  {
+    "file": "ce3d_io.py",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "820998784bf9b566658b9107a54cb0bbe822d5f7bca7741cb077dc368b2b4dcb",
+    "distributed_sha256": "820998784bf9b566658b9107a54cb0bbe822d5f7bca7741cb077dc368b2b4dcb"
+  },
+  {
+    "file": "ce3d_results.py",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "3b08cffeee64de0414905de05c6dd74420fb4c62bad276cad96de4190e9b92cf",
+    "distributed_sha256": "3b08cffeee64de0414905de05c6dd74420fb4c62bad276cad96de4190e9b92cf"
+  },
+  {
+    "file": "ce3d_vamas.py",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "7f8070dcbe044779add637882bf5bd8e335166e0a8033a5ccd73fa0bd42f250e",
+    "distributed_sha256": "7f8070dcbe044779add637882bf5bd8e335166e0a8033a5ccd73fa0bd42f250e"
+  },
+  {
+    "file": "ce3d_xps_fitter_core.py",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "3b1bcf1b94258a303fdc2bb71468aeab6c26ecceff6bcc11793768cf8e742b28",
+    "distributed_sha256": "3b1bcf1b94258a303fdc2bb71468aeab6c26ecceff6bcc11793768cf8e742b28"
+  },
+  {
+    "file": "ce3d_xps_fitter_gui.py",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "62ace7a75495e87fa1578c31435c1b8b410bc2125b22d434ff7feb63c5b93107",
+    "distributed_sha256": "62ace7a75495e87fa1578c31435c1b8b410bc2125b22d434ff7feb63c5b93107"
+  },
+  {
+    "file": "ce3d_xps_model.py",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "3de3c6299494e703f0f9491f02f508debf2d63d603cc3f5e883b6881dd7550b5",
+    "distributed_sha256": "3de3c6299494e703f0f9491f02f508debf2d63d603cc3f5e883b6881dd7550b5"
+  },
+  {
+    "file": "CHANGELOG.md",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "98835398bbbff23fb0bc0b96c2f54d7c9784c0d075429a2adf832ce7f5443cde",
+    "distributed_sha256": "98835398bbbff23fb0bc0b96c2f54d7c9784c0d075429a2adf832ce7f5443cde"
+  },
+  {
+    "file": "GUI_GUIDE.md",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "72cb173691f66501cb20381d81fe45a3cbbc5414b5bf17af0105171b29da8d7b",
+    "distributed_sha256": "72cb173691f66501cb20381d81fe45a3cbbc5414b5bf17af0105171b29da8d7b"
+  },
+  {
+    "file": "Launch_GUI.bat",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "25b64e370513a7f41822119fde753016442db4cba02e79802f9622124238a369",
+    "distributed_sha256": "25b64e370513a7f41822119fde753016442db4cba02e79802f9622124238a369"
+  },
+  {
+    "file": "README.md",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "c6c6efc854406aeb3d9a3c3d7faf782d5002c32ca9635e6cf390707bcd79aa05",
+    "distributed_sha256": "6fcb53244600152c1721cedd6c37d6c2e5e83045d0b5774f32ebc66995ae3d37"
+  },
+  {
+    "file": "REPORTING_VALIDATION.json",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "1ba3b87d159a1f1d9974c88ecdb2e42b3db0e09aea82845fc8cf7e29f896b95f",
+    "distributed_sha256": "1ba3b87d159a1f1d9974c88ecdb2e42b3db0e09aea82845fc8cf7e29f896b95f"
+  },
+  {
+    "file": "requirements-build.txt",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "7314a08a08ae3636ff1a5078382a2d5ab25c217f58c498344dd14b0c80dfe615",
+    "distributed_sha256": "7314a08a08ae3636ff1a5078382a2d5ab25c217f58c498344dd14b0c80dfe615"
+  },
+  {
+    "file": "requirements-dev.txt",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "38562bffa31e7cbf1e1e66f8e92426f07bc817039c96f91070a5072bc9aa75c4",
+    "distributed_sha256": "38562bffa31e7cbf1e1e66f8e92426f07bc817039c96f91070a5072bc9aa75c4"
+  },
+  {
+    "file": "requirements.txt",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "df6aaa22595b8909d861b4b4d222ff9756e922417d6c9fbbab6f1ce74611b3b5",
+    "distributed_sha256": "df6aaa22595b8909d861b4b4d222ff9756e922417d6c9fbbab6f1ce74611b3b5"
+  },
+  {
+    "file": "runtime_versions_tested.json",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "2b24f43ed6b897ccd4efcb34a4164088346f21ba91f98432b90b2fbe8ef4c1b8",
+    "distributed_sha256": "2b24f43ed6b897ccd4efcb34a4164088346f21ba91f98432b90b2fbe8ef4c1b8"
+  },
+  {
+    "file": "shirley_v7.py",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "f3a96330f1570797af45614b7b4577338c77c78b30ff5a7ac7a247cfbed32a6e",
+    "distributed_sha256": "f3a96330f1570797af45614b7b4577338c77c78b30ff5a7ac7a247cfbed32a6e"
+  },
+  {
+    "file": "smart_like_shirley_background.py",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "88a8c560afec067031edb6d3241aaa4e3feaebe96a26728b15e40b3c4cbe4624",
+    "distributed_sha256": "88a8c560afec067031edb6d3241aaa4e3feaebe96a26728b15e40b3c4cbe4624"
+  },
+  {
+    "file": "VALIDATION.md",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "ef25ee7bd5ab9a30b571c03a81614312e48c771872330e73bbb0f7d227d557c7",
+    "distributed_sha256": "ef25ee7bd5ab9a30b571c03a81614312e48c771872330e73bbb0f7d227d557c7"
+  },
+  {
+    "file": "VERSION",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "5ec59dc9b30e1df8e3fdae5adc45cd70b414740556237e9c80a9052f88b2d2fe",
+    "distributed_sha256": "5ec59dc9b30e1df8e3fdae5adc45cd70b414740556237e9c80a9052f88b2d2fe"
+  },
+  {
+    "file": "examples/GDC10_published.vms",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "57377a8f817613bbea1705e13b50abb20bb5597b873ac3e74f5dd940a32d2111",
+    "distributed_sha256": "57377a8f817613bbea1705e13b50abb20bb5597b873ac3e74f5dd940a32d2111"
+  },
+  {
+    "file": "examples/La10at_validation.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "10b5a67b602faa006532e763da98cc9041d98e43679b2da4c547971f58acc6c8",
+    "distributed_sha256": "c4563b8ea599d4e65c0b9ab49e5f3177a4df44cb7388892efbae4108661ef9f7"
+  },
+  {
+    "file": "examples/README_input_sources.md",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "be7f65fd9f3e77f2194292f2432e8d1e62cd7efa88c5e7d0fd9ac697567a6200",
+    "distributed_sha256": "be7f65fd9f3e77f2194292f2432e8d1e62cd7efa88c5e7d0fd9ac697567a6200"
+  },
+  {
+    "file": "examples/REFERENCE_RESULTS.json",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "f2a6735d6cbe288e340031b9063c91566d8029bb9016412a89261e80d99e07a4",
+    "distributed_sha256": "f2a6735d6cbe288e340031b9063c91566d8029bb9016412a89261e80d99e07a4"
+  },
+  {
+    "file": "examples/shang_yong_CeO2_raw.xls",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "654cb1786d0e8504172b630d4cacf0eba99e9ecb400c0ed3f9b1e20151d58644",
+    "distributed_sha256": "654cb1786d0e8504172b630d4cacf0eba99e9ecb400c0ed3f9b1e20151d58644"
+  },
+  {
+    "file": "examples/validation_sample_0p5.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "61845818b9d81828be40ead28402f894041c816be8bcd25cccaf6eb4cf3ebb52",
+    "distributed_sha256": "61845818b9d81828be40ead28402f894041c816be8bcd25cccaf6eb4cf3ebb52"
+  },
+  {
+    "file": "tests/test_english_interface.py",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "75fc5942524c73ff9310873aad49b8e10959ffe9b7249100f35cafbe1c8bbc7a",
+    "distributed_sha256": "75fc5942524c73ff9310873aad49b8e10959ffe9b7249100f35cafbe1c8bbc7a"
+  },
+  {
+    "file": "tests/test_export.py",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "8c781fbf3e04a91981e13bd357328be127c4876f5d3acd2a14b79fa185333c6c",
+    "distributed_sha256": "8c781fbf3e04a91981e13bd357328be127c4876f5d3acd2a14b79fa185333c6c"
+  },
+  {
+    "file": "tests/test_io.py",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e2420b136d00a4197c6107c8b6e50c4af097af745da77f86a4b877a24793d4d4",
+    "distributed_sha256": "e2420b136d00a4197c6107c8b6e50c4af097af745da77f86a4b877a24793d4d4"
+  },
+  {
+    "file": "tests/test_model.py",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "3b855c7e4d4b2005399fd800b62ce5edd798b8fa8e6104f026899b5fd8ea7591",
+    "distributed_sha256": "d47d035dc100ac469c629de292bb43515eb1383510811863f8a6a8109c8dd2d9"
+  },
+  {
+    "file": "tests/test_results_report.py",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "6586745bc979c321d8d6cf7f679660b67d8452ea69f358be87f195697e9784c9",
+    "distributed_sha256": "6586745bc979c321d8d6cf7f679660b67d8452ea69f358be87f195697e9784c9"
+  },
+  {
+    "file": "tests/test_result_gui.py",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c091715bacf7fadf74e1d29955f06b44fcf5080d488a50a3da1b10a4d42da5a2",
+    "distributed_sha256": "c091715bacf7fadf74e1d29955f06b44fcf5080d488a50a3da1b10a4d42da5a2"
+  },
+  {
+    "file": "tests/test_sampling.py",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "bd56e66c99b00d74e319e09450118a84047b408cb3018458ba18fdd45b3cee3b",
+    "distributed_sha256": "bd56e66c99b00d74e319e09450118a84047b408cb3018458ba18fdd45b3cee3b"
+  },
+  {
+    "file": "data/experimental/la_series/raw/La_0at.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "2023e8949b0a17ce84a4c16602b877c9ed469982f3598d1170f311a01d0f312b",
+    "distributed_sha256": "dc0557d935803e2d957f71a6054dd1638d017af1c84c39fe76e92f2021239a9f"
+  },
+  {
+    "file": "data/experimental/la_series/curves/La_0at.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "747fabc16658f499596aa915feda9899f7826686ebc67355d28aa422905c889c",
+    "distributed_sha256": "747fabc16658f499596aa915feda9899f7826686ebc67355d28aa422905c889c"
+  },
+  {
+    "file": "data/experimental/la_series/raw/La_1at.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "d4bd455bb19876cb61947fe9ee425832f3368d6e0fd272728a384dd7190082bb",
+    "distributed_sha256": "be347e5dc1cc16da374c75efef782ca7360c14aaf2e8564ee194e32e17050ec4"
+  },
+  {
+    "file": "data/experimental/la_series/curves/La_1at.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "0f167e861878b83806f916bc70846a419369e00022d4274c24d553f3d94db111",
+    "distributed_sha256": "0f167e861878b83806f916bc70846a419369e00022d4274c24d553f3d94db111"
+  },
+  {
+    "file": "data/experimental/la_series/raw/La_2at.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "274495edf19ff3313735d3bacc9685549de72448f66a59e0a54684c9842004db",
+    "distributed_sha256": "eb76e96ff0e521e7ee3ab6e633d6b863a5e7d76df3554ada58b011b6ff33ae1e"
+  },
+  {
+    "file": "data/experimental/la_series/curves/La_2at.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "0a18afec4f5429af1702a8f20eac1b50f10f9e47d19619b4d230a90d93c5d5b2",
+    "distributed_sha256": "0a18afec4f5429af1702a8f20eac1b50f10f9e47d19619b4d230a90d93c5d5b2"
+  },
+  {
+    "file": "data/experimental/la_series/raw/La_4at.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "2abbdb2fb1ce96ea66d5cff4ec64eed172f45404c8d41a85e2aa6cfe663db6df",
+    "distributed_sha256": "8bae06d0e4e68c041dfd0f3118c86f7ca0cb22783df53c885b1bd0dc9d18f4a1"
+  },
+  {
+    "file": "data/experimental/la_series/curves/La_4at.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "f39608ed64248003dde88c53a33ac45bb5784b19271a675ec5822bb14f40cf7b",
+    "distributed_sha256": "f39608ed64248003dde88c53a33ac45bb5784b19271a675ec5822bb14f40cf7b"
+  },
+  {
+    "file": "data/experimental/la_series/raw/La_10at.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "10b5a67b602faa006532e763da98cc9041d98e43679b2da4c547971f58acc6c8",
+    "distributed_sha256": "c4563b8ea599d4e65c0b9ab49e5f3177a4df44cb7388892efbae4108661ef9f7"
+  },
+  {
+    "file": "data/experimental/la_series/curves/La_10at.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a0366bc43a230c368b6f077671ee35636eea30bfcb060c5ddbc23c341e8f600a",
+    "distributed_sha256": "a0366bc43a230c368b6f077671ee35636eea30bfcb060c5ddbc23c341e8f600a"
+  },
+  {
+    "file": "data/experimental/la_series/raw/La_20at.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "44116d0dd5bf86032dc32fe709e8ad9457e6a5508f023befa55d63b7154c71bd",
+    "distributed_sha256": "76136c819dbd07fb89d9dbea1651a38d7ea209de405a3ef31f38e04ed2e18b50"
+  },
+  {
+    "file": "data/experimental/la_series/curves/La_20at.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "ebdba890666040bb1d39f02b587a7ccee5882daa0cc57bb7ed30aa029c7fd63a",
+    "distributed_sha256": "ebdba890666040bb1d39f02b587a7ccee5882daa0cc57bb7ed30aa029c7fd63a"
+  },
+  {
+    "file": "data/experimental/additional_19/raw/batch2_1.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "cbc77de5e253e4cef2f80cb5d1dd845aa88738a3d977451e008a96e546e5a4fb",
+    "distributed_sha256": "317ac3e2b15bc4e5aada524e22165c178ca051685d173e7d68daff80029c63ec"
+  },
+  {
+    "file": "data/experimental/additional_19/raw/batch2_3.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "41903cc373a01ba698badbc9ff23098ae607cbffa431279392339c501e0c7bb9",
+    "distributed_sha256": "eddf6e16cfe26c72e580763c05334a36f449d4fa3e7ba15ede49a3e59c259b4b"
+  },
+  {
+    "file": "data/experimental/additional_19/raw/batch2_4.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "1d60380a5427cca3fbb034b02f2fbf2944f9736d310f0611f3cae800d921096e",
+    "distributed_sha256": "2241afecc0b95392de0914263ac9db62306512ee29a9e9585260dd8abcfb67b5"
+  },
+  {
+    "file": "data/experimental/additional_19/raw/batch2_5.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "35c30a69217f707e7967302a11780ddcf44a0e3e4c07b93f8391805fdfc2738f",
+    "distributed_sha256": "dfe4ff365ca0304957c67dc3541b87e3922b5a82324f78c92fe18948b4fc610f"
+  },
+  {
+    "file": "data/experimental/additional_19/raw/batch2_6.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "009c4f73481b40f6dd9103d3dfd5be034a5d368e8506b568200c5db0fa7f787d",
+    "distributed_sha256": "d71e12f31de9548bf7d62c5425380878f2fda3954b716531e0b567c54c9a6988"
+  },
+  {
+    "file": "data/experimental/additional_19/raw/batch2_7.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "f83e9a97c8b0db3379daaab9958c9cc53dc465576274fb974316eb2df102ec95",
+    "distributed_sha256": "0ebc4ed0151fdfbf0aadeef9e75b9b8b1685214410e431d138d6e2ae98978d39"
+  },
+  {
+    "file": "data/experimental/additional_19/raw/batch2_9.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "7969ae938541e36ae56657be94290e59a3ce0957bc579457b0c4f03fa9358130",
+    "distributed_sha256": "2fdf97c6082c00098c0e8c84c371bd7c92e32bc63669d0bac05df07be75f7bf1"
+  },
+  {
+    "file": "data/experimental/additional_19/raw/batch2_10.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "78d79b2444efbe3e6b726a71c87099cd8a853150d2999117a1b16d6d3c607e61",
+    "distributed_sha256": "1311fed812608fea56e381934d597d14d88930744440194a859257ae8a9ace5f"
+  },
+  {
+    "file": "data/experimental/additional_19/raw/batch2_11.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "a2aecbf6011feffb1b742ff283ad4b8599e9b9868e0c4b172ebc5ffd92ee8624",
+    "distributed_sha256": "a2f4a86d49831ad7ede9e56c37f4431239f7be56dfc850449f3d7a3570830aa7"
+  },
+  {
+    "file": "data/experimental/additional_19/raw/batch2_12.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "80eabbe43ec141a053ceff8aa0ebd3793ee235df4954c68689e6d98b028a8478",
+    "distributed_sha256": "9b3e40aa4fed96719aa578776d8e7bffc6194d198dd3a5a389c217290aa07a2b"
+  },
+  {
+    "file": "data/experimental/additional_19/raw/batch2_13.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "8f22065bf2d2ed324e4de1e3e3eb471876934761068812f605621bb9ee900788",
+    "distributed_sha256": "afff5243cc82243c5283eaacf4bcaeae205e4ca2f5454b441aa1ef483e33e0f1"
+  },
+  {
+    "file": "data/experimental/additional_19/raw/batch2_14.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "23b346b7b98bcc759d161fd4716f3f67aefc67828b6f0de70d29f7268d0662fe",
+    "distributed_sha256": "afc300de7eaa250250cabac561e78c9af7b767edcade1a32138061f74e2b22a4"
+  },
+  {
+    "file": "data/experimental/additional_19/raw/batch2_15.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "c2c89914c0115496b26477666b2d5fb5ce68a808f7e156e3eb76adcf0e6b746f",
+    "distributed_sha256": "c12b2c9426462f9dc2944eeaad884c02ea28d0eb29601a4827c1aab9608dc8c7"
+  },
+  {
+    "file": "data/experimental/additional_19/raw/batch2_16.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "b14c0b7b0bc7de7f53802650f66af05e5920de71c7b19ae0d88d0ae149806a53",
+    "distributed_sha256": "7055b167b7249e2b867876ed6c4b69ee400b7c19f8d56086097096ccd3f76a68"
+  },
+  {
+    "file": "data/experimental/additional_19/raw/batch2_17.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "edb4847496f75864f3a7925938b99f88b82cdc3eceddf9c862f8cd0c353b1d86",
+    "distributed_sha256": "db011b563eeb5f249ade58238f5cb5da7706eba0ee93c17e73289793bc8bac6c"
+  },
+  {
+    "file": "data/experimental/additional_19/raw/batch2_18.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "139e7ba12adcdb6a634375ec76ec2ffd0b3d6cfe5693b17eda81a23e77aa28cd",
+    "distributed_sha256": "499a7dc4a19acc52d4f7de71f1fedb4753b887c77fcd9f1633d4816a53568a5c"
+  },
+  {
+    "file": "data/experimental/additional_19/raw/batch2_19.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "0c63f9293f76aeb2d76769e24bf8ac9c0fe8a668290c5c480bda10c93889b9b2",
+    "distributed_sha256": "84414aad16fac0536616f817e4d80ffec982252903c17dcec2c8147ebf1698c9"
+  },
+  {
+    "file": "data/experimental/additional_19/raw/batch2_20.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "77dee9d6a25787b19a971670d0e3737def121ee3f7618c3647d296b5c77e67af",
+    "distributed_sha256": "bb73520bf9128edad2818d50b6611e2dfaf23353a02443edd0b391d9369a6683"
+  },
+  {
+    "file": "data/experimental/additional_19/raw/batch2_21.xls",
+    "source_bytes_preserved": false,
+    "copied_source_sha256": "950fa8e685701353070034bb3fb6babe2c611cb8f012f5930a7bf527f0c779d9",
+    "distributed_sha256": "63522aa94b0438e4de066030e031757ebafd8cecfb5bd4adf75848a089724e6a"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_0p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "ec8a4f8ac701a2173d9a8aaa37d4271aafeb7b92c8e21d32d3265b78ac6da5d7",
+    "distributed_sha256": "ec8a4f8ac701a2173d9a8aaa37d4271aafeb7b92c8e21d32d3265b78ac6da5d7"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_0p5eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "64cc2f0fb08d40117ccf64f51b06f659e82e47859f3cf6396fb1bef17f443a7a",
+    "distributed_sha256": "64cc2f0fb08d40117ccf64f51b06f659e82e47859f3cf6396fb1bef17f443a7a"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_0p5eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "3774089305d32f3f2c5d1f41e0bd9347b7cd92f60dfa1d64dbc30715959cef00",
+    "distributed_sha256": "3774089305d32f3f2c5d1f41e0bd9347b7cd92f60dfa1d64dbc30715959cef00"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_000pct_sigma_0p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a97808979f7f38f4d143dfd96bb4e1f398d8d9d51f9db5a9385c39b855d5c5e5",
+    "distributed_sha256": "a97808979f7f38f4d143dfd96bb4e1f398d8d9d51f9db5a9385c39b855d5c5e5"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_0p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "eb299b4bb226f5ca23966379fff68c4ec7d8544b51548ad543354062342742f4",
+    "distributed_sha256": "eb299b4bb226f5ca23966379fff68c4ec7d8544b51548ad543354062342742f4"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_0p5eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "cf12f4915be416e851807e9aff26ca75a14ebcea86b2911fb165e012f166c134",
+    "distributed_sha256": "cf12f4915be416e851807e9aff26ca75a14ebcea86b2911fb165e012f166c134"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_0p5eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "218f47dc2c5eb938636534e19d4e303049e651bdfb5ee55e4d49b61d74602d64",
+    "distributed_sha256": "218f47dc2c5eb938636534e19d4e303049e651bdfb5ee55e4d49b61d74602d64"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_000pct_sigma_0p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e17111d4c5372be0de6aaff82125e8409f13957b4b42cc812ac60f055af93db5",
+    "distributed_sha256": "e17111d4c5372be0de6aaff82125e8409f13957b4b42cc812ac60f055af93db5"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_1eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "205485e54d658d7b4b5cc8ed25fe34d12e8a49873178d9269866e1ef5ec066a8",
+    "distributed_sha256": "205485e54d658d7b4b5cc8ed25fe34d12e8a49873178d9269866e1ef5ec066a8"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_1eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "4c445effafb46da27bd2ca5e15295842eb8d8080fcf271b1ffbf1b92c9347987",
+    "distributed_sha256": "4c445effafb46da27bd2ca5e15295842eb8d8080fcf271b1ffbf1b92c9347987"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_1eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "90bd1ac7373ed9845758022bc1b664b4dba7b773108042648cd69d0cc83d5692",
+    "distributed_sha256": "90bd1ac7373ed9845758022bc1b664b4dba7b773108042648cd69d0cc83d5692"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_000pct_sigma_1eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "5b307fa55f1f646368518f10763e70f26174194556102e5b71c7842bfb13545c",
+    "distributed_sha256": "5b307fa55f1f646368518f10763e70f26174194556102e5b71c7842bfb13545c"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_1eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "cb2601cce23ab8857639432dcc3f4a79d2bc654efa1507553fdaea3a304b4af1",
+    "distributed_sha256": "cb2601cce23ab8857639432dcc3f4a79d2bc654efa1507553fdaea3a304b4af1"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_1eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "13234a72cba5a0926200a6e99547c585ac455c3d1dee6f405e3a6a4189f3453d",
+    "distributed_sha256": "13234a72cba5a0926200a6e99547c585ac455c3d1dee6f405e3a6a4189f3453d"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_1eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "fbf340bf4410c7195b69fde9f29b8328c514d78fa77ffbd7a127c2b825593cb5",
+    "distributed_sha256": "fbf340bf4410c7195b69fde9f29b8328c514d78fa77ffbd7a127c2b825593cb5"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_000pct_sigma_1eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "ae24601fbb197a5e63b3478bf5f115887e23cb76191f28e0d76ada231727f185",
+    "distributed_sha256": "ae24601fbb197a5e63b3478bf5f115887e23cb76191f28e0d76ada231727f185"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_1p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "807a19e9caab5d9a16543f19c0bdd13fe3dcb3fd63b3f763dca72e1e1039ab92",
+    "distributed_sha256": "807a19e9caab5d9a16543f19c0bdd13fe3dcb3fd63b3f763dca72e1e1039ab92"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_1p5eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "13e896c7d384e9a164dc0faaaf467a50febc763b4ace73a21bc2b91bd54fd6a9",
+    "distributed_sha256": "13e896c7d384e9a164dc0faaaf467a50febc763b4ace73a21bc2b91bd54fd6a9"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_1p5eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d58f754eb6c08efde1eac91451cd95b5ceea13f7282fdde5398a94fd416397fc",
+    "distributed_sha256": "d58f754eb6c08efde1eac91451cd95b5ceea13f7282fdde5398a94fd416397fc"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_000pct_sigma_1p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "85c5873996d1f80924b488c2795b33bbf9d041c6e0ddda0d2feff89ab936d32c",
+    "distributed_sha256": "85c5873996d1f80924b488c2795b33bbf9d041c6e0ddda0d2feff89ab936d32c"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_1p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "4f51eeb2f33d1dd399814bbc0599e41556800e9567a5b03f52a4e6537abc3a52",
+    "distributed_sha256": "4f51eeb2f33d1dd399814bbc0599e41556800e9567a5b03f52a4e6537abc3a52"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_1p5eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "326f67754c2c04f2e1d47f3fbf3d9d22a58ecaa54778e0fd3aefaedc2012dcfe",
+    "distributed_sha256": "326f67754c2c04f2e1d47f3fbf3d9d22a58ecaa54778e0fd3aefaedc2012dcfe"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_000pct_sigma_1p5eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d331fa4a0cf0c863e6ef66b3efea56d74c9bc6e7d697be9fbaba3c77264cf594",
+    "distributed_sha256": "d331fa4a0cf0c863e6ef66b3efea56d74c9bc6e7d697be9fbaba3c77264cf594"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_000pct_sigma_1p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "fcb67f20210e609b93ae2d4fc8a7bbac6fe53979de74018d0c2fb314522d17f9",
+    "distributed_sha256": "fcb67f20210e609b93ae2d4fc8a7bbac6fe53979de74018d0c2fb314522d17f9"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_0p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "13f323d2fe80afcf997766a566c7ad9f70c21747dcd8420e7fb274c9a6aadef2",
+    "distributed_sha256": "13f323d2fe80afcf997766a566c7ad9f70c21747dcd8420e7fb274c9a6aadef2"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_0p5eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c7c1a20c892e89f06d86f437c165bf5a2e28b8ceb6eeab2a85a235063d538f76",
+    "distributed_sha256": "c7c1a20c892e89f06d86f437c165bf5a2e28b8ceb6eeab2a85a235063d538f76"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_0p5eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "cd036cfb3585ff6fe88c60b50b20ba041616dd5095699701879302c7b53dc94b",
+    "distributed_sha256": "cd036cfb3585ff6fe88c60b50b20ba041616dd5095699701879302c7b53dc94b"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_015pct_sigma_0p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e6575c8c9a448914de5a70d780c860328b77d4f512dbd79716d65aaf4efef0c7",
+    "distributed_sha256": "e6575c8c9a448914de5a70d780c860328b77d4f512dbd79716d65aaf4efef0c7"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_0p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "729e1b32a91adc6092dcb63d45507c1f6093848935a3ed535ac8de5848765b3f",
+    "distributed_sha256": "729e1b32a91adc6092dcb63d45507c1f6093848935a3ed535ac8de5848765b3f"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_0p5eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "75b67381516412f0d8780d5b2f3753e385870b41d4fa474192db07588d815e71",
+    "distributed_sha256": "75b67381516412f0d8780d5b2f3753e385870b41d4fa474192db07588d815e71"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_0p5eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "ce8375a26d7c83c255f95cb44f96659e7ff7af582101907ccd71afab14e5902d",
+    "distributed_sha256": "ce8375a26d7c83c255f95cb44f96659e7ff7af582101907ccd71afab14e5902d"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_015pct_sigma_0p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "4ea1f1b7cd0236e5aabe19bec07c19604d51689a1af1f8a5df786234a5fa7d41",
+    "distributed_sha256": "4ea1f1b7cd0236e5aabe19bec07c19604d51689a1af1f8a5df786234a5fa7d41"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_1eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d97de89865d8f738084b7eaf22fcb48a01c798b293c5fd976d14c1e8fd5f39b5",
+    "distributed_sha256": "d97de89865d8f738084b7eaf22fcb48a01c798b293c5fd976d14c1e8fd5f39b5"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_1eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d45c6f382783d120350f90fbd2367816ad906a24cba359e962eaaae619e8a70d",
+    "distributed_sha256": "d45c6f382783d120350f90fbd2367816ad906a24cba359e962eaaae619e8a70d"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_1eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "5a6428f36fdfaca7c94c7457712e089e1818775265b2b6dd4ca7ca217b29755f",
+    "distributed_sha256": "5a6428f36fdfaca7c94c7457712e089e1818775265b2b6dd4ca7ca217b29755f"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_015pct_sigma_1eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "759f432ae36bcd38f10d08d72d5acbdec791dfe9bf8113b03264cdd01073625d",
+    "distributed_sha256": "759f432ae36bcd38f10d08d72d5acbdec791dfe9bf8113b03264cdd01073625d"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_1eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e0fa530f77508f343cda10ea6016979bd49b9a08a8ebc2058289a1906df2f670",
+    "distributed_sha256": "e0fa530f77508f343cda10ea6016979bd49b9a08a8ebc2058289a1906df2f670"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_1eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "108a5accaa8e6057c2a2b71c4c1c0f08c9f32ed3427a12cb6ce206cb1f6df340",
+    "distributed_sha256": "108a5accaa8e6057c2a2b71c4c1c0f08c9f32ed3427a12cb6ce206cb1f6df340"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_1eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c6a726450fa141076f261164f7a623be785161183c6bc02fd78d5e784d06cc2f",
+    "distributed_sha256": "c6a726450fa141076f261164f7a623be785161183c6bc02fd78d5e784d06cc2f"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_015pct_sigma_1eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "77cf874f8ae5b064b54c7ceba8a4926badb57e40fbd44b858a06bd3de526b600",
+    "distributed_sha256": "77cf874f8ae5b064b54c7ceba8a4926badb57e40fbd44b858a06bd3de526b600"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_1p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e0ea9c7f85edb0b89107dea04d5e52346e36126e661fa0a1c78ac819ffc6783b",
+    "distributed_sha256": "e0ea9c7f85edb0b89107dea04d5e52346e36126e661fa0a1c78ac819ffc6783b"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_1p5eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "8d31a017df3e53665639426d2db70132e0ae82f0c215f9e31919fcdcb4224527",
+    "distributed_sha256": "8d31a017df3e53665639426d2db70132e0ae82f0c215f9e31919fcdcb4224527"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_1p5eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "effd67f16699d533a174472103421fcef771bf92960cb70579e79beddab9a1f9",
+    "distributed_sha256": "effd67f16699d533a174472103421fcef771bf92960cb70579e79beddab9a1f9"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_015pct_sigma_1p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "2c480f768bb638b2d9824a13570b1f0d6f21b0ad7159b8c38f8fd960ea2f953c",
+    "distributed_sha256": "2c480f768bb638b2d9824a13570b1f0d6f21b0ad7159b8c38f8fd960ea2f953c"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_1p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "53537bd04d77a0faa5d219264a345fda441aec75aa8c274968abc6996f13e25c",
+    "distributed_sha256": "53537bd04d77a0faa5d219264a345fda441aec75aa8c274968abc6996f13e25c"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_1p5eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "cd3fd71d8268b38e861d36fe1fbae373ad04ff79efc16a767142988aa3f6c821",
+    "distributed_sha256": "cd3fd71d8268b38e861d36fe1fbae373ad04ff79efc16a767142988aa3f6c821"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_015pct_sigma_1p5eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e82d7e62c588fe4d4cc03d8cc8017f8a7baaeeadbe13591f8519a8e86bd40100",
+    "distributed_sha256": "e82d7e62c588fe4d4cc03d8cc8017f8a7baaeeadbe13591f8519a8e86bd40100"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_015pct_sigma_1p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c55741f966c4f17dd75467e983a37aa19e7b71e8999978f6195ad5a8bcb68ab2",
+    "distributed_sha256": "c55741f966c4f17dd75467e983a37aa19e7b71e8999978f6195ad5a8bcb68ab2"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_0p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "872f6adb7f2ca0371adfcf60747781ff6312bbf4198bfc02626ac5ccaa80b6c9",
+    "distributed_sha256": "872f6adb7f2ca0371adfcf60747781ff6312bbf4198bfc02626ac5ccaa80b6c9"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_0p5eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "56652afc588e3257346a15a3e59438a4d20cf66aa6e9ca7e7502430dfd7e7b9a",
+    "distributed_sha256": "56652afc588e3257346a15a3e59438a4d20cf66aa6e9ca7e7502430dfd7e7b9a"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_0p5eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "66ec631dd39e497ab7c1296363eded4e3d335e3f2aabc026b2b58fd305c6ee6e",
+    "distributed_sha256": "66ec631dd39e497ab7c1296363eded4e3d335e3f2aabc026b2b58fd305c6ee6e"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_030pct_sigma_0p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "eb5098e6d28de8e93dfafbae97830280642fa38a4734fd8170a09dfaf9f348c6",
+    "distributed_sha256": "eb5098e6d28de8e93dfafbae97830280642fa38a4734fd8170a09dfaf9f348c6"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_0p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "81c7b4b05b470407f969f61d21ec0725e0d705d9dae75ba5267d8631e277b4c3",
+    "distributed_sha256": "81c7b4b05b470407f969f61d21ec0725e0d705d9dae75ba5267d8631e277b4c3"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_0p5eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "5f9da2f090126010fcb7fa67ce7c57b1920d976420e3f40cb6d09478b63513ea",
+    "distributed_sha256": "5f9da2f090126010fcb7fa67ce7c57b1920d976420e3f40cb6d09478b63513ea"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_0p5eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "9e3ed49e3c48b78034673a3b2b4fc5b8339740ca4aa7232db31bff8ca0789b2c",
+    "distributed_sha256": "9e3ed49e3c48b78034673a3b2b4fc5b8339740ca4aa7232db31bff8ca0789b2c"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_030pct_sigma_0p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d767aa5c2cc54ef6c8700e7171926e1f5359d9409aa14a4239d35195fa8e31f0",
+    "distributed_sha256": "d767aa5c2cc54ef6c8700e7171926e1f5359d9409aa14a4239d35195fa8e31f0"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_1eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e9a2d8eb5ae1c38e3c57d50661b5b7ffc7c8a63533ae7aaf596c80115b4af440",
+    "distributed_sha256": "e9a2d8eb5ae1c38e3c57d50661b5b7ffc7c8a63533ae7aaf596c80115b4af440"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_1eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "276b8f12a0f52a05967c096af7ed1202c9ffe3c34345b6705c647b8f60bf4ed3",
+    "distributed_sha256": "276b8f12a0f52a05967c096af7ed1202c9ffe3c34345b6705c647b8f60bf4ed3"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_1eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "59af29ba8c60309f63003d5b423823427e25f051e54c1b8cc4257f3842d6b7c0",
+    "distributed_sha256": "59af29ba8c60309f63003d5b423823427e25f051e54c1b8cc4257f3842d6b7c0"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_030pct_sigma_1eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "7544ba97f693178fc98450d3e6542dc19fcdccffe26659556416ca55b2b75e8c",
+    "distributed_sha256": "7544ba97f693178fc98450d3e6542dc19fcdccffe26659556416ca55b2b75e8c"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_1eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c5c63dbd4c9f0903eb59986d6d0d0242e12cb94b8380d46302d77594a10b9d99",
+    "distributed_sha256": "c5c63dbd4c9f0903eb59986d6d0d0242e12cb94b8380d46302d77594a10b9d99"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_1eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d658f28832667bf341214409fd3811b4ce4713350c31b6f9123ec2c069654a01",
+    "distributed_sha256": "d658f28832667bf341214409fd3811b4ce4713350c31b6f9123ec2c069654a01"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_1eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "adf488e802b023058fd728643402959afccaa7f9e5a5f6a0fa77f2b1251b3daf",
+    "distributed_sha256": "adf488e802b023058fd728643402959afccaa7f9e5a5f6a0fa77f2b1251b3daf"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_030pct_sigma_1eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "db82af9375f2bd5fa5c6887591a5a7f20f3b9320f307bcbd84aa1d7f7e202fd3",
+    "distributed_sha256": "db82af9375f2bd5fa5c6887591a5a7f20f3b9320f307bcbd84aa1d7f7e202fd3"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_1p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "02952c5758f0d6a2dc4d2fc609d99f99ac137388dde4178d0b047d1d36f36cb5",
+    "distributed_sha256": "02952c5758f0d6a2dc4d2fc609d99f99ac137388dde4178d0b047d1d36f36cb5"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_1p5eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "444ac13084474466fc070df56ebbcc7e765dc7df6e59c617227a7cb4b1c3c46d",
+    "distributed_sha256": "444ac13084474466fc070df56ebbcc7e765dc7df6e59c617227a7cb4b1c3c46d"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_1p5eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "ac70faacb3760500bc0b54bd818913cf9ec20fb4f2332c9854aeab9a78e1055f",
+    "distributed_sha256": "ac70faacb3760500bc0b54bd818913cf9ec20fb4f2332c9854aeab9a78e1055f"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_030pct_sigma_1p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a72120863a1a8add8e3a942ee632aa9f937a35201465a687cdd508eb9f427d02",
+    "distributed_sha256": "a72120863a1a8add8e3a942ee632aa9f937a35201465a687cdd508eb9f427d02"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_1p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "f661951c3ec381bcd39f72c71b50303d39f2535bdbdb034c831ae8f1315d1ad7",
+    "distributed_sha256": "f661951c3ec381bcd39f72c71b50303d39f2535bdbdb034c831ae8f1315d1ad7"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_1p5eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "bc19eca6965ce5ba180742ece5b82189ad8c71c8d992e955d3798fccbf779b85",
+    "distributed_sha256": "bc19eca6965ce5ba180742ece5b82189ad8c71c8d992e955d3798fccbf779b85"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_030pct_sigma_1p5eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "487e5cc758de698f7dd48cb1146c7d5a307738812fce5f4b9ff278464deecc6a",
+    "distributed_sha256": "487e5cc758de698f7dd48cb1146c7d5a307738812fce5f4b9ff278464deecc6a"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_030pct_sigma_1p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d72ec26a5809054797c4e51c24048d2ebfa0f5445c9b5880bf6757ffd8ecf964",
+    "distributed_sha256": "d72ec26a5809054797c4e51c24048d2ebfa0f5445c9b5880bf6757ffd8ecf964"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_0p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "08dd267593f9dcf948a6097bfc4abf0950acf0e077605c905afbf4e665630d82",
+    "distributed_sha256": "08dd267593f9dcf948a6097bfc4abf0950acf0e077605c905afbf4e665630d82"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_0p5eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d326b46dc0b935098ad64b3a7ef0d2b5acec6290755e1c116da017e7ad565142",
+    "distributed_sha256": "d326b46dc0b935098ad64b3a7ef0d2b5acec6290755e1c116da017e7ad565142"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_0p5eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "569829ebcf5a70c8c3b3956ccd6f1c739b1582a54aff33a396ce75192377c951",
+    "distributed_sha256": "569829ebcf5a70c8c3b3956ccd6f1c739b1582a54aff33a396ce75192377c951"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_060pct_sigma_0p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d47079ec1ae006a9b3211c9b3f0eafe49566f8eea9c44ef79c332467d573268d",
+    "distributed_sha256": "d47079ec1ae006a9b3211c9b3f0eafe49566f8eea9c44ef79c332467d573268d"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_0p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "5b8e06eab940e1c81046b8cc14e671b2d8595ce827a8d73b13b21e50ff3f86cd",
+    "distributed_sha256": "5b8e06eab940e1c81046b8cc14e671b2d8595ce827a8d73b13b21e50ff3f86cd"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_0p5eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "3edb1cc79c363bad773a82b1c593f6579d95a40f8f52bdcc5942d1733d8321d4",
+    "distributed_sha256": "3edb1cc79c363bad773a82b1c593f6579d95a40f8f52bdcc5942d1733d8321d4"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_0p5eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "25ab4fb45abbaaaa81bf38a4893da354693db895aa142e795d14ebfb560ebcb7",
+    "distributed_sha256": "25ab4fb45abbaaaa81bf38a4893da354693db895aa142e795d14ebfb560ebcb7"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_060pct_sigma_0p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "5004434153a512eefd398c0d6a09cc0fca7c1e30d281086a7739673477b99d1b",
+    "distributed_sha256": "5004434153a512eefd398c0d6a09cc0fca7c1e30d281086a7739673477b99d1b"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_1eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "0c6f60867a70c131eb9f554ede7c4aed0e40b70d47cbccb818a0593ec7b32462",
+    "distributed_sha256": "0c6f60867a70c131eb9f554ede7c4aed0e40b70d47cbccb818a0593ec7b32462"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_1eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "b95f7b1e29041ff466073ac1e95b86a38e696c0cdf5ebd1086e6bcb4c4a2d26c",
+    "distributed_sha256": "b95f7b1e29041ff466073ac1e95b86a38e696c0cdf5ebd1086e6bcb4c4a2d26c"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_1eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "536614913ed61c6b4ee21981149cd0ac1e53dc599d7ec654a3a8a0b43cd25ae6",
+    "distributed_sha256": "536614913ed61c6b4ee21981149cd0ac1e53dc599d7ec654a3a8a0b43cd25ae6"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_060pct_sigma_1eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "01acd17e18b5e433c539d649dd6f1609bc41b03ec502904be891d3c2ce4cee54",
+    "distributed_sha256": "01acd17e18b5e433c539d649dd6f1609bc41b03ec502904be891d3c2ce4cee54"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_1eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "37652d8f1847aca690f147b33c8a2bc27ebc590f43c2d86b22fe86db4749330f",
+    "distributed_sha256": "37652d8f1847aca690f147b33c8a2bc27ebc590f43c2d86b22fe86db4749330f"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_1eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "7d99ffbb732b63212123b3ebeb93c47340a9133ef9010aa305ed48fd5e642a38",
+    "distributed_sha256": "7d99ffbb732b63212123b3ebeb93c47340a9133ef9010aa305ed48fd5e642a38"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_1eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a35c71be2d8e3b5028bbe21d85f589fff788c61b746f7a324a294b4091d1ad07",
+    "distributed_sha256": "a35c71be2d8e3b5028bbe21d85f589fff788c61b746f7a324a294b4091d1ad07"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_060pct_sigma_1eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "44ad645727444c9fb6495b321beacaa9832238589b7b1e2fec05594d8f9cf779",
+    "distributed_sha256": "44ad645727444c9fb6495b321beacaa9832238589b7b1e2fec05594d8f9cf779"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_1p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "4316840bd769d840892bdab94f63f53250b66ebff9817167072626d506e855f7",
+    "distributed_sha256": "4316840bd769d840892bdab94f63f53250b66ebff9817167072626d506e855f7"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_1p5eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "fdfef8d2155a8b9966e0a2e7fb039bda8c5916c2f6572b43f5c598412eb74459",
+    "distributed_sha256": "fdfef8d2155a8b9966e0a2e7fb039bda8c5916c2f6572b43f5c598412eb74459"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_1p5eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "beab113c65d4b1e24cd1c880884377e43ce96cecaa19c783969605f4c2c9076d",
+    "distributed_sha256": "beab113c65d4b1e24cd1c880884377e43ce96cecaa19c783969605f4c2c9076d"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_060pct_sigma_1p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "0f60245d5f60e8fb2c4c8516c2f47abd604b5f0e696d6577c7a75feeddc091e7",
+    "distributed_sha256": "0f60245d5f60e8fb2c4c8516c2f47abd604b5f0e696d6577c7a75feeddc091e7"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_1p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "1121f21cdbf350144ef12e7061a9f4ff7d238be8b0d58e13fc90af4caa5f4a96",
+    "distributed_sha256": "1121f21cdbf350144ef12e7061a9f4ff7d238be8b0d58e13fc90af4caa5f4a96"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_1p5eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "fc3cfc3c1842a755d837b8523b6981eda31b6fbbb65e33622f50e2f0f3576e81",
+    "distributed_sha256": "fc3cfc3c1842a755d837b8523b6981eda31b6fbbb65e33622f50e2f0f3576e81"
+  },
+  {
+    "file": "data/synthetic/truth/background_free/LA_Ce3_060pct_sigma_1p5eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "07ae7840734ac067d08d69174e3269c65bb467088ac18da20372cf29ab19d235",
+    "distributed_sha256": "07ae7840734ac067d08d69174e3269c65bb467088ac18da20372cf29ab19d235"
+  },
+  {
+    "file": "data/synthetic/prepared/a_LA_Ce3_060pct_sigma_1p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c6db833f7f73b76d1b5acf9230264bbd53ed54b1684ed488de7b9aade0e3491e",
+    "distributed_sha256": "c6db833f7f73b76d1b5acf9230264bbd53ed54b1684ed488de7b9aade0e3491e"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_0p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "30d7145692dc48e7e86a414ae9102bbffff944c0d8e46c6659b796c725f200b8",
+    "distributed_sha256": "30d7145692dc48e7e86a414ae9102bbffff944c0d8e46c6659b796c725f200b8"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_0p5eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "742bd751dcade5928e9d1703b9e39b75ece5007cadc1480e05c1ced60cdbeeba",
+    "distributed_sha256": "742bd751dcade5928e9d1703b9e39b75ece5007cadc1480e05c1ced60cdbeeba"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_0p5eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "3774089305d32f3f2c5d1f41e0bd9347b7cd92f60dfa1d64dbc30715959cef00",
+    "distributed_sha256": "3774089305d32f3f2c5d1f41e0bd9347b7cd92f60dfa1d64dbc30715959cef00"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_000pct_sigma_0p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "015d073edee386fd3f17a4e0b0cb98548cab3e39a5aa954af167f2d2950a7c94",
+    "distributed_sha256": "015d073edee386fd3f17a4e0b0cb98548cab3e39a5aa954af167f2d2950a7c94"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_0p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "2edbb52da9b8b24ef11a401d5790723f6d4965d37c5f72179c83a50ae27b78fb",
+    "distributed_sha256": "2edbb52da9b8b24ef11a401d5790723f6d4965d37c5f72179c83a50ae27b78fb"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_0p5eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "f864c1d649804b63074e8619206e81931aea9749306fcc84f43ef08189e7549c",
+    "distributed_sha256": "f864c1d649804b63074e8619206e81931aea9749306fcc84f43ef08189e7549c"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_0p5eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "218f47dc2c5eb938636534e19d4e303049e651bdfb5ee55e4d49b61d74602d64",
+    "distributed_sha256": "218f47dc2c5eb938636534e19d4e303049e651bdfb5ee55e4d49b61d74602d64"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_000pct_sigma_0p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a201b191a7f546c514ef172ebcd788563a31e9088b13ab33d2a588352e3056c8",
+    "distributed_sha256": "a201b191a7f546c514ef172ebcd788563a31e9088b13ab33d2a588352e3056c8"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_1eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "0963cceab7ad1f8b0770e61c95d9cbd3e0a53e7bf02bba97a3c01038ee804615",
+    "distributed_sha256": "0963cceab7ad1f8b0770e61c95d9cbd3e0a53e7bf02bba97a3c01038ee804615"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_1eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "6b72eaef8d8a58389774ed0e8d29772edc210baa41176ed34fa290a155f89f79",
+    "distributed_sha256": "6b72eaef8d8a58389774ed0e8d29772edc210baa41176ed34fa290a155f89f79"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_1eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "90bd1ac7373ed9845758022bc1b664b4dba7b773108042648cd69d0cc83d5692",
+    "distributed_sha256": "90bd1ac7373ed9845758022bc1b664b4dba7b773108042648cd69d0cc83d5692"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_000pct_sigma_1eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a79068bb8ad09af7633a551b169e75f50006bfeb19f397a7c93e505a58cdf8a5",
+    "distributed_sha256": "a79068bb8ad09af7633a551b169e75f50006bfeb19f397a7c93e505a58cdf8a5"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_1eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "0c3841dfe1a86fb464ba3b61f750c4f8f761ac944bbc8c32338e3de85bac69c6",
+    "distributed_sha256": "0c3841dfe1a86fb464ba3b61f750c4f8f761ac944bbc8c32338e3de85bac69c6"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_1eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "73682bbc0c4b530a7f5783d87f89ea9c23925a309486ecec9bc2ddd859b65c98",
+    "distributed_sha256": "73682bbc0c4b530a7f5783d87f89ea9c23925a309486ecec9bc2ddd859b65c98"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_1eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "fbf340bf4410c7195b69fde9f29b8328c514d78fa77ffbd7a127c2b825593cb5",
+    "distributed_sha256": "fbf340bf4410c7195b69fde9f29b8328c514d78fa77ffbd7a127c2b825593cb5"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_000pct_sigma_1eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c7ece1e787037e1b8cab2468d0ccd8cfec5f37ff506e4725cfcfd7339909bb9f",
+    "distributed_sha256": "c7ece1e787037e1b8cab2468d0ccd8cfec5f37ff506e4725cfcfd7339909bb9f"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_1p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "83735a68c7a950b9d7ef81466e6f464b6c2c3f9534cb7c8eec05dae3a4a517a4",
+    "distributed_sha256": "83735a68c7a950b9d7ef81466e6f464b6c2c3f9534cb7c8eec05dae3a4a517a4"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_1p5eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "5d47733272440a7d0f42e188a77243c22123e62a30ceaeb1090f3c8611adf067",
+    "distributed_sha256": "5d47733272440a7d0f42e188a77243c22123e62a30ceaeb1090f3c8611adf067"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_1p5eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d58f754eb6c08efde1eac91451cd95b5ceea13f7282fdde5398a94fd416397fc",
+    "distributed_sha256": "d58f754eb6c08efde1eac91451cd95b5ceea13f7282fdde5398a94fd416397fc"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_000pct_sigma_1p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "befb3fd24d95eb94d1b28e4c6313dec58453a776c20a987993699d33f9359a64",
+    "distributed_sha256": "befb3fd24d95eb94d1b28e4c6313dec58453a776c20a987993699d33f9359a64"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_1p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d2f9e272cd5519628c4cea3c1027a33d5df31ed43cc3628a3985bc9e968bd102",
+    "distributed_sha256": "d2f9e272cd5519628c4cea3c1027a33d5df31ed43cc3628a3985bc9e968bd102"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_1p5eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d735019a1332ff06069821b2a55eb76312ed504842ea97e3f57b9e9112ceef7f",
+    "distributed_sha256": "d735019a1332ff06069821b2a55eb76312ed504842ea97e3f57b9e9112ceef7f"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_000pct_sigma_1p5eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d331fa4a0cf0c863e6ef66b3efea56d74c9bc6e7d697be9fbaba3c77264cf594",
+    "distributed_sha256": "d331fa4a0cf0c863e6ef66b3efea56d74c9bc6e7d697be9fbaba3c77264cf594"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_000pct_sigma_1p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "ee6b07d8aa0f8813e1f7a0eb353f713aa5ea59bf44b241cebd4a8c007a2edc6c",
+    "distributed_sha256": "ee6b07d8aa0f8813e1f7a0eb353f713aa5ea59bf44b241cebd4a8c007a2edc6c"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_0p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "4e680e2642ab1f673bf8ce82b56c6121bf1327d8a656214df3742357b68406dc",
+    "distributed_sha256": "4e680e2642ab1f673bf8ce82b56c6121bf1327d8a656214df3742357b68406dc"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_0p5eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "8748e8bd7c103ddb3ee43c2889f14d9600b97f3d7f3e7f54ccd78a78ef015090",
+    "distributed_sha256": "8748e8bd7c103ddb3ee43c2889f14d9600b97f3d7f3e7f54ccd78a78ef015090"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_0p5eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "cd036cfb3585ff6fe88c60b50b20ba041616dd5095699701879302c7b53dc94b",
+    "distributed_sha256": "cd036cfb3585ff6fe88c60b50b20ba041616dd5095699701879302c7b53dc94b"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_015pct_sigma_0p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "4d9b7be7f3472f618624dc83509d8fb634ea1744728f6e6bb89e333055db6b07",
+    "distributed_sha256": "4d9b7be7f3472f618624dc83509d8fb634ea1744728f6e6bb89e333055db6b07"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_0p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "cddbe1155854e70470acd2ff880332b59618a8da034febc9a5a7b20b8720817a",
+    "distributed_sha256": "cddbe1155854e70470acd2ff880332b59618a8da034febc9a5a7b20b8720817a"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_0p5eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "1876d32956566b4547c7c8cff5b565344f9d404524fb83b9852043a6782f5680",
+    "distributed_sha256": "1876d32956566b4547c7c8cff5b565344f9d404524fb83b9852043a6782f5680"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_0p5eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "ce8375a26d7c83c255f95cb44f96659e7ff7af582101907ccd71afab14e5902d",
+    "distributed_sha256": "ce8375a26d7c83c255f95cb44f96659e7ff7af582101907ccd71afab14e5902d"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_015pct_sigma_0p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "dbc852f4e913f3189457dcf98468becc8b7d0460b0a610d081bd6cdf6326e74e",
+    "distributed_sha256": "dbc852f4e913f3189457dcf98468becc8b7d0460b0a610d081bd6cdf6326e74e"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_1eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c18e68b5f07879773fc3b824f659c7cc85130aac13ce689db8e7ff5d7d7df95e",
+    "distributed_sha256": "c18e68b5f07879773fc3b824f659c7cc85130aac13ce689db8e7ff5d7d7df95e"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_1eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "bb7771c05e2cfa41539fbccb809c861010a63b90fdcd4cee12fc023b01538d4d",
+    "distributed_sha256": "bb7771c05e2cfa41539fbccb809c861010a63b90fdcd4cee12fc023b01538d4d"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_1eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "5a6428f36fdfaca7c94c7457712e089e1818775265b2b6dd4ca7ca217b29755f",
+    "distributed_sha256": "5a6428f36fdfaca7c94c7457712e089e1818775265b2b6dd4ca7ca217b29755f"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_015pct_sigma_1eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a2bbb42074ae4a00975bd742199ae5f61d71b424b81335ea33609776e0d9ef23",
+    "distributed_sha256": "a2bbb42074ae4a00975bd742199ae5f61d71b424b81335ea33609776e0d9ef23"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_1eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "bac45197c419196dd762749d77829afc3491439f309dbc93699f02775f72e86b",
+    "distributed_sha256": "bac45197c419196dd762749d77829afc3491439f309dbc93699f02775f72e86b"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_1eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "9c4bf780d235a6a9f1118b804d2dd88c8833b2baf9b69bb9690af245e3958efe",
+    "distributed_sha256": "9c4bf780d235a6a9f1118b804d2dd88c8833b2baf9b69bb9690af245e3958efe"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_1eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c6a726450fa141076f261164f7a623be785161183c6bc02fd78d5e784d06cc2f",
+    "distributed_sha256": "c6a726450fa141076f261164f7a623be785161183c6bc02fd78d5e784d06cc2f"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_015pct_sigma_1eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c800688011af40f73e8bd9f5e24eeccb190e61dd8b5111da3c5c521bd9c18594",
+    "distributed_sha256": "c800688011af40f73e8bd9f5e24eeccb190e61dd8b5111da3c5c521bd9c18594"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_1p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "4c50d5868bfd3f1f4f7c3d42036829f00382e447de4ab9b8f50f38a35f2d85d8",
+    "distributed_sha256": "4c50d5868bfd3f1f4f7c3d42036829f00382e447de4ab9b8f50f38a35f2d85d8"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_1p5eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "73c3524037a91042fa5c435118bbd9871553fe5e8e23f5c755a43372c327ccf5",
+    "distributed_sha256": "73c3524037a91042fa5c435118bbd9871553fe5e8e23f5c755a43372c327ccf5"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_1p5eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "effd67f16699d533a174472103421fcef771bf92960cb70579e79beddab9a1f9",
+    "distributed_sha256": "effd67f16699d533a174472103421fcef771bf92960cb70579e79beddab9a1f9"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_015pct_sigma_1p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "6f23eef179f093a82f51414a9e7b964ee689d7682f4b86d1ca5251bd1cf11c3d",
+    "distributed_sha256": "6f23eef179f093a82f51414a9e7b964ee689d7682f4b86d1ca5251bd1cf11c3d"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_1p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "9d29db0e5b84d290ae0429281a3fcd6635f4736b3a7a6af6a4d95f2bd89c2a59",
+    "distributed_sha256": "9d29db0e5b84d290ae0429281a3fcd6635f4736b3a7a6af6a4d95f2bd89c2a59"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_1p5eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "065fb75a23fb013246896ca2083be525e69069dc67f529759a322678d392fd75",
+    "distributed_sha256": "065fb75a23fb013246896ca2083be525e69069dc67f529759a322678d392fd75"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_015pct_sigma_1p5eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e82d7e62c588fe4d4cc03d8cc8017f8a7baaeeadbe13591f8519a8e86bd40100",
+    "distributed_sha256": "e82d7e62c588fe4d4cc03d8cc8017f8a7baaeeadbe13591f8519a8e86bd40100"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_015pct_sigma_1p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "54655fb664af1d923b2bbc29c12096ad47e3978d3afa37d6f57a43f7f937441c",
+    "distributed_sha256": "54655fb664af1d923b2bbc29c12096ad47e3978d3afa37d6f57a43f7f937441c"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_0p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e806e8d7a3e516e8017b35b28386810b444c863b07492819bd1eb732a45613c7",
+    "distributed_sha256": "e806e8d7a3e516e8017b35b28386810b444c863b07492819bd1eb732a45613c7"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_0p5eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a3087174bb7e5ad256e55289f977dcab83565889f7d89f01f155f4ec1dbb08fc",
+    "distributed_sha256": "a3087174bb7e5ad256e55289f977dcab83565889f7d89f01f155f4ec1dbb08fc"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_0p5eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "66ec631dd39e497ab7c1296363eded4e3d335e3f2aabc026b2b58fd305c6ee6e",
+    "distributed_sha256": "66ec631dd39e497ab7c1296363eded4e3d335e3f2aabc026b2b58fd305c6ee6e"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_030pct_sigma_0p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a93de8834d1731adf4c534eb84223e3db37d3cd024905af6a93609ab288be2a2",
+    "distributed_sha256": "a93de8834d1731adf4c534eb84223e3db37d3cd024905af6a93609ab288be2a2"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_0p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "9c92a366b792cc15cb743c5e47cc715f688d8b78ae1e4867c4ae1fbbdec525d1",
+    "distributed_sha256": "9c92a366b792cc15cb743c5e47cc715f688d8b78ae1e4867c4ae1fbbdec525d1"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_0p5eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "103c6f7a74293c82ea22ca7de022d6092fae0532b1add64b0a0359a30cc62fb6",
+    "distributed_sha256": "103c6f7a74293c82ea22ca7de022d6092fae0532b1add64b0a0359a30cc62fb6"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_0p5eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "9e3ed49e3c48b78034673a3b2b4fc5b8339740ca4aa7232db31bff8ca0789b2c",
+    "distributed_sha256": "9e3ed49e3c48b78034673a3b2b4fc5b8339740ca4aa7232db31bff8ca0789b2c"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_030pct_sigma_0p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "7c671de393ddb4f7ee472bccf92a743cc1f762a51b310b8059bd5b10379dbe20",
+    "distributed_sha256": "7c671de393ddb4f7ee472bccf92a743cc1f762a51b310b8059bd5b10379dbe20"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_1eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "cc20ba4c11136bef98daf33de94014d61b34daccc4c45c6fb70452d8e191b8d3",
+    "distributed_sha256": "cc20ba4c11136bef98daf33de94014d61b34daccc4c45c6fb70452d8e191b8d3"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_1eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "b8c54a3b03a04a649b8503865f23464734cc01810ab0891e509ca70431566b3b",
+    "distributed_sha256": "b8c54a3b03a04a649b8503865f23464734cc01810ab0891e509ca70431566b3b"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_1eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "59af29ba8c60309f63003d5b423823427e25f051e54c1b8cc4257f3842d6b7c0",
+    "distributed_sha256": "59af29ba8c60309f63003d5b423823427e25f051e54c1b8cc4257f3842d6b7c0"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_030pct_sigma_1eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "0a29aabcc589bf9ed31754d0f5fc076d52a52dc51a75992c3bfa1bbfdf6c1f3b",
+    "distributed_sha256": "0a29aabcc589bf9ed31754d0f5fc076d52a52dc51a75992c3bfa1bbfdf6c1f3b"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_1eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "adadfaedd4491fb196f82534c975121bf4d041c9d467a32d3584ffadf5a21a5e",
+    "distributed_sha256": "adadfaedd4491fb196f82534c975121bf4d041c9d467a32d3584ffadf5a21a5e"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_1eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "4b8c63e38ee57cdb71348e47a2b99fd31f1bc942014c80b38ac7e7dcdb97feb5",
+    "distributed_sha256": "4b8c63e38ee57cdb71348e47a2b99fd31f1bc942014c80b38ac7e7dcdb97feb5"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_1eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "adf488e802b023058fd728643402959afccaa7f9e5a5f6a0fa77f2b1251b3daf",
+    "distributed_sha256": "adf488e802b023058fd728643402959afccaa7f9e5a5f6a0fa77f2b1251b3daf"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_030pct_sigma_1eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c1190e67b68f74d0b04a0bb67f776a212e7ae885d70b642ba32be392f3369963",
+    "distributed_sha256": "c1190e67b68f74d0b04a0bb67f776a212e7ae885d70b642ba32be392f3369963"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_1p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "f69bd50ba297af5cdc6e8385943862e9086cc3e4b294f5b418a8801a6779480e",
+    "distributed_sha256": "f69bd50ba297af5cdc6e8385943862e9086cc3e4b294f5b418a8801a6779480e"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_1p5eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "5dac817788fd3332f2662d190bbbc317db82d5e7aa84a45a977eef9f6b0cf105",
+    "distributed_sha256": "5dac817788fd3332f2662d190bbbc317db82d5e7aa84a45a977eef9f6b0cf105"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_1p5eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "ac70faacb3760500bc0b54bd818913cf9ec20fb4f2332c9854aeab9a78e1055f",
+    "distributed_sha256": "ac70faacb3760500bc0b54bd818913cf9ec20fb4f2332c9854aeab9a78e1055f"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_030pct_sigma_1p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "438f234348ea121ebcfb4ee1aa03910ae8a2a2190588de051830713be974e8d7",
+    "distributed_sha256": "438f234348ea121ebcfb4ee1aa03910ae8a2a2190588de051830713be974e8d7"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_1p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "b5519b9026412e9903b23b8a241d61f46523bfafa3952b111ffbddf45684fb6f",
+    "distributed_sha256": "b5519b9026412e9903b23b8a241d61f46523bfafa3952b111ffbddf45684fb6f"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_1p5eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "5b19624a950f5a0de55582678d0cd901458102d735a732936ab39ba30bab869b",
+    "distributed_sha256": "5b19624a950f5a0de55582678d0cd901458102d735a732936ab39ba30bab869b"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_030pct_sigma_1p5eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "487e5cc758de698f7dd48cb1146c7d5a307738812fce5f4b9ff278464deecc6a",
+    "distributed_sha256": "487e5cc758de698f7dd48cb1146c7d5a307738812fce5f4b9ff278464deecc6a"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_030pct_sigma_1p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "3c2b678d8766388c71c1e6ceb96c5d3dce1082488404d612e20182103689ba0e",
+    "distributed_sha256": "3c2b678d8766388c71c1e6ceb96c5d3dce1082488404d612e20182103689ba0e"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_0p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "32a2e5bb16a6e092dddff9e721cfd98be31b8086b140de559b5edb0ddb6c25c7",
+    "distributed_sha256": "32a2e5bb16a6e092dddff9e721cfd98be31b8086b140de559b5edb0ddb6c25c7"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_0p5eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "063770fb715848112c20dccb0f7c5e28b8a6f3cd84ffb3cc62d736589535bbc6",
+    "distributed_sha256": "063770fb715848112c20dccb0f7c5e28b8a6f3cd84ffb3cc62d736589535bbc6"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_0p5eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "569829ebcf5a70c8c3b3956ccd6f1c739b1582a54aff33a396ce75192377c951",
+    "distributed_sha256": "569829ebcf5a70c8c3b3956ccd6f1c739b1582a54aff33a396ce75192377c951"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_060pct_sigma_0p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "88303c257d3446dd4b9a5a1bd5c963e6c63edd1eb4c60e26d5d2a0851275a924",
+    "distributed_sha256": "88303c257d3446dd4b9a5a1bd5c963e6c63edd1eb4c60e26d5d2a0851275a924"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_0p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "8bed0ae6b4bbb82587d1989800b4b87ebfe64bf55e27d6179310a010db83cf59",
+    "distributed_sha256": "8bed0ae6b4bbb82587d1989800b4b87ebfe64bf55e27d6179310a010db83cf59"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_0p5eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "df0b01b520f9fa61e9e528944f5694580f3c0a56238e4003d4babc2377f998d2",
+    "distributed_sha256": "df0b01b520f9fa61e9e528944f5694580f3c0a56238e4003d4babc2377f998d2"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_0p5eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "25ab4fb45abbaaaa81bf38a4893da354693db895aa142e795d14ebfb560ebcb7",
+    "distributed_sha256": "25ab4fb45abbaaaa81bf38a4893da354693db895aa142e795d14ebfb560ebcb7"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_060pct_sigma_0p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "8a87326668f2430d230ef63b281d8ac0081d182fe73cd33d564c9451e722191b",
+    "distributed_sha256": "8a87326668f2430d230ef63b281d8ac0081d182fe73cd33d564c9451e722191b"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_1eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "3c3b2ccd6f0a21960cde1aadd4bf8e2b790504ea5a861c2615c5d58359248cbc",
+    "distributed_sha256": "3c3b2ccd6f0a21960cde1aadd4bf8e2b790504ea5a861c2615c5d58359248cbc"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_1eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "26b9c44d0e98ee515720f04b736ebd3c1e6599bda36e8974a599f9a50f1f3f66",
+    "distributed_sha256": "26b9c44d0e98ee515720f04b736ebd3c1e6599bda36e8974a599f9a50f1f3f66"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_1eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "536614913ed61c6b4ee21981149cd0ac1e53dc599d7ec654a3a8a0b43cd25ae6",
+    "distributed_sha256": "536614913ed61c6b4ee21981149cd0ac1e53dc599d7ec654a3a8a0b43cd25ae6"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_060pct_sigma_1eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "cbadb5493e215d1edef0b249c43223db0f4cbe748d41ec4b5ac35297ddd5396c",
+    "distributed_sha256": "cbadb5493e215d1edef0b249c43223db0f4cbe748d41ec4b5ac35297ddd5396c"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_1eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c9307d26a1f6495cceb4f2f0d0be108b7f1662bc33cec01751eb74f9bf6dd4d3",
+    "distributed_sha256": "c9307d26a1f6495cceb4f2f0d0be108b7f1662bc33cec01751eb74f9bf6dd4d3"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_1eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "9a63ae3dc528cb20a2004cb2eaa2141f612e1d7132f3bd7a811cb55687ec1173",
+    "distributed_sha256": "9a63ae3dc528cb20a2004cb2eaa2141f612e1d7132f3bd7a811cb55687ec1173"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_1eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a35c71be2d8e3b5028bbe21d85f589fff788c61b746f7a324a294b4091d1ad07",
+    "distributed_sha256": "a35c71be2d8e3b5028bbe21d85f589fff788c61b746f7a324a294b4091d1ad07"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_060pct_sigma_1eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c7c8460cfe2ab62b591635bf588cbf70e80580ea1b8eb80f6dad4d89c1902be0",
+    "distributed_sha256": "c7c8460cfe2ab62b591635bf588cbf70e80580ea1b8eb80f6dad4d89c1902be0"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_1p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "530d9759a3b6678345c1889bd62e86869e8830e41d8349bc789bcfeb976ea9bf",
+    "distributed_sha256": "530d9759a3b6678345c1889bd62e86869e8830e41d8349bc789bcfeb976ea9bf"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_1p5eV_poisson_03pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "6afc07c8d66f391c2a4cc8cf4021a72b307de9f3d535eb7145712f6c1a38a7f3",
+    "distributed_sha256": "6afc07c8d66f391c2a4cc8cf4021a72b307de9f3d535eb7145712f6c1a38a7f3"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_1p5eV_poisson_03pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "beab113c65d4b1e24cd1c880884377e43ce96cecaa19c783969605f4c2c9076d",
+    "distributed_sha256": "beab113c65d4b1e24cd1c880884377e43ce96cecaa19c783969605f4c2c9076d"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_060pct_sigma_1p5eV_poisson_03pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "b9ab6e250943d93f38fac8fd2072a90632ca87997c8b027a1ebc7b770261b557",
+    "distributed_sha256": "b9ab6e250943d93f38fac8fd2072a90632ca87997c8b027a1ebc7b770261b557"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_1p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "8f24c75a3b1bce452aadff1ddf775bed90e08a41264b3a435c97708338fd953f",
+    "distributed_sha256": "8f24c75a3b1bce452aadff1ddf775bed90e08a41264b3a435c97708338fd953f"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_1p5eV_poisson_10pct_truth_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "eb7fe473afb649ff718d4a3a546ac2c260e57410a94d2f08188609121f581ab7",
+    "distributed_sha256": "eb7fe473afb649ff718d4a3a546ac2c260e57410a94d2f08188609121f581ab7"
+  },
+  {
+    "file": "data/synthetic/truth/cumulative_scattering/LA_Ce3_060pct_sigma_1p5eV_poisson_10pct_components.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "07ae7840734ac067d08d69174e3269c65bb467088ac18da20372cf29ab19d235",
+    "distributed_sha256": "07ae7840734ac067d08d69174e3269c65bb467088ac18da20372cf29ab19d235"
+  },
+  {
+    "file": "data/synthetic/prepared/b_LA_Ce3_060pct_sigma_1p5eV_poisson_10pct.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "cf977077b5c963709bf9aeae616638953b80e5b3510343030129a5816ba0e132",
+    "distributed_sha256": "cf977077b5c963709bf9aeae616638953b80e5b3510343030129a5816ba0e132"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_000pct_sigma_0p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "7698a20468cac10c0b5445a89355018702ab32a514f5c3238cd45c5463b85a85",
+    "distributed_sha256": "7698a20468cac10c0b5445a89355018702ab32a514f5c3238cd45c5463b85a85"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_000pct_sigma_0p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "b81a9d270bfaf0d6b5cdaf3b12c814fb405c3ebb444a9086eac366fd662e84b5",
+    "distributed_sha256": "b81a9d270bfaf0d6b5cdaf3b12c814fb405c3ebb444a9086eac366fd662e84b5"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_000pct_sigma_0p5eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "1195e28db42e156af7246893dd79f37e08c16c9262ad6222da83e69b19b3b4cd",
+    "distributed_sha256": "1195e28db42e156af7246893dd79f37e08c16c9262ad6222da83e69b19b3b4cd"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_000pct_sigma_0p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e3b2b5e48f3c89d2bf9560289e7e6ea7d8eb4b85e93f7750494e14133ccfd7c3",
+    "distributed_sha256": "e3b2b5e48f3c89d2bf9560289e7e6ea7d8eb4b85e93f7750494e14133ccfd7c3"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_000pct_sigma_0p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d89623564de59ddf679f12e51f3e1035aa7eef747ecb03b581914edd10c5a5af",
+    "distributed_sha256": "d89623564de59ddf679f12e51f3e1035aa7eef747ecb03b581914edd10c5a5af"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_000pct_sigma_0p5eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "8f29489b2070984b65f29575457598bbd17deeaf0e67d1dc311501d01c3e7383",
+    "distributed_sha256": "8f29489b2070984b65f29575457598bbd17deeaf0e67d1dc311501d01c3e7383"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_000pct_sigma_1eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "3c6d1998ee97ab487c4d5cf2c06e816758dac5f572d754985fb649276ffd86a8",
+    "distributed_sha256": "3c6d1998ee97ab487c4d5cf2c06e816758dac5f572d754985fb649276ffd86a8"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_000pct_sigma_1eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "dd1e959577b8a9e8cf9f48eecc02b05f7dc475ccbed90cbc9fd919049506a55e",
+    "distributed_sha256": "dd1e959577b8a9e8cf9f48eecc02b05f7dc475ccbed90cbc9fd919049506a55e"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_000pct_sigma_1eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "3b4705ec003b2e34f66f145686094f9293042a24cd4ca19139761e0c4138438b",
+    "distributed_sha256": "3b4705ec003b2e34f66f145686094f9293042a24cd4ca19139761e0c4138438b"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_000pct_sigma_1eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "b83689421ddbdec73edaffb3d1ee5a7cb2cb055fda91a7cd357db901d7701c8a",
+    "distributed_sha256": "b83689421ddbdec73edaffb3d1ee5a7cb2cb055fda91a7cd357db901d7701c8a"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_000pct_sigma_1eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "5911eebd6b07e1ffdbfbe5c1ec9906669b479335d58b6cbc478fb837c07be82d",
+    "distributed_sha256": "5911eebd6b07e1ffdbfbe5c1ec9906669b479335d58b6cbc478fb837c07be82d"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_000pct_sigma_1eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "ccdd45c65f165399026c306a000c2c5ce7da6f6b338d4bf0e22d8e7156a32e30",
+    "distributed_sha256": "ccdd45c65f165399026c306a000c2c5ce7da6f6b338d4bf0e22d8e7156a32e30"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_000pct_sigma_1p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "1961d9017866108ca9d03abe7aac70dca0b565238273a6124285e6957bfad038",
+    "distributed_sha256": "1961d9017866108ca9d03abe7aac70dca0b565238273a6124285e6957bfad038"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_000pct_sigma_1p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "7a25cf523c8a2e30f4a64d6a9435b248cdb5624f3c38acea1809c87d7fb36229",
+    "distributed_sha256": "7a25cf523c8a2e30f4a64d6a9435b248cdb5624f3c38acea1809c87d7fb36229"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_000pct_sigma_1p5eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a75f5cf537b26d8b722a793b2e74e6ec9fd515b56890d5ecfa61dd4d1511d481",
+    "distributed_sha256": "a75f5cf537b26d8b722a793b2e74e6ec9fd515b56890d5ecfa61dd4d1511d481"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_000pct_sigma_1p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "20259c04c4e61c8e505c87b38204fd9a067438365ff808909d49080893c27417",
+    "distributed_sha256": "20259c04c4e61c8e505c87b38204fd9a067438365ff808909d49080893c27417"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_000pct_sigma_1p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "5145cc0fb396c3e3856b1b8218da79cb40bc9d4fe64a900e827bd8bddb85ea0f",
+    "distributed_sha256": "5145cc0fb396c3e3856b1b8218da79cb40bc9d4fe64a900e827bd8bddb85ea0f"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_000pct_sigma_1p5eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c86601fae4255b1b1b91e84dfa5b2aac3152d4a6cf741492dbe16c12940413c1",
+    "distributed_sha256": "c86601fae4255b1b1b91e84dfa5b2aac3152d4a6cf741492dbe16c12940413c1"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_015pct_sigma_0p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "616edb1ec1d0a4e67fe2fec1efb96a98cdb35f7d7a7c6896acbbeca5b1cf8305",
+    "distributed_sha256": "616edb1ec1d0a4e67fe2fec1efb96a98cdb35f7d7a7c6896acbbeca5b1cf8305"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_015pct_sigma_0p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "14d2857d17be6263d06b53b6e5515092cf63d40c291ff1e60728da596f30c79e",
+    "distributed_sha256": "14d2857d17be6263d06b53b6e5515092cf63d40c291ff1e60728da596f30c79e"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_015pct_sigma_0p5eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "2ad064f5c6318ef68709cde08359bee1c418352e8d0adfc8b4e7ec3e35b093e7",
+    "distributed_sha256": "2ad064f5c6318ef68709cde08359bee1c418352e8d0adfc8b4e7ec3e35b093e7"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_015pct_sigma_0p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "0f295917973cc80aa40b53a018f346a603abd17a562008ba04c0aaebc5916b5f",
+    "distributed_sha256": "0f295917973cc80aa40b53a018f346a603abd17a562008ba04c0aaebc5916b5f"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_015pct_sigma_0p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "2cc7382ad9273ae1ef7bd0ce765c97f04e6437ae187173b9d37d2c1898eab4c1",
+    "distributed_sha256": "2cc7382ad9273ae1ef7bd0ce765c97f04e6437ae187173b9d37d2c1898eab4c1"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_015pct_sigma_0p5eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a9673da22b178c64747e8fd32f5628dcf6082d78aa689cdff6684ef6d4efe874",
+    "distributed_sha256": "a9673da22b178c64747e8fd32f5628dcf6082d78aa689cdff6684ef6d4efe874"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_015pct_sigma_1eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "f68128fdc9fa0027f7be2b20e30764698cbd10550fc711fe0f3a2f465f2f0ff6",
+    "distributed_sha256": "f68128fdc9fa0027f7be2b20e30764698cbd10550fc711fe0f3a2f465f2f0ff6"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_015pct_sigma_1eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "1019826cdcc15c6c96597cb48b001aefa9e8a94c90fd6d543cfd1600a257e6ea",
+    "distributed_sha256": "1019826cdcc15c6c96597cb48b001aefa9e8a94c90fd6d543cfd1600a257e6ea"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_015pct_sigma_1eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "aefb92bb779ed11cc1822fb113ed2fb89f067e72e6bdb5ec3a33acf690b8578f",
+    "distributed_sha256": "aefb92bb779ed11cc1822fb113ed2fb89f067e72e6bdb5ec3a33acf690b8578f"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_015pct_sigma_1eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "7c6f8bd3c2594ccb3e54dcf919b1eeddb37828e526a128fbb863099c1d89a240",
+    "distributed_sha256": "7c6f8bd3c2594ccb3e54dcf919b1eeddb37828e526a128fbb863099c1d89a240"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_015pct_sigma_1eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e68d21ed036e9b6baa3c1c373b9c474096c186c97b5e0215191da2bc3724e9dc",
+    "distributed_sha256": "e68d21ed036e9b6baa3c1c373b9c474096c186c97b5e0215191da2bc3724e9dc"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_015pct_sigma_1eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "699cdd27e2689e32739a62d415e0460c51331b3a723b95eb57bc7f7b2164b8a2",
+    "distributed_sha256": "699cdd27e2689e32739a62d415e0460c51331b3a723b95eb57bc7f7b2164b8a2"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_015pct_sigma_1p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "382edacc8e98d75da946ab8cd356c7750c0b387e0f17013c57455ab8b1f12de6",
+    "distributed_sha256": "382edacc8e98d75da946ab8cd356c7750c0b387e0f17013c57455ab8b1f12de6"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_015pct_sigma_1p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e7d7a672a3294419cd962d1b57f453fa885b10bbaeca90bc529dd27dc05f993f",
+    "distributed_sha256": "e7d7a672a3294419cd962d1b57f453fa885b10bbaeca90bc529dd27dc05f993f"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_015pct_sigma_1p5eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "fedc79ed1172359229c91a31b6235e7e7f13ca644799a0f6816e1bd612543429",
+    "distributed_sha256": "fedc79ed1172359229c91a31b6235e7e7f13ca644799a0f6816e1bd612543429"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_015pct_sigma_1p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "cfe1382dab5d43ce6a9b167f54d9c2b47c609502bd11980488a61eada415c437",
+    "distributed_sha256": "cfe1382dab5d43ce6a9b167f54d9c2b47c609502bd11980488a61eada415c437"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_015pct_sigma_1p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "07349b1e350e2086365486d00624d26fdea123acce496746ec4aa4d9501630e4",
+    "distributed_sha256": "07349b1e350e2086365486d00624d26fdea123acce496746ec4aa4d9501630e4"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_015pct_sigma_1p5eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "43680e4c893b04473043413534a4fc38af72a751af7932c46aafc10bc2df8573",
+    "distributed_sha256": "43680e4c893b04473043413534a4fc38af72a751af7932c46aafc10bc2df8573"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_030pct_sigma_0p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "b3935adfb3b49b015ddcdfd491b6a7fcb4f6ad8ab75967bd171af6f93d07bfa8",
+    "distributed_sha256": "b3935adfb3b49b015ddcdfd491b6a7fcb4f6ad8ab75967bd171af6f93d07bfa8"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_030pct_sigma_0p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c3fb0e74e9201e8d6bab72a538959ea6785c7d8e79ca5a1f668aa568f834611c",
+    "distributed_sha256": "c3fb0e74e9201e8d6bab72a538959ea6785c7d8e79ca5a1f668aa568f834611c"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_030pct_sigma_0p5eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "fd183282dba5ec886c736fca29fcf7af38ed8d724ef772d3cc6bc288e02aafc7",
+    "distributed_sha256": "fd183282dba5ec886c736fca29fcf7af38ed8d724ef772d3cc6bc288e02aafc7"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_030pct_sigma_0p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "8dbd5e3e08e85ebe8c4c6601327689470631284e0e28f039f043f04a6607259e",
+    "distributed_sha256": "8dbd5e3e08e85ebe8c4c6601327689470631284e0e28f039f043f04a6607259e"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_030pct_sigma_0p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "6c837c101f73a41d83f63c5774081eae514b96b6fef79f6f659015e962bbc762",
+    "distributed_sha256": "6c837c101f73a41d83f63c5774081eae514b96b6fef79f6f659015e962bbc762"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_030pct_sigma_0p5eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e1beb760f70cf18e97d4f1111ae5a951db03f4da4318f2a7699102accadd66a8",
+    "distributed_sha256": "e1beb760f70cf18e97d4f1111ae5a951db03f4da4318f2a7699102accadd66a8"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_030pct_sigma_1eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "db0d611d2cacdacec45ebf10773662eadae67f2671d0075e9e7990c9ed1dc068",
+    "distributed_sha256": "db0d611d2cacdacec45ebf10773662eadae67f2671d0075e9e7990c9ed1dc068"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_030pct_sigma_1eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "1f434d35531e02e6fe03237d9ee509d04e3e3375a69a71af58ed438694783ae2",
+    "distributed_sha256": "1f434d35531e02e6fe03237d9ee509d04e3e3375a69a71af58ed438694783ae2"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_030pct_sigma_1eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "1eeb942b80f40aa89ad85b45711dae871b6e2b3b1788d0977de50802917a6159",
+    "distributed_sha256": "1eeb942b80f40aa89ad85b45711dae871b6e2b3b1788d0977de50802917a6159"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_030pct_sigma_1eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a21eb6aeb551cbdc5de27178bec0a32e5c3e860937f9a1c551974b4f62e20119",
+    "distributed_sha256": "a21eb6aeb551cbdc5de27178bec0a32e5c3e860937f9a1c551974b4f62e20119"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_030pct_sigma_1eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d383c29b86b14ae863a7e91f9ff8b14f561e2a7732818f6c4c28a24350831bf1",
+    "distributed_sha256": "d383c29b86b14ae863a7e91f9ff8b14f561e2a7732818f6c4c28a24350831bf1"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_030pct_sigma_1eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "856cfc72c9b79f9920435e5a52a4f2d8b7dbbfecbf1877d35eca8ed01e17bc73",
+    "distributed_sha256": "856cfc72c9b79f9920435e5a52a4f2d8b7dbbfecbf1877d35eca8ed01e17bc73"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_030pct_sigma_1p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "abd4de3237735b9508b4ff6299330fcc30b1a71b738d54258bbbe31bcb185a17",
+    "distributed_sha256": "abd4de3237735b9508b4ff6299330fcc30b1a71b738d54258bbbe31bcb185a17"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_030pct_sigma_1p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a4edeb0308efa7fb1fb6c2251c4331723794847136d92854dd8f587b395c9623",
+    "distributed_sha256": "a4edeb0308efa7fb1fb6c2251c4331723794847136d92854dd8f587b395c9623"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_030pct_sigma_1p5eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d4d293f7bfa4c6173039ad3010e8f17e74fbd8fe087794f8d591d70956441b4c",
+    "distributed_sha256": "d4d293f7bfa4c6173039ad3010e8f17e74fbd8fe087794f8d591d70956441b4c"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_030pct_sigma_1p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "ff221b2006a40ef15f283db060685cefcd6c8c2749607e8c8d838abf63a6c825",
+    "distributed_sha256": "ff221b2006a40ef15f283db060685cefcd6c8c2749607e8c8d838abf63a6c825"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_030pct_sigma_1p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "16f15cf34b9d323dd5da95862f67cf5bf1b169a9eb771d9fdb5c0dffe06350b7",
+    "distributed_sha256": "16f15cf34b9d323dd5da95862f67cf5bf1b169a9eb771d9fdb5c0dffe06350b7"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_030pct_sigma_1p5eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "0ee8dce72f549cae7bc5e86433663b37c7d0b69fe76926a7d864782803a93d3c",
+    "distributed_sha256": "0ee8dce72f549cae7bc5e86433663b37c7d0b69fe76926a7d864782803a93d3c"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_060pct_sigma_0p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "dfa01d6ef6701bf1cecc41ba9bf087605f7926f5d4b3eec19ef38fbb3429c7a0",
+    "distributed_sha256": "dfa01d6ef6701bf1cecc41ba9bf087605f7926f5d4b3eec19ef38fbb3429c7a0"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_060pct_sigma_0p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "6c41fa9683a91c8d2b575649d0518dd479b7b6dd1b89f515ef140775624e70c4",
+    "distributed_sha256": "6c41fa9683a91c8d2b575649d0518dd479b7b6dd1b89f515ef140775624e70c4"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_060pct_sigma_0p5eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "394db78e3318a60740861a3574c7c32581f33919e0c04c9222847dead7bc5e2a",
+    "distributed_sha256": "394db78e3318a60740861a3574c7c32581f33919e0c04c9222847dead7bc5e2a"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_060pct_sigma_0p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "3ca805e71d309dd19e77ae455c97e57d36e5325bbb66d6bc7090d4d9983de572",
+    "distributed_sha256": "3ca805e71d309dd19e77ae455c97e57d36e5325bbb66d6bc7090d4d9983de572"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_060pct_sigma_0p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "7c4988e5e1a80e6b8c4afdf3c6c6b0b14c0686a64ba8c7d70d47668c9819328a",
+    "distributed_sha256": "7c4988e5e1a80e6b8c4afdf3c6c6b0b14c0686a64ba8c7d70d47668c9819328a"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_060pct_sigma_0p5eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "90fa3c6b0bf39e1ba587eea7f55b9f5cfdec50d1519697127d38efb6e413d97d",
+    "distributed_sha256": "90fa3c6b0bf39e1ba587eea7f55b9f5cfdec50d1519697127d38efb6e413d97d"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_060pct_sigma_1eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "cf4e2f99176328770095ff4dc1c3e3f27e6526f4d0f3ae55f3ecc0c4303e954f",
+    "distributed_sha256": "cf4e2f99176328770095ff4dc1c3e3f27e6526f4d0f3ae55f3ecc0c4303e954f"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_060pct_sigma_1eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "833cf896df997a8a9b6f8bf13811bb4439655cb5705363e99e92777c45c4cad4",
+    "distributed_sha256": "833cf896df997a8a9b6f8bf13811bb4439655cb5705363e99e92777c45c4cad4"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_060pct_sigma_1eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "0ae23cc308ada26d1835e32c869b1634d785c6fa8ea26c1a30ddb5e5d0757b46",
+    "distributed_sha256": "0ae23cc308ada26d1835e32c869b1634d785c6fa8ea26c1a30ddb5e5d0757b46"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_060pct_sigma_1eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "5eef99935afade3d538d9a2e50ebad5ff3ac762d112011f913289a29157bf63c",
+    "distributed_sha256": "5eef99935afade3d538d9a2e50ebad5ff3ac762d112011f913289a29157bf63c"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_060pct_sigma_1eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "4b5bdcc9ca66a1ab51e48fa27e83b86f0d26e565428b7c27ba131500c5a50303",
+    "distributed_sha256": "4b5bdcc9ca66a1ab51e48fa27e83b86f0d26e565428b7c27ba131500c5a50303"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_060pct_sigma_1eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "5ce24ee1ce0cfc7b15cb50b34c1fd240e5085de904f3a918d3eb0ec6d1de58b6",
+    "distributed_sha256": "5ce24ee1ce0cfc7b15cb50b34c1fd240e5085de904f3a918d3eb0ec6d1de58b6"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_060pct_sigma_1p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "ce7fa71bb9fd016534900eaeadf749f6b967ab4fcfe6f89d61a92dfd7de2fb84",
+    "distributed_sha256": "ce7fa71bb9fd016534900eaeadf749f6b967ab4fcfe6f89d61a92dfd7de2fb84"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_060pct_sigma_1p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d91a2ff0bcfecc367baf6161a8de9f5ff9c027d8ca7475f68cc3d5944a7bb2db",
+    "distributed_sha256": "d91a2ff0bcfecc367baf6161a8de9f5ff9c027d8ca7475f68cc3d5944a7bb2db"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_060pct_sigma_1p5eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "2f0aef542978c2d468c01caaf52156343342fee8e84540dce05e360bab9db30f",
+    "distributed_sha256": "2f0aef542978c2d468c01caaf52156343342fee8e84540dce05e360bab9db30f"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_060pct_sigma_1p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "19ecf87919f0a1f95e30dace9822b0aad4f4c17cd148ad31910f9965633637f1",
+    "distributed_sha256": "19ecf87919f0a1f95e30dace9822b0aad4f4c17cd148ad31910f9965633637f1"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_060pct_sigma_1p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "ab23d718a31944bc32b9586a1ca03b32324d656685ab1bd0d5ea221a16b57bb2",
+    "distributed_sha256": "ab23d718a31944bc32b9586a1ca03b32324d656685ab1bd0d5ea221a16b57bb2"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/a_LA_Ce3_060pct_sigma_1p5eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "14850acb9280eea1c2d228bdeabd1b3022ff156d7feb570b95b3ed019bc50507",
+    "distributed_sha256": "14850acb9280eea1c2d228bdeabd1b3022ff156d7feb570b95b3ed019bc50507"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_000pct_sigma_0p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "eb07b71a45be8d635bb5d1a4904f94abb986c44e3e370b78fc6349663406ea30",
+    "distributed_sha256": "eb07b71a45be8d635bb5d1a4904f94abb986c44e3e370b78fc6349663406ea30"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_000pct_sigma_0p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "90ca6b7ac2fcee9ccd59e8d88fe96975d6521c790f5a256d42870538b5cb7d9e",
+    "distributed_sha256": "90ca6b7ac2fcee9ccd59e8d88fe96975d6521c790f5a256d42870538b5cb7d9e"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_000pct_sigma_0p5eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c3f9d0371db93e2229aff0ac92a8a35373f41e583a2f8400a13e1685a2a3f52e",
+    "distributed_sha256": "c3f9d0371db93e2229aff0ac92a8a35373f41e583a2f8400a13e1685a2a3f52e"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_000pct_sigma_0p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "41652b5979c09c28c9d7fe06204d67349201d35d9f64d958e7e603fdfc325e5e",
+    "distributed_sha256": "41652b5979c09c28c9d7fe06204d67349201d35d9f64d958e7e603fdfc325e5e"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_000pct_sigma_0p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "2a46c56d9d6ae2ef60b1d4e9c2b6b37bc35dd861884f4ff327191b08cc347183",
+    "distributed_sha256": "2a46c56d9d6ae2ef60b1d4e9c2b6b37bc35dd861884f4ff327191b08cc347183"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_000pct_sigma_0p5eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "1e47cce9bfe0534d89c4ba647e47c0e19d582a0c736a75c446fc85e60d250f58",
+    "distributed_sha256": "1e47cce9bfe0534d89c4ba647e47c0e19d582a0c736a75c446fc85e60d250f58"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_000pct_sigma_1eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "2f2584f0e1c0fe0132ff71ba91961c5fd328f560809c9dffb8afeeed2963113f",
+    "distributed_sha256": "2f2584f0e1c0fe0132ff71ba91961c5fd328f560809c9dffb8afeeed2963113f"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_000pct_sigma_1eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a7fc4e94f88c2da308975510d5311dec92a4b1b6afcbc707080539e9bef5114b",
+    "distributed_sha256": "a7fc4e94f88c2da308975510d5311dec92a4b1b6afcbc707080539e9bef5114b"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_000pct_sigma_1eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e8af098d89b9e86beaca6b77f97e6d07d3a3729f4c6ad1fd9fddd373bfe84e7b",
+    "distributed_sha256": "e8af098d89b9e86beaca6b77f97e6d07d3a3729f4c6ad1fd9fddd373bfe84e7b"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_000pct_sigma_1eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "922fddca5a818437a7aa2c491bc724400570c70753d8d8c6b0a6c59610cdbfa9",
+    "distributed_sha256": "922fddca5a818437a7aa2c491bc724400570c70753d8d8c6b0a6c59610cdbfa9"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_000pct_sigma_1eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "2fc83ca79c401b33ae5656f4a11f1bea62d5a9d4468ff99d270f5699069e62ee",
+    "distributed_sha256": "2fc83ca79c401b33ae5656f4a11f1bea62d5a9d4468ff99d270f5699069e62ee"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_000pct_sigma_1eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "6fa9cfe6e3abfb089a85cc6b52661feb5b25e216986edeb1afa6b7711d01237b",
+    "distributed_sha256": "6fa9cfe6e3abfb089a85cc6b52661feb5b25e216986edeb1afa6b7711d01237b"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_000pct_sigma_1p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "36f6ab01011e40c2ef70545a20dea5e636fbb216869ff411f4d8ba7e9dc24b87",
+    "distributed_sha256": "36f6ab01011e40c2ef70545a20dea5e636fbb216869ff411f4d8ba7e9dc24b87"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_000pct_sigma_1p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "7b2e9f04d4da3fc70f2fd81a7af17705712bd3c40ea1507a2dbd6cffd3671a0b",
+    "distributed_sha256": "7b2e9f04d4da3fc70f2fd81a7af17705712bd3c40ea1507a2dbd6cffd3671a0b"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_000pct_sigma_1p5eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "7f54fc71a9d1e3919b7f180ca31f18d27b2f8f5884ffdf24924e60643987d3e1",
+    "distributed_sha256": "7f54fc71a9d1e3919b7f180ca31f18d27b2f8f5884ffdf24924e60643987d3e1"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_000pct_sigma_1p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a9da068295a1ea68d1aaa7ea856cbd77eb6a911aa5c5b2f08629289b7bd9e147",
+    "distributed_sha256": "a9da068295a1ea68d1aaa7ea856cbd77eb6a911aa5c5b2f08629289b7bd9e147"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_000pct_sigma_1p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "ff7593cd0ad4283ff6e6d0bb9ac485f843bc366aabf9b3d4c25425150cb158a3",
+    "distributed_sha256": "ff7593cd0ad4283ff6e6d0bb9ac485f843bc366aabf9b3d4c25425150cb158a3"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_000pct_sigma_1p5eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "701f8c8751da211f8062f7903e4124c8a5642ba6ccf7e0e62d2accfabcc93ffe",
+    "distributed_sha256": "701f8c8751da211f8062f7903e4124c8a5642ba6ccf7e0e62d2accfabcc93ffe"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_015pct_sigma_0p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "3713601de728982e4a688d2f51fe306dec1052e908c9687612e4d56f8b6a3a1d",
+    "distributed_sha256": "3713601de728982e4a688d2f51fe306dec1052e908c9687612e4d56f8b6a3a1d"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_015pct_sigma_0p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a0a47876393935c0f320a49f8fdc7b29bc90554e972ea84cd59bdc2122a0d4df",
+    "distributed_sha256": "a0a47876393935c0f320a49f8fdc7b29bc90554e972ea84cd59bdc2122a0d4df"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_015pct_sigma_0p5eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "32b95b48b81a9e9c7a1e96072a2c81ef84644ae18771eef2e9a3f48cb38eda52",
+    "distributed_sha256": "32b95b48b81a9e9c7a1e96072a2c81ef84644ae18771eef2e9a3f48cb38eda52"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_015pct_sigma_0p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a28438fea4b6ffd9d4ffee8603d08485ba51e7b48286bf0af0834ba5c4eff570",
+    "distributed_sha256": "a28438fea4b6ffd9d4ffee8603d08485ba51e7b48286bf0af0834ba5c4eff570"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_015pct_sigma_0p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "22685742f3fb4c4a06bc341a3715b74ba627044c764bad885d51ac3543a5b672",
+    "distributed_sha256": "22685742f3fb4c4a06bc341a3715b74ba627044c764bad885d51ac3543a5b672"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_015pct_sigma_0p5eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "9a85fa4a2c77c28dd8f0c3dcb667f244bb175cc0d204082e30052179bb203c2f",
+    "distributed_sha256": "9a85fa4a2c77c28dd8f0c3dcb667f244bb175cc0d204082e30052179bb203c2f"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_015pct_sigma_1eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "79f747a828ddc4e24e2850099ffb4a1147f6d77ca4e82ea825f913799d6c1029",
+    "distributed_sha256": "79f747a828ddc4e24e2850099ffb4a1147f6d77ca4e82ea825f913799d6c1029"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_015pct_sigma_1eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "4b95ee129e19872ebf80abc7092ba47cec53323f1b2e0c9bbe51560ef352a954",
+    "distributed_sha256": "4b95ee129e19872ebf80abc7092ba47cec53323f1b2e0c9bbe51560ef352a954"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_015pct_sigma_1eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "3ae7e5b745a7925db655deb0e49caa247094823f4bff9911854c7a1180a4c2b9",
+    "distributed_sha256": "3ae7e5b745a7925db655deb0e49caa247094823f4bff9911854c7a1180a4c2b9"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_015pct_sigma_1eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "b8179934a36bd641a4648d8257fb8addfa6ee855ec0dae96725f727248959bda",
+    "distributed_sha256": "b8179934a36bd641a4648d8257fb8addfa6ee855ec0dae96725f727248959bda"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_015pct_sigma_1eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "3bab02516f311d11929176517f72f34cfcc95a1188d1498168ab610659f480fc",
+    "distributed_sha256": "3bab02516f311d11929176517f72f34cfcc95a1188d1498168ab610659f480fc"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_015pct_sigma_1eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "107d99ee9b16536f65e0cada570be629df11bb8f29635478a6c64e6e634bd484",
+    "distributed_sha256": "107d99ee9b16536f65e0cada570be629df11bb8f29635478a6c64e6e634bd484"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_015pct_sigma_1p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e32606c5e876743b6f98b92c674ef41a3431e439bf0508c622bf9e2a18d27b86",
+    "distributed_sha256": "e32606c5e876743b6f98b92c674ef41a3431e439bf0508c622bf9e2a18d27b86"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_015pct_sigma_1p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c1e03b76ac8b5d4b305c59f46e887634e5a0fab9ce8667055b933afb66fa5754",
+    "distributed_sha256": "c1e03b76ac8b5d4b305c59f46e887634e5a0fab9ce8667055b933afb66fa5754"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_015pct_sigma_1p5eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a6d5ba9fb76756c9e6477551e24fea0514a983d921e40b2102ef344f899e6526",
+    "distributed_sha256": "a6d5ba9fb76756c9e6477551e24fea0514a983d921e40b2102ef344f899e6526"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_015pct_sigma_1p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "37640379ec1e7d6ecf3a7a1c380ee459213c440088275e90c49f4a35e6c0cf5b",
+    "distributed_sha256": "37640379ec1e7d6ecf3a7a1c380ee459213c440088275e90c49f4a35e6c0cf5b"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_015pct_sigma_1p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d743399c0e3a5aae874f0ad07043f91b4dabce0b36a1f3c3a437f429022e7368",
+    "distributed_sha256": "d743399c0e3a5aae874f0ad07043f91b4dabce0b36a1f3c3a437f429022e7368"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_015pct_sigma_1p5eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e91c67f87ddae6914f4460ae353599f76fd51101d8f9a579968a3864b0110adf",
+    "distributed_sha256": "e91c67f87ddae6914f4460ae353599f76fd51101d8f9a579968a3864b0110adf"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_030pct_sigma_0p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "80f598b21968d9b252310770dce55f9d42c72864789d218d725e073d69bf66ce",
+    "distributed_sha256": "80f598b21968d9b252310770dce55f9d42c72864789d218d725e073d69bf66ce"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_030pct_sigma_0p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "264402bbf5f800ccb4835c569aa87a9954faf353d22b6755ed15f4982d0a8a9b",
+    "distributed_sha256": "264402bbf5f800ccb4835c569aa87a9954faf353d22b6755ed15f4982d0a8a9b"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_030pct_sigma_0p5eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "34882052b9695d8b9e830967bfb84c61b1b1ea190ed2546be95b53187ad73bed",
+    "distributed_sha256": "34882052b9695d8b9e830967bfb84c61b1b1ea190ed2546be95b53187ad73bed"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_030pct_sigma_0p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "4898d8ee0059aa59b1f93d1ea652ac858fd94afaa25a3b45af359a77ceea6e0e",
+    "distributed_sha256": "4898d8ee0059aa59b1f93d1ea652ac858fd94afaa25a3b45af359a77ceea6e0e"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_030pct_sigma_0p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e8c6c37f8c53b0cddeb19dc99e6c475d9f33b327a9c23a97982e17e09e4fb15c",
+    "distributed_sha256": "e8c6c37f8c53b0cddeb19dc99e6c475d9f33b327a9c23a97982e17e09e4fb15c"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_030pct_sigma_0p5eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e74e02759525f39197fb181a43168c5995c42b1065d8c53e40214f6da723f90a",
+    "distributed_sha256": "e74e02759525f39197fb181a43168c5995c42b1065d8c53e40214f6da723f90a"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_030pct_sigma_1eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "29e1cac31c2af09c13aa0d9d6d118b9793e5ec1879acbd08daf9da004e4383f0",
+    "distributed_sha256": "29e1cac31c2af09c13aa0d9d6d118b9793e5ec1879acbd08daf9da004e4383f0"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_030pct_sigma_1eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "634e2cd93de396d4b31c1beff7457e217c1bfc6f27252d3d5bc75fa13d860db5",
+    "distributed_sha256": "634e2cd93de396d4b31c1beff7457e217c1bfc6f27252d3d5bc75fa13d860db5"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_030pct_sigma_1eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a9d4d3c2d8c6de227982ab628e55407f295765a58d767cb841926e34249ffb9d",
+    "distributed_sha256": "a9d4d3c2d8c6de227982ab628e55407f295765a58d767cb841926e34249ffb9d"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_030pct_sigma_1eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "fa5fc9267527844566c379ad7197517dbb02425e4c94e1b73c6fabfbf5563955",
+    "distributed_sha256": "fa5fc9267527844566c379ad7197517dbb02425e4c94e1b73c6fabfbf5563955"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_030pct_sigma_1eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "393f24ce54beed30672072ee91276182edfc923e9cc470e1aaab512fc86eda1a",
+    "distributed_sha256": "393f24ce54beed30672072ee91276182edfc923e9cc470e1aaab512fc86eda1a"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_030pct_sigma_1eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "9f451a408e9cc5b58447d083af2d574a9a12ebb85f2934811389b8a61789fcd6",
+    "distributed_sha256": "9f451a408e9cc5b58447d083af2d574a9a12ebb85f2934811389b8a61789fcd6"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_030pct_sigma_1p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "655402806debc993a3c1a346d2a6186bb7a93fa3507ef58a5725a8680bd5712d",
+    "distributed_sha256": "655402806debc993a3c1a346d2a6186bb7a93fa3507ef58a5725a8680bd5712d"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_030pct_sigma_1p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "acd39c3ac8a9313845b168f50a51edcc1dcd16a23a20288b990de94cc2e212ea",
+    "distributed_sha256": "acd39c3ac8a9313845b168f50a51edcc1dcd16a23a20288b990de94cc2e212ea"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_030pct_sigma_1p5eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "ed4600b1560155614e553f2d7e3f8072c212b540a91e156d5b49f90c34228e47",
+    "distributed_sha256": "ed4600b1560155614e553f2d7e3f8072c212b540a91e156d5b49f90c34228e47"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_030pct_sigma_1p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "ff1eea6c24094b34f324a1e0d2161b29ecdf90002ff8e09b4264a3233924259e",
+    "distributed_sha256": "ff1eea6c24094b34f324a1e0d2161b29ecdf90002ff8e09b4264a3233924259e"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_030pct_sigma_1p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e37c7249ad907cddf56b9080496da2729aa492150c4d97d5a6d400e97e6229e5",
+    "distributed_sha256": "e37c7249ad907cddf56b9080496da2729aa492150c4d97d5a6d400e97e6229e5"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_030pct_sigma_1p5eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "850588efff31b25f5e5b84215f42bf5012d0f98e3f13db136ac8a2e173834ac7",
+    "distributed_sha256": "850588efff31b25f5e5b84215f42bf5012d0f98e3f13db136ac8a2e173834ac7"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_060pct_sigma_0p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "7874b0acc838e33b40a5af5b97213fee53ac9508eec23ea688e410ae0a428db9",
+    "distributed_sha256": "7874b0acc838e33b40a5af5b97213fee53ac9508eec23ea688e410ae0a428db9"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_060pct_sigma_0p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "bcf00b7e4c4373f246aee8cd8c23bbaf222bde8c01af7035d7f9964402e5d82b",
+    "distributed_sha256": "bcf00b7e4c4373f246aee8cd8c23bbaf222bde8c01af7035d7f9964402e5d82b"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_060pct_sigma_0p5eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "98bc443787ce6a4d1917ef553c1c164d8a6d4952bee1ed0c5599cbbe528f9e2f",
+    "distributed_sha256": "98bc443787ce6a4d1917ef553c1c164d8a6d4952bee1ed0c5599cbbe528f9e2f"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_060pct_sigma_0p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "56d5de89b66bd3bbd724008fa004dd340a7e25aadf0d64e3c4051bb9a485c200",
+    "distributed_sha256": "56d5de89b66bd3bbd724008fa004dd340a7e25aadf0d64e3c4051bb9a485c200"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_060pct_sigma_0p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "bebf6cd126274306c4e2bd89707ce1e6b5ce5cb85807c71d3189b1cec81d12e9",
+    "distributed_sha256": "bebf6cd126274306c4e2bd89707ce1e6b5ce5cb85807c71d3189b1cec81d12e9"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_060pct_sigma_0p5eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "9192abeff15ad70d99a5978120c897c5cea6d0c0133ec7c192aeaf959e0546e9",
+    "distributed_sha256": "9192abeff15ad70d99a5978120c897c5cea6d0c0133ec7c192aeaf959e0546e9"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_060pct_sigma_1eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c42476ecdaeeed6c0c58f0b5f0c172079c0954264fbd3395ad53d6a56f8b6141",
+    "distributed_sha256": "c42476ecdaeeed6c0c58f0b5f0c172079c0954264fbd3395ad53d6a56f8b6141"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_060pct_sigma_1eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "391f87f5b5a503b95c7eede4c33fee5bca50ce1c1b801836a0c8f291d7478199",
+    "distributed_sha256": "391f87f5b5a503b95c7eede4c33fee5bca50ce1c1b801836a0c8f291d7478199"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_060pct_sigma_1eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "458e331e24771f7abbf2a798fb38d3d19939838848fd8cc45782aaf8371c3baa",
+    "distributed_sha256": "458e331e24771f7abbf2a798fb38d3d19939838848fd8cc45782aaf8371c3baa"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_060pct_sigma_1eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "dcb5d364676a736799fe2231b5108d8e877075e58e8ce8d35db15b1abcb400ab",
+    "distributed_sha256": "dcb5d364676a736799fe2231b5108d8e877075e58e8ce8d35db15b1abcb400ab"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_060pct_sigma_1eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "3e68a740e0d38dcdf436b3a1827e8b71d2ec10fc4b148b8f6ecb74843751451f",
+    "distributed_sha256": "3e68a740e0d38dcdf436b3a1827e8b71d2ec10fc4b148b8f6ecb74843751451f"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_060pct_sigma_1eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c24ceaa2cf80b15c8c90843c6ce14314988eebe14edb179dd519f2440c79984e",
+    "distributed_sha256": "c24ceaa2cf80b15c8c90843c6ce14314988eebe14edb179dd519f2440c79984e"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_060pct_sigma_1p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "40e6a20e417b0ced07d1085b22bbf79704b481b3bfbac2e33df355a18ecddb11",
+    "distributed_sha256": "40e6a20e417b0ced07d1085b22bbf79704b481b3bfbac2e33df355a18ecddb11"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_060pct_sigma_1p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "61bd820f68a36f157b83201f8ca6c2dbb81d02ffc5ecabcad1ac975deae3dd1e",
+    "distributed_sha256": "61bd820f68a36f157b83201f8ca6c2dbb81d02ffc5ecabcad1ac975deae3dd1e"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_060pct_sigma_1p5eV_poisson_03pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "500d684b0a1889679321787c62f56268037082129fc141dcccf33d194381695d",
+    "distributed_sha256": "500d684b0a1889679321787c62f56268037082129fc141dcccf33d194381695d"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_060pct_sigma_1p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "acac2378e046597af0a1ecc9508ec6e9cfbaee64767900ccf17973350b6f0f95",
+    "distributed_sha256": "acac2378e046597af0a1ecc9508ec6e9cfbaee64767900ccf17973350b6f0f95"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_060pct_sigma_1p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "baaf3231868cdd980fda8252f4d1c1f9fb35862cb9ca564ed10b38b48eeff068",
+    "distributed_sha256": "baaf3231868cdd980fda8252f4d1c1f9fb35862cb9ca564ed10b38b48eeff068"
+  },
+  {
+    "file": "data/synthetic/fits/MCMC/b_LA_Ce3_060pct_sigma_1p5eV_poisson_10pct/posterior_parameters.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "9a5742d04da0593cd423eb6f68f75a0eee4061d1f041d8c125268a9d0e1e6a5c",
+    "distributed_sha256": "9a5742d04da0593cd423eb6f68f75a0eee4061d1f041d8c125268a9d0e1e6a5c"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_000pct_sigma_0p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "2e95740c13961db72f730ceef11e0d61f561e0a6c9826780db372a278aec72b3",
+    "distributed_sha256": "2e95740c13961db72f730ceef11e0d61f561e0a6c9826780db372a278aec72b3"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_000pct_sigma_0p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "803f5f840d6c829e27e086661418346d356662cf6174af433611ab73f01be17a",
+    "distributed_sha256": "803f5f840d6c829e27e086661418346d356662cf6174af433611ab73f01be17a"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_000pct_sigma_0p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "940779705e84199be49398dba777a7ad1f8030a09a83641117866c84ee3505ef",
+    "distributed_sha256": "940779705e84199be49398dba777a7ad1f8030a09a83641117866c84ee3505ef"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_000pct_sigma_0p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "9be1ce3b39f578cfe90d0a9ff0561e2d45a22f9bd8f3fc06e0df67f4c80483f2",
+    "distributed_sha256": "9be1ce3b39f578cfe90d0a9ff0561e2d45a22f9bd8f3fc06e0df67f4c80483f2"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_000pct_sigma_1eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "7a479c7067a46c939389fd6c24cbe49e8ae8b5fb7847e56bfcffd66ab7bd6d92",
+    "distributed_sha256": "7a479c7067a46c939389fd6c24cbe49e8ae8b5fb7847e56bfcffd66ab7bd6d92"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_000pct_sigma_1eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a29b27d8a78f9f866ca6b5d3b4d519d7d3a142deb9dfab43d3fafce9d3c1672d",
+    "distributed_sha256": "a29b27d8a78f9f866ca6b5d3b4d519d7d3a142deb9dfab43d3fafce9d3c1672d"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_000pct_sigma_1eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "3f65267f93cc106f5a30629a4c7bff527e1d5aed963f573c29ac725b1a69b198",
+    "distributed_sha256": "3f65267f93cc106f5a30629a4c7bff527e1d5aed963f573c29ac725b1a69b198"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_000pct_sigma_1eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e642195b3ba849e0d489732efc381dcc56e0c036cd7b037cc370c4285a0aaf30",
+    "distributed_sha256": "e642195b3ba849e0d489732efc381dcc56e0c036cd7b037cc370c4285a0aaf30"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_000pct_sigma_1p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "1adf7accf9fc32405f8ffef0b7c47794f287ff3c782197ea99b50e284673e340",
+    "distributed_sha256": "1adf7accf9fc32405f8ffef0b7c47794f287ff3c782197ea99b50e284673e340"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_000pct_sigma_1p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "664cfcf224104cd9729ae83e5b80c30f5d6036c354ba0aba04fe896e7a0bbb88",
+    "distributed_sha256": "664cfcf224104cd9729ae83e5b80c30f5d6036c354ba0aba04fe896e7a0bbb88"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_000pct_sigma_1p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a90213f3b222b345fde4c73b6e93e4531f96be47fa05b7f24d3db9d331bbdeba",
+    "distributed_sha256": "a90213f3b222b345fde4c73b6e93e4531f96be47fa05b7f24d3db9d331bbdeba"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_000pct_sigma_1p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "1aefeda23f744e88305bb49e4d655b2adaae3c1237efc84201d0011ff4bd3cef",
+    "distributed_sha256": "1aefeda23f744e88305bb49e4d655b2adaae3c1237efc84201d0011ff4bd3cef"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_015pct_sigma_0p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "27b382a05f8fda123527513c2816524d04a9155042467d914f97f34a80533b43",
+    "distributed_sha256": "27b382a05f8fda123527513c2816524d04a9155042467d914f97f34a80533b43"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_015pct_sigma_0p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "cd5a3d835a3249d7d11d957164577700f7a379be5412011c5c5698dbffe9efa3",
+    "distributed_sha256": "cd5a3d835a3249d7d11d957164577700f7a379be5412011c5c5698dbffe9efa3"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_015pct_sigma_0p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "9b6911f0756f222678badebafb271cb812a448d06172a3500fd4c493ea5dfa64",
+    "distributed_sha256": "9b6911f0756f222678badebafb271cb812a448d06172a3500fd4c493ea5dfa64"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_015pct_sigma_0p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "b6b11df0fa97e5b41895e9d2f445bbc8e2de93a64f795ae424d8bd0a9133f861",
+    "distributed_sha256": "b6b11df0fa97e5b41895e9d2f445bbc8e2de93a64f795ae424d8bd0a9133f861"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_015pct_sigma_1eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "90e5b3be45ef50f46bb68c9f9cc38d350795ccbf379c4b26863d15cc0cc29bdc",
+    "distributed_sha256": "90e5b3be45ef50f46bb68c9f9cc38d350795ccbf379c4b26863d15cc0cc29bdc"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_015pct_sigma_1eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "9e343ad22977fba81c6ec43a8feb2887196574bdbfa94ad20fd2401026755809",
+    "distributed_sha256": "9e343ad22977fba81c6ec43a8feb2887196574bdbfa94ad20fd2401026755809"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_015pct_sigma_1eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "61373dc6f178c3edcc64a280a3fa514531075e2547ac92261f180a5a412a7a35",
+    "distributed_sha256": "61373dc6f178c3edcc64a280a3fa514531075e2547ac92261f180a5a412a7a35"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_015pct_sigma_1eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "b32891299478acad8d374871b41d413f8a347da70081d28f6ac8531316281a92",
+    "distributed_sha256": "b32891299478acad8d374871b41d413f8a347da70081d28f6ac8531316281a92"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_015pct_sigma_1p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "446afc6cd56270f2d35af6c752f3e07ba0d556309e04ce51aa8b2869bb1f658e",
+    "distributed_sha256": "446afc6cd56270f2d35af6c752f3e07ba0d556309e04ce51aa8b2869bb1f658e"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_015pct_sigma_1p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a0212589c990cd1919481b50b880f7a24283d27f1f366834f4cc7fd07e95590a",
+    "distributed_sha256": "a0212589c990cd1919481b50b880f7a24283d27f1f366834f4cc7fd07e95590a"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_015pct_sigma_1p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "66bf741057c256a6787983a1cede4fbfaafc858cd5b5c04cf21014732a0911db",
+    "distributed_sha256": "66bf741057c256a6787983a1cede4fbfaafc858cd5b5c04cf21014732a0911db"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_015pct_sigma_1p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e375395470b6b5db47f1f2a8d8b0efa6705a93eb59f866780abab0e0de00dd73",
+    "distributed_sha256": "e375395470b6b5db47f1f2a8d8b0efa6705a93eb59f866780abab0e0de00dd73"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_030pct_sigma_0p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c0c04ce98f7dcfef89df828de3996b105cc8eac22eb7e78e4164ce62efe951dd",
+    "distributed_sha256": "c0c04ce98f7dcfef89df828de3996b105cc8eac22eb7e78e4164ce62efe951dd"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_030pct_sigma_0p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "0ed1d20116482ecfef8c8ecfe49e57b6eb4c869d64ec8a2881c516b110bcceb9",
+    "distributed_sha256": "0ed1d20116482ecfef8c8ecfe49e57b6eb4c869d64ec8a2881c516b110bcceb9"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_030pct_sigma_0p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "3ebfc9d16b5e1f8046a134898e81ee0a6a8d246db22fa5874147b8e4b8a99bef",
+    "distributed_sha256": "3ebfc9d16b5e1f8046a134898e81ee0a6a8d246db22fa5874147b8e4b8a99bef"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_030pct_sigma_0p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c0ed25bf26200a28e82b14728f895cb20ac0d3af9fca3f80af09ed8ab3473c43",
+    "distributed_sha256": "c0ed25bf26200a28e82b14728f895cb20ac0d3af9fca3f80af09ed8ab3473c43"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_030pct_sigma_1eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "24cdb217b110c4386cd80936553968157892a6eabf47ed4e9861654cd857eb62",
+    "distributed_sha256": "24cdb217b110c4386cd80936553968157892a6eabf47ed4e9861654cd857eb62"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_030pct_sigma_1eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "bc257c0401bc3b726438d3fadac8c58719e5bffd7e7af1576d4abc1f40c6f34a",
+    "distributed_sha256": "bc257c0401bc3b726438d3fadac8c58719e5bffd7e7af1576d4abc1f40c6f34a"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_030pct_sigma_1eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "b4977308bde306a0330c777a49ce4e2ae47d1391ca8b5073e186d7aa645e298a",
+    "distributed_sha256": "b4977308bde306a0330c777a49ce4e2ae47d1391ca8b5073e186d7aa645e298a"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_030pct_sigma_1eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "51ec420e78482c7c0f2e8648bc689ed40d025f87e2264429c39cf0c15aebccb6",
+    "distributed_sha256": "51ec420e78482c7c0f2e8648bc689ed40d025f87e2264429c39cf0c15aebccb6"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_030pct_sigma_1p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c103af8b5ccc0e2e95ad8d9c5bb1347fab7499bc4e692ecf35aede13b6f46c45",
+    "distributed_sha256": "c103af8b5ccc0e2e95ad8d9c5bb1347fab7499bc4e692ecf35aede13b6f46c45"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_030pct_sigma_1p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "2b6a4ad67af6c3913de9d3d2e2b497b09ca2af0711e8e1542970eee13d5e7993",
+    "distributed_sha256": "2b6a4ad67af6c3913de9d3d2e2b497b09ca2af0711e8e1542970eee13d5e7993"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_030pct_sigma_1p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "aa6e990812d8c65a935ac99480ddb128d52f2fa514cde806188f9e9e8a4daf00",
+    "distributed_sha256": "aa6e990812d8c65a935ac99480ddb128d52f2fa514cde806188f9e9e8a4daf00"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_030pct_sigma_1p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "b487a457ab957fb0a5f6ca4b01d112cdacfbb5f5eccd39d9711173c53ba700a9",
+    "distributed_sha256": "b487a457ab957fb0a5f6ca4b01d112cdacfbb5f5eccd39d9711173c53ba700a9"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_060pct_sigma_0p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "cc5050918912dd69cdda97cacbabe37c53757b31f6fb576bd8ff9013598cc920",
+    "distributed_sha256": "cc5050918912dd69cdda97cacbabe37c53757b31f6fb576bd8ff9013598cc920"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_060pct_sigma_0p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d32fd3fd6f7f294bf71cfc240e3746d4d1d5ce7414eead46288fc69a3920403d",
+    "distributed_sha256": "d32fd3fd6f7f294bf71cfc240e3746d4d1d5ce7414eead46288fc69a3920403d"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_060pct_sigma_0p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "4f5c38918c0d33d4f1fed93d83108b06da7c62e579d9eba510ab43348c59d221",
+    "distributed_sha256": "4f5c38918c0d33d4f1fed93d83108b06da7c62e579d9eba510ab43348c59d221"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_060pct_sigma_0p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "cdf5852a375aed64145613102ee0ebb4cb499dcd358dc4e2a3d4adf1e03263e5",
+    "distributed_sha256": "cdf5852a375aed64145613102ee0ebb4cb499dcd358dc4e2a3d4adf1e03263e5"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_060pct_sigma_1eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "4855f7d3df205ff759ca8215ec3ed3d2b02157b8b717db0318b177fb44eaa88e",
+    "distributed_sha256": "4855f7d3df205ff759ca8215ec3ed3d2b02157b8b717db0318b177fb44eaa88e"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_060pct_sigma_1eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a62beba75fe1b1304caa067c5bd202fa58176c9851df097345006f9f978d8462",
+    "distributed_sha256": "a62beba75fe1b1304caa067c5bd202fa58176c9851df097345006f9f978d8462"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_060pct_sigma_1eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "fa55bd10404d81704b4695612b9dbb9649113788ebdcc74653435cb2f3188c33",
+    "distributed_sha256": "fa55bd10404d81704b4695612b9dbb9649113788ebdcc74653435cb2f3188c33"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_060pct_sigma_1eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "3414edc418fbc5cb74ec8630184d475695dd09c176b1668be837820f386be2d4",
+    "distributed_sha256": "3414edc418fbc5cb74ec8630184d475695dd09c176b1668be837820f386be2d4"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_060pct_sigma_1p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "b1a33a4a3ae2eebbdda022a464fbab86cc5f3c05d5d4e03ec34d26edff8147d2",
+    "distributed_sha256": "b1a33a4a3ae2eebbdda022a464fbab86cc5f3c05d5d4e03ec34d26edff8147d2"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_060pct_sigma_1p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "62f71b98bcd9a990c16bf700ac760584ac2a5c98b9bbfb2be3bf3a57d323935f",
+    "distributed_sha256": "62f71b98bcd9a990c16bf700ac760584ac2a5c98b9bbfb2be3bf3a57d323935f"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_060pct_sigma_1p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "28ae1cef080647bc85db139544f037b027180b9af04f8e2b6bfb0dea7a609bee",
+    "distributed_sha256": "28ae1cef080647bc85db139544f037b027180b9af04f8e2b6bfb0dea7a609bee"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/a_LA_Ce3_060pct_sigma_1p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "4395619e70d34de4abfc9adf17e0e14d7fbd3e43e01990e8f903fab5ad1e5252",
+    "distributed_sha256": "4395619e70d34de4abfc9adf17e0e14d7fbd3e43e01990e8f903fab5ad1e5252"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_000pct_sigma_0p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "5104cfa202c191c79a5754858784f9af5bda3bfc9d6a9e9f0c6353cc9d718fd3",
+    "distributed_sha256": "5104cfa202c191c79a5754858784f9af5bda3bfc9d6a9e9f0c6353cc9d718fd3"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_000pct_sigma_0p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "f10d6a310ffaf83b66c68d607c88ab8bf1eb48ce916566698f2e647b26963349",
+    "distributed_sha256": "f10d6a310ffaf83b66c68d607c88ab8bf1eb48ce916566698f2e647b26963349"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_000pct_sigma_0p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "29c8b6926bde979947a3c6f87e7ed48a52b81c0ec361a5bf06ac228d1da52ba1",
+    "distributed_sha256": "29c8b6926bde979947a3c6f87e7ed48a52b81c0ec361a5bf06ac228d1da52ba1"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_000pct_sigma_0p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d0e7bddb7b305ca5256435d9f7bf15769a6e64dbdbf53cb78fc5e01ec2a2de1e",
+    "distributed_sha256": "d0e7bddb7b305ca5256435d9f7bf15769a6e64dbdbf53cb78fc5e01ec2a2de1e"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_000pct_sigma_1eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "aeda9c5374edd1429efb72156e3e97b0541ca7cd4970e199612f0723281ccbb3",
+    "distributed_sha256": "aeda9c5374edd1429efb72156e3e97b0541ca7cd4970e199612f0723281ccbb3"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_000pct_sigma_1eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "8c3f2ff347d38321f31135b4e2aafc2320817c598f0242cac48f2388469a6a5b",
+    "distributed_sha256": "8c3f2ff347d38321f31135b4e2aafc2320817c598f0242cac48f2388469a6a5b"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_000pct_sigma_1eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "01b98ce8f900f17e998e1b403790386d6843fbf51a6f04b214a20dc25d9a235c",
+    "distributed_sha256": "01b98ce8f900f17e998e1b403790386d6843fbf51a6f04b214a20dc25d9a235c"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_000pct_sigma_1eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "71e2fec2b31cf3d02d2b911b392f5286e553404dc1f16a1a6730b694f4a95ea3",
+    "distributed_sha256": "71e2fec2b31cf3d02d2b911b392f5286e553404dc1f16a1a6730b694f4a95ea3"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_000pct_sigma_1p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "0d98d093b06de7e71ce1c65054ff1764e793b6f71dfb28620f5004d96d86d706",
+    "distributed_sha256": "0d98d093b06de7e71ce1c65054ff1764e793b6f71dfb28620f5004d96d86d706"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_000pct_sigma_1p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "93d25a915d236cc20928cb0b87298f49c931c0a4a12d51a6ce44bd26375e8a95",
+    "distributed_sha256": "93d25a915d236cc20928cb0b87298f49c931c0a4a12d51a6ce44bd26375e8a95"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_000pct_sigma_1p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "0395d1e1434ec4afc13eb096e2163a38adbd5e0571df37ed00b784e4fc3033f3",
+    "distributed_sha256": "0395d1e1434ec4afc13eb096e2163a38adbd5e0571df37ed00b784e4fc3033f3"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_000pct_sigma_1p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "b9ca82aa86675da3b5a2848677bced8d3d3c0800f61599ab20beb377b5672c09",
+    "distributed_sha256": "b9ca82aa86675da3b5a2848677bced8d3d3c0800f61599ab20beb377b5672c09"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_015pct_sigma_0p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "86e7570a8cf6610de7cd36811a3c3d3970f43a58bc58e2d8dd77109ff9e96609",
+    "distributed_sha256": "86e7570a8cf6610de7cd36811a3c3d3970f43a58bc58e2d8dd77109ff9e96609"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_015pct_sigma_0p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "49d79352c8ceda7b11e7b5393962be973bdbb931baee6a1b34b6498a8a5dee0c",
+    "distributed_sha256": "49d79352c8ceda7b11e7b5393962be973bdbb931baee6a1b34b6498a8a5dee0c"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_015pct_sigma_0p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "805a93eaa7c97eafadaf784d21327b75d85f5559ca33f45cf856537eed31ed50",
+    "distributed_sha256": "805a93eaa7c97eafadaf784d21327b75d85f5559ca33f45cf856537eed31ed50"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_015pct_sigma_0p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c5441d04d1f49b30bbca3d0b92f1d7ff43aed97739fc24fd71b6404ad4751fa7",
+    "distributed_sha256": "c5441d04d1f49b30bbca3d0b92f1d7ff43aed97739fc24fd71b6404ad4751fa7"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_015pct_sigma_1eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "81de323fb43ef282f2dd2b69948a2855168102eb6368f074d1a0e561c2cf258c",
+    "distributed_sha256": "81de323fb43ef282f2dd2b69948a2855168102eb6368f074d1a0e561c2cf258c"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_015pct_sigma_1eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "6b4b55dda77dc34fcc53f9ead3e47b9a4d5754685adf8a65f01b3c57e44a0c3e",
+    "distributed_sha256": "6b4b55dda77dc34fcc53f9ead3e47b9a4d5754685adf8a65f01b3c57e44a0c3e"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_015pct_sigma_1eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e7acaacad842e332496593fdadfbcfbb2c150569800e6f71ddff218e6788b3d4",
+    "distributed_sha256": "e7acaacad842e332496593fdadfbcfbb2c150569800e6f71ddff218e6788b3d4"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_015pct_sigma_1eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a5c2491beb31b7f3490086a500ff4b91acb0b271282224e9695b59ead39e1b16",
+    "distributed_sha256": "a5c2491beb31b7f3490086a500ff4b91acb0b271282224e9695b59ead39e1b16"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_015pct_sigma_1p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "ce5f7cdc2ca382ecb5936b695d0d9dcf74b71a3ceb99e6e29a3041124317a253",
+    "distributed_sha256": "ce5f7cdc2ca382ecb5936b695d0d9dcf74b71a3ceb99e6e29a3041124317a253"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_015pct_sigma_1p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d7b42db7a56cee9845ded5424c2f24ead4244a34fe639e34c3e876ac51153e9f",
+    "distributed_sha256": "d7b42db7a56cee9845ded5424c2f24ead4244a34fe639e34c3e876ac51153e9f"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_015pct_sigma_1p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "2d3b43a46ec1d42c2b9ba3b8832f2273a3a9b427384efa0a8e2a0a9693aa9ba8",
+    "distributed_sha256": "2d3b43a46ec1d42c2b9ba3b8832f2273a3a9b427384efa0a8e2a0a9693aa9ba8"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_015pct_sigma_1p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "c625e679a2f5a8fe23d5ad0a1f85bb420ac0ea3884206e1330660ec7045010ac",
+    "distributed_sha256": "c625e679a2f5a8fe23d5ad0a1f85bb420ac0ea3884206e1330660ec7045010ac"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_030pct_sigma_0p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "aacff1327aeca7d0c41b19d687cde9d714811a17395a3af5bcf6110f8ba8f242",
+    "distributed_sha256": "aacff1327aeca7d0c41b19d687cde9d714811a17395a3af5bcf6110f8ba8f242"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_030pct_sigma_0p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d6f675a7cbbdbdc5bc4e0242f07e5f6bc62831f31a3a6bf712a405d6e9b24521",
+    "distributed_sha256": "d6f675a7cbbdbdc5bc4e0242f07e5f6bc62831f31a3a6bf712a405d6e9b24521"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_030pct_sigma_0p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "d7726545dcec5397f4aa21b1e509c4cb6d2ce277b9ed4bb1a8a4b89b9c7258ea",
+    "distributed_sha256": "d7726545dcec5397f4aa21b1e509c4cb6d2ce277b9ed4bb1a8a4b89b9c7258ea"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_030pct_sigma_0p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "2f328cfb51814780beaba01a4be80da0247b7772481232069bf05cf0e113749b",
+    "distributed_sha256": "2f328cfb51814780beaba01a4be80da0247b7772481232069bf05cf0e113749b"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_030pct_sigma_1eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "1f83d871b2281211776df04a0f92e5bf932e8c027a0a78fba549fb2d23079700",
+    "distributed_sha256": "1f83d871b2281211776df04a0f92e5bf932e8c027a0a78fba549fb2d23079700"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_030pct_sigma_1eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "ba4b7d16fd675fa103b38ce56c13d5a59bb401f65281ecde8b37015862b3dad6",
+    "distributed_sha256": "ba4b7d16fd675fa103b38ce56c13d5a59bb401f65281ecde8b37015862b3dad6"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_030pct_sigma_1eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "b9d4c157fe050d2f0b265225454939e4aa6ff74251652712afa7014bcc0dd91c",
+    "distributed_sha256": "b9d4c157fe050d2f0b265225454939e4aa6ff74251652712afa7014bcc0dd91c"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_030pct_sigma_1eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "645d9e81c71e79d1559095af155f184f73f741b71fde122eda06e1a27597506e",
+    "distributed_sha256": "645d9e81c71e79d1559095af155f184f73f741b71fde122eda06e1a27597506e"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_030pct_sigma_1p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a4d4012de433a24032b58b23e099fc210904dd71fa50e8614bdadef27a7683b0",
+    "distributed_sha256": "a4d4012de433a24032b58b23e099fc210904dd71fa50e8614bdadef27a7683b0"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_030pct_sigma_1p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "3859376192503d46cd223c902200fe87da60375a43cfd8f8643a536bb741b2f0",
+    "distributed_sha256": "3859376192503d46cd223c902200fe87da60375a43cfd8f8643a536bb741b2f0"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_030pct_sigma_1p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "1bd7cdbfdbe64f6b4acf2ee90455941701745fa2117471c3084c9182a6f5c65b",
+    "distributed_sha256": "1bd7cdbfdbe64f6b4acf2ee90455941701745fa2117471c3084c9182a6f5c65b"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_030pct_sigma_1p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "46452f7e9f62998dc83c0e868a0e97713fd64d5eac7cc3a7c3dac5b994000835",
+    "distributed_sha256": "46452f7e9f62998dc83c0e868a0e97713fd64d5eac7cc3a7c3dac5b994000835"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_060pct_sigma_0p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "ed4fc351d1e170d537bf1b75a02961c65c6fd5499e1fcdcbb193b5d68e575ea2",
+    "distributed_sha256": "ed4fc351d1e170d537bf1b75a02961c65c6fd5499e1fcdcbb193b5d68e575ea2"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_060pct_sigma_0p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "54d2067f0ad30dab2b74a02b8d8ddb8a5cafe31b043abb7efcacddbc813ea8a5",
+    "distributed_sha256": "54d2067f0ad30dab2b74a02b8d8ddb8a5cafe31b043abb7efcacddbc813ea8a5"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_060pct_sigma_0p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "89c696565fe7682e4e81d9ae0a89b9e66430851a39d7c290716dadac1369f8f0",
+    "distributed_sha256": "89c696565fe7682e4e81d9ae0a89b9e66430851a39d7c290716dadac1369f8f0"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_060pct_sigma_0p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "a6871ce52437a7dec2f4f1bc3707ea20522455efe10f6affaa7c9d62838b5e93",
+    "distributed_sha256": "a6871ce52437a7dec2f4f1bc3707ea20522455efe10f6affaa7c9d62838b5e93"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_060pct_sigma_1eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "6edef14b7449cf63b9fbc5c1dea06513cf75eca0465d8922e89a40ae16583dfa",
+    "distributed_sha256": "6edef14b7449cf63b9fbc5c1dea06513cf75eca0465d8922e89a40ae16583dfa"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_060pct_sigma_1eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "b00e3a54ab0314b1e026cc23a38bf348de7d28ab1fc3f29d8719388452af427a",
+    "distributed_sha256": "b00e3a54ab0314b1e026cc23a38bf348de7d28ab1fc3f29d8719388452af427a"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_060pct_sigma_1eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e3bce64666b02aab9e7676e4583ab36ea78819bec05b1f8aab40e60ff831792f",
+    "distributed_sha256": "e3bce64666b02aab9e7676e4583ab36ea78819bec05b1f8aab40e60ff831792f"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_060pct_sigma_1eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "bc6fa7cfab09f516ce0aa094cf5452c88cafc7f18150f9f633f9271e76ca7cdf",
+    "distributed_sha256": "bc6fa7cfab09f516ce0aa094cf5452c88cafc7f18150f9f633f9271e76ca7cdf"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_060pct_sigma_1p5eV_poisson_03pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "f0f17177194e8995ec16d914e6559b298b7804cc7019ec46fe735395a3371a83",
+    "distributed_sha256": "f0f17177194e8995ec16d914e6559b298b7804cc7019ec46fe735395a3371a83"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_060pct_sigma_1p5eV_poisson_03pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "f710baccd5d5a87f7b8d270930a3d859079b2cbc1d54ab9ea8bbbecc11582baf",
+    "distributed_sha256": "f710baccd5d5a87f7b8d270930a3d859079b2cbc1d54ab9ea8bbbecc11582baf"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_060pct_sigma_1p5eV_poisson_10pct/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "4d69c993bfe18008fd0970f3f7035bf8d9ddb13a1b401f2422991d1c16b3b584",
+    "distributed_sha256": "4d69c993bfe18008fd0970f3f7035bf8d9ddb13a1b401f2422991d1c16b3b584"
+  },
+  {
+    "file": "data/synthetic/fits/free_LA/b_LA_Ce3_060pct_sigma_1p5eV_poisson_10pct/peak_table.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "bfe273174561165266a1e0f331db091cc28f913aed500dcdab3a855e34e964de",
+    "distributed_sha256": "bfe273174561165266a1e0f331db091cc28f913aed500dcdab3a855e34e964de"
+  },
+  {
+    "file": "data/validation/joint_background/curves/La_0at.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "2cfa9c1910557e583b7252b4d45c138f5f35976239510693ec2f718fc70a8d87",
+    "distributed_sha256": "2cfa9c1910557e583b7252b4d45c138f5f35976239510693ec2f718fc70a8d87"
+  },
+  {
+    "file": "data/validation/joint_background/curves/La_1at.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "e94b143fa405622253479dcc49237c6e0583f8ebfa17fea589cf13f52081c781",
+    "distributed_sha256": "e94b143fa405622253479dcc49237c6e0583f8ebfa17fea589cf13f52081c781"
+  },
+  {
+    "file": "data/validation/joint_background/curves/La_2at.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "136d24e56043209bbf78e700bbcfacef9d0ddea880b0349b67f43aab8cd8c3a2",
+    "distributed_sha256": "136d24e56043209bbf78e700bbcfacef9d0ddea880b0349b67f43aab8cd8c3a2"
+  },
+  {
+    "file": "data/validation/joint_background/curves/La_4at.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "72c17bb364bce450023e9181615a3fb5be4ffc57f384814bbc100720894c8372",
+    "distributed_sha256": "72c17bb364bce450023e9181615a3fb5be4ffc57f384814bbc100720894c8372"
+  },
+  {
+    "file": "data/validation/joint_background/curves/La_10at.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "9c26a3e37dfb2903f65c65497f466db29a99898cce582d1189930c4376e65f56",
+    "distributed_sha256": "9c26a3e37dfb2903f65c65497f466db29a99898cce582d1189930c4376e65f56"
+  },
+  {
+    "file": "data/validation/joint_background/curves/La_20at.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "8f6b9e81af19a6d1a624389ad8e0d0700ca2426b7223313b817d144ad2be00dd",
+    "distributed_sha256": "8f6b9e81af19a6d1a624389ad8e0d0700ca2426b7223313b817d144ad2be00dd"
+  },
+  {
+    "file": "data/validation/input_examples/VAMAS_Voigt_smoke/fit_curves.csv",
+    "source_bytes_preserved": true,
+    "copied_source_sha256": "933798fac74622f3784cd48588f5b367a85b05b0ac7f4021276046c1b268cc24",
+    "distributed_sha256": "933798fac74622f3784cd48588f5b367a85b05b0ac7f4021276046c1b268cc24"
+  }
+]

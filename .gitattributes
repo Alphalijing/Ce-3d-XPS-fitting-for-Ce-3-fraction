@@ -1,0 +1,7 @@
+# Keep publication hashes stable across Windows/Linux checkouts.
+* -text
+*.xls binary
+*.xlsx binary
+*.npz binary
+*.png binary
+*.pdf binary

@@ -1,0 +1,2964 @@
+{
+  "input_format": "xls",
+  "parser": {
+    "package": "pandas",
+    "version": "2.1.4"
+  },
+  "sheet_inventory": [
+    "XPS Survey",
+    "O1s Scan",
+    "La3d Scan",
+    "Ce3d Scan",
+    "C1s Scan",
+    "Peak Table",
+    "Titles",
+    "Sheet1"
+  ],
+  "sheets": {
+    "XPS Survey": {
+      "sheet": "XPS Survey",
+      "raw_metadata_cells": [
+        {
+          "cell": "H1",
+          "row": 1,
+          "column": 8,
+          "value": "Acquisition Parameters :"
+        },
+        {
+          "cell": "M1",
+          "row": 1,
+          "column": 13,
+          "value": "Experiment Descriptions :"
+        },
+        {
+          "cell": "H3",
+          "row": 3,
+          "column": 8,
+          "value": "Parameter"
+        },
+        {
+          "cell": "M3",
+          "row": 3,
+          "column": 13,
+          "value": "Experiment\\X-Ray001 400um - FG  ON\\2404255544-13\\7"
+        },
+        {
+          "cell": "H4",
+          "row": 4,
+          "column": 8,
+          "value": "Total acquisition time"
+        },
+        {
+          "cell": "I4",
+          "row": 4,
+          "column": 9,
+          "value": "2 mins 16.1 secs"
+        },
+        {
+          "cell": "H5",
+          "row": 5,
+          "column": 8,
+          "value": "Number of Scans"
+        },
+        {
+          "cell": "I5",
+          "row": 5,
+          "column": 9,
+          "value": 1
+        },
+        {
+          "cell": "H6",
+          "row": 6,
+          "column": 8,
+          "value": "Source Gun Type"
+        },
+        {
+          "cell": "I6",
+          "row": 6,
+          "column": 9,
+          "value": "Al K Alpha"
+        },
+        {
+          "cell": "A7",
+          "row": 7,
+          "column": 1,
+          "value": "Axis"
+        },
+        {
+          "cell": "B7",
+          "row": 7,
+          "column": 2,
+          "value": "Energy"
+        },
+        {
+          "cell": "C7",
+          "row": 7,
+          "column": 3,
+          "value": "Elements="
+        },
+        {
+          "cell": "D7",
+          "row": 7,
+          "column": 4,
+          "value": 1361
+        },
+        {
+          "cell": "H7",
+          "row": 7,
+          "column": 8,
+          "value": "Spot Size"
+        },
+        {
+          "cell": "I7",
+          "row": 7,
+          "column": 9,
+          "value": "400 祄"
+        },
+        {
+          "cell": "H8",
+          "row": 8,
+          "column": 8,
+          "value": "Lens Mode"
+        },
+        {
+          "cell": "I8",
+          "row": 8,
+          "column": 9,
+          "value": "Standard"
+        },
+        {
+          "cell": "A9",
+          "row": 9,
+          "column": 1,
+          "value": "XPS Survey.VGD"
+        },
+        {
+          "cell": "H9",
+          "row": 9,
+          "column": 8,
+          "value": "Analyser Mode"
+        },
+        {
+          "cell": "I9",
+          "row": 9,
+          "column": 9,
+          "value": "CAE : Pass Energy 150.0 eV"
+        },
+        {
+          "cell": "H10",
+          "row": 10,
+          "column": 8,
+          "value": "Energy Step Size"
+        },
+        {
+          "cell": "I10",
+          "row": 10,
+          "column": 9,
+          "value": "1.000 eV"
+        },
+        {
+          "cell": "H11",
+          "row": 11,
+          "column": 8,
+          "value": "Number of Energy Steps"
+        },
+        {
+          "cell": "I11",
+          "row": 11,
+          "column": 9,
+          "value": 1361
+        },
+        {
+          "cell": "A15",
+          "row": 15,
+          "column": 1,
+          "value": "Binding Energy (E)"
+        },
+        {
+          "cell": "A16",
+          "row": 16,
+          "column": 1,
+          "value": "eV"
+        },
+        {
+          "cell": "C16",
+          "row": 16,
+          "column": 3,
+          "value": "Counts / s"
+        }
+      ],
+      "paired_metadata": [
+        {
+          "label": "Total acquisition time",
+          "value": "2 mins 16.1 secs",
+          "label_cell": "H4",
+          "value_cell": "I4",
+          "unit": "mins"
+        },
+        {
+          "label": "Number of Scans",
+          "value": 1,
+          "label_cell": "H5",
+          "value_cell": "I5",
+          "unit": null
+        },
+        {
+          "label": "Source Gun Type",
+          "value": "Al K Alpha",
+          "label_cell": "H6",
+          "value_cell": "I6",
+          "unit": null
+        },
+        {
+          "label": "Axis",
+          "value": "Energy",
+          "label_cell": "A7",
+          "value_cell": "B7",
+          "unit": null
+        },
+        {
+          "label": "Energy",
+          "value": "Elements=",
+          "label_cell": "B7",
+          "value_cell": "C7",
+          "unit": null
+        },
+        {
+          "label": "Elements=",
+          "value": 1361,
+          "label_cell": "C7",
+          "value_cell": "D7",
+          "unit": null
+        },
+        {
+          "label": "Spot Size",
+          "value": "400 祄",
+          "label_cell": "H7",
+          "value_cell": "I7",
+          "unit": null
+        },
+        {
+          "label": "Lens Mode",
+          "value": "Standard",
+          "label_cell": "H8",
+          "value_cell": "I8",
+          "unit": null
+        },
+        {
+          "label": "Analyser Mode",
+          "value": "CAE : Pass Energy 150.0 eV",
+          "label_cell": "H9",
+          "value_cell": "I9",
+          "unit": "eV"
+        },
+        {
+          "label": "Energy Step Size",
+          "value": "1.000 eV",
+          "label_cell": "H10",
+          "value_cell": "I10",
+          "unit": "eV"
+        },
+        {
+          "label": "Number of Energy Steps",
+          "value": 1361,
+          "label_cell": "H11",
+          "value_cell": "I11",
+          "unit": null
+        }
+      ],
+      "experiment_conditions": {
+        "photon_energy_eV": null,
+        "analyzer_mode": "CAE : Pass Energy 150.0 eV",
+        "pass_energy_eV": 150.0,
+        "energy_step_eV": 1.0,
+        "dwell_time_s": null,
+        "total_acquisition_time_s": 136.1,
+        "scan_count": 1,
+        "source_gun_type": "Al K Alpha",
+        "spot_size_um": null,
+        "lens_mode": "Standard",
+        "intensity_label": "Counts / s",
+        "intensity_unit": "Counts / s",
+        "energy_unit": "eV",
+        "transmission_correction_applied": null,
+        "charge_reference": null
+      }
+    },
+    "O1s Scan": {
+      "sheet": "O1s Scan",
+      "raw_metadata_cells": [
+        {
+          "cell": "H1",
+          "row": 1,
+          "column": 8,
+          "value": "Acquisition Parameters :"
+        },
+        {
+          "cell": "M1",
+          "row": 1,
+          "column": 13,
+          "value": "Experiment Descriptions :"
+        },
+        {
+          "cell": "H3",
+          "row": 3,
+          "column": 8,
+          "value": "Parameter"
+        },
+        {
+          "cell": "M3",
+          "row": 3,
+          "column": 13,
+          "value": "Experiment\\X-Ray001 400um - FG  ON\\2404255544-13\\7"
+        },
+        {
+          "cell": "H4",
+          "row": 4,
+          "column": 8,
+          "value": "Total acquisition time"
+        },
+        {
+          "cell": "I4",
+          "row": 4,
+          "column": 9,
+          "value": "50.3 secs"
+        },
+        {
+          "cell": "H5",
+          "row": 5,
+          "column": 8,
+          "value": "Number of Scans"
+        },
+        {
+          "cell": "I5",
+          "row": 5,
+          "column": 9,
+          "value": 5
+        },
+        {
+          "cell": "H6",
+          "row": 6,
+          "column": 8,
+          "value": "Source Gun Type"
+        },
+        {
+          "cell": "I6",
+          "row": 6,
+          "column": 9,
+          "value": "Al K Alpha"
+        },
+        {
+          "cell": "A7",
+          "row": 7,
+          "column": 1,
+          "value": "Axis"
+        },
+        {
+          "cell": "B7",
+          "row": 7,
+          "column": 2,
+          "value": "Energy"
+        },
+        {
+          "cell": "C7",
+          "row": 7,
+          "column": 3,
+          "value": "Elements="
+        },
+        {
+          "cell": "D7",
+          "row": 7,
+          "column": 4,
+          "value": 201
+        },
+        {
+          "cell": "H7",
+          "row": 7,
+          "column": 8,
+          "value": "Spot Size"
+        },
+        {
+          "cell": "I7",
+          "row": 7,
+          "column": 9,
+          "value": "400 祄"
+        },
+        {
+          "cell": "H8",
+          "row": 8,
+          "column": 8,
+          "value": "Lens Mode"
+        },
+        {
+          "cell": "I8",
+          "row": 8,
+          "column": 9,
+          "value": "Standard"
+        },
+        {
+          "cell": "A9",
+          "row": 9,
+          "column": 1,
+          "value": "O1s Scan.VGD"
+        },
+        {
+          "cell": "H9",
+          "row": 9,
+          "column": 8,
+          "value": "Analyser Mode"
+        },
+        {
+          "cell": "I9",
+          "row": 9,
+          "column": 9,
+          "value": "CAE : Pass Energy 50.0 eV"
+        },
+        {
+          "cell": "H10",
+          "row": 10,
+          "column": 8,
+          "value": "Energy Step Size"
+        },
+        {
+          "cell": "I10",
+          "row": 10,
+          "column": 9,
+          "value": "0.100 eV"
+        },
+        {
+          "cell": "H11",
+          "row": 11,
+          "column": 8,
+          "value": "Number of Energy Steps"
+        },
+        {
+          "cell": "I11",
+          "row": 11,
+          "column": 9,
+          "value": 201
+        },
+        {
+          "cell": "A15",
+          "row": 15,
+          "column": 1,
+          "value": "Binding Energy (E)"
+        },
+        {
+          "cell": "E15",
+          "row": 15,
+          "column": 5,
+          "value": "Backgnd."
+        },
+        {
+          "cell": "A16",
+          "row": 16,
+          "column": 1,
+          "value": "eV"
+        },
+        {
+          "cell": "C16",
+          "row": 16,
+          "column": 3,
+          "value": "Counts / s"
+        },
+        {
+          "cell": "E16",
+          "row": 16,
+          "column": 5,
+          "value": "Counts / s"
+        }
+      ],
+      "paired_metadata": [
+        {
+          "label": "Total acquisition time",
+          "value": "50.3 secs",
+          "label_cell": "H4",
+          "value_cell": "I4",
+          "unit": "secs"
+        },
+        {
+          "label": "Number of Scans",
+          "value": 5,
+          "label_cell": "H5",
+          "value_cell": "I5",
+          "unit": null
+        },
+        {
+          "label": "Source Gun Type",
+          "value": "Al K Alpha",
+          "label_cell": "H6",
+          "value_cell": "I6",
+          "unit": null
+        },
+        {
+          "label": "Axis",
+          "value": "Energy",
+          "label_cell": "A7",
+          "value_cell": "B7",
+          "unit": null
+        },
+        {
+          "label": "Energy",
+          "value": "Elements=",
+          "label_cell": "B7",
+          "value_cell": "C7",
+          "unit": null
+        },
+        {
+          "label": "Elements=",
+          "value": 201,
+          "label_cell": "C7",
+          "value_cell": "D7",
+          "unit": null
+        },
+        {
+          "label": "Spot Size",
+          "value": "400 祄",
+          "label_cell": "H7",
+          "value_cell": "I7",
+          "unit": null
+        },
+        {
+          "label": "Lens Mode",
+          "value": "Standard",
+          "label_cell": "H8",
+          "value_cell": "I8",
+          "unit": null
+        },
+        {
+          "label": "Analyser Mode",
+          "value": "CAE : Pass Energy 50.0 eV",
+          "label_cell": "H9",
+          "value_cell": "I9",
+          "unit": "eV"
+        },
+        {
+          "label": "Energy Step Size",
+          "value": "0.100 eV",
+          "label_cell": "H10",
+          "value_cell": "I10",
+          "unit": "eV"
+        },
+        {
+          "label": "Number of Energy Steps",
+          "value": 201,
+          "label_cell": "H11",
+          "value_cell": "I11",
+          "unit": null
+        }
+      ],
+      "experiment_conditions": {
+        "photon_energy_eV": null,
+        "analyzer_mode": "CAE : Pass Energy 50.0 eV",
+        "pass_energy_eV": 50.0,
+        "energy_step_eV": 0.1,
+        "dwell_time_s": null,
+        "total_acquisition_time_s": 50.3,
+        "scan_count": 5,
+        "source_gun_type": "Al K Alpha",
+        "spot_size_um": null,
+        "lens_mode": "Standard",
+        "intensity_label": "Counts / s",
+        "intensity_unit": "Counts / s",
+        "energy_unit": "eV",
+        "transmission_correction_applied": null,
+        "charge_reference": null
+      }
+    },
+    "La3d Scan": {
+      "sheet": "La3d Scan",
+      "raw_metadata_cells": [
+        {
+          "cell": "H1",
+          "row": 1,
+          "column": 8,
+          "value": "Acquisition Parameters :"
+        },
+        {
+          "cell": "M1",
+          "row": 1,
+          "column": 13,
+          "value": "Experiment Descriptions :"
+        },
+        {
+          "cell": "H3",
+          "row": 3,
+          "column": 8,
+          "value": "Parameter"
+        },
+        {
+          "cell": "M3",
+          "row": 3,
+          "column": 13,
+          "value": "Experiment\\X-Ray001 400um - FG  ON\\2404255544-13\\7"
+        },
+        {
+          "cell": "H4",
+          "row": 4,
+          "column": 8,
+          "value": "Total acquisition time"
+        },
+        {
+          "cell": "I4",
+          "row": 4,
+          "column": 9,
+          "value": "5 mins 0.8 secs"
+        },
+        {
+          "cell": "H5",
+          "row": 5,
+          "column": 8,
+          "value": "Number of Scans"
+        },
+        {
+          "cell": "I5",
+          "row": 5,
+          "column": 9,
+          "value": 15
+        },
+        {
+          "cell": "H6",
+          "row": 6,
+          "column": 8,
+          "value": "Source Gun Type"
+        },
+        {
+          "cell": "I6",
+          "row": 6,
+          "column": 9,
+          "value": "Al K Alpha"
+        },
+        {
+          "cell": "A7",
+          "row": 7,
+          "column": 1,
+          "value": "Axis"
+        },
+        {
+          "cell": "B7",
+          "row": 7,
+          "column": 2,
+          "value": "Energy"
+        },
+        {
+          "cell": "C7",
+          "row": 7,
+          "column": 3,
+          "value": "Elements="
+        },
+        {
+          "cell": "D7",
+          "row": 7,
+          "column": 4,
+          "value": 401
+        },
+        {
+          "cell": "H7",
+          "row": 7,
+          "column": 8,
+          "value": "Spot Size"
+        },
+        {
+          "cell": "I7",
+          "row": 7,
+          "column": 9,
+          "value": "400 祄"
+        },
+        {
+          "cell": "H8",
+          "row": 8,
+          "column": 8,
+          "value": "Lens Mode"
+        },
+        {
+          "cell": "I8",
+          "row": 8,
+          "column": 9,
+          "value": "Standard"
+        },
+        {
+          "cell": "A9",
+          "row": 9,
+          "column": 1,
+          "value": "La3d Scan.VGD"
+        },
+        {
+          "cell": "H9",
+          "row": 9,
+          "column": 8,
+          "value": "Analyser Mode"
+        },
+        {
+          "cell": "I9",
+          "row": 9,
+          "column": 9,
+          "value": "CAE : Pass Energy 50.0 eV"
+        },
+        {
+          "cell": "H10",
+          "row": 10,
+          "column": 8,
+          "value": "Energy Step Size"
+        },
+        {
+          "cell": "I10",
+          "row": 10,
+          "column": 9,
+          "value": "0.100 eV"
+        },
+        {
+          "cell": "H11",
+          "row": 11,
+          "column": 8,
+          "value": "Number of Energy Steps"
+        },
+        {
+          "cell": "I11",
+          "row": 11,
+          "column": 9,
+          "value": 401
+        },
+        {
+          "cell": "A15",
+          "row": 15,
+          "column": 1,
+          "value": "Binding Energy (E)"
+        },
+        {
+          "cell": "E15",
+          "row": 15,
+          "column": 5,
+          "value": "Backgnd."
+        },
+        {
+          "cell": "A16",
+          "row": 16,
+          "column": 1,
+          "value": "eV"
+        },
+        {
+          "cell": "C16",
+          "row": 16,
+          "column": 3,
+          "value": "Counts / s"
+        },
+        {
+          "cell": "E16",
+          "row": 16,
+          "column": 5,
+          "value": "Counts / s"
+        }
+      ],
+      "paired_metadata": [
+        {
+          "label": "Total acquisition time",
+          "value": "5 mins 0.8 secs",
+          "label_cell": "H4",
+          "value_cell": "I4",
+          "unit": "mins"
+        },
+        {
+          "label": "Number of Scans",
+          "value": 15,
+          "label_cell": "H5",
+          "value_cell": "I5",
+          "unit": null
+        },
+        {
+          "label": "Source Gun Type",
+          "value": "Al K Alpha",
+          "label_cell": "H6",
+          "value_cell": "I6",
+          "unit": null
+        },
+        {
+          "label": "Axis",
+          "value": "Energy",
+          "label_cell": "A7",
+          "value_cell": "B7",
+          "unit": null
+        },
+        {
+          "label": "Energy",
+          "value": "Elements=",
+          "label_cell": "B7",
+          "value_cell": "C7",
+          "unit": null
+        },
+        {
+          "label": "Elements=",
+          "value": 401,
+          "label_cell": "C7",
+          "value_cell": "D7",
+          "unit": null
+        },
+        {
+          "label": "Spot Size",
+          "value": "400 祄",
+          "label_cell": "H7",
+          "value_cell": "I7",
+          "unit": null
+        },
+        {
+          "label": "Lens Mode",
+          "value": "Standard",
+          "label_cell": "H8",
+          "value_cell": "I8",
+          "unit": null
+        },
+        {
+          "label": "Analyser Mode",
+          "value": "CAE : Pass Energy 50.0 eV",
+          "label_cell": "H9",
+          "value_cell": "I9",
+          "unit": "eV"
+        },
+        {
+          "label": "Energy Step Size",
+          "value": "0.100 eV",
+          "label_cell": "H10",
+          "value_cell": "I10",
+          "unit": "eV"
+        },
+        {
+          "label": "Number of Energy Steps",
+          "value": 401,
+          "label_cell": "H11",
+          "value_cell": "I11",
+          "unit": null
+        }
+      ],
+      "experiment_conditions": {
+        "photon_energy_eV": null,
+        "analyzer_mode": "CAE : Pass Energy 50.0 eV",
+        "pass_energy_eV": 50.0,
+        "energy_step_eV": 0.1,
+        "dwell_time_s": null,
+        "total_acquisition_time_s": 300.8,
+        "scan_count": 15,
+        "source_gun_type": "Al K Alpha",
+        "spot_size_um": null,
+        "lens_mode": "Standard",
+        "intensity_label": "Counts / s",
+        "intensity_unit": "Counts / s",
+        "energy_unit": "eV",
+        "transmission_correction_applied": null,
+        "charge_reference": null
+      }
+    },
+    "Ce3d Scan": {
+      "sheet": "Ce3d Scan",
+      "raw_metadata_cells": [
+        {
+          "cell": "H1",
+          "row": 1,
+          "column": 8,
+          "value": "Acquisition Parameters :"
+        },
+        {
+          "cell": "M1",
+          "row": 1,
+          "column": 13,
+          "value": "Experiment Descriptions :"
+        },
+        {
+          "cell": "H3",
+          "row": 3,
+          "column": 8,
+          "value": "Parameter"
+        },
+        {
+          "cell": "M3",
+          "row": 3,
+          "column": 13,
+          "value": "Experiment\\X-Ray001 400um - FG  ON\\2404255544-13\\7"
+        },
+        {
+          "cell": "H4",
+          "row": 4,
+          "column": 8,
+          "value": "Total acquisition time"
+        },
+        {
+          "cell": "I4",
+          "row": 4,
+          "column": 9,
+          "value": "2 mins 30.3 secs"
+        },
+        {
+          "cell": "H5",
+          "row": 5,
+          "column": 8,
+          "value": "Number of Scans"
+        },
+        {
+          "cell": "I5",
+          "row": 5,
+          "column": 9,
+          "value": 5
+        },
+        {
+          "cell": "H6",
+          "row": 6,
+          "column": 8,
+          "value": "Source Gun Type"
+        },
+        {
+          "cell": "I6",
+          "row": 6,
+          "column": 9,
+          "value": "Al K Alpha"
+        },
+        {
+          "cell": "A7",
+          "row": 7,
+          "column": 1,
+          "value": "Axis"
+        },
+        {
+          "cell": "B7",
+          "row": 7,
+          "column": 2,
+          "value": "Energy"
+        },
+        {
+          "cell": "C7",
+          "row": 7,
+          "column": 3,
+          "value": "Elements="
+        },
+        {
+          "cell": "D7",
+          "row": 7,
+          "column": 4,
+          "value": 601
+        },
+        {
+          "cell": "H7",
+          "row": 7,
+          "column": 8,
+          "value": "Spot Size"
+        },
+        {
+          "cell": "I7",
+          "row": 7,
+          "column": 9,
+          "value": "400 祄"
+        },
+        {
+          "cell": "H8",
+          "row": 8,
+          "column": 8,
+          "value": "Lens Mode"
+        },
+        {
+          "cell": "I8",
+          "row": 8,
+          "column": 9,
+          "value": "Standard"
+        },
+        {
+          "cell": "A9",
+          "row": 9,
+          "column": 1,
+          "value": "Ce3d Scan.VGD"
+        },
+        {
+          "cell": "H9",
+          "row": 9,
+          "column": 8,
+          "value": "Analyser Mode"
+        },
+        {
+          "cell": "I9",
+          "row": 9,
+          "column": 9,
+          "value": "CAE : Pass Energy 50.0 eV"
+        },
+        {
+          "cell": "H10",
+          "row": 10,
+          "column": 8,
+          "value": "Energy Step Size"
+        },
+        {
+          "cell": "I10",
+          "row": 10,
+          "column": 9,
+          "value": "0.100 eV"
+        },
+        {
+          "cell": "H11",
+          "row": 11,
+          "column": 8,
+          "value": "Number of Energy Steps"
+        },
+        {
+          "cell": "I11",
+          "row": 11,
+          "column": 9,
+          "value": 601
+        },
+        {
+          "cell": "A15",
+          "row": 15,
+          "column": 1,
+          "value": "Binding Energy (E)"
+        },
+        {
+          "cell": "E15",
+          "row": 15,
+          "column": 5,
+          "value": "Backgnd."
+        },
+        {
+          "cell": "A16",
+          "row": 16,
+          "column": 1,
+          "value": "eV"
+        },
+        {
+          "cell": "C16",
+          "row": 16,
+          "column": 3,
+          "value": "Counts / s"
+        },
+        {
+          "cell": "E16",
+          "row": 16,
+          "column": 5,
+          "value": "Counts / s"
+        }
+      ],
+      "paired_metadata": [
+        {
+          "label": "Total acquisition time",
+          "value": "2 mins 30.3 secs",
+          "label_cell": "H4",
+          "value_cell": "I4",
+          "unit": "mins"
+        },
+        {
+          "label": "Number of Scans",
+          "value": 5,
+          "label_cell": "H5",
+          "value_cell": "I5",
+          "unit": null
+        },
+        {
+          "label": "Source Gun Type",
+          "value": "Al K Alpha",
+          "label_cell": "H6",
+          "value_cell": "I6",
+          "unit": null
+        },
+        {
+          "label": "Axis",
+          "value": "Energy",
+          "label_cell": "A7",
+          "value_cell": "B7",
+          "unit": null
+        },
+        {
+          "label": "Energy",
+          "value": "Elements=",
+          "label_cell": "B7",
+          "value_cell": "C7",
+          "unit": null
+        },
+        {
+          "label": "Elements=",
+          "value": 601,
+          "label_cell": "C7",
+          "value_cell": "D7",
+          "unit": null
+        },
+        {
+          "label": "Spot Size",
+          "value": "400 祄",
+          "label_cell": "H7",
+          "value_cell": "I7",
+          "unit": null
+        },
+        {
+          "label": "Lens Mode",
+          "value": "Standard",
+          "label_cell": "H8",
+          "value_cell": "I8",
+          "unit": null
+        },
+        {
+          "label": "Analyser Mode",
+          "value": "CAE : Pass Energy 50.0 eV",
+          "label_cell": "H9",
+          "value_cell": "I9",
+          "unit": "eV"
+        },
+        {
+          "label": "Energy Step Size",
+          "value": "0.100 eV",
+          "label_cell": "H10",
+          "value_cell": "I10",
+          "unit": "eV"
+        },
+        {
+          "label": "Number of Energy Steps",
+          "value": 601,
+          "label_cell": "H11",
+          "value_cell": "I11",
+          "unit": null
+        }
+      ],
+      "experiment_conditions": {
+        "photon_energy_eV": null,
+        "analyzer_mode": "CAE : Pass Energy 50.0 eV",
+        "pass_energy_eV": 50.0,
+        "energy_step_eV": 0.1,
+        "dwell_time_s": null,
+        "total_acquisition_time_s": 150.3,
+        "scan_count": 5,
+        "source_gun_type": "Al K Alpha",
+        "spot_size_um": null,
+        "lens_mode": "Standard",
+        "intensity_label": "Counts / s",
+        "intensity_unit": "Counts / s",
+        "energy_unit": "eV",
+        "transmission_correction_applied": null,
+        "charge_reference": null
+      }
+    },
+    "C1s Scan": {
+      "sheet": "C1s Scan",
+      "raw_metadata_cells": [
+        {
+          "cell": "H1",
+          "row": 1,
+          "column": 8,
+          "value": "Acquisition Parameters :"
+        },
+        {
+          "cell": "M1",
+          "row": 1,
+          "column": 13,
+          "value": "Experiment Descriptions :"
+        },
+        {
+          "cell": "H3",
+          "row": 3,
+          "column": 8,
+          "value": "Parameter"
+        },
+        {
+          "cell": "M3",
+          "row": 3,
+          "column": 13,
+          "value": "Experiment\\X-Ray001 400um - FG  ON\\2404255544-13\\7"
+        },
+        {
+          "cell": "H4",
+          "row": 4,
+          "column": 8,
+          "value": "Total acquisition time"
+        },
+        {
+          "cell": "I4",
+          "row": 4,
+          "column": 9,
+          "value": "47.8 secs"
+        },
+        {
+          "cell": "H5",
+          "row": 5,
+          "column": 8,
+          "value": "Number of Scans"
+        },
+        {
+          "cell": "I5",
+          "row": 5,
+          "column": 9,
+          "value": 5
+        },
+        {
+          "cell": "H6",
+          "row": 6,
+          "column": 8,
+          "value": "Source Gun Type"
+        },
+        {
+          "cell": "I6",
+          "row": 6,
+          "column": 9,
+          "value": "Al K Alpha"
+        },
+        {
+          "cell": "A7",
+          "row": 7,
+          "column": 1,
+          "value": "Axis"
+        },
+        {
+          "cell": "B7",
+          "row": 7,
+          "column": 2,
+          "value": "Energy"
+        },
+        {
+          "cell": "C7",
+          "row": 7,
+          "column": 3,
+          "value": "Elements="
+        },
+        {
+          "cell": "D7",
+          "row": 7,
+          "column": 4,
+          "value": 191
+        },
+        {
+          "cell": "H7",
+          "row": 7,
+          "column": 8,
+          "value": "Spot Size"
+        },
+        {
+          "cell": "I7",
+          "row": 7,
+          "column": 9,
+          "value": "400 祄"
+        },
+        {
+          "cell": "H8",
+          "row": 8,
+          "column": 8,
+          "value": "Lens Mode"
+        },
+        {
+          "cell": "I8",
+          "row": 8,
+          "column": 9,
+          "value": "Standard"
+        },
+        {
+          "cell": "A9",
+          "row": 9,
+          "column": 1,
+          "value": "C1s Scan.VGD"
+        },
+        {
+          "cell": "H9",
+          "row": 9,
+          "column": 8,
+          "value": "Analyser Mode"
+        },
+        {
+          "cell": "I9",
+          "row": 9,
+          "column": 9,
+          "value": "CAE : Pass Energy 50.0 eV"
+        },
+        {
+          "cell": "H10",
+          "row": 10,
+          "column": 8,
+          "value": "Energy Step Size"
+        },
+        {
+          "cell": "I10",
+          "row": 10,
+          "column": 9,
+          "value": "0.100 eV"
+        },
+        {
+          "cell": "H11",
+          "row": 11,
+          "column": 8,
+          "value": "Number of Energy Steps"
+        },
+        {
+          "cell": "I11",
+          "row": 11,
+          "column": 9,
+          "value": 191
+        },
+        {
+          "cell": "A15",
+          "row": 15,
+          "column": 1,
+          "value": "Binding Energy (E)"
+        },
+        {
+          "cell": "E15",
+          "row": 15,
+          "column": 5,
+          "value": "Backgnd."
+        },
+        {
+          "cell": "A16",
+          "row": 16,
+          "column": 1,
+          "value": "eV"
+        },
+        {
+          "cell": "C16",
+          "row": 16,
+          "column": 3,
+          "value": "Counts / s"
+        },
+        {
+          "cell": "E16",
+          "row": 16,
+          "column": 5,
+          "value": "Counts / s"
+        }
+      ],
+      "paired_metadata": [
+        {
+          "label": "Total acquisition time",
+          "value": "47.8 secs",
+          "label_cell": "H4",
+          "value_cell": "I4",
+          "unit": "secs"
+        },
+        {
+          "label": "Number of Scans",
+          "value": 5,
+          "label_cell": "H5",
+          "value_cell": "I5",
+          "unit": null
+        },
+        {
+          "label": "Source Gun Type",
+          "value": "Al K Alpha",
+          "label_cell": "H6",
+          "value_cell": "I6",
+          "unit": null
+        },
+        {
+          "label": "Axis",
+          "value": "Energy",
+          "label_cell": "A7",
+          "value_cell": "B7",
+          "unit": null
+        },
+        {
+          "label": "Energy",
+          "value": "Elements=",
+          "label_cell": "B7",
+          "value_cell": "C7",
+          "unit": null
+        },
+        {
+          "label": "Elements=",
+          "value": 191,
+          "label_cell": "C7",
+          "value_cell": "D7",
+          "unit": null
+        },
+        {
+          "label": "Spot Size",
+          "value": "400 祄",
+          "label_cell": "H7",
+          "value_cell": "I7",
+          "unit": null
+        },
+        {
+          "label": "Lens Mode",
+          "value": "Standard",
+          "label_cell": "H8",
+          "value_cell": "I8",
+          "unit": null
+        },
+        {
+          "label": "Analyser Mode",
+          "value": "CAE : Pass Energy 50.0 eV",
+          "label_cell": "H9",
+          "value_cell": "I9",
+          "unit": "eV"
+        },
+        {
+          "label": "Energy Step Size",
+          "value": "0.100 eV",
+          "label_cell": "H10",
+          "value_cell": "I10",
+          "unit": "eV"
+        },
+        {
+          "label": "Number of Energy Steps",
+          "value": 191,
+          "label_cell": "H11",
+          "value_cell": "I11",
+          "unit": null
+        }
+      ],
+      "experiment_conditions": {
+        "photon_energy_eV": null,
+        "analyzer_mode": "CAE : Pass Energy 50.0 eV",
+        "pass_energy_eV": 50.0,
+        "energy_step_eV": 0.1,
+        "dwell_time_s": null,
+        "total_acquisition_time_s": 47.8,
+        "scan_count": 5,
+        "source_gun_type": "Al K Alpha",
+        "spot_size_um": null,
+        "lens_mode": "Standard",
+        "intensity_label": "Counts / s",
+        "intensity_unit": "Counts / s",
+        "energy_unit": "eV",
+        "transmission_correction_applied": null,
+        "charge_reference": null
+      }
+    },
+    "Peak Table": {
+      "sheet": "Peak Table",
+      "raw_metadata_cells": [
+        {
+          "cell": "A1",
+          "row": 1,
+          "column": 1,
+          "value": "Peak Table : "
+        },
+        {
+          "cell": "B2",
+          "row": 2,
+          "column": 2,
+          "value": "Name "
+        },
+        {
+          "cell": "C2",
+          "row": 2,
+          "column": 3,
+          "value": "Start BE"
+        },
+        {
+          "cell": "D2",
+          "row": 2,
+          "column": 4,
+          "value": "Peak BE"
+        },
+        {
+          "cell": "E2",
+          "row": 2,
+          "column": 5,
+          "value": "End BE"
+        },
+        {
+          "cell": "F2",
+          "row": 2,
+          "column": 6,
+          "value": "Height CPS"
+        },
+        {
+          "cell": "G2",
+          "row": 2,
+          "column": 7,
+          "value": "FWHM eV"
+        },
+        {
+          "cell": "H2",
+          "row": 2,
+          "column": 8,
+          "value": "Area (P) CPS.eV"
+        },
+        {
+          "cell": "I2",
+          "row": 2,
+          "column": 9,
+          "value": "Area (N) "
+        },
+        {
+          "cell": "J2",
+          "row": 2,
+          "column": 10,
+          "value": "Atomic %"
+        },
+        {
+          "cell": "K2",
+          "row": 2,
+          "column": 11,
+          "value": "Peak Type"
+        },
+        {
+          "cell": "L2",
+          "row": 2,
+          "column": 12,
+          "value": "Q "
+        },
+        {
+          "cell": "M2",
+          "row": 2,
+          "column": 13,
+          "value": "SF "
+        },
+        {
+          "cell": "N2",
+          "row": 2,
+          "column": 14,
+          "value": "TXFN "
+        },
+        {
+          "cell": "O2",
+          "row": 2,
+          "column": 15,
+          "value": "Backgnd "
+        },
+        {
+          "cell": "P2",
+          "row": 2,
+          "column": 16,
+          "value": "PP Height CPS"
+        },
+        {
+          "cell": "Q2",
+          "row": 2,
+          "column": 17,
+          "value": "PP Hgt (N) "
+        },
+        {
+          "cell": "R2",
+          "row": 2,
+          "column": 18,
+          "value": "PP At. % "
+        },
+        {
+          "cell": "S2",
+          "row": 2,
+          "column": 19,
+          "value": "Title "
+        },
+        {
+          "cell": "T2",
+          "row": 2,
+          "column": 20,
+          "value": "File Name "
+        },
+        {
+          "cell": "B3",
+          "row": 3,
+          "column": 2,
+          "value": "C1s"
+        },
+        {
+          "cell": "C3",
+          "row": 3,
+          "column": 3,
+          "value": 297.98
+        },
+        {
+          "cell": "D3",
+          "row": 3,
+          "column": 4,
+          "value": 284.26
+        },
+        {
+          "cell": "E3",
+          "row": 3,
+          "column": 5,
+          "value": 279.18
+        },
+        {
+          "cell": "F3",
+          "row": 3,
+          "column": 6,
+          "value": 15651.92
+        },
+        {
+          "cell": "G3",
+          "row": 3,
+          "column": 7,
+          "value": 1.36
+        },
+        {
+          "cell": "H3",
+          "row": 3,
+          "column": 8,
+          "value": 35702.15
+        },
+        {
+          "cell": "I3",
+          "row": 3,
+          "column": 9,
+          "value": 506.59
+        },
+        {
+          "cell": "J3",
+          "row": 3,
+          "column": 10,
+          "value": 34.74
+        },
+        {
+          "cell": "K3",
+          "row": 3,
+          "column": 11,
+          "value": "Standard"
+        },
+        {
+          "cell": "L3",
+          "row": 3,
+          "column": 12,
+          "value": 1
+        },
+        {
+          "cell": "M3",
+          "row": 3,
+          "column": 13,
+          "value": 1
+        },
+        {
+          "cell": "N3",
+          "row": 3,
+          "column": 14,
+          "value": 1
+        },
+        {
+          "cell": "O3",
+          "row": 3,
+          "column": 15,
+          "value": "Smart"
+        },
+        {
+          "cell": "P3",
+          "row": 3,
+          "column": 16,
+          "value": 16707.91
+        },
+        {
+          "cell": "Q3",
+          "row": 3,
+          "column": 17,
+          "value": 59.27
+        },
+        {
+          "cell": "R3",
+          "row": 3,
+          "column": 18,
+          "value": 38.19
+        },
+        {
+          "cell": "S3",
+          "row": 3,
+          "column": 19,
+          "value": "C1s Scan"
+        },
+        {
+          "cell": "T3",
+          "row": 3,
+          "column": 20,
+          "value": "C1s Scan.VGD"
+        },
+        {
+          "cell": "B4",
+          "row": 4,
+          "column": 2,
+          "value": "Ce3d"
+        },
+        {
+          "cell": "C4",
+          "row": 4,
+          "column": 3,
+          "value": 929.98
+        },
+        {
+          "cell": "D4",
+          "row": 4,
+          "column": 4,
+          "value": 881.62
+        },
+        {
+          "cell": "E4",
+          "row": 4,
+          "column": 5,
+          "value": 870.18
+        },
+        {
+          "cell": "F4",
+          "row": 4,
+          "column": 6,
+          "value": 50499.37
+        },
+        {
+          "cell": "G4",
+          "row": 4,
+          "column": 7,
+          "value": 2.33
+        },
+        {
+          "cell": "H4",
+          "row": 4,
+          "column": 8,
+          "value": 586830.82
+        },
+        {
+          "cell": "I4",
+          "row": 4,
+          "column": 9,
+          "value": 243.56
+        },
+        {
+          "cell": "J4",
+          "row": 4,
+          "column": 10,
+          "value": 16.7
+        },
+        {
+          "cell": "K4",
+          "row": 4,
+          "column": 11,
+          "value": "Standard"
+        },
+        {
+          "cell": "L4",
+          "row": 4,
+          "column": 12,
+          "value": 1
+        },
+        {
+          "cell": "M4",
+          "row": 4,
+          "column": 13,
+          "value": 51.62
+        },
+        {
+          "cell": "N4",
+          "row": 4,
+          "column": 14,
+          "value": 1
+        },
+        {
+          "cell": "O4",
+          "row": 4,
+          "column": 15,
+          "value": "Smart"
+        },
+        {
+          "cell": "P4",
+          "row": 4,
+          "column": 16,
+          "value": 54847.48
+        },
+        {
+          "cell": "Q4",
+          "row": 4,
+          "column": 17,
+          "value": 5.69
+        },
+        {
+          "cell": "R4",
+          "row": 4,
+          "column": 18,
+          "value": 3.67
+        },
+        {
+          "cell": "S4",
+          "row": 4,
+          "column": 19,
+          "value": "Ce3d Scan"
+        },
+        {
+          "cell": "T4",
+          "row": 4,
+          "column": 20,
+          "value": "Ce3d Scan.VGD"
+        },
+        {
+          "cell": "B5",
+          "row": 5,
+          "column": 2,
+          "value": "La3d"
+        },
+        {
+          "cell": "C5",
+          "row": 5,
+          "column": 3,
+          "value": 864.98
+        },
+        {
+          "cell": "D5",
+          "row": 5,
+          "column": 4,
+          "value": 837.95
+        },
+        {
+          "cell": "E5",
+          "row": 5,
+          "column": 5,
+          "value": 825.18
+        },
+        {
+          "cell": "F5",
+          "row": 5,
+          "column": 6,
+          "value": 1689.2
+        },
+        {
+          "cell": "G5",
+          "row": 5,
+          "column": 7,
+          "value": 1.36
+        },
+        {
+          "cell": "H5",
+          "row": 5,
+          "column": 8,
+          "value": 22527.8
+        },
+        {
+          "cell": "I5",
+          "row": 5,
+          "column": 9,
+          "value": 9.72
+        },
+        {
+          "cell": "J5",
+          "row": 5,
+          "column": 10,
+          "value": 0.67
+        },
+        {
+          "cell": "K5",
+          "row": 5,
+          "column": 11,
+          "value": "Standard"
+        },
+        {
+          "cell": "L5",
+          "row": 5,
+          "column": 12,
+          "value": 1
+        },
+        {
+          "cell": "M5",
+          "row": 5,
+          "column": 13,
+          "value": 47.62
+        },
+        {
+          "cell": "N5",
+          "row": 5,
+          "column": 14,
+          "value": 1
+        },
+        {
+          "cell": "O5",
+          "row": 5,
+          "column": 15,
+          "value": "Smart"
+        },
+        {
+          "cell": "P5",
+          "row": 5,
+          "column": 16,
+          "value": 2428.91
+        },
+        {
+          "cell": "Q5",
+          "row": 5,
+          "column": 17,
+          "value": 0.79
+        },
+        {
+          "cell": "R5",
+          "row": 5,
+          "column": 18,
+          "value": 0.51
+        },
+        {
+          "cell": "S5",
+          "row": 5,
+          "column": 19,
+          "value": "La3d Scan"
+        },
+        {
+          "cell": "T5",
+          "row": 5,
+          "column": 20,
+          "value": "La3d Scan.VGD"
+        },
+        {
+          "cell": "B6",
+          "row": 6,
+          "column": 2,
+          "value": "O1s"
+        },
+        {
+          "cell": "C6",
+          "row": 6,
+          "column": 3,
+          "value": 544.98
+        },
+        {
+          "cell": "D6",
+          "row": 6,
+          "column": 4,
+          "value": 528.66
+        },
+        {
+          "cell": "E6",
+          "row": 6,
+          "column": 5,
+          "value": 525.18
+        },
+        {
+          "cell": "F6",
+          "row": 6,
+          "column": 6,
+          "value": 63223.23
+        },
+        {
+          "cell": "G6",
+          "row": 6,
+          "column": 7,
+          "value": 1.21
+        },
+        {
+          "cell": "H6",
+          "row": 6,
+          "column": 8,
+          "value": 125843.88
+        },
+        {
+          "cell": "I6",
+          "row": 6,
+          "column": 9,
+          "value": 698.46
+        },
+        {
+          "cell": "J6",
+          "row": 6,
+          "column": 10,
+          "value": 47.89
+        },
+        {
+          "cell": "K6",
+          "row": 6,
+          "column": 11,
+          "value": "Standard"
+        },
+        {
+          "cell": "L6",
+          "row": 6,
+          "column": 12,
+          "value": 1
+        },
+        {
+          "cell": "M6",
+          "row": 6,
+          "column": 13,
+          "value": 2.93
+        },
+        {
+          "cell": "N6",
+          "row": 6,
+          "column": 14,
+          "value": 1
+        },
+        {
+          "cell": "O6",
+          "row": 6,
+          "column": 15,
+          "value": "Smart"
+        },
+        {
+          "cell": "P6",
+          "row": 6,
+          "column": 16,
+          "value": 64465.14
+        },
+        {
+          "cell": "Q6",
+          "row": 6,
+          "column": 17,
+          "value": 89.45
+        },
+        {
+          "cell": "R6",
+          "row": 6,
+          "column": 18,
+          "value": 57.64
+        },
+        {
+          "cell": "S6",
+          "row": 6,
+          "column": 19,
+          "value": "O1s Scan"
+        },
+        {
+          "cell": "T6",
+          "row": 6,
+          "column": 20,
+          "value": "O1s Scan.VGD"
+        }
+      ],
+      "paired_metadata": [
+        {
+          "label": "Name",
+          "value": "Start BE",
+          "label_cell": "B2",
+          "value_cell": "C2",
+          "unit": null
+        },
+        {
+          "label": "Start BE",
+          "value": "Peak BE",
+          "label_cell": "C2",
+          "value_cell": "D2",
+          "unit": null
+        },
+        {
+          "label": "Peak BE",
+          "value": "End BE",
+          "label_cell": "D2",
+          "value_cell": "E2",
+          "unit": null
+        },
+        {
+          "label": "End BE",
+          "value": "Height CPS",
+          "label_cell": "E2",
+          "value_cell": "F2",
+          "unit": "CPS"
+        },
+        {
+          "label": "Height CPS",
+          "value": "FWHM eV",
+          "label_cell": "F2",
+          "value_cell": "G2",
+          "unit": "eV"
+        },
+        {
+          "label": "FWHM eV",
+          "value": "Area (P) CPS.eV",
+          "label_cell": "G2",
+          "value_cell": "H2",
+          "unit": "CPS"
+        },
+        {
+          "label": "Area (P) CPS.eV",
+          "value": "Area (N) ",
+          "label_cell": "H2",
+          "value_cell": "I2",
+          "unit": null
+        },
+        {
+          "label": "Area (N)",
+          "value": "Atomic %",
+          "label_cell": "I2",
+          "value_cell": "J2",
+          "unit": null
+        },
+        {
+          "label": "Atomic %",
+          "value": "Peak Type",
+          "label_cell": "J2",
+          "value_cell": "K2",
+          "unit": null
+        },
+        {
+          "label": "Peak Type",
+          "value": "Q ",
+          "label_cell": "K2",
+          "value_cell": "L2",
+          "unit": null
+        },
+        {
+          "label": "Q",
+          "value": "SF ",
+          "label_cell": "L2",
+          "value_cell": "M2",
+          "unit": null
+        },
+        {
+          "label": "SF",
+          "value": "TXFN ",
+          "label_cell": "M2",
+          "value_cell": "N2",
+          "unit": null
+        },
+        {
+          "label": "TXFN",
+          "value": "Backgnd ",
+          "label_cell": "N2",
+          "value_cell": "O2",
+          "unit": null
+        },
+        {
+          "label": "Backgnd",
+          "value": "PP Height CPS",
+          "label_cell": "O2",
+          "value_cell": "P2",
+          "unit": "CPS"
+        },
+        {
+          "label": "PP Height CPS",
+          "value": "PP Hgt (N) ",
+          "label_cell": "P2",
+          "value_cell": "Q2",
+          "unit": null
+        },
+        {
+          "label": "PP Hgt (N)",
+          "value": "PP At. % ",
+          "label_cell": "Q2",
+          "value_cell": "R2",
+          "unit": null
+        },
+        {
+          "label": "PP At. %",
+          "value": "Title ",
+          "label_cell": "R2",
+          "value_cell": "S2",
+          "unit": null
+        },
+        {
+          "label": "Title",
+          "value": "File Name ",
+          "label_cell": "S2",
+          "value_cell": "T2",
+          "unit": null
+        },
+        {
+          "label": "C1s",
+          "value": 297.98,
+          "label_cell": "B3",
+          "value_cell": "C3",
+          "unit": null
+        },
+        {
+          "label": "Standard",
+          "value": 1,
+          "label_cell": "K3",
+          "value_cell": "L3",
+          "unit": null
+        },
+        {
+          "label": "Smart",
+          "value": 16707.91,
+          "label_cell": "O3",
+          "value_cell": "P3",
+          "unit": null
+        },
+        {
+          "label": "C1s Scan",
+          "value": "C1s Scan.VGD",
+          "label_cell": "S3",
+          "value_cell": "T3",
+          "unit": "um"
+        },
+        {
+          "label": "Ce3d",
+          "value": 929.98,
+          "label_cell": "B4",
+          "value_cell": "C4",
+          "unit": null
+        },
+        {
+          "label": "Standard",
+          "value": 1,
+          "label_cell": "K4",
+          "value_cell": "L4",
+          "unit": null
+        },
+        {
+          "label": "Smart",
+          "value": 54847.48,
+          "label_cell": "O4",
+          "value_cell": "P4",
+          "unit": null
+        },
+        {
+          "label": "Ce3d Scan",
+          "value": "Ce3d Scan.VGD",
+          "label_cell": "S4",
+          "value_cell": "T4",
+          "unit": "um"
+        },
+        {
+          "label": "La3d",
+          "value": 864.98,
+          "label_cell": "B5",
+          "value_cell": "C5",
+          "unit": null
+        },
+        {
+          "label": "Standard",
+          "value": 1,
+          "label_cell": "K5",
+          "value_cell": "L5",
+          "unit": null
+        },
+        {
+          "label": "Smart",
+          "value": 2428.91,
+          "label_cell": "O5",
+          "value_cell": "P5",
+          "unit": null
+        },
+        {
+          "label": "La3d Scan",
+          "value": "La3d Scan.VGD",
+          "label_cell": "S5",
+          "value_cell": "T5",
+          "unit": "um"
+        },
+        {
+          "label": "O1s",
+          "value": 544.98,
+          "label_cell": "B6",
+          "value_cell": "C6",
+          "unit": null
+        },
+        {
+          "label": "Standard",
+          "value": 1,
+          "label_cell": "K6",
+          "value_cell": "L6",
+          "unit": null
+        },
+        {
+          "label": "Smart",
+          "value": 64465.14,
+          "label_cell": "O6",
+          "value_cell": "P6",
+          "unit": null
+        },
+        {
+          "label": "O1s Scan",
+          "value": "O1s Scan.VGD",
+          "label_cell": "S6",
+          "value_cell": "T6",
+          "unit": "um"
+        }
+      ],
+      "experiment_conditions": {
+        "photon_energy_eV": null,
+        "analyzer_mode": null,
+        "pass_energy_eV": null,
+        "energy_step_eV": null,
+        "dwell_time_s": null,
+        "total_acquisition_time_s": null,
+        "scan_count": null,
+        "source_gun_type": null,
+        "spot_size_um": null,
+        "lens_mode": null,
+        "intensity_label": null,
+        "intensity_unit": null,
+        "energy_unit": null,
+        "transmission_correction_applied": null,
+        "charge_reference": null
+      }
+    },
+    "Titles": {
+      "sheet": "Titles",
+      "raw_metadata_cells": [
+        {
+          "cell": "A1",
+          "row": 1,
+          "column": 1,
+          "value": "08:38:47  Monday, May 13, 2024"
+        },
+        {
+          "cell": "A3",
+          "row": 3,
+          "column": 1,
+          "value": "7.xls"
+        },
+        {
+          "cell": "A5",
+          "row": 5,
+          "column": 1,
+          "value": "Data Grid 20"
+        },
+        {
+          "cell": "A7",
+          "row": 7,
+          "column": 1,
+          "value": "Data Files :"
+        },
+        {
+          "cell": "B7",
+          "row": 7,
+          "column": 2,
+          "value": "Title"
+        },
+        {
+          "cell": "C7",
+          "row": 7,
+          "column": 3,
+          "value": "File Name"
+        },
+        {
+          "cell": "D7",
+          "row": 7,
+          "column": 4,
+          "value": "Comment"
+        },
+        {
+          "cell": "B8",
+          "row": 8,
+          "column": 2,
+          "value": "XPS Survey"
+        },
+        {
+          "cell": "C8",
+          "row": 8,
+          "column": 3,
+          "value": "XPS Survey.VGD"
+        },
+        {
+          "cell": "B9",
+          "row": 9,
+          "column": 2,
+          "value": "O1s Scan"
+        },
+        {
+          "cell": "C9",
+          "row": 9,
+          "column": 3,
+          "value": "O1s Scan.VGD"
+        },
+        {
+          "cell": "B10",
+          "row": 10,
+          "column": 2,
+          "value": "La3d Scan"
+        },
+        {
+          "cell": "C10",
+          "row": 10,
+          "column": 3,
+          "value": "La3d Scan.VGD"
+        },
+        {
+          "cell": "B11",
+          "row": 11,
+          "column": 2,
+          "value": "Ce3d Scan"
+        },
+        {
+          "cell": "C11",
+          "row": 11,
+          "column": 3,
+          "value": "Ce3d Scan.VGD"
+        },
+        {
+          "cell": "B12",
+          "row": 12,
+          "column": 2,
+          "value": "C1s Scan"
+        },
+        {
+          "cell": "C12",
+          "row": 12,
+          "column": 3,
+          "value": "C1s Scan.VGD"
+        }
+      ],
+      "paired_metadata": [
+        {
+          "label": "Data Files :",
+          "value": "Title",
+          "label_cell": "A7",
+          "value_cell": "B7",
+          "unit": null
+        },
+        {
+          "label": "Title",
+          "value": "File Name",
+          "label_cell": "B7",
+          "value_cell": "C7",
+          "unit": null
+        },
+        {
+          "label": "File Name",
+          "value": "Comment",
+          "label_cell": "C7",
+          "value_cell": "D7",
+          "unit": null
+        },
+        {
+          "label": "XPS Survey",
+          "value": "XPS Survey.VGD",
+          "label_cell": "B8",
+          "value_cell": "C8",
+          "unit": null
+        },
+        {
+          "label": "O1s Scan",
+          "value": "O1s Scan.VGD",
+          "label_cell": "B9",
+          "value_cell": "C9",
+          "unit": null
+        },
+        {
+          "label": "La3d Scan",
+          "value": "La3d Scan.VGD",
+          "label_cell": "B10",
+          "value_cell": "C10",
+          "unit": null
+        },
+        {
+          "label": "Ce3d Scan",
+          "value": "Ce3d Scan.VGD",
+          "label_cell": "B11",
+          "value_cell": "C11",
+          "unit": null
+        },
+        {
+          "label": "C1s Scan",
+          "value": "C1s Scan.VGD",
+          "label_cell": "B12",
+          "value_cell": "C12",
+          "unit": null
+        }
+      ],
+      "experiment_conditions": {
+        "photon_energy_eV": null,
+        "analyzer_mode": null,
+        "pass_energy_eV": null,
+        "energy_step_eV": null,
+        "dwell_time_s": null,
+        "total_acquisition_time_s": null,
+        "scan_count": null,
+        "source_gun_type": null,
+        "spot_size_um": null,
+        "lens_mode": null,
+        "intensity_label": null,
+        "intensity_unit": null,
+        "energy_unit": null,
+        "transmission_correction_applied": null,
+        "charge_reference": null
+      }
+    },
+    "Sheet1": {
+      "sheet": "Sheet1",
+      "raw_metadata_cells": [],
+      "paired_metadata": [],
+      "experiment_conditions": {
+        "photon_energy_eV": null,
+        "analyzer_mode": null,
+        "pass_energy_eV": null,
+        "energy_step_eV": null,
+        "dwell_time_s": null,
+        "total_acquisition_time_s": null,
+        "scan_count": null,
+        "source_gun_type": null,
+        "spot_size_um": null,
+        "lens_mode": null,
+        "intensity_label": null,
+        "intensity_unit": null,
+        "energy_unit": null,
+        "transmission_correction_applied": null,
+        "charge_reference": null
+      }
+    }
+  },
+  "selected_sheet": "Ce3d Scan",
+  "raw_metadata_cells": [
+    {
+      "cell": "H1",
+      "row": 1,
+      "column": 8,
+      "value": "Acquisition Parameters :"
+    },
+    {
+      "cell": "M1",
+      "row": 1,
+      "column": 13,
+      "value": "Experiment Descriptions :"
+    },
+    {
+      "cell": "H3",
+      "row": 3,
+      "column": 8,
+      "value": "Parameter"
+    },
+    {
+      "cell": "M3",
+      "row": 3,
+      "column": 13,
+      "value": "Experiment\\X-Ray001 400um - FG  ON\\2404255544-13\\7"
+    },
+    {
+      "cell": "H4",
+      "row": 4,
+      "column": 8,
+      "value": "Total acquisition time"
+    },
+    {
+      "cell": "I4",
+      "row": 4,
+      "column": 9,
+      "value": "2 mins 30.3 secs"
+    },
+    {
+      "cell": "H5",
+      "row": 5,
+      "column": 8,
+      "value": "Number of Scans"
+    },
+    {
+      "cell": "I5",
+      "row": 5,
+      "column": 9,
+      "value": 5
+    },
+    {
+      "cell": "H6",
+      "row": 6,
+      "column": 8,
+      "value": "Source Gun Type"
+    },
+    {
+      "cell": "I6",
+      "row": 6,
+      "column": 9,
+      "value": "Al K Alpha"
+    },
+    {
+      "cell": "A7",
+      "row": 7,
+      "column": 1,
+      "value": "Axis"
+    },
+    {
+      "cell": "B7",
+      "row": 7,
+      "column": 2,
+      "value": "Energy"
+    },
+    {
+      "cell": "C7",
+      "row": 7,
+      "column": 3,
+      "value": "Elements="
+    },
+    {
+      "cell": "D7",
+      "row": 7,
+      "column": 4,
+      "value": 601
+    },
+    {
+      "cell": "H7",
+      "row": 7,
+      "column": 8,
+      "value": "Spot Size"
+    },
+    {
+      "cell": "I7",
+      "row": 7,
+      "column": 9,
+      "value": "400 祄"
+    },
+    {
+      "cell": "H8",
+      "row": 8,
+      "column": 8,
+      "value": "Lens Mode"
+    },
+    {
+      "cell": "I8",
+      "row": 8,
+      "column": 9,
+      "value": "Standard"
+    },
+    {
+      "cell": "A9",
+      "row": 9,
+      "column": 1,
+      "value": "Ce3d Scan.VGD"
+    },
+    {
+      "cell": "H9",
+      "row": 9,
+      "column": 8,
+      "value": "Analyser Mode"
+    },
+    {
+      "cell": "I9",
+      "row": 9,
+      "column": 9,
+      "value": "CAE : Pass Energy 50.0 eV"
+    },
+    {
+      "cell": "H10",
+      "row": 10,
+      "column": 8,
+      "value": "Energy Step Size"
+    },
+    {
+      "cell": "I10",
+      "row": 10,
+      "column": 9,
+      "value": "0.100 eV"
+    },
+    {
+      "cell": "H11",
+      "row": 11,
+      "column": 8,
+      "value": "Number of Energy Steps"
+    },
+    {
+      "cell": "I11",
+      "row": 11,
+      "column": 9,
+      "value": 601
+    },
+    {
+      "cell": "A15",
+      "row": 15,
+      "column": 1,
+      "value": "Binding Energy (E)"
+    },
+    {
+      "cell": "E15",
+      "row": 15,
+      "column": 5,
+      "value": "Backgnd."
+    },
+    {
+      "cell": "A16",
+      "row": 16,
+      "column": 1,
+      "value": "eV"
+    },
+    {
+      "cell": "C16",
+      "row": 16,
+      "column": 3,
+      "value": "Counts / s"
+    },
+    {
+      "cell": "E16",
+      "row": 16,
+      "column": 5,
+      "value": "Counts / s"
+    }
+  ],
+  "paired_metadata": [
+    {
+      "label": "Total acquisition time",
+      "value": "2 mins 30.3 secs",
+      "label_cell": "H4",
+      "value_cell": "I4",
+      "unit": "mins"
+    },
+    {
+      "label": "Number of Scans",
+      "value": 5,
+      "label_cell": "H5",
+      "value_cell": "I5",
+      "unit": null
+    },
+    {
+      "label": "Source Gun Type",
+      "value": "Al K Alpha",
+      "label_cell": "H6",
+      "value_cell": "I6",
+      "unit": null
+    },
+    {
+      "label": "Axis",
+      "value": "Energy",
+      "label_cell": "A7",
+      "value_cell": "B7",
+      "unit": null
+    },
+    {
+      "label": "Energy",
+      "value": "Elements=",
+      "label_cell": "B7",
+      "value_cell": "C7",
+      "unit": null
+    },
+    {
+      "label": "Elements=",
+      "value": 601,
+      "label_cell": "C7",
+      "value_cell": "D7",
+      "unit": null
+    },
+    {
+      "label": "Spot Size",
+      "value": "400 祄",
+      "label_cell": "H7",
+      "value_cell": "I7",
+      "unit": null
+    },
+    {
+      "label": "Lens Mode",
+      "value": "Standard",
+      "label_cell": "H8",
+      "value_cell": "I8",
+      "unit": null
+    },
+    {
+      "label": "Analyser Mode",
+      "value": "CAE : Pass Energy 50.0 eV",
+      "label_cell": "H9",
+      "value_cell": "I9",
+      "unit": "eV"
+    },
+    {
+      "label": "Energy Step Size",
+      "value": "0.100 eV",
+      "label_cell": "H10",
+      "value_cell": "I10",
+      "unit": "eV"
+    },
+    {
+      "label": "Number of Energy Steps",
+      "value": 601,
+      "label_cell": "H11",
+      "value_cell": "I11",
+      "unit": null
+    }
+  ],
+  "experiment_conditions": {
+    "photon_energy_eV": null,
+    "analyzer_mode": "CAE : Pass Energy 50.0 eV",
+    "pass_energy_eV": 50.0,
+    "energy_step_eV": 0.1,
+    "dwell_time_s": null,
+    "total_acquisition_time_s": 150.3,
+    "scan_count": 5,
+    "source_gun_type": "Al K Alpha",
+    "spot_size_um": null,
+    "lens_mode": "Standard",
+    "intensity_label": "Counts / s",
+    "intensity_unit": "Counts / s",
+    "energy_unit": "eV",
+    "transmission_correction_applied": null,
+    "charge_reference": null
+  },
+  "selected_ce3d_conditions": {
+    "photon_energy_eV": null,
+    "analyzer_mode": "CAE : Pass Energy 50.0 eV",
+    "pass_energy_eV": 50.0,
+    "energy_step_eV": 0.1,
+    "dwell_time_s": null,
+    "total_acquisition_time_s": 150.3,
+    "scan_count": 5,
+    "source_gun_type": "Al K Alpha",
+    "spot_size_um": null,
+    "lens_mode": "Standard",
+    "intensity_label": "Counts / s",
+    "intensity_unit": "Counts / s",
+    "energy_unit": "eV",
+    "transmission_correction_applied": null,
+    "charge_reference": null
+  },
+  "data_columns": {
+    "energy": "A",
+    "raw": "C",
+    "background": null
+  },
+  "data_rows_1based": [
+    17,
+    617
+  ],
+  "schema_version": "2.0",
+  "source": {
+    "path": "data/experimental/la_series/raw/La_2at.xls",
+    "sha256": "eb76e96ff0e521e7ee3ab6e633d6b863a5e7d76df3554ada58b011b6ff33ae1e",
+    "size_bytes": 235520
+  },
+  "preprocessing": {
+    "background_mode": "fixed_shirley",
+    "background": {
+      "name": "fixed Shirley background",
+      "jointly_fitted": false,
+      "version": "v7_adaptive_piecewise_shirley",
+      "converged_no_crossing": true,
+      "crossing_tolerance": 0.0,
+      "numerical_epsilon": 8.212168722820934e-10,
+      "remaining_crossing_count": 0,
+      "smoothing_window_points": 1,
+      "endpoint_mode": "ends",
+      "crossing_detection_target": "raw spectrum",
+      "raw_crossing_count": 0,
+      "raw_maximum_crossing": 0.0,
+      "maximum_crossing": 0.0,
+      "anchors": [
+        {
+          "energy_eV": 870.08,
+          "intensity": 47591.6,
+          "original_row_index": 0
+        },
+        {
+          "energy_eV": 870.18,
+          "intensity": 47003.0,
+          "original_row_index": 1
+        },
+        {
+          "energy_eV": 870.48,
+          "intensity": 46344.8,
+          "original_row_index": 4
+        },
+        {
+          "energy_eV": 875.38,
+          "intensity": 46337.8,
+          "original_row_index": 53
+        },
+        {
+          "energy_eV": 893.18,
+          "intensity": 61210.9,
+          "original_row_index": 231
+        },
+        {
+          "energy_eV": 911.78,
+          "intensity": 81112.8,
+          "original_row_index": 417
+        },
+        {
+          "energy_eV": 919.48,
+          "intensity": 85633.4,
+          "original_row_index": 494
+        },
+        {
+          "energy_eV": 922.58,
+          "intensity": 85740.3,
+          "original_row_index": 525
+        },
+        {
+          "energy_eV": 923.18,
+          "intensity": 85840.7,
+          "original_row_index": 531
+        },
+        {
+          "energy_eV": 923.68,
+          "intensity": 85980.9,
+          "original_row_index": 536
+        },
+        {
+          "energy_eV": 923.88,
+          "intensity": 86015.3,
+          "original_row_index": 538
+        },
+        {
+          "energy_eV": 924.78,
+          "intensity": 86186.3,
+          "original_row_index": 547
+        },
+        {
+          "energy_eV": 924.98,
+          "intensity": 87133.4,
+          "original_row_index": 549
+        }
+      ],
+      "refinements": [
+        {
+          "iteration": 1,
+          "energy_eV": 875.38,
+          "intensity": 46337.8,
+          "original_row_index": 53,
+          "crossing_count_before": 168,
+          "maximum_crossing_before": 3443.4564627443106
+        },
+        {
+          "iteration": 2,
+          "energy_eV": 870.48,
+          "intensity": 46344.8,
+          "original_row_index": 4,
+          "crossing_count_before": 115,
+          "maximum_crossing_before": 3252.7707564666416
+        },
+        {
+          "iteration": 3,
+          "energy_eV": 870.18,
+          "intensity": 47003.0,
+          "original_row_index": 1,
+          "crossing_count_before": 103,
+          "maximum_crossing_before": 5081.7224605468655
+        },
+        {
+          "iteration": 4,
+          "energy_eV": 893.18,
+          "intensity": 61210.9,
+          "original_row_index": 231,
+          "crossing_count_before": 100,
+          "maximum_crossing_before": 3252.7707564666416
+        },
+        {
+          "iteration": 5,
+          "energy_eV": 911.78,
+          "intensity": 81112.8,
+          "original_row_index": 417,
+          "crossing_count_before": 58,
+          "maximum_crossing_before": 1809.294855429267
+        },
+        {
+          "iteration": 6,
+          "energy_eV": 919.48,
+          "intensity": 85633.4,
+          "original_row_index": 494,
+          "crossing_count_before": 59,
+          "maximum_crossing_before": 1824.1023259717913
+        },
+        {
+          "iteration": 7,
+          "energy_eV": 923.88,
+          "intensity": 86015.3,
+          "original_row_index": 538,
+          "crossing_count_before": 6,
+          "maximum_crossing_before": 831.3099299926107
+        },
+        {
+          "iteration": 8,
+          "energy_eV": 922.58,
+          "intensity": 85740.3,
+          "original_row_index": 525,
+          "crossing_count_before": 8,
+          "maximum_crossing_before": 996.3991828868311
+        },
+        {
+          "iteration": 9,
+          "energy_eV": 923.18,
+          "intensity": 85840.7,
+          "original_row_index": 531,
+          "crossing_count_before": 7,
+          "maximum_crossing_before": 996.3991828868311
+        },
+        {
+          "iteration": 10,
+          "energy_eV": 923.68,
+          "intensity": 85980.9,
+          "original_row_index": 536,
+          "crossing_count_before": 6,
+          "maximum_crossing_before": 996.3991828868311
+        },
+        {
+          "iteration": 11,
+          "energy_eV": 924.78,
+          "intensity": 86186.3,
+          "original_row_index": 547,
+          "crossing_count_before": 5,
+          "maximum_crossing_before": 996.3991828868311
+        }
+      ],
+      "method": "piecewise re-computation, no pointwise clipping",
+      "external_behavior": "constant outside outermost anchors, refined if crossing",
+      "warning": "Non-crossing does not establish physical correctness; noise or broad peak valleys can introduce excessive anchors."
+    },
+    "input_range_eV": [
+      870.08,
+      930.08
+    ],
+    "fit_range_eV": [
+      870.08,
+      924.98
+    ],
+    "lower_energy_cut_eV": null,
+    "upper_energy_cut_eV": 925.0,
+    "original_point_count": 601,
+    "fitted_point_count": 550,
+    "points_removed_above_925_eV": 51,
+    "energy_sorted_ascending": true,
+    "intensity_transform": "none"
+  },
+  "notes": [
+    "Energy and all signal columns sorted together into ascending binding energy.",
+    "Removed 51 points above 925 eV; original lower energy retained.",
+    "Computed fixed Shirley background (V7; endpoint_mode=ends; smoothing_window=1)."
+  ],
+  "distribution_note": "Identifying operator account strings in embedded Windows source paths and workbook author/write-access metadata were replaced by generic identifiers in the distributed workbook. Numerical cells and acquisition conditions are unchanged; source/public hashes are in docs/workbook_redaction.json."
+}

@@ -1,0 +1,355 @@
+{
+  "summary": {
+    "sample": "batch2_20",
+    "group": "batch2",
+    "source": "data/experimental/additional_19/raw/batch2_20.xls",
+    "points": 550,
+    "noise_CPS": 515.6873407854634,
+    "high_points": 100,
+    "high_min": 870.08,
+    "high_max": 879.98,
+    "V2_status": "valley_excess_tolerance_met",
+    "V2_iterations": 9,
+    "sha256": "77dee9d6a25787b19a971670d0e3737def121ee3f7618c3647d296b5c77e67af",
+    "spectrum_sha256": "e2473bfa14b5a4af5304bab8d62030f88d35060247dda90324da10bed44cfa2d",
+    "Voigt_Ce3": 17.447072952886106,
+    "Voigt_RMSE": 3145.49206108227,
+    "Voigt_high_RMSE": 1614.6763429207222,
+    "Voigt_fixed880_RMSE": 1614.6763429207222,
+    "Voigt_success": true,
+    "Voigt_near_bounds": "g3_1",
+    "LA_Ce3": 13.711108423628124,
+    "LA_RMSE": 3234.899975837263,
+    "LA_high_RMSE": 1126.7003487052145,
+    "LA_fixed880_RMSE": 1126.7003487052145,
+    "LA_success": true,
+    "LA_near_bounds": "g3_1",
+    "high_improvement_percent": 30.221288393488678,
+    "fixed880_improvement_percent": 30.221288393488678
+  },
+  "parameters": {
+    "Voigt": {
+      "dE": -0.8920117948554459,
+      "sigma": 0.6709365536467387,
+      "x": 0.17447072952886106,
+      "A": 4.969909978360959,
+      "g3_1": 1.9999999999999998,
+      "g3_2": 0.5995660246150638,
+      "g4_1": 0.3313815032666971,
+      "g4_2": 1.0856964054468352,
+      "g4_3": 0.30680436463907995
+    },
+    "LA": {
+      "dE": -0.9884715336325235,
+      "sigma": 0.686723276238425,
+      "x": 0.13711108423628124,
+      "A": 4.9097892425798335,
+      "g3_1": 0.10000000000000002,
+      "g3_2": 0.41599493615480515,
+      "g4_1": 0.34957842616987367,
+      "g4_2": 1.128937829593303,
+      "g4_3": 0.34607133901790976
+    }
+  },
+  "optimizations": {
+    "Voigt": [
+      {
+        "success": true,
+        "SSE": 0.1326559830001556
+      },
+      {
+        "success": true,
+        "SSE": 0.13265598296340617
+      },
+      {
+        "success": true,
+        "SSE": 0.13265598300600784
+      },
+      {
+        "success": true,
+        "SSE": 0.1326559830171432
+      },
+      {
+        "success": true,
+        "SSE": 0.13265598297614012
+      },
+      {
+        "success": true,
+        "SSE": 0.13265598296233738
+      },
+      {
+        "success": true,
+        "SSE": 0.1326559830283481
+      },
+      {
+        "success": true,
+        "SSE": 0.13265598296851588
+      }
+    ],
+    "LA": [
+      {
+        "success": true,
+        "SSE": 0.14030442532231804
+      },
+      {
+        "success": true,
+        "SSE": 0.14030442537527518
+      },
+      {
+        "success": true,
+        "SSE": 0.14030442514310382
+      },
+      {
+        "success": true,
+        "SSE": 0.14030442514305164
+      },
+      {
+        "success": true,
+        "SSE": 0.14030442537951052
+      },
+      {
+        "success": true,
+        "SSE": 0.14030442510148225
+      },
+      {
+        "success": true,
+        "SSE": 0.1403044254500228
+      },
+      {
+        "success": true,
+        "SSE": 0.1403044251985597
+      }
+    ]
+  },
+  "V2_history": [
+    {
+      "iteration": 0,
+      "errors": [
+        0.019697403294241373,
+        -0.007772641200060826
+      ],
+      "heights": [
+        0.5280194333902773,
+        0.6860157961540783
+      ],
+      "success": true
+    },
+    {
+      "iteration": 1,
+      "errors": [
+        0.01321669346853597,
+        -0.005924058038865161
+      ],
+      "heights": [
+        0.5181707317431566,
+        0.6860157961540783
+      ],
+      "success": true
+    },
+    {
+      "iteration": 2,
+      "errors": [
+        0.008875892693678833,
+        -0.004663686691351347
+      ],
+      "heights": [
+        0.5115623850088886,
+        0.6860157961540783
+      ],
+      "success": true
+    },
+    {
+      "iteration": 3,
+      "errors": [
+        0.005961445660473445,
+        -0.0038108728406715344
+      ],
+      "heights": [
+        0.5071244386620493,
+        0.6860157961540783
+      ],
+      "success": true
+    },
+    {
+      "iteration": 4,
+      "errors": [
+        0.00400389375171147,
+        -0.0032356256135035086
+      ],
+      "heights": [
+        0.5041437158318125,
+        0.6860157961540783
+      ],
+      "success": true
+    },
+    {
+      "iteration": 5,
+      "errors": [
+        0.0026885941201936583,
+        -0.002848485078904043
+      ],
+      "heights": [
+        0.5021417689559567,
+        0.6860157961540783
+      ],
+      "success": true
+    },
+    {
+      "iteration": 6,
+      "errors": [
+        0.0018053264718462432,
+        -0.002588144566051165
+      ],
+      "heights": [
+        0.5007974718958599,
+        0.6860157961540783
+      ],
+      "success": true
+    },
+    {
+      "iteration": 7,
+      "errors": [
+        0.0012120951964080435,
+        -0.0024132132816556315
+      ],
+      "heights": [
+        0.49989480865993674,
+        0.6860157961540783
+      ],
+      "success": true
+    },
+    {
+      "iteration": 8,
+      "errors": [
+        0.0008133755340718659,
+        -0.002295963036022123
+      ],
+      "heights": [
+        0.4992887610617327,
+        0.6860157961540783
+      ],
+      "success": true
+    }
+  ],
+  "V7_info": {
+    "version": "v7_adaptive_piecewise_shirley",
+    "converged_no_crossing": true,
+    "crossing_tolerance": 0.0,
+    "numerical_epsilon": 7.105427357601002e-15,
+    "remaining_crossing_count": 0,
+    "smoothing_window_points": 1,
+    "endpoint_mode": "ends",
+    "crossing_detection_target": "raw spectrum",
+    "raw_crossing_count": 0,
+    "raw_maximum_crossing": 0.0,
+    "maximum_crossing": 0.0,
+    "anchors": [
+      {
+        "energy_eV": 870.08,
+        "intensity": 0.404215011504014,
+        "original_row_index": 0
+      },
+      {
+        "energy_eV": 870.48,
+        "intensity": 0.39597458254747253,
+        "original_row_index": 4
+      },
+      {
+        "energy_eV": 871.78,
+        "intensity": 0.3958990411675834,
+        "original_row_index": 17
+      },
+      {
+        "energy_eV": 872.18,
+        "intensity": 0.3950043942371308,
+        "original_row_index": 21
+      },
+      {
+        "energy_eV": 893.28,
+        "intensity": 0.5280194333902773,
+        "original_row_index": 232
+      },
+      {
+        "energy_eV": 921.98,
+        "intensity": 0.7413818641440125,
+        "original_row_index": 519
+      },
+      {
+        "energy_eV": 922.98,
+        "intensity": 0.7414361749400112,
+        "original_row_index": 529
+      },
+      {
+        "energy_eV": 924.78,
+        "intensity": 0.7476078563035085,
+        "original_row_index": 547
+      },
+      {
+        "energy_eV": 924.98,
+        "intensity": 0.7521650258223148,
+        "original_row_index": 549
+      }
+    ],
+    "refinements": [
+      {
+        "iteration": 1,
+        "energy_eV": 872.18,
+        "intensity": 0.3950043942371308,
+        "original_row_index": 21,
+        "crossing_count_before": 164,
+        "maximum_crossing_before": 0.024845765170159018
+      },
+      {
+        "iteration": 2,
+        "energy_eV": 871.78,
+        "intensity": 0.3958990411675834,
+        "original_row_index": 17,
+        "crossing_count_before": 119,
+        "maximum_crossing_before": 0.024290892675767284
+      },
+      {
+        "iteration": 3,
+        "energy_eV": 870.48,
+        "intensity": 0.39597458254747253,
+        "original_row_index": 4,
+        "crossing_count_before": 115,
+        "maximum_crossing_before": 0.03596744419364217
+      },
+      {
+        "iteration": 4,
+        "energy_eV": 893.28,
+        "intensity": 0.5280194333902773,
+        "original_row_index": 232,
+        "crossing_count_before": 100,
+        "maximum_crossing_before": 0.023681913743895833
+      },
+      {
+        "iteration": 5,
+        "energy_eV": 921.98,
+        "intensity": 0.7413818641440125,
+        "original_row_index": 519,
+        "crossing_count_before": 61,
+        "maximum_crossing_before": 0.012007323346128751
+      },
+      {
+        "iteration": 6,
+        "energy_eV": 924.78,
+        "intensity": 0.7476078563035085,
+        "original_row_index": 547,
+        "crossing_count_before": 1,
+        "maximum_crossing_before": 0.0036322210679051725
+      },
+      {
+        "iteration": 7,
+        "energy_eV": 922.98,
+        "intensity": 0.7414361749400112,
+        "original_row_index": 529,
+        "crossing_count_before": 1,
+        "maximum_crossing_before": 0.002156693874121318
+      }
+    ],
+    "method": "piecewise re-computation, no pointwise clipping",
+    "external_behavior": "constant outside outermost anchors, refined if crossing",
+    "warning": "Non-crossing does not establish physical correctness; noise or broad peak valleys can introduce excessive anchors."
+  }
+}

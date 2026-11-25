@@ -1,0 +1,64 @@
+{
+  "case_id": "b_LA_Ce3_015pct_sigma_1p5eV_poisson_10pct",
+  "panel": "b",
+  "status": "completed",
+  "method": "independent LA/Voigt ordinary least squares",
+  "free_parameter_count": 40,
+  "Ce3_percent": 39.42685492361055,
+  "Ce3_percent_true": 15.0,
+  "sigma_true_eV": 1.5,
+  "noise_percent": 10.0,
+  "RMSE": 12.187149200913414,
+  "SSE": 80947.00007670182,
+  "best_start": 3,
+  "best_start_success": true,
+  "starts": 4,
+  "random_seed": 1927957043,
+  "constrained_LS_control": {
+    "parameters": {
+      "dE": 0.022804865676575956,
+      "sigma_ce": 1.4999999899998557,
+      "x": 0.1604021362597016,
+      "A_ce_total": 1710.0506988432203,
+      "g3_1": 0.10000001000000001,
+      "g3_2": 0.10000001000015758,
+      "g4_1": 0.11305349362398504,
+      "g4_2": 1.0632015461157385,
+      "g4_3": 0.17897502328789458,
+      "log_a_ce": 3.959788995345482,
+      "log_b_ce": -4.605170185988091
+    },
+    "SSE": 85413.01344315577,
+    "RMSE": 12.518830839330487,
+    "Ce3_percent": 16.04021362597016,
+    "success": true,
+    "nfev": 16,
+    "method": "constrained LA ordinary least squares; diagnostic seed only; no ground-truth initialization"
+  },
+  "residual_objective": "unweighted ordinary SSE; loss=linear",
+  "area_definition": "CeIII component areas / all component areas within identical observed window",
+  "position_bounds": "each nominal labeled center +/-1.0 eV",
+  "width_bounds": {
+    "sigma_eV": [
+      0.05,
+      1.5
+    ],
+    "gamma_eV": [
+      0.1,
+      2.0
+    ]
+  },
+  "parameter_relationships": "none; independent center, area, sigma and gamma for all ten labeled peaks",
+  "LA_alpha": 0.9,
+  "LA_beta": 2.0,
+  "asymmetric_components": [
+    "Ce4+ v",
+    "Ce4+ u"
+  ],
+  "prepared_input": "data/synthetic/prepared/b_LA_Ce3_015pct_sigma_1p5eV_poisson_10pct.csv",
+  "prepared_input_sha256": "54655fb664af1d923b2bbc29c12096ad47e3978d3afa37d6f57a43f7f937441c",
+  "background_sha256": "782874ccadc73965b6ab408c8cd89b38e6203daba70ffc1f64466298459b313a",
+  "elapsed_seconds": 2.7737436294555664,
+  "run_dir": "b_LA_Ce3_015pct_sigma_1p5eV_poisson_10pct",
+  "posterior_interval": null
+}

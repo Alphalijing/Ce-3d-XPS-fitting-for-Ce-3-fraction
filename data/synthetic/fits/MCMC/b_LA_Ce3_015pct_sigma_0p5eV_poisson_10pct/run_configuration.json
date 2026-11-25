@@ -1,0 +1,23 @@
+{
+  "version": "2.0.1",
+  "source": "data/synthetic/prepared/b_LA_Ce3_015pct_sigma_0p5eV_poisson_10pct.csv",
+  "model": "LA",
+  "satellites": false,
+  "mode": "quick",
+  "walkers": 80,
+  "steps": 8000,
+  "burn": 4000,
+  "pilot_steps": 2000,
+  "checkpoint_every": 2000,
+  "seed": 2026111631,
+  "background": "provided",
+  "satellite_gamma_HWHM_eV": 0.8,
+  "max_steps": null,
+  "proposal_moves": {
+    "DEMove": 0.5,
+    "DESnookerMove": 0.2,
+    "frozen_independence_MH": 0.3
+  },
+  "LA_alpha": 0.9,
+  "LA_beta": 2.0
+}

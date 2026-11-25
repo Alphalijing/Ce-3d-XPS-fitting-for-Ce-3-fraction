@@ -1,0 +1,59 @@
+{
+  "prepared_date": "2026-11-25",
+  "application_version": "2.0.1",
+  "automated_tests": {
+    "passed": 82,
+    "subtests_passed": 73,
+    "warning": "One environment-plugin pytest deprecation warning; no application test failure."
+  },
+  "synthetic_generation": {
+    "cases": 48,
+    "raw_truth_component_CSV_files_byte_identical": 144
+  },
+  "full_main_Ce3_posteriors_verified": 12,
+  "full_main_Ce3_draws_verified": 3840000,
+  "main_spectra_verified": 6,
+  "additional_spectra_verified": 19,
+  "synthetic_fit_pairs_verified": 48,
+  "statistics_recalculated": true,
+  "figure_scripts_executed": [
+    "Figure3",
+    "Figure4",
+    "Figure5",
+    "Figure_S2"
+  ],
+  "free_LA_prediction_max_abs_difference": 6.821210263296962e-13,
+  "free_LA_Jacobian_max_relative_column_error": 8.879024854422172e-10,
+  "long_MCMC_repeated_for_packaging": false,
+  "remote_upload_performed": false,
+  "interpreter": "3.11.1",
+  "installed_versions": {
+    "numpy": "1.26.2",
+    "scipy": "1.12.0",
+    "pandas": "2.1.4",
+    "matplotlib": "3.8.3",
+    "emcee": "3.1.6",
+    "vamas": "0.2.0",
+    "openpyxl": "3.1.5",
+    "xlrd": "2.0.2",
+    "pytest": "9.2.0"
+  },
+  "public_VAMAS_import_verified": {
+    "block_index": 12,
+    "ordinate_index": 0,
+    "kinetic_offset_eV": 1486.6,
+    "points": 1001,
+    "BE_range_eV": [
+      874,
+      924
+    ]
+  },
+  "public_workbook_privacy_check": {
+    "workbooks_redacted": 26,
+    "all_worksheet_cells_checked": true,
+    "numerical_spectra_and_acquisition_conditions_unchanged": true
+  },
+  "production_scientific_source_unchanged": true,
+  "Windows_executable_and_dependencies_unchanged": true,
+  "Windows_archive_example_metadata_redacted": true
+}

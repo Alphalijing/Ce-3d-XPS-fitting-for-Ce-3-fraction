@@ -1,0 +1,4 @@
+-r requirements.txt
+pyinstaller>=6.12,<7
+altgraph>=0.17.4,<1
+setuptools>=65,<81

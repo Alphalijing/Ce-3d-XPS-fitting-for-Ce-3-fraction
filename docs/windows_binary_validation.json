@@ -1,0 +1,12 @@
+{
+  "file": "Ce3d_XPS_Fitter_v2.0.1_Windows_EN.zip",
+  "bytes": 96691572,
+  "sha256": "c9bdd9a64c918e2e0407c0e19bc7c3f5925ae51212a348f8d3b79184a84fa04a",
+  "zip_crc": "passed",
+  "source_identity": "Existing validated English v2.0.1 executable and dependencies retained exactly. One bundled example workbook has identifying metadata redacted to match the source/data package. No rebuild.",
+  "original_archive_sha256": "6f74dfcabc31e3d5b73f0ccc39cbb5c55fc622098f28c5d9ed34e9b1d8ecffaa",
+  "example_workbook_metadata_redacted": [
+    "Ce3d_XPS_Fitter_v2.0.1_EN/examples/La10at_validation.xls"
+  ],
+  "executable_and_all_dependency_bytes_unchanged": true
+}
